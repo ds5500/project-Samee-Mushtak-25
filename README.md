@@ -1,4 +1,5 @@
-# project
+# tRNA
 
-Project template
+* [Proposal](proposal.md)
+* [Plan](plan.md)
 
