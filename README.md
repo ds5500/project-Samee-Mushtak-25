@@ -29,7 +29,7 @@ To run the EDA for BWA:
 make eda_bwa
 ```
 
-To run the EDA for Bowtie2:
+To run the EDA for Bowtie 2:
 
 ```
 make eda_bowtie2
@@ -40,5 +40,7 @@ To clean the output from the EDA:
 ```
 make clean_eda
 ```
+
+Because BWA and Bowtie 2 have different formats for FASTA indexing, the `make clean_eda` command should be run in between different EDAs.
 
 See [plan.md](plan.md) for a brief discussion of the results of this EDA.
