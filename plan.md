@@ -55,6 +55,17 @@ TEST.GARBAGE	4	*	0	0	*	*	0	0	GTGTGAGCCTTAGGCTTCGCGGAATCGGCTAGCTAGATGTAGGGGAGCGTT
 
 The above output shows that TEST.THR was aligned to Metallosphaera_cuprina_Ar-4_tRNA-Thr-CGT-1-1, TEST.LYS was aligned to TEST.LYS, and TEST.GARBAGE was not aligned to any tRNA in the reference. Additionally, the CIGAR string for TEST.THR, 10M1D62M, indicates that 1 deletion was detected and that the remaining 10 + 62 = 72 base pairs were a match. Similarly, the CIGAR string for TEST.LYS, 77M, indicates that all 77 base pairs of that sequence were a match.
 
+Next, to assess the replicability of our sequencing results across multiple alignment algorithms, we performed the same test using [Bowtie 2](https://bowtie-bio.sourceforge.net/bowtie2/index.shtml). Below is (part of) the output SAM file produced by Bowtie 2:
+
+```
+@PG	ID:bowtie2	PN:bowtie2	VN:2.5.4	CL:"/Users/smushtak/miniconda3/envs/trna/bin/bowtie2-align-s --wrapper basic-0 -x eda/reference/metaCupr1 -S eda/eda_bowtie2.sam -U eda/eda.fq"
+TEST.THR	0	Metallosphaera_cuprina_Ar-4_tRNA-Thr-CGT-1-1	1	42	10M1D62M	*	0	0	GCCGCTGTAGTCAGCTGGTAGAGCGCCGGCCTCGTAAGCCGGTGGTCGCGGGTTCAAATCCCGCCGGCGGCT	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	AS:i:-8	XN:i:0	XM:i:0	XO:i:1	XG:i:1	NM:i:1	MD:Z:10^C62	YT:Z:UU
+TEST.LYS	0	Metallosphaera_cuprina_Ar-4_tRNA-Lys-TTT-1-1	1	42	77M	*	0	0	GGGCCCGTAGCTCAGCTAGGTAGAGCGGCGGGCTTTTAACCCGTAGGCCCCGGGTTCGAATCCCGGCGGGCCCGCCA	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:77	YT:Z:UU
+TEST.GARBAGE	4	*	0	0	*	*	0	0	GTGTGAGCCTTAGGCTTCGCGGAATCGGCTAGCTAGATGTAGGGGAGCGTTCTTCTCCGGCGCGGGCGATTATGAGGCTACG	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	YT:Z:UU
+```
+
+The test sequences from the FASTAQ file were aligned to the same tRNAs in the reference, and for those sequences which were successfully aligned, they had identical CIGAR strings to what was found in the BWA alignment, confirming that alignments can be replicated by different algorithms.
+
 ## github-pages
 
 * tRNA alignments can be displayed on a webpage in a simple textual format, using CSS styling to highlight regions of alignment.
