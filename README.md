@@ -7,7 +7,7 @@
 
 Running the code in this project requires **Make** and **Bioconda**.
 
-To install Make in your conda environement:
+To install Make in your conda environment:
 
 ```
 conda install make
