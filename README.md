@@ -29,7 +29,13 @@ To run the EDA for BWA:
 make eda_bwa
 ```
 
-To clean the output from `eda_bwa`:
+To run the EDA for Bowtie2:
+
+```
+make eda_bowtie2
+```
+
+To clean the output from the EDA:
 
 ```
 make clean_eda
