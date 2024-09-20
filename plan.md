@@ -43,28 +43,39 @@ To begin with, we will use the alignments created in the first phase of this pro
 
 ## EDA
 
-To assess the feasibility of using existing command line alignment utilities for our project, we tested [BWA](https://bio-bwa.sourceforge.net/) on a FASTA file of mature tRNAs found on the GtRNAdb[^2]. This FASTA file served as the reference genome. We also manually created a FASTAQ file with three sequences: the first (TEST.THR) corresponding to a Threonine tRNA with one deletion, the second (TEST.LYS) corresponding to a Lysine tRNA with no modifications, and the third (TEST.GARBAGE) consisting of an arbitrary sequence of base pairs that should not align with any of the tRNAs in the reference genome. Below is (part of) the output [SAM file](https://samtools.github.io/hts-specs/SAMv1.pdf) produced by BWA:
+To assess the feasibility of using existing command line alignment utilities for our project, we tested [BWA](https://bio-bwa.sourceforge.net/) on a FASTA file of mature tRNAs found on the GtRNAdb[^2]. This FASTA file served as the reference genome. We also manually created a FASTAQ file with fourth sequences:
+1. TEST.THR: A Threonine tRNA with one deletion
+2. TEST.LYS: A Lysine tRNA with no modifications
+3. TEST.GARBAGE: A long arbitrary sequence of base pairs that should not align with any of the tRNAs in the reference genome
+4. TEST.COMMON: A sequence that is three-base pairs long and which is expected to occur in multiple tRNAs
+
+Below is (part of) the output [SAM file](https://samtools.github.io/hts-specs/SAMv1.pdf) produced by BWA:
 
 ```
+...
 @HD	VN:1.5	SO:unsorted	GO:query
 @PG	ID:bwa	PN:bwa	VN:0.7.18-r1243-dirty	CL:bwa mem eda/reference/metaCupr1-mature-tRNAs.fa eda/eda.fq
 TEST.THR	0	Metallosphaera_cuprina_Ar-4_tRNA-Thr-CGT-1-1	1	60	10M1D62M	*	0	0	GCCGCTGTAGTCAGCTGGTAGAGCGCCGGCCTCGTAAGCCGGTGGTCGCGGGTTCAAATCCCGCCGGCGGCT	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	NM:i:1	MD:Z:10^C62	AS:i:65	XS:i:0
 TEST.LYS	0	Metallosphaera_cuprina_Ar-4_tRNA-Lys-TTT-1-1	1	60	77M	*	0	0	GGGCCCGTAGCTCAGCTAGGTAGAGCGGCGGGCTTTTAACCCGTAGGCCCCGGGTTCGAATCCCGGCGGGCCCGCCA	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	NM:i:0	MD:Z:77	AS:i:77	XS:i:27
 TEST.GARBAGE	4	*	0	0	*	*	0	0	GTGTGAGCCTTAGGCTTCGCGGAATCGGCTAGCTAGATGTAGGGGAGCGTTCTTCTCCGGCGCGGGCGATTATGAGGCTACG	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	AS:i:0	XS:i:0
+TEST.COMMON	4	*	0	0	*	*	0	0	GCG	AAA	AS:i:0	XS:i:0
 ```
 
-The above output shows that TEST.THR was aligned to Metallosphaera_cuprina_Ar-4_tRNA-Thr-CGT-1-1, TEST.LYS was aligned to TEST.LYS, and TEST.GARBAGE was not aligned to any tRNA in the reference. Additionally, the CIGAR string for TEST.THR, 10M1D62M, indicates that 1 deletion was detected and that the remaining 10 + 62 = 72 base pairs were a match. Similarly, the CIGAR string for TEST.LYS, 77M, indicates that all 77 base pairs of that sequence were a match.
+The above output shows that TEST.THR was aligned to Metallosphaera_cuprina_Ar-4_tRNA-Thr-CGT-1-1, TEST.LYS was aligned to TEST.LYS, and TEST.GARBAGE and TEST.COMMON were not aligned to any tRNA in the reference. Additionally, the CIGAR string for TEST.THR, 10M1D62M, indicates that 1 deletion was detected and that the remaining 10 + 62 = 72 base pairs were a match. Similarly, the CIGAR string for TEST.LYS, 77M, indicates that all 77 base pairs of that sequence were a match.
 
 Next, to assess the replicability of our sequencing results across multiple alignment algorithms, we performed the same test using [Bowtie 2](https://bowtie-bio.sourceforge.net/bowtie2/index.shtml). Below is (part of) the output SAM file produced by Bowtie 2:
 
 ```
+@HD	VN:1.5	SO:unsorted	GO:query
+...
 @PG	ID:bowtie2	PN:bowtie2	VN:2.5.4	CL:"/Users/smushtak/miniconda3/envs/trna/bin/bowtie2-align-s --wrapper basic-0 -x eda/reference/metaCupr1 -S eda/eda_bowtie2.sam -U eda/eda.fq"
 TEST.THR	0	Metallosphaera_cuprina_Ar-4_tRNA-Thr-CGT-1-1	1	42	10M1D62M	*	0	0	GCCGCTGTAGTCAGCTGGTAGAGCGCCGGCCTCGTAAGCCGGTGGTCGCGGGTTCAAATCCCGCCGGCGGCT	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	AS:i:-8	XN:i:0	XM:i:0	XO:i:1	XG:i:1	NM:i:1	MD:Z:10^C62	YT:Z:UU
 TEST.LYS	0	Metallosphaera_cuprina_Ar-4_tRNA-Lys-TTT-1-1	1	42	77M	*	0	0	GGGCCCGTAGCTCAGCTAGGTAGAGCGGCGGGCTTTTAACCCGTAGGCCCCGGGTTCGAATCCCGGCGGGCCCGCCA	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:77	YT:Z:UU
 TEST.GARBAGE	4	*	0	0	*	*	0	0	GTGTGAGCCTTAGGCTTCGCGGAATCGGCTAGCTAGATGTAGGGGAGCGTTCTTCTCCGGCGCGGGCGATTATGAGGCTACG	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	YT:Z:UU
+TEST.COMMON	16	Metallosphaera_cuprina_Ar-4_tRNA-Ser-GCT-1-1	75	1	3M	*	0	0	CGC	AAA	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:3	YT:Z:UU
 ```
 
-The test sequences from the FASTAQ file were aligned to the same tRNAs in the reference, and for those sequences which were successfully aligned, they had identical CIGAR strings to what was found in the BWA alignment, confirming that alignments can be replicated by different algorithms.
+The test sequences from the FASTAQ file were aligned to the same tRNAs in the reference, and for those sequences which were successfully aligned, they had identical CIGAR strings as to what was found in the BWA alignment, confirming that alignments can be replicated by different algorithms. The major difference between the BWA alignment and the Bowtie 2 alignment is that the TEST.COMMON sequence is aligned to a tRNA in the reference. Since for our project the size of the test sequences is expected to be comparable to the size of the reference genome of primordial tRNA, the potential for false discoveries of this kind should be low, but it is something we will be aware of going forward.
 
 ## github-pages
 
