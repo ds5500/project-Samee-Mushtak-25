@@ -1,0 +1,52 @@
+@HD	VN:1.5	SO:unsorted	GO:query
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ala-CGC-1-1	LN:74
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ala-GGC-1-1	LN:74
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ala-TGC-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Arg-CCG-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Arg-CCT-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Arg-GCG-1-1	LN:78
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Arg-TCG-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Arg-TCT-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Asn-GTT-1-1	LN:73
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Asp-GTC-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Cys-GCA-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Gln-CTG-1-1	LN:73
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Gln-TTG-1-1	LN:73
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Glu-CTC-1-1	LN:78
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Glu-TTC-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Gly-CCC-1-1	LN:76
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Gly-GCC-1-1	LN:76
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Gly-TCC-1-1	LN:76
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-His-GTG-1-1	LN:78
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ile-GAT-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ile2-CAT-1-1	LN:74
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Leu-CAA-1-1	LN:84
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Leu-CAG-1-1	LN:85
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Leu-GAG-1-1	LN:85
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Leu-TAA-1-1	LN:85
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Leu-TAG-1-1	LN:85
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Lys-CTT-1-1	LN:77
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Lys-TTT-1-1	LN:77
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Met-CAT-1-1	LN:78
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Phe-GAA-1-1	LN:74
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Pro-CGG-1-1	LN:76
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Pro-GGG-1-1	LN:76
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Pro-TGG-1-1	LN:76
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ser-CGA-1-1	LN:85
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ser-GCT-1-1	LN:85
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ser-GGA-1-1	LN:85
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Ser-TGA-1-1	LN:85
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Thr-CGT-1-1	LN:73
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Thr-GGT-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Thr-TGT-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Trp-CCA-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Tyr-GTA-1-1	LN:76
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Val-CAC-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Val-GAC-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-Val-TAC-1-1	LN:75
+@SQ	SN:Metallosphaera_cuprina_Ar-4_tRNA-iMet-CAT-1-1	LN:74
+@PG	ID:bowtie2	PN:bowtie2	VN:2.5.4	CL:"/Users/smushtak/miniconda3/envs/trna/bin/bowtie2-align-s --wrapper basic-0 -x eda/reference/metaCupr1 -S eda/eda_bowtie2.sam -U eda/eda.fq"
+TEST.THR	0	Metallosphaera_cuprina_Ar-4_tRNA-Thr-CGT-1-1	1	42	10M1D62M	*	0	0	GCCGCTGTAGTCAGCTGGTAGAGCGCCGGCCTCGTAAGCCGGTGGTCGCGGGTTCAAATCCCGCCGGCGGCT	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	AS:i:-8	XN:i:0	XM:i:0	XO:i:1	XG:i:1	NM:i:1	MD:Z:10^C62	YT:Z:UU
+TEST.LYS	0	Metallosphaera_cuprina_Ar-4_tRNA-Lys-TTT-1-1	1	42	77M	*	0	0	GGGCCCGTAGCTCAGCTAGGTAGAGCGGCGGGCTTTTAACCCGTAGGCCCCGGGTTCGAATCCCGGCGGGCCCGCCA	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	AS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:77	YT:Z:UU
+TEST.GARBAGE	4	*	0	0	*	*	0	0	GTGTGAGCCTTAGGCTTCGCGGAATCGGCTAGCTAGATGTAGGGGAGCGTTCTTCTCCGGCGCGGGCGATTATGAGGCTACG	AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA	YT:Z:UU
+TEST.COMMON	16	Metallosphaera_cuprina_Ar-4_tRNA-Ser-GCT-1-1	75	1	3M	*	0	0	CGC	AAA	AS:i:0	XS:i:0	XN:i:0	XM:i:0	XO:i:0	XG:i:0	NM:i:0	MD:Z:3	YT:Z:UU
