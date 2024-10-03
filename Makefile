@@ -12,6 +12,7 @@ eda_clustalo:
 	mkdir -p eda/clustalo-data
 	cp eda/pyrococcus-furiosus/pyrococcus-furiosus.fasta eda/clustalo-data
 	docker run --platform linux/amd64 --name $(shell date "+%Y%m%d_%H%M%S")_eda_clustalo -v $(PWD)/eda/clustalo-data:/data biocontainers/clustal-omega:v1.2.1_cv5 clustalo --infile=pyrococcus-furiosus.fasta --guidetree-out=pyrococcus-furiosus-guidetree.dnd --outfmt=clustal --resno --wrap=100 --output-order=input-order --outfile=pyrococcus-furiosus.clustal_num --seqtype=RNA
+	ete3 view -t eda/clustalo-data/pyrococcus-furiosus-guidetree.dnd -i eda/clustalo-data/pyrococcus-furiosus-guidetree.png
 
 eda/reference/metaCupr1-mature-tRNAs.fa:
 	mkdir -p eda/reference

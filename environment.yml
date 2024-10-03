@@ -1,9 +1,10 @@
 name: trna
 channels:
-  - conda-forge
   - bioconda
+  - conda-forge
   - defaults
 dependencies:
   - python=3.12
   - bioconda::bwa
   - bioconda::bowtie2
+  - ete3
