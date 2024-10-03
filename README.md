@@ -44,3 +44,13 @@ make clean_eda
 Because BWA and Bowtie 2 have different formats for FASTA indexing, the `make clean_eda` command should be run in between different EDAs.
 
 See [plan.md](plan.md) for a discussion of the results of this EDA. We have not yet implemented visualizations of alignments, so we display our results in a textual format instead of with figures.
+
+## Docker
+
+```
+docker pull biocontainers/clustal-omega:v1.2.1_cv5
+```
+
+```
+docker run --platform linux/amd64 biocontainers/clustal-omega:v1.2.1_cv5 clustalo --help
+```
