@@ -8,3 +8,4 @@ dependencies:
   - bioconda::bwa
   - bioconda::bowtie2
   - ete3
+  - bioconda::fasttree

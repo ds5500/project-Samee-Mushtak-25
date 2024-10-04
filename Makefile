@@ -23,6 +23,8 @@ eda_mafft:
 	mkdir -p eda/mafft-data
 	cp eda/pyrococcus-furiosus/pyrococcus-furiosus.fasta eda/mafft-data
 	docker run --platform linux/amd64 --name $(shell date "+%Y%m%d_%H%M%S")_eda_mafft -v $(PWD)/eda/mafft-data:/data biocontainers/mafft:v7.407-2-deb_cv1 mafft --inputorder --anysymbol --kimura 1 --auto pyrococcus-furiosus.fasta > eda/mafft-data/pyrococcus-furiosus-aligned.fasta
+	FastTree -nt -gtr -gamma eda/mafft-data/pyrococcus-furiosus-aligned.fasta > eda/mafft-data/pyrococcus-furiosus.tre
+	ete3 view -t eda/mafft-data/pyrococcus-furiosus.tre -i eda/mafft-data/pyrococcus-furiosus-guidetree.png
 
 eda/reference/metaCupr1-mature-tRNAs.fa:
 	mkdir -p eda/reference
