@@ -52,5 +52,21 @@ docker pull biocontainers/clustal-omega:v1.2.1_cv5
 ```
 
 ```
+docker pull biocontainers/t-coffee:v12.00.7fb08c2-4-deb_cv1
+```
+
+```
 docker run --platform linux/amd64 biocontainers/clustal-omega:v1.2.1_cv5 clustalo --help
+```
+
+```
+docker run --platform linux/amd64 biocontainers/t-coffee:v12.00.7fb08c2-4-deb_cv1 t_coffee
+```
+
+```
+docker pull biocontainers/mafft:v7.407-2-deb_cv1
+```
+
+```
+docker run --platform linux/amd64 biocontainers/mafft:v7.407-2-deb_cv1 mafft --help
 ```

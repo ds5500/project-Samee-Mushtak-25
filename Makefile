@@ -14,6 +14,11 @@ eda_clustalo:
 	docker run --platform linux/amd64 --name $(shell date "+%Y%m%d_%H%M%S")_eda_clustalo -v $(PWD)/eda/clustalo-data:/data biocontainers/clustal-omega:v1.2.1_cv5 clustalo --infile=pyrococcus-furiosus.fasta --guidetree-out=pyrococcus-furiosus-guidetree.dnd --outfmt=clustal --resno --wrap=100 --output-order=input-order --outfile=pyrococcus-furiosus.clustal_num --seqtype=RNA
 	ete3 view -t eda/clustalo-data/pyrococcus-furiosus-guidetree.dnd -i eda/clustalo-data/pyrococcus-furiosus-guidetree.png
 
+eda_tcoffee:
+	mkdir -p eda/tcoffee-data
+	cp eda/pyrococcus-furiosus/pyrococcus-furiosus-query.fasta eda/tcoffee-data
+	docker run --platform linux/amd64 --name $(shell date "+%Y%m%d_%H%M%S")_eda_tcoffee -v $(PWD)/eda/tcoffee-data:/data biocontainers/t-coffee:v12.00.7fb08c2-4-deb_cv1 t_coffee -in=pyrococcus-furiosus-query.fasta -method=mafft_msa muscle_msa probconsRNA_msa -output=score_html clustalw_aln fasta_aln score_ascii phylip -maxnseq=150 -maxlen=100 -case=upper -seqnos=on -outorder=input -run_name=eda -tree -mode=rcoffee -method_limits=consan_pair 5 150
+
 eda/reference/metaCupr1-mature-tRNAs.fa:
 	mkdir -p eda/reference
 	curl --output eda/reference/metaCupr1-mature-tRNAs.fa https://gtrnadb.ucsc.edu/genomes/archaea/Meta_cupr_Ar_4/metaCupr1-mature-tRNAs.fa
