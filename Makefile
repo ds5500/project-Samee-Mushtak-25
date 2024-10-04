@@ -19,6 +19,11 @@ eda_tcoffee:
 	cp eda/pyrococcus-furiosus/pyrococcus-furiosus-query.fasta eda/tcoffee-data
 	docker run --platform linux/amd64 --name $(shell date "+%Y%m%d_%H%M%S")_eda_tcoffee -v $(PWD)/eda/tcoffee-data:/data biocontainers/t-coffee:v12.00.7fb08c2-4-deb_cv1 t_coffee -in=pyrococcus-furiosus-query.fasta -method=mafft_msa muscle_msa probconsRNA_msa -output=score_html clustalw_aln fasta_aln score_ascii phylip -maxnseq=150 -maxlen=100 -case=upper -seqnos=on -outorder=input -run_name=eda -tree -mode=rcoffee -method_limits=consan_pair 5 150
 
+eda_mafft:
+	mkdir -p eda/mafft-data
+	cp eda/pyrococcus-furiosus/pyrococcus-furiosus.fasta eda/mafft-data
+	docker run --platform linux/amd64 --name $(shell date "+%Y%m%d_%H%M%S")_eda_mafft -v $(PWD)/eda/mafft-data:/data biocontainers/mafft:v7.407-2-deb_cv1 mafft --inputorder --anysymbol --kimura 1 --auto pyrococcus-furiosus.fasta > eda/mafft-data/pyrococcus-furiosus-aligned.fasta
+
 eda/reference/metaCupr1-mature-tRNAs.fa:
 	mkdir -p eda/reference
 	curl --output eda/reference/metaCupr1-mature-tRNAs.fa https://gtrnadb.ucsc.edu/genomes/archaea/Meta_cupr_Ar_4/metaCupr1-mature-tRNAs.fa
