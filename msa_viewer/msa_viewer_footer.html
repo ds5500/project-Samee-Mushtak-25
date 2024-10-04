@@ -1,0 +1,16 @@
+
+// parsed array of the sequences
+var seqs =  msa.io.clustal.parse(fasta);
+
+var rootDiv = document.getElementById("msa");
+var m = msa({
+     el: rootDiv,
+     seqs: seqs
+});
+
+m.render();
+
+var m = msa(opts);
+</script>
+</body>
+</html>
