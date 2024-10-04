@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2024 by anonymous (http://jsbin.com/yusifufiwa/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="Example of loading MSAViewer from a string">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<script src="msa.min.gz.js"></script>
+<div id="msa">Loading Multiple Alignment...</div>
+
+
+<script id="jsbin-javascript">
+var rootDiv = document.getElementById("msa");
+
+var opts = {
+  el: rootDiv,
+  importURL: "https://raw.githubusercontent.com/ds5500/project-Samee-Mushtak-25/refs/heads/main/eda/clustalo-data/pyrococcus-furiosus.clustal",
+  vis: {
+    labelId: false
+  }
+};
+var m = msa(opts);
+</script>
+</body>
+</html>
