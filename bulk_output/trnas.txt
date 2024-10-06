@@ -1,0 +1,3 @@
+Pyro_furi_DSM_3638,https://gtrnadb.ucsc.edu/GtRNAdb2/genomes/archaea/Pyro_furi_DSM_3638/pyrFur2-mature-tRNAs.fa
+Halo_volc_DS2,https://gtrnadb.ucsc.edu/GtRNAdb2/genomes/archaea/Halo_volc_DS2/haloVolc1-mature-tRNAs.fa
+Chlo_chlo_CaD3,https://gtrnadb.ucsc.edu/GtRNAdb2/genomes/bacteria/Chlo_chlo_CaD3/chloChlo_CAD3-mature-tRNAs.fa

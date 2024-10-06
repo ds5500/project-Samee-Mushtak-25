@@ -26,6 +26,9 @@ eda_mafft:
 	FastTree -nt -gtr -gamma eda/mafft-data/pyrococcus-furiosus-aligned.fasta > eda/mafft-data/pyrococcus-furiosus.tre
 	ete3 view -t eda/mafft-data/pyrococcus-furiosus.tre -i eda/mafft-data/pyrococcus-furiosus-guidetree.png
 
+bulk_process:
+	./process_trnas.sh
+
 eda/reference/metaCupr1-mature-tRNAs.fa:
 	mkdir -p eda/reference
 	curl --output eda/reference/metaCupr1-mature-tRNAs.fa https://gtrnadb.ucsc.edu/genomes/archaea/Meta_cupr_Ar_4/metaCupr1-mature-tRNAs.fa
@@ -33,3 +36,6 @@ eda/reference/metaCupr1-mature-tRNAs.fa:
 
 clean_eda:
 	rm -rf eda/reference
+
+clean_bulk:
+	rm -r bulk_output/*/
