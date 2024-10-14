@@ -51,9 +51,9 @@ while read label url; do
     docker run --platform linux/amd64 --name $mafft_container_name -v $container_dir:/data biocontainers/mafft:v7.407-2-deb_cv1 mafft --inputorder --anysymbol --kimura 1 --auto --treeout $fasta_fname > $mafft_dir/$fasta_prefix-aligned.fasta
     mv $working_dir/$fasta_fname.tree $mafft_dir/$fasta_prefix-guidetree.tree
     # Remove numerical prefix and long suffix from IDs produced in MAFFT guidetree
-    sed -i -E -e 's/^[0-9]+_//g' -e 's/__tRNA.*$//g' $mafft_dir/$fasta_prefix-guidetree.tree
+    sed -E 's/^[0-9]+_//g' $mafft_dir/$fasta_prefix-guidetree.tree | sed 's/__tRNA.*$//g' > $mafft_dir/$fasta_prefix-guidetree-mod.tree
     # Generate tree visualization from Newick format
-    ete3 view -t $mafft_dir/$fasta_prefix-guidetree.tree -i $mafft_dir/$fasta_prefix-guidetree.png
+    ete3 view -t $mafft_dir/$fasta_prefix-guidetree-mod.tree -i $mafft_dir/$fasta_prefix-guidetree.png
     # Convert aligned fasta to "lazy" clustal format
     python src/msa_latex/aligned_fasta_to_lazy_clustal.py -f $mafft_dir/$fasta_prefix-aligned.fasta > $mafft_dir/$fasta_prefix-aligned.clustal
     # Visualize alignment
