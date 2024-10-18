@@ -39,3 +39,4 @@ clean_eda:
 
 clean_bulk:
 	rm -r bulk_output/*/
+

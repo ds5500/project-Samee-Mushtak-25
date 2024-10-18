@@ -21,7 +21,7 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-While in this directory, run the following conda commands to create the required conda environment:
+While in this directory, run the following conda commands to create the required conda environment (see [Comments on Reproducibility](#comments-on-reproducibility)):
 
 ```
 conda create -n trna python=3.12
@@ -82,18 +82,20 @@ To run bulk process script:
 make bulk_process
 ```
 
-TODO:
+To clean the output from the bulk process script:
 
 ```
-make clean_bulk_process
+make clean_bulk
 ```
+
+### Flowchart of bulk processing
 
 ![Flowchart of process_trnas.sh logic](figs/DS5500-process_trnas-flow.jpg)
 
-_Flow chart made with Miro_
+_Flowchart made with Miro_
 
 ## Comments on Reproducibility
 
-* Because of bioconda settings, creating conda environment from file does not reliably work
-* Right now specific to OS X because of shell script
-* Have plans to port to Python script in order to improve cross-platform reproducibility
+* Because Bioconda recommends setting conda's channel priority to strict, creating the required conda environment directly from the environment.yml file cannot be done reliably.
+* Currently process_trnas.sh contains some commands that are specific to the OS X shell (notably, `sed` with the -E flag). We have plans to port this shell script to a Python script in order to improve cross-platform reproducibility.
+

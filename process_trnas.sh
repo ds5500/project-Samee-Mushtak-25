@@ -1,6 +1,7 @@
 #!/bin/bash
 # Remember to run `chmod +x process_trnas.sh` to make this script executable
 # TODO: Error Handling
+# TODO: Less verbose logging
 
 # Read comma separated list of trnas
 IFS=,
@@ -61,3 +62,4 @@ while read label url; do
     tectonic $mafft_dir/$fasta_prefix.tex
 
 done < $input_trnas
+

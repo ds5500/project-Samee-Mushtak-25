@@ -5,6 +5,8 @@ with open('haloVolc1-merged.fa') as f:
 
 primordial = list[:2]
 extant = list[2:]
+
+random.seed(500)
 random.shuffle(extant)
 
 for trna in primordial:
