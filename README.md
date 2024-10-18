@@ -2,6 +2,7 @@
 
 * [Proposal](proposal.md)
 * [Plan](plan.md)
+* [Overview of Results and Progress thus far](docs/overview.md)
 * [Latest Release](https://github.com/ds5500/project-Samee-Mushtak-25/releases/tag/v0.1)
   * Download bulk_output.zip from the above link to see the output of the current tRNA processing pipeline if unable to run the script.  
 
