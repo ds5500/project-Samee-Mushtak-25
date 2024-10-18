@@ -3,7 +3,7 @@
 * [Proposal](proposal.md)
 * [Plan](plan.md)
 
-## Setup
+## Conda Setup
 
 Running the code in this project requires **Make** and **Bioconda**.
 
@@ -20,6 +20,30 @@ conda config --add channels bioconda
 conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
+
+While in this directory, create a conda environment from `environment.yml`:
+
+```
+conda env create -f environment.yml
+```
+
+## Docker Setup
+
+In order to run process_trnas.sh (`make bulk_process`), the following Docker images will need to be installed.
+
+```
+docker pull biocontainers/clustal-omega:v1.2.1_cv5
+```
+
+```
+docker pull biocontainers/mafft:v7.407-2-deb_cv1
+```
+
+```
+docker pull biocontainers/t-coffee:v12.00.7fb08c2-4-deb_cv1
+```
+
+Docker Desktop must be running in the background for process_trnas.sh to work (see [Docker's instructions](https://docs.docker.com/engine/install/) on installing Docker Desktop).
 
 ## EDA
 
@@ -45,28 +69,25 @@ Because BWA and Bowtie 2 have different formats for FASTA indexing, the `make cl
 
 See [plan.md](plan.md) for a discussion of the results of this EDA. We have not yet implemented visualizations of alignments, so we display our results in a textual format instead of with figures.
 
-## Docker
+## Process tRNA
+
+To run bulk process script:
 
 ```
-docker pull biocontainers/clustal-omega:v1.2.1_cv5
+make bulk_process
 ```
 
-```
-docker pull biocontainers/t-coffee:v12.00.7fb08c2-4-deb_cv1
-```
+TODO:
 
 ```
-docker run --platform linux/amd64 biocontainers/clustal-omega:v1.2.1_cv5 clustalo --help
+make clean_bulk_process
 ```
 
-```
-docker run --platform linux/amd64 biocontainers/t-coffee:v12.00.7fb08c2-4-deb_cv1 t_coffee
-```
+![Flowchart of process_trnas.sh logic](figs/DS5500-process_trnas-flow.jpg)
 
-```
-docker pull biocontainers/mafft:v7.407-2-deb_cv1
-```
+_Flow chart made with Miro_
 
-```
-docker run --platform linux/amd64 biocontainers/mafft:v7.407-2-deb_cv1 mafft --help
-```
+## Comments on Reproducibility
+
+* Right now specific to OS X because of shell script
+* Have plans to port to Python script in order to improve cross-platform reproducibility
