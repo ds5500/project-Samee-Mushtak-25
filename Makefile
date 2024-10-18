@@ -34,6 +34,12 @@ eda/reference/metaCupr1-mature-tRNAs.fa:
 	curl --output eda/reference/metaCupr1-mature-tRNAs.fa https://gtrnadb.ucsc.edu/genomes/archaea/Meta_cupr_Ar_4/metaCupr1-mature-tRNAs.fa
 	sed -i -e 's/U/T/g' eda/reference/metaCupr1-mature-tRNAs.fa
 
+release:
+	zip -r bulk_output.zip bulk_output/
+	zip -d bulk_output.zip bulk_output/.DS_Store
+	for d in bulk_output/*/; do zip -d bulk_output.zip $$d.DS_Store; done
+	unzip -l bulk_output.zip
+
 clean_eda:
 	rm -rf eda/reference
 
