@@ -21,10 +21,15 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-While in this directory, create a conda environment from `environment.yml`:
+While in this directory, run the following conda commands to create the required conda environment:
 
 ```
-conda env create -f environment.yml
+conda create -n trna python=3.12
+conda install bioconda::bowtie2
+conda install bioconda::bwa
+conda install -c conda-forge ete3
+conda install bioconda::fasttree
+conda install conda-forge::tectonic
 ```
 
 ## Docker Setup
@@ -89,5 +94,6 @@ _Flow chart made with Miro_
 
 ## Comments on Reproducibility
 
+* Because of bioconda settings, creating conda environment from file does not reliably work
 * Right now specific to OS X because of shell script
 * Have plans to port to Python script in order to improve cross-platform reproducibility
