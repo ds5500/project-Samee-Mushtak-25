@@ -46,10 +46,25 @@ while read label url; do
     python src/msa_latex/msa_latex.py -f $clustalo_dir/$fasta_prefix.clustal_num -s $fasta_prefix -a "Clustal Omega" > $clustalo_dir/$fasta_prefix.tex
     tectonic $clustalo_dir/$fasta_prefix.tex
 
+    mafft_kimura_container_name=$(date "+%Y%m%d_%H%M%S")-$label-mafft_kimura
+    mafft_kimura_dir=$working_dir/mafft_kimura
+    mkdir -p $mafft_kimura_dir
+    docker run --platform linux/amd64 --name $mafft_kimura_container_name -v $container_dir:/data biocontainers/mafft:v7.407-2-deb_cv1 mafft --inputorder --anysymbol --kimura 1 --auto --treeout $fasta_fname > $mafft_kimura_dir/$fasta_prefix-aligned.fasta
+    mv $working_dir/$fasta_fname.tree $mafft_kimura_dir/$fasta_prefix-guidetree.tree
+    # Remove numerical prefix and long suffix from IDs produced in MAFFT guidetree
+    sed -E 's/^[0-9]+_//g' $mafft_kimura_dir/$fasta_prefix-guidetree.tree | sed 's/__tRNA.*$//g' > $mafft_kimura_dir/$fasta_prefix-guidetree-mod.tree
+    # Generate tree visualization from Newick format
+    ete3 view -t $mafft_kimura_dir/$fasta_prefix-guidetree-mod.tree -i $mafft_kimura_dir/$fasta_prefix-guidetree.png
+    # Convert aligned fasta to "lazy" clustal format
+    python src/msa_latex/aligned_fasta_to_lazy_clustal.py -f $mafft_kimura_dir/$fasta_prefix-aligned.fasta > $mafft_kimura_dir/$fasta_prefix-aligned.clustal
+    # Visualize alignment
+    python src/msa_latex/msa_latex.py -f $mafft_kimura_dir/$fasta_prefix-aligned.clustal -s $fasta_prefix -a "MAFFT" > $mafft_kimura_dir/$fasta_prefix.tex
+    tectonic $mafft_kimura_dir/$fasta_prefix.tex
+
     mafft_container_name=$(date "+%Y%m%d_%H%M%S")-$label-mafft
     mafft_dir=$working_dir/mafft
     mkdir -p $mafft_dir
-    docker run --platform linux/amd64 --name $mafft_container_name -v $container_dir:/data biocontainers/mafft:v7.407-2-deb_cv1 mafft --inputorder --anysymbol --kimura 1 --auto --treeout $fasta_fname > $mafft_dir/$fasta_prefix-aligned.fasta
+    docker run --platform linux/amd64 --name $mafft_container_name -v $container_dir:/data biocontainers/mafft:v7.407-2-deb_cv1 mafft --inputorder --anysymbol --auto --treeout $fasta_fname > $mafft_dir/$fasta_prefix-aligned.fasta
     mv $working_dir/$fasta_fname.tree $mafft_dir/$fasta_prefix-guidetree.tree
     # Remove numerical prefix and long suffix from IDs produced in MAFFT guidetree
     sed -E 's/^[0-9]+_//g' $mafft_dir/$fasta_prefix-guidetree.tree | sed 's/__tRNA.*$//g' > $mafft_dir/$fasta_prefix-guidetree-mod.tree
@@ -61,5 +76,13 @@ while read label url; do
     python src/msa_latex/msa_latex.py -f $mafft_dir/$fasta_prefix-aligned.clustal -s $fasta_prefix -a "MAFFT" > $mafft_dir/$fasta_prefix.tex
     tectonic $mafft_dir/$fasta_prefix.tex
 
-done < $input_trnas
+    muscle_dir=$working_dir/muscle5
+    mkdir -p $muscle_dir
+    muscle -align $working_dir/$fasta_fname -output $muscle_dir/$fasta_prefix-aln.afa
+    # Convert aligned fasta to "lazy" clustal format
+    python src/msa_latex/aligned_fasta_to_lazy_clustal.py -f $muscle_dir/$fasta_prefix-aln.afa > $muscle_dir/$fasta_prefix-aln.clustal
+    # Visualize alignment
+    python src/msa_latex/msa_latex.py -f $muscle_dir/$fasta_prefix-aln.clustal -s $fasta_prefix -a "Muscle5" > $muscle_dir/$fasta_prefix.tex
+    tectonic $muscle_dir/$fasta_prefix.tex
 
+done < $input_trnas

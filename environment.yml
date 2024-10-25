@@ -10,3 +10,4 @@ dependencies:
   - ete3
   - bioconda::fasttree
   - conda-forge::tectonic
+  - bioconda::muscle
