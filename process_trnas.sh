@@ -85,4 +85,6 @@ while read label url; do
     python src/msa_latex/msa_latex.py -f $muscle_dir/$fasta_prefix-aln.clustal -s $fasta_prefix -a "Muscle5" > $muscle_dir/$fasta_prefix.tex
     tectonic $muscle_dir/$fasta_prefix.tex
 
+    python src/scoring/quality_reports.py -d $working_dir > $working_dir/quality_report_$label.txt
+
 done < $input_trnas

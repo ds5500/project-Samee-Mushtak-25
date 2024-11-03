@@ -1,0 +1,25 @@
+SOP REPORT:
+clustal-omega/pyrFur2.clustal_num
+Score: 20279
+Cost: 33341
+mafft_kimura/pyrFur2-aligned.clustal
+Score: 20063
+Cost: 33473
+muscle5/pyrFur2-aln.clustal
+Score: 18833
+Cost: 34022
+mafft/pyrFur2-aligned.clustal
+Score: 16444
+Cost: 35493
+-------------------------------------------------------
+MOS REPORT:
+Average overlap score:
+0.6271469618839055
+clustal-omega/pyrFur2.clustal_num MOS:
+0.7220478145375513
+mafft_kimura/pyrFur2-aligned.clustal MOS:
+0.7239902385576971
+muscle5/pyrFur2-aln.clustal MOS:
+0.39288879680467786
+mafft/pyrFur2-aligned.clustal MOS:
+0.6696709748751382

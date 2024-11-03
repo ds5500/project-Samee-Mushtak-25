@@ -1,0 +1,25 @@
+SOP REPORT:
+clustal-omega/chloChlo_CAD3.clustal_num
+Score: -13894
+Cost: 47576
+mafft_kimura/chloChlo_CAD3-aligned.clustal
+Score: -8799
+Cost: 45950
+muscle5/chloChlo_CAD3-aln.clustal
+Score: -8012
+Cost: 45364
+mafft/chloChlo_CAD3-aligned.clustal
+Score: -9137
+Cost: 46064
+-------------------------------------------------------
+MOS REPORT:
+Average overlap score:
+0.6367503015248409
+clustal-omega/chloChlo_CAD3.clustal_num MOS:
+0.7343030840040365
+mafft_kimura/chloChlo_CAD3-aligned.clustal MOS:
+0.7449850182308275
+muscle5/chloChlo_CAD3-aln.clustal MOS:
+0.3224204909973081
+mafft/chloChlo_CAD3-aligned.clustal MOS:
+0.7454583428725203

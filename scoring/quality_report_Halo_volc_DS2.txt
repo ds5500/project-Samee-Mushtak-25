@@ -1,0 +1,25 @@
+SOP REPORT:
+clustal-omega/haloVolc1.clustal_num
+Score: -17347
+Cost: 61823
+mafft_kimura/haloVolc1-aligned.clustal
+Score: -12865
+Cost: 60711
+muscle5/haloVolc1-aln.clustal
+Score: -16071
+Cost: 62141
+mafft/haloVolc1-aligned.clustal
+Score: -12740
+Cost: 60706
+-------------------------------------------------------
+MOS REPORT:
+Average overlap score:
+0.5766446355669039
+clustal-omega/haloVolc1.clustal_num MOS:
+0.6500061148270445
+mafft_kimura/haloVolc1-aligned.clustal MOS:
+0.6853665201998336
+muscle5/haloVolc1-aln.clustal MOS:
+0.28385284305662084
+mafft/haloVolc1-aligned.clustal MOS:
+0.6874969326658814
