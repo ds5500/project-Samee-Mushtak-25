@@ -1,4 +1,4 @@
 .DS_Store
+__pycache__/
 bulk_output/*/
 bulk_output.zip
-__pycache__/

@@ -30,19 +30,12 @@ class Alignment:
         # Assuming all aligned sequences in alignment_rows have the same length
         self.alignment_width = len(self.seqs[0].seq)
 
-# TODO: Inheritance
 class Config:
     def __init__(self, args:argparse.Namespace, doc_colors:DocumentColors):
         self.alignment_file = args.file
         self.species = args.species
         self.algorithm = args.algorithm
         self.document_colors = doc_colors
-
-class JsonConfig:
-    def __init__(self, args:argparse.Namespace):
-        self.alignment_file = args.file
-        self.species = args.species
-        self.algorithm = args.algorithm
 
 def print_header(doc_colors:DocumentColors):
     # TODO: Remove page numbering
@@ -166,86 +159,3 @@ def print_tex_file(cfg:Config):
     print_alignment(alignment)
     print_consensus(alignment)
     print_footer()
-
-def print_json_file(cfg:JsonConfig):
-    alignment_file = cfg.alignment_file
-    # species = cfg.species
-    # algorithm = cfg.algorithm
-
-    alignment = read_alignment_file(alignment_file)
-
-    mapper = {
-        'A':0,
-        'T':1,
-        'U':1,
-        'C':2,
-        'G':3,
-        'B':4,
-        'N':4
-    }
-
-    # Hard-coding facets assuming primordial tRNAs being used
-    # facets = {
-        # 'GCGGCGG' : 'five_prime_acc_stem',
-        # 'UAGCCUAGCCUAGCCUA' : 'd_loop',
-        # 'GGCGG' : 'five_prime_acc_stem_star',
-        # 'CCGGGCUBNNAACCCGG' : 'ac_stem_loop_stem',
-        # 'CCGCCGCGCGGCGG' : 'v_loop',
-        # 'CCGGGUUCAAAUCCCGG' : 't_stem_loop_stem',
-        # 'CCGCCGCACCA' : 'three_prime_acc_stem'
-    # }
-
-    # facet_seqs = [
-        # 'GCGGCGG',
-        # 'UAGCCUAGCCUAGCCUA',
-        # 'GGCGG',
-        # 'CCGGGCUBNNAACCCGG',
-        # 'CCGCCGCGCGGCGG',
-        # 'CCGGGUUCAAAUCCCGG',
-        # 'CCGCCGCACCA'
-    # ]
-
-    print('[')
-    for i in range(alignment.alignment_len):
-        base_num = 1
-        # facet_idx = 0
-        # facet_str = ''
-        for j in range(alignment.alignment_width):
-            base = alignment.seqs[i].seq[j]
-            # ref_base = alignment.seqs[1].seq[j]
-            # if ref_base == 'T':
-                # ref_base = 'U'
-            # if ref_base != '-':
-                # facet_str += ref_base
-            if base != '-':
-                print('    {')
-                print(f'        "seq_idx":{i},')
-                print(f'        "seq_label":"{alignment.seqs[i].label}",')
-                print(f'        "base_idx":{j+1},')
-                print(f'        "base_label":"{base}",')
-                print(f'        "base_color":{mapper[base]},')
-                print(f'        "base_num":{base_num}')
-                # print(f'        "facet":"{facets[facet_seqs[facet_idx]]}"')
-                print('    },')
-                base_num += 1
-            # if facet_str == facet_seqs[facet_idx]:
-                # facet_str = ''
-                # facet_idx += 1
-
-    for i in range(alignment.alignment_width):
-        consensus_base = alignment.seqs[0].seq[i]
-        consensus = True
-        for j in range(alignment.alignment_len):
-            if consensus and alignment.seqs[j].seq[i] != consensus_base:
-                consensus = False
-            if j == alignment.alignment_len - 1:
-                print('    {')
-                print(f'        "seq_idx":{alignment.alignment_len},')
-                print(f'        "seq_label":"Consensus",')
-                print(f'        "base_idx":{i+1},')
-                print(f'        "base_label":"{'⏺' if consensus else ' '}",')
-                print(f'        "base_color":{-1},')
-                print(f'        "base_num":{i+1}')
-                print('    },')
-    print(']')
-    # TODO: Add length of sequence to end
