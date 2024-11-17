@@ -13,12 +13,12 @@ def print_json_file(alignment_file):
         for j in range(alignment.alignment_width):
             pt = {}
             base = alignment.seqs[i].seq[j]
-            if base != '-':
+            if base != '-' and base != '.':
                 pt['seq_idx'] = i
                 pt['seq_label'] = alignment.seqs[i].label
                 pt['base_idx'] = j+1
                 pt['base_label'] = base
-                pt['base_color'] = mapper[base]
+                pt['base_color'] = mapper[base.upper()]
                 pt['base_num'] = base_num
                 data.append(pt)
                 base_num += 1
@@ -36,7 +36,7 @@ def print_json_file(alignment_file):
                 pt['base_idx'] = i+1
                 pt['base_label'] = '⏺' if consensus else ' '
                 pt['base_color'] = -1
-                pt['base_num'] = i+1
+                # Not including base_num so that consensus markers do not appear in unaligned view
                 data.append(pt)
     print(json.dumps(data, ensure_ascii=False))
 

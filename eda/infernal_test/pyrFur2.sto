@@ -1,0 +1,149 @@
+# STOCKHOLM 1.0
+#=GF AU Infernal 1.1.5
+
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ala-CGC-1-1  DE (tRNAscan-SE ID: chr.trna9) Ala (CGC) 77 bp mature sequence Sc: 105.3 chr:830257-830333 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ala-GGC-1-1  DE (tRNAscan-SE ID: chr.trna10) Ala (GGC) 78 bp mature sequence Sc: 89.7 chr:920870-920947 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ala-TGC-1-1  DE (tRNAscan-SE ID: chr.trna1) Ala (TGC) 78 bp mature sequence Sc: 101.8 chr:138486-138563 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Arg-CCG-1-1  DE (tRNAscan-SE ID: chr.trna8) Arg (CCG) 78 bp mature sequence Sc: 104.2 chr:827437-827514 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Arg-CCT-1-1  DE (tRNAscan-SE ID: chr.trna38) Arg (CCT) 78 bp mature sequence Sc: 101.4 chr:556163-556240 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Arg-GCG-1-1  DE (tRNAscan-SE ID: chr.trna40) Arg (GCG) 77 bp mature sequence Sc: 85.5 chr:361204-361280 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Arg-TCG-1-1  DE (tRNAscan-SE ID: chr.trna18) Arg (TCG) 78 bp mature sequence Sc: 99.5 chr:1844702-1844779 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Arg-TCT-1-1  DE (tRNAscan-SE ID: chr.trna2) Arg (TCT) 77 bp mature sequence Sc: 100.1 chr:240406-240482 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Asn-GTT-1-1  DE (tRNAscan-SE ID: chr.trna34) Asn (GTT) 76 bp mature sequence Sc: 93.3 chr:1287377-1287452 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Asp-GTC-1-1  DE (tRNAscan-SE ID: chr.trna21) Asp (GTC) 78 bp mature sequence Sc: 91.9 chr:1557775-1557852 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Cys-GCA-1-1  DE (tRNAscan-SE ID: chr.trna31) Cys (GCA) 75 bp mature sequence Sc: 77.8 chr:1397119-1397193 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Gln-CTG-1-1  DE (tRNAscan-SE ID: chr.trna41) Gln (CTG) 76 bp mature sequence Sc: 89.1 chr:337963-338038 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Gln-TTG-1-1  DE (tRNAscan-SE ID: chr.trna3) Gln (TTG) 76 bp mature sequence Sc: 89.7 chr:398462-398537 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Glu-CTC-1-1  DE (tRNAscan-SE ID: chr.trna6) Glu (CTC) 78 bp mature sequence Sc: 99.2 chr:797966-798043 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Glu-TTC-1-1  DE (tRNAscan-SE ID: chr.trna43) Glu (TTC) 78 bp mature sequence Sc: 95.8 chr:325145-325222 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Gly-CCC-1-1  DE (tRNAscan-SE ID: chr.trna13) Gly (CCC) 78 bp mature sequence Sc: 100.4 chr:1120311-1120388 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Gly-GCC-1-1  DE (tRNAscan-SE ID: chr.trna39) Gly (GCC) 78 bp mature sequence Sc: 96.7 chr:361387-361464 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Gly-TCC-1-1  DE (tRNAscan-SE ID: chr.trna46) Gly (TCC) 78 bp mature sequence Sc: 99.7 chr:77660-77737 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-His-GTG-1-1  DE (tRNAscan-SE ID: chr.trna19) His (GTG) 77 bp mature sequence Sc: 92.5 chr:1878576-1878652 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ile-GAT-1-1  DE (tRNAscan-SE ID: chr.trna7) Ile (GAT) 78 bp mature sequence Sc: 100.9 chr:798047-798124 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ile2-CAT-1-1 DE (tRNAscan-SE ID: chr.trna35) Ile2 (CAT) 78 bp mature sequence Sc: 107.4 chr:1287293-1287370 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Leu-CAA-1-1  DE (tRNAscan-SE ID: chr.trna42) Leu (CAA) 88 bp mature sequence Sc: 97.7 chr:337811-337898 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Leu-CAG-1-1  DE (tRNAscan-SE ID: chr.trna23) Leu (CAG) 88 bp mature sequence Sc: 94.2 chr:1534697-1534784 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Leu-GAG-1-1  DE (tRNAscan-SE ID: chr.trna37) Leu (GAG) 88 bp mature sequence Sc: 93.6 chr:875369-875456 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Leu-TAA-1-1  DE (tRNAscan-SE ID: chr.trna28) Leu (TAA) 88 bp mature sequence Sc: 98.0 chr:1443610-1443697 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Leu-TAG-1-1  DE (tRNAscan-SE ID: chr.trna14) Leu (TAG) 88 bp mature sequence Sc: 93.5 chr:1203708-1203795 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Lys-CTT-1-1  DE (tRNAscan-SE ID: chr.trna32) Lys (CTT) 78 bp mature sequence Sc: 103.9 chr:1388094-1388171 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Lys-TTT-1-1  DE (tRNAscan-SE ID: chr.trna4) Lys (TTT) 78 bp mature sequence Sc: 104.9 chr:508454-508531 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Met-CAT-1-1  DE (tRNAscan-SE ID: chr.trna33) Met (CAT) 78 bp mature sequence Sc: 91.9 chr:1297926-1298035 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Phe-GAA-1-1  DE (tRNAscan-SE ID: chr.trna45) Phe (GAA) 77 bp mature sequence Sc: 95.4 chr:77745-77821 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Pro-CGG-1-1  DE (tRNAscan-SE ID: chr.trna20) Pro (CGG) 78 bp mature sequence Sc: 92.5 chr:1831274-1831351 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Pro-GGG-1-1  DE (tRNAscan-SE ID: chr.trna24) Pro (GGG) 77 bp mature sequence Sc: 91.0 chr:1533052-1533128 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Pro-TGG-1-1  DE (tRNAscan-SE ID: chr.trna26) Pro (TGG) 78 bp mature sequence Sc: 94.1 chr:1464134-1464211 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ser-CGA-1-1  DE (tRNAscan-SE ID: chr.trna5) Ser (CGA) 87 bp mature sequence Sc: 95.9 chr:561295-561381 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ser-GCT-1-1  DE (tRNAscan-SE ID: chr.trna30) Ser (GCT) 87 bp mature sequence Sc: 99.4 chr:1397210-1397296 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ser-GGA-1-1  DE (tRNAscan-SE ID: chr.trna15) Ser (GGA) 87 bp mature sequence Sc: 96.8 chr:1291820-1291906 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Ser-TGA-1-1  DE (tRNAscan-SE ID: chr.trna22) Ser (TGA) 87 bp mature sequence Sc: 101.1 chr:1537064-1537150 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Thr-CGT-1-1  DE (tRNAscan-SE ID: chr.trna29) Thr (CGT) 77 bp mature sequence Sc: 97.7 chr:1397342-1397418 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Thr-GGT-1-1  DE (tRNAscan-SE ID: chr.trna27) Thr (GGT) 77 bp mature sequence Sc: 97.3 chr:1463365-1463441 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Thr-TGT-1-1  DE (tRNAscan-SE ID: chr.trna25) Thr (TGT) 77 bp mature sequence Sc: 99.6 chr:1464214-1464290 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Trp-CCA-1-1  DE (tRNAscan-SE ID: chr.trna36) Trp (CCA) 78 bp mature sequence Sc: 81.8 chr:937367-937515 (-)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Tyr-GTA-1-1  DE (tRNAscan-SE ID: chr.trna12) Tyr (GTA) 78 bp mature sequence Sc: 96.1 chr:1054563-1054640 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Val-CAC-1-1  DE (tRNAscan-SE ID: chr.trna16) Val (CAC) 78 bp mature sequence Sc: 99.9 chr:1611698-1611775 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Val-GAC-1-1  DE (tRNAscan-SE ID: chr.trna11) Val (GAC) 78 bp mature sequence Sc: 96.0 chr:920960-921037 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-Val-TAC-1-1  DE (tRNAscan-SE ID: chr.trna17) Val (TAC) 77 bp mature sequence Sc: 97.4 chr:1747767-1747843 (+)
+#=GS Pyrococcus_furiosus_DSM_3638_tRNA-iMet-CAT-1-1 DE (tRNAscan-SE ID: chr.trna44) iMet (CAT) 78 bp mature sequence Sc: 76.7 chr:297262-297339 (-)
+
+tRNAPri_type_I                                         GCGGCGGUAGCCUAGCCUAGC.CUAGGCGgCCGGGCUBNNAACCCGGCC...........GCCCCGGGUUCAAAU.CCCGGCCGCC.G.C...Acca
+#=GR tRNAPri_type_I                                 PP *********************.88999966******************9...........***************.**********.*.9...5555
+tRNAPri_type_II                                        GCGGCGGUAGCCUAGCCUAGC.CUAGGCGgCCGGGCUBNNAACCCGGC-cgccgcgcggcG-GCCGGGUUCAAAU.CCCGGCCGCC.G.C...Acca
+#=GR tRNAPri_type_II                                PP *********************.8899**6599*************999.89********74.6************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Ala-CGC-1-1          GGGCCGGUAGCUCAGCCUGGA.-AGAGCG.CCGCCCUCGCAAGGCGGAG...........GCCGCGGGUUCAAAU.CCCGCCCGGU.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ala-CGC-1-1  PP *********************..******.*******************...........***************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Ala-GGC-1-1          GGGCCGGUAGCUCAGCCUGGU.AUGAGCG.CCGCCUUGGCAAGGCGGAG...........G-CCCGGGUUCAAAUcCCCGGCCGGU.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ala-GGC-1-1  PP *********************.99*****.*******************...........*.************93468*******.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Ala-TGC-1-1          GGGCCGGUAGCUCAGCCUGGU.AUGAGCG.CCGCCCUUGCAAGGCGGAG...........GCCCCGGGUUCAAAU.CCCGGCCGGU.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ala-TGC-1-1  PP *********************.99*****.*******************...........***************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Arg-CCG-1-1          GGGCCGGUAGUUUAGCCAGGA.GAGAACG.CCGCCCUCCGGAGGCGGAG...........GUCCCGGGUUCAAAU.CCCGGCCGGC.C.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Arg-CCG-1-1  PP *********************.*******.*******************...........***************.**********.9.75447...
+Pyrococcus_furiosus_DSM_3638_tRNA-Arg-CCT-1-1          GGACCGGUAGCCUAGCCAGGA.UAGGGCG.GCGGCCUCCUAAGCCGCAG...........GUCCGGGGUUCAAAU.CCCCGCCGGU.C.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Arg-CCT-1-1  PP *********************.*******.*******************...........***************.**********.8.74447...
+Pyrococcus_furiosus_DSM_3638_tRNA-Arg-GCG-1-1          GCCCCGGUGGCCUAGCCUGGA.UAGGGCG.CGAGGCUGCGGACCUCGAG...........GUCCGGGGUUCAAAU.CCCCGCCGGGcGcC...A...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Arg-GCG-1-1  PP *********************.*******.*******************...........***************.*********87536...9...
+Pyrococcus_furiosus_DSM_3638_tRNA-Arg-TCG-1-1          GGGCCGGUGGCCUAGCCUGGA.UGGGGCG.UCGGCCUUCGGAGCCGAAG...........GUCCCGGGUUCAAAU.CCCGGCCGGC.C.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Arg-TCG-1-1  PP *********************.*******.*******************...........***************.**********.9.75447...
+Pyrococcus_furiosus_DSM_3638_tRNA-Arg-TCT-1-1          GGGCCCGUAGCCUAGCA-GGA.UAGGGCG.CCGGCCUUCUAAGCCGGAG...........GUCCCGGGUUCGAAU.CCCGGCGGGC.C.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Arg-TCT-1-1  PP ****************7.999.9******.*******************...........***************.**********.9.75447...
+Pyrococcus_furiosus_DSM_3638_tRNA-Asn-GTT-1-1          GCCGCCGUAGCUUAGCU-GGU.-GGAGCG.CCGGACUGUUAAUCCGGCG...........GUCCCCGGUUCGAAU.CCGGGCGGCG.G.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Asn-GTT-1-1  PP ****************8.***..9*****.*******************...........***************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Asp-GTC-1-1          GCCCGGGUGGUGUAGCCCGGCcUAUCAUG.CGGGACUGUCACUCCCGCG...........A-CCCGGGUUCAAAU.CCCGGCCCGG.G.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Asp-GTC-1-1  PP *****************************.******************9...........9.*************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Cys-GCA-1-1          GCCGGGAUAGCCUAGA--GGC.-CAGGCG.GGGGACUGCAGAUCCCCUU...........UACCCGGGUUCAAAU.CCCGGUCCCG.G.CuccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Cys-GCA-1-1  PP ****************..***..89****.*******************...........***************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Gln-CTG-1-1          AGCCCCGUGGUGUAGC--GGCcAAGCAUG.CGGGACUCUGGAUCCCGCG...........A-CCGGGGUUCGAAU.CCCCGCGGGG.C.U...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Gln-CTG-1-1  PP ****************..***********.******************9...........9.*************.**********.*.*...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Gln-TTG-1-1          AGCCCCGUGGUGUAGC--GGCcAAGCAUG.CGGGACUUUGGAUCCCGCG...........A-CCCGGGUUCGAAU.CCCGGCGGGG.C.U...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Gln-TTG-1-1  PP ****************..***********.******************9...........9.*************.**********.*.*...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Glu-CTC-1-1          GCCCCGGUGGUGUAGCCCGGUcAAUCAUG.CGGGACUCUCGAUCCCGCG...........A-CCCGGGUUCAAAU.CCCGGCCGGG.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Glu-CTC-1-1  PP *****************************.******************9...........9.*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Glu-TTC-1-1          GCCCCGGUGGUGUAGCCCGGUcAAACAUG.CGGGCCUUUCGAGCCCGCG...........C-CCCGGGUUCAAAU.CCCGGCCGGG.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Glu-TTC-1-1  PP *****************************.******************8...........8.*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Gly-CCC-1-1          GCGGUGGUAGUCUAGCCUGGUcUAGGACG.CCGGCCUCCCAAGCCGGCG...........A-CCCGGGUUCAAAU.CCCGGCCACC.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Gly-CCC-1-1  PP *****************************.******************9...........9.*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Gly-GCC-1-1          GCGGUGGUAGUCUAGCCUGGUcUAGGACG.CCACCCUGCCAAGGUGGAG...........A-CCCGGGUUCAAAU.CCCGGCCACC.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Gly-GCC-1-1  PP *****************************.******************9...........9.*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Gly-TCC-1-1          GCGGUGGUAGUCUAGCCUGGUcUAGGACG.CCGGCCUUCCGAGCCGGCG...........A-CCCGGGUUCAAAU.CCCGGCCACC.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Gly-TCC-1-1  PP *****************************.******************9...........9.*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-His-GTG-1-1          GCCGGGGUGGUGUAGCCUGGU.UAGCACA.GGGGACUGUGGAUCCCCUG...........G-CCCGGGUUCAAAU.CCCGGCCCCG.G.CcccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-His-GTG-1-1  PP *********************.*******.*******************...........*.*************.**********.*.86667...
+Pyrococcus_furiosus_DSM_3638_tRNA-Ile-GAT-1-1          GGGCCCGUGGCUCAGCCUGGU.CAGAGCG.CCCGCCUGAUAAGCGGGAG...........GUCCGGGGUUCGAAG.CCCCGCGGGC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ile-GAT-1-1  PP *********************.*******.*******************...........***************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Ile2-CAT-1-1         GGGCCCGUAGCUCAGCCUGGU.CAGAGCG.CGCGGCUCAUAACCGCGUG...........GUCCGGGGUUCAAAU.CCCCGCGGGC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ile2-CAT-1-1 PP *********************.*******.*******************...........***************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-CAA-1-1          GCGGGGGUUGCCGAGCCUGGUcAAAGGCG.GGGGACUCAAGAUCCCCU-cccgu.aggggUUCCGGGGUUCAAAU.CCCCGCCCCC.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Leu-CAA-1-1  PP *****************************.******************.8****.*****99*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-CAG-1-1          GCGGGGGUUGCCGAGCCUGGUcAAAGGCG.CGGGAUUCAGGGUCCCGU-cccgu.aggggUUCCGGGGUUCAAAU.CCCCGCCCCC.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Leu-CAG-1-1  PP *****************************.******************.8****.*****99*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-GAG-1-1          GCGGGGGUUGCCGAGCCUGGUcAAAGGCG.CGGGAUUGAGGGUCCCGU-cccgu.aggggUUCCGGGGUUCAAAU.CCCCGCCCCC.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Leu-GAG-1-1  PP *****************************.******************.8****.*****99*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-TAA-1-1          GCGGGGGUGCCCGAGCCUGGCcAAAGGGG.CCGGACUUAAGAUCCGGUGccgu..agggcUGCGCGGGUUCGAAU.CCCGCCCCCC.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Leu-TAA-1-1  PP *****************************.******************6****..*****66*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-TAG-1-1          GCGGGGGUUGCCGAGCCUGGUcAAAGGCG.CGGGAUUUAGGGUCCCGU-cccgu.aggggUUCCGGGGUUCAAAU.CCCCGCCCCC.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Leu-TAG-1-1  PP *****************************.******************.8****.*****99*************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Lys-CTT-1-1          GGGCCGGUAGCUUAGCCUGGU.UAGAGCG.GCGGACUCUUAAUCCGCAG...........GUCGGGGGUUCAAAU.CCCCCCCGGC.C.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Lys-CTT-1-1  PP *********************.*******.*******************...........***************.**********.9.75447...
+Pyrococcus_furiosus_DSM_3638_tRNA-Lys-TTT-1-1          GGGCCGGUAGCUCAGCCUGGU.UAGAGCA.CCGGGCUUUUAACCCGGUG...........GUCGCGGGUUCAAAU.CCCGCCCGGC.C.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Lys-TTT-1-1  PP *********************.*******.*******************...........***************.**********.9.75447...
+Pyrococcus_furiosus_DSM_3638_tRNA-Met-CAT-1-1          GCCGGGGUAGCUUAGCCUGGU.CAAAGCG.CCCGGCUCAUAACCGGGAG...........AUCCGGGGUUCGAAG.CCCCGCCCCG.G.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Met-CAT-1-1  PP *********************.*******.*******************...........***************.**********.*.9...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Phe-GAA-1-1          GGGGCGGUAGCUCAGCCUGGG.-AGAGCA.CCGGACUGAAGAUCCGGGU...........GUCGGGGGUUCAAAU.CCCCCCCGCC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Phe-GAA-1-1  PP *********************..******.*******************...........***************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Pro-CGG-1-1          GGGGCCGUAGGGUAGCUUGGCcCAUCCUG.CGGGCUUCGGGAGCCCGCG...........A-CCCGGGUUCAAAU.CCCGGCGGCC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Pro-CGG-1-1  PP *****************************.******************9...........9.*************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Pro-GGG-1-1          GGGGCCGUGGGGUAGCUUGGC.UAUCCUC.CCGGCCUGGGGCGCCGGAG...........A-CCCGGGUUCAAAU.CCCGGCGGCC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Pro-GGG-1-1  PP *********************.*******.******************9...........9.*************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Pro-TGG-1-1          GGGGCCGUAGGGUAGCUUGGCcCAUCCUG.CGGGCUUUGGGAGCCCGUG...........A-CCCGGGUUCAAAU.CCCGGCGGCC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Pro-TGG-1-1  PP *****************************.******************9...........9.*************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Ser-CGA-1-1          GCCGGGGUAGCCUAGUCAGGG.-AAGGCG.CGGGACUCGAGAUCCCGUGggcguucgcccG-CCGGGGUUCAAAU.CCCCGCCCCG.G.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ser-CGA-1-1  PP *********************..******.******************6**********65.*************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Ser-GCT-1-1          GCCGCGGUAGCCUAGCCUGGU.-AGGGCG.CCGGCCUGCUAAGCCGGUGggcguggucccG-CCGGGGUUCAAAU.CCCCGCCGCG.G.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ser-GCT-1-1  PP *********************..******.******************6**********65.*************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Ser-GGA-1-1          GCCGGGGUAGCCUAGCCAGGG.-AAGGCG.CGGGCCUGGAGAGCCCGUGggcguucgccc-ACCGGGGUUCAAAU.CCCCGCCCCG.G.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ser-GGA-1-1  PP *********************..******.******************6**********5.5*************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Ser-TGA-1-1          GCCGGGAUAGCCUAGCCUGGU.-AGGGCG.CGGGCCUUGAGAGCCCGUGggcguuugcccG-CCGGGGUUCAAAU.CCCCGUCCCG.G.CgccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Ser-TGA-1-1  PP *********************..******.******************6**********65.*************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Thr-CGT-1-1          GCCGGGAUAGCCUAGCCUGGU.-GGGGCG.GGGGACUCGUAAUCCCCAG...........GUCCCGGGUUCAAAU.CCCGGUCCCG.G.CuccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Thr-CGT-1-1  PP *********************..9*****.*******************...........***************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Thr-GGT-1-1          GCCCCGGUGGCUCAGCCUGGU.-AGAGCG.GCCGCUUGGUAAGCGGCAG...........GUCCCGGGUUCAAAG.CCCGGCCGGG.G.CuccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Thr-GGT-1-1  PP *********************..******.*******************...........***************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Thr-TGT-1-1          GCCCGGGUAGCCUAGCCUGGU.-GGGGCG.GGGGACUUGUAAUCCCCAG...........GUCGCGGGUUCAAAU.CCCGCCCCGG.G.CuccA...
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Thr-TGT-1-1  PP *********************..9*****.*******************...........***************.**********.*.85556...
+Pyrococcus_furiosus_DSM_3638_tRNA-Trp-CCA-1-1          GGGGGCGUGGUGUAGCCUGGUcCAUCAUC.GCGGGCUCCAGACCCGCGG...........A-CCGGGGUUCAAAU.CCCCGCGCCC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Trp-CCA-1-1  PP *****************************.******************9...........9.*************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Tyr-GTA-1-1          CCCGCGGUAGCCUAGCCUGGU.AGUGGCG.GCGGACUGUAGAUCCGCAG...........GUCCCCGGUUCAAAU.CCGGGCCGCG.G.G...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Tyr-GTA-1-1  PP *********************.9******.*******************...........***************.**********.*.*...5555
+Pyrococcus_furiosus_DSM_3638_tRNA-Val-CAC-1-1          GGGCCCGUGGUCUAGACUGGU.UAUGACG.CCGCCCUCACAAGGCGGAG...........GUCCGGGGUUCAAAU.CCCCGCGGGC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Val-CAC-1-1  PP *********************.*******.*******************...........***************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Val-GAC-1-1          GGGCCCGUGGUCUAGACUGGU.UAUGACG.CCACCCUGACAAGGUGGAG...........GUCCGGGGUUCAAAU.CCCCGCGGGC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Val-GAC-1-1  PP *********************.*******.*******************...........***************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-Val-TAC-1-1          GGGCCCGUGGUCUAGCU-GGU.UAUGACG.CCGCCCUUACGAGGCGGAG...........GUCCGGGGUUCGAAU.CCCCGCGGGC.C.C...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-Val-TAC-1-1  PP ****************8.***.*******.*******************...........***************.**********.9.8...4444
+Pyrococcus_furiosus_DSM_3638_tRNA-iMet-CAT-1-1         AGCGGGGUGGGGCAGCUAGGA.GUGCCCG.CCGGGCUCAUAACCCGGAG...........GUCCGAGGUUCAAAU.CCUCGGCCCG.C.U...Acca
+#=GR Pyrococcus_furiosus_DSM_3638_tRNA-iMet-CAT-1-1 PP *********************.99*****.*******************...........***************.**********.*.*...5555
+#=GC SS_cons                                           (((((((,,<<<<________.__>>>>,.<<<<<_______>>>>>,,...........,,,<<<<<_______.>>>>>))))).).)...:...
+#=GC RF                                                GcggcgGUaGcccAGcCuGGu.uAgggCG.ccgGgCUuauaAcCcgguG...........auCccGGGUUCAAAU.CCCggCcgcc.g.C...a...
+//
