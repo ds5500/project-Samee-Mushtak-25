@@ -30,11 +30,15 @@ if [[ $1 == "B" || $1 == "F" ]]; then
         # Assuming each tRNA sequence takes up at most 2 rows or 2*60=120 base pairs
         # This is not always the case, but these longer sequences should almost certainly be low quality
         # and would be caught in manual review after the first pass
-        awk "/tRNA-$aa/ {n=3} n-- > 0 {if (n==1) {printf} else {print \$1}}" $fastas_dir/*.fa > $aa.fa
+        # awk "/tRNA-$aa/ {n=3} n-- > 0 {if (n==1) {printf} else {print \$1}}" $fastas_dir/*.fa > $aa.fa
+        awk "/tRNA-$aa/,/^[AUCG]{1,59}\$/ {if (\$1 ~ /^[AUCG]{60}\$/) {printf} else {print \$1}}" $fastas_dir/*.fa > $aa.fa
         # BUILD COVARIANCE MODEL FROM STO ALIGNMENT FILE FROM GtRNAdb
-        cmbuild $cms_dir/arch-$aa.cm $alns_dir/arch-$aa.sto
+        cmbuild -F $cms_dir/arch-$aa.cm $alns_dir/arch-$aa.sto
         # ALIGN
         cmalign $cms_dir/arch-$aa.cm $aa.fa | awk "/^[A-Z]/ {print \$1; print \$2}; /^#=GR/ {print \$4} /^#=GC/ {print \$3}" > $aa-aligned.txt
+        # EXTRACT T SLS (hard-coded numbers, need to manually verify each run)
+        # awk '/[a-zA-Z]/ {if ($0 ~ /tRNA/) {print} else {print substr($0, 47, 16)}}' Leu-aligned.txt > Leu-extract.txt
+        # awk '/[a-zA-Z]/ {if ($0 ~ /tRNA/) {print} else {print substr($0, 47, 19)}}' Ser-aligned.txt > Ser-extract.txt
     done
 fi
 

@@ -8,8 +8,8 @@ ALPH     RNA
 RF       no
 CONS     yes
 MAP      yes
-DATE     Sun Nov 17 12:11:04 2024
-COM      [1] cmbuild cms/arch-Ser.cm gtrnadb_alns/arch-Ser.sto
+DATE     Sun Nov 17 18:14:57 2024
+COM      [1] cmbuild -F cms/arch-Ser.cm gtrnadb_alns/arch-Ser.sto
 PBEGIN   0.05
 PEND     0.05
 WBETA    1e-07
@@ -380,8 +380,8 @@ MM    no
 CONS  yes
 CS    yes
 MAP   yes
-DATE  Sun Nov 17 12:11:04 2024
-COM   [1] cmbuild cms/arch-Ser.cm gtrnadb_alns/arch-Ser.sto
+DATE  Sun Nov 17 18:14:57 2024
+COM   [1] cmbuild -F cms/arch-Ser.cm gtrnadb_alns/arch-Ser.sto
 NSEQ  730
 EFFN  6.079063
 CKSUM 4215081044
