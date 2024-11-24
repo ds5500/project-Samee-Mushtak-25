@@ -26,12 +26,12 @@ def calc_secondary_structure_params(seq):
     # The parameters are ordered so that if a candidate is found
     # the first solution that is found will be most probable (for Leucine)
     # Noticed that Thermofilum_carboxyditrophus_1505_tRNA-Leu-CAA-1-1 has UG in recognition site instead of AG
-    for recog_seq in ['AG', 'UG']:
+    for recog_seq in ['UC', 'GG', 'UU']:
         # Earliest stem start is most likely
         for stem_start_idx in [1, 2, 3]:
             # If a stem_length of 4 is viable, then it is probably correct
             for stem_length in [4, 3, 2]:
-                for n_unpaired_bases in [2, 1, 0, 3]:
+                for n_unpaired_bases in [1, 2, 0, 3]:
                         if viable(seq, stem_start_idx, stem_length, n_unpaired_bases, recog_seq):
                             return stem_start_idx, stem_length, n_unpaired_bases, recog_seq
     return -1, -1, -1, None
@@ -49,8 +49,8 @@ def secondary_structure_from_params(seq, stem_start_idx, stem_length, n_unpaired
         secondary_structure[len(seq)-2-i] = '*'
     return ''.join(secondary_structure)
 
-extract_file = 'Leu-extract.txt'
-output_file = 'Leu-Vloop-stats.csv'
+extract_file = 'Ser-extract.txt'
+output_file = 'Ser-Vloop-stats.csv'
 
 trnas = []
 with open(extract_file) as f:
@@ -58,12 +58,13 @@ with open(extract_file) as f:
         args = l.strip().split(',')
         trna = {}
         label = args[0]
+        print(label)
         trna['label'] = label
         # Species name appears before 'tRNA' in label
         trna['species'] = label[:label.index('_tRNA')].replace('_', ' ')
-        # Anticodon appears after 'Leu' in label
+        # Anticodon appears after 'Ser' in label
         # Converting T to U for RNA
-        trna['anticodon'] = label[label.index('Leu-') + 4:label.index('Leu-') + 7].replace('T','U')
+        trna['anticodon'] = label[label.index('Ser-') + 4:label.index('Ser-') + 7].replace('T','U')
 
         seq = re.sub('[^a-zA-Z]', '', args[1]).upper()
         trna['seq'] = seq

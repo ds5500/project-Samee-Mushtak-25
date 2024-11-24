@@ -8,7 +8,7 @@ ALPH     RNA
 RF       no
 CONS     yes
 MAP      yes
-DATE     Sun Nov 17 18:14:57 2024
+DATE     Sun Nov 24 10:56:30 2024
 COM      [1] cmbuild -F cms/arch-Leu.cm gtrnadb_alns/arch-Leu.sto
 PBEGIN   0.05
 PEND     0.05
@@ -384,7 +384,7 @@ MM    no
 CONS  yes
 CS    yes
 MAP   yes
-DATE  Sun Nov 17 18:14:57 2024
+DATE  Sun Nov 24 10:56:30 2024
 COM   [1] cmbuild -F cms/arch-Leu.cm gtrnadb_alns/arch-Leu.sto
 NSEQ  891
 EFFN  4.924999

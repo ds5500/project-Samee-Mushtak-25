@@ -1,7 +1,9 @@
 #!/bin/bash
 
-fasta_urls=fasta_urls.txt
-fastas_dir=source_fastas
+# fasta_urls=fasta_urls.txt
+# fastas_dir=source_fastas
+fasta_urls=fasta_urls_all_archaea.txt
+fastas_dir=source_fastas_all_archaea
 alns_dir=gtrnadb_alns
 cms_dir=cms
 
@@ -31,7 +33,9 @@ if [[ $1 == "B" || $1 == "F" ]]; then
         # This is not always the case, but these longer sequences should almost certainly be low quality
         # and would be caught in manual review after the first pass
         # awk "/tRNA-$aa/ {n=3} n-- > 0 {if (n==1) {printf} else {print \$1}}" $fastas_dir/*.fa > $aa.fa
-        awk "/tRNA-$aa/,/^[AUCG]{1,59}\$/ {if (\$1 ~ /^[AUCG]{60}\$/) {printf} else {print \$1}}" $fastas_dir/*.fa > $aa.fa
+        # awk "/tRNA-$aa/,/^[AUCG]{1,59}\$/ {if (\$1 ~ /^[AUCG]{60}\$/) {printf} else {print \$1}}" $fastas_dir/*.fa > $aa.fa
+        # Selects only the tRNAs of the desired isotype (Leu or Ser) and score of 55.0 or greater
+        awk "/tRNA-$aa/ && !/Sc: ([0-4]?[0-9]\.[0-9]|5[0-4]\.[0-9])/ {n=3} n-- > 0 {if (n==1) {printf} else {print \$1}}" $fastas_dir/*.fa > $aa.fa
         # BUILD COVARIANCE MODEL FROM STO ALIGNMENT FILE FROM GtRNAdb
         cmbuild -F $cms_dir/arch-$aa.cm $alns_dir/arch-$aa.sto
         # ALIGN
@@ -39,6 +43,9 @@ if [[ $1 == "B" || $1 == "F" ]]; then
         # EXTRACT T SLS (hard-coded numbers, need to manually verify each run)
         # awk '/[a-zA-Z]/ {if ($0 ~ /tRNA/) {print} else {print substr($0, 47, 16)}}' Leu-aligned.txt > Leu-extract.txt
         # awk '/[a-zA-Z]/ {if ($0 ~ /tRNA/) {print} else {print substr($0, 47, 19)}}' Ser-aligned.txt > Ser-extract.txt
+        # awk '/[a-zA-Z]/ {if ($0 ~ /tRNA/) {print} else {print substr($0, 48, 18)}}' Leu-aligned.txt > Leu-extract.txt
+        # After this, I remove the last line from $aa-extract.txt (which is the consensus sequence)
+        # And use vim macro to merge every two lines into a single comma-separated line of seq label,aligned seq
     done
 fi
 
