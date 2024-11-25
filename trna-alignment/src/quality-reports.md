@@ -4,9 +4,10 @@ title: Quality Reports
 
 # Quality Reports
 
-Alignment quality reports for _Pyrococcus furiosus_.
 
 ## Sum-of-Pairs Scoring
+
+### _Pyrococcus furiosus_
 
 ```js
 const sop_score_data = [
@@ -125,10 +126,86 @@ function plot_sop_costs(data, width={}) {
     </div>
 </div>
 
+## MetAl Scoring
+
+Scores calculated using Benjamin Blackburne's MetAl command line utility compiled from [source](https://github.com/benb/MetAl). See original paper: [https://doi.org/10.1093/bioinformatics/btr701](https://doi.org/10.1093/bioinformatics/btr701)
+
+
+```js
+const dists = [
+    {"dist" : "d_ssp", "dist_literal" : "Symmetrized Sum of Pairs Distance"},
+    {"dist" : "d_pos", "dist_literal" : "Positional Encoding Distance"},
+    {"dist" : "d_simple", "dist_literal" : "Homology Distance"}
+];
+```
+
+```js
+const region_selection = view(
+    Inputs.select(
+        ["Full Sequence", "D Loop", "Ac Loop", "V Loop", "T Loop"], {
+            label: "Region"
+        }
+    )
+);
+```
+
+```js
+const dist_selection = view(
+    Inputs.select(
+        dists, {
+            value: dists.find( (t) => t.dist === "d_ssp" ),
+            format: (t) => t.dist_literal,
+            label: "Species"
+        }
+    )
+);
+```
+
+```js
+function plot_dists(data, width={}) {
+    return Plot.plot({
+        padding: 0,
+        grid: true,
+        aspectRatio: 1,
+        marginLeft: 100,
+        x: {
+            domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
+            axis: "top",
+            label: "Algorithm 1"
+        },
+        y: {
+            domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
+            label: "Algorithm 2"
+        },
+        color: {type: "linear", scheme: "GnBu"},
+        marks: [
+            Plot.cell(data, {
+                x : "col_label",
+                y : "row_label",
+                fill : dist_selection.dist + "_inv",
+                inset: 0.5
+            }),
+            Plot.text(data, {
+                x : "col_label",
+                y : "row_label",
+                text : dist_selection.dist,
+                fill: "black"
+            })
+        ]
+    })
+}
+```
+
+<div class="grid grid-cols-1">
+    <div class="card">
+        ${resize((width) => plot_dists(v_loop_metal_scores_data, {width}))}
+    </div>
+</div>
+
 ## Multiple Overlap Scoring
 
 ```js
-const mos_score_data = [
+const pyr_fur_mos_score_data = [
     {
         "algo": "Manual",
         "score": 0.901200508293205,
@@ -149,7 +226,41 @@ const mos_score_data = [
         "score": 0.9107400122771632,
         "order": 3
     }
-]
+];
+const halo_volc_mos_score_data = [
+    {
+        "algo": "Clustal Omega",
+        "score": 0.8289635838530937,
+        "order": 1
+    },
+    {
+        "algo": "MAFFT L-INS-i",
+        "score": 0.8895253607184923,
+        "order": 2
+    },
+    {
+        "algo": "MAFFT L-INS-i w/ Kimura",
+        "score": 0.8885055777149332,
+        "order": 3
+    }
+];
+const chlo_chlo_mos_score_data = [
+    {
+        "algo": "Clustal Omega",
+        "score": 0.9372615619385168,
+        "order": 1
+    },
+    {
+        "algo": "MAFFT L-INS-i",
+        "score": 0.957567688062561,
+        "order": 2
+    },
+    {
+        "algo": "MAFFT L-INS-i w/ Kimura",
+        "score": 0.9570462449308672,
+        "order": 3
+    }
+];
 ```
 
 ```js
@@ -177,8 +288,29 @@ function plot_mos_scores(data, width={}) {
 }
 ```
 
+### _Pyrococcus furiosus_
 <div class="grid grid-cols-1">
     <div class="card">
-        ${resize((width) => plot_mos_scores(mos_score_data, {width}))}
+        ${resize((width) => plot_mos_scores(pyr_fur_mos_score_data, {width}))}
     </div>
 </div>
+
+### _Haloferax volcanii_
+<div class="grid grid-cols-1">
+    <div class="card">
+        ${resize((width) => plot_mos_scores(halo_volc_mos_score_data, {width}))}
+    </div>
+</div>
+
+### _Chlorobium chlorochromatii_
+<div class="grid grid-cols-1">
+    <div class="card">
+        ${resize((width) => plot_mos_scores(chlo_chlo_mos_score_data, {width}))}
+    </div>
+</div>
+
+```js
+const full_seq_metal_scores_data = FileAttachment("data/quality-reports/full_seq_metal_scores.json").json()
+const ac_loop_metal_scores_data = FileAttachment("data/quality-reports/ac_loop_metal_scores.json").json()
+const v_loop_metal_scores_data = FileAttachment("data/quality-reports/v_loop_metal_scores.json").json()
+```
