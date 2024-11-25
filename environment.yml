@@ -14,3 +14,4 @@ dependencies:
   - conda-forge::bs4
   - conda-forge::requests
   - infernal
+  - bioconda::weblogo
