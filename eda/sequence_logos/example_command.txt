@@ -1,1 +1,1 @@
-weblogo -U probability -F png --size large --resolution 600 < fastas/arch_leu-L13_SL2_UP2_N25.fa > logos/arch_leu-L13_SL2_UP2_N25.png
+weblogo -U probability -c classic -F png --size large --resolution 600 < fastas/arch_leu-L13_SL2_UP2_N25.fa > logos/arch_leu-L13_SL2_UP2_N25.png
