@@ -97,6 +97,26 @@ make clean_bulk
 
 _Flowchart made with Miro_
 
+## V Loop Analysis
+
+To run V loop analysis script:
+
+```
+make trna_leu_analysis
+```
+
+To clean the output from the bulk process script:
+
+```
+make clean_leu
+```
+
+### Flowchart
+
+![Flowchart of extract_type_ii.sh logic](figs/DS5500-v_loop_analysis-flow.jpg)
+
+_Flowchart made with Miro_
+
 ## Comments on Reproducibility
 
 * Because Bioconda recommends setting conda's channel priority to strict, creating the required conda environment directly from the environment.yml file cannot be done reliably.
