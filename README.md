@@ -160,15 +160,22 @@ _Flowchart made with Miro_
 * FastTree
     * Price, M.N., Dehal, P.S., and Arkin, A.P. (2009) FastTree: Computing Large Minimum-Evolution Trees with Profiles instead of a Distance Matrix. Molecular Biology and Evolution 26:1641-1650, doi:10.1093/molbev/msp077.
     * Price, M.N., Dehal, P.S., and Arkin, A.P. (2010) FastTree 2 -- Approximately Maximum-Likelihood Trees for Large Alignments. PLoS ONE, 5(3):e9490. doi:10.1371/journal.pone.0009490.
+* Infernal
+    *  E. P. Nawrocki and S. R. Eddy, [Infernal 1.1: 100-fold faster RNA homology searches](https://academic.oup.com/bioinformatics/article/29/22/2933/316439?login=false), Bioinformatics 29:2933-2935 (2013).
 * MAFFT
     * Katoh, Rozewicki, Yamada 2019 ([Briefings in Bioinformatics 20:1160-1166](https://academic.oup.com/bib/article/20/4/1160/4106928)) MAFFT online service: multiple sequence alignment, interactive sequence choice and visualization
     * Kuraku, Zmasek, Nishimura, Katoh 2013 ([Nucleic Acids Research 41:W22-W28](https://academic.oup.com/nar/article/41/W1/W22/1099639)) aLeaves facilitates on-demand exploration of metazoan gene family trees on MAFFT sequence alignment server with enhanced interactivity
+* MetAl
+    * Benjamin P. Blackburne, Simon Whelan, Measuring the distance between multiple sequence alignments, Bioinformatics, Volume 28, Issue 4, February 2012, Pages 495–502, https://doi.org/10.1093/bioinformatics/btr701
 * MUSCLE
     * [Edgar, Robert C. (2004), MUSCLE: multiple sequence alignment with high accuracy and high throughput, Nucleic Acids Research 32(5), 1792-97.](http://nar.oupjournals.org/cgi/content/full/32/5/1792?ijkey=48Nmt1tta0fMg&keytype=ref)
 * T-Coffee
     * [T-Coffee: A novel method for multiple sequence alignments](https://pubmed.ncbi.nlm.nih.gov/10964570/) _Notredame, Higgins, Heringa, JMB, 302 (205-217) 2000_ 
 * Tectonic
     * [The Tectonic Project](https://tectonic-typesetting.github.io/en-US/index.html).
+* WebLogo
+    * Crooks GE, Hon G, Chandonia JM, Brenner SE WebLogo: A sequence logo generator, Genome Research, 14:1188-1190, (2004) https://weblogo.berkeley.edu/Crooks-2004-GR-WebLogo.pdf
+    * Schneider TD, Stephens RM. 1990. [Sequence Logos: A New Way to Display Consensus Sequences.](http://www.lecb.ncifcrf.gov/~toms/paper/logopaper/) Nucleic Acids Res. 18:6097-6100 
  
 ### Other References
 
@@ -176,4 +183,5 @@ _Flowchart made with Miro_
 2. Chan, P.P. & Lowe, T.M. (2009) [GtRNAdb: A database of transfer RNA genes detected in genomic sequence.](https://academic.oup.com/nar/article/37/suppl_1/D93/1010599?) Nucl. Acids Res. 37(Database issue):D93-D97.
 3. da Veiga Leprevost F, Grüning BA, Alves Aflitos S, Röst HL, Uszkoreit J, Barsnes H, Vaudel M, Moreno P, Gatto L, Weber J, Bai M, Jimenez RC, Sachsenberg T, Pfeuffer J, Vera Alvarez R, Griss J, Nesvizhskii AI, Perez-Riverol Y. Bioinformatics. 2017 Aug 15;33(16):2580-2582. doi: 10.1093/bioinformatics/btx192. [BioContainers: an open-source and community-driven framework for software standardization.](https://academic.oup.com/bioinformatics/article/33/16/2580/3096437)
 4. Grüning, Björn, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, the Bioconda Team, and Johannes Köster. 2018. Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences. Nature Methods, 2018 doi:10.1038/s41592-018-0046-7.
-5. Lei L, Burton ZF. The 3 31 Nucleotide Minihelix tRNA Evolution Theorem and the Origin of Life. Life. 2023; 13(11):2224. https://doi.org/10.3390/life13112224 
+5. Lei L, Burton ZF. The 3 31 Nucleotide Minihelix tRNA Evolution Theorem and the Origin of Life. Life. 2023; 13(11):2224. https://doi.org/10.3390/life13112224
+6. Lei, L., & Burton, Z. F. (2024). Origin of Type II tRNA Variable Loops, Aminoacyl-tRNA Synthetase Allostery from Distal Determinants, and Diversification of Life. DNA, 4(3), 252-275. https://doi.org/10.3390/dna4030017 
