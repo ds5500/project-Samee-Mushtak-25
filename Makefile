@@ -29,6 +29,11 @@ eda_mafft:
 bulk_process:
 	./src/shell_scripts/process_trnas.sh
 
+metal_reports:
+	python src/metal_scoring.py -r full_seq
+	python src/metal_scoring.py -r ac_loop
+	python src/metal_scoring.py -r v_loop
+
 trna_leu_analysis:
 	python tRNALeu-analysis/scraper.py
 	./tRNALeu-analysis/extract_type_ii.sh F
