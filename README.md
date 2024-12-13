@@ -135,6 +135,22 @@ make clean_leu
 
 _Flowchart made with Miro_
 
+## Homology Network
+
+To calculate the seqeuence homology networks for archaeal tRNALeu:
+
+```
+make homology_network
+```
+
+[tRNALeu-analysis/Leu-Vloop-stats.csv](tRNALeu-analysis/Leu-Vloop-stats.csv) must exist in order to run this command.
+
+In addition to outputting a JSON representation of the network, the following network diagrams are created:
+
+![Base network](figs/networks/base_network.png)
+
+![Adhoc network](figs/networks/adhoc_network.png)
+
 ## Comments on Reproducibility
 
 * Because Bioconda recommends setting conda's channel priority to strict, creating the required conda environment directly from the environment.yml file cannot be done reliably.
