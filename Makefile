@@ -39,6 +39,9 @@ trna_leu_analysis:
 	./tRNALeu-analysis/extract_type_ii.sh F
 	python tRNALeu-analysis/archLeu-v-loop-stats.py
 
+homology_network: tRNALeu-analysis/Leu-Vloop-stats.csv
+	python src/homology_network.py
+
 eda/reference/metaCupr1-mature-tRNAs.fa:
 	mkdir -p eda/reference
 	curl --output eda/reference/metaCupr1-mature-tRNAs.fa https://gtrnadb.ucsc.edu/genomes/archaea/Meta_cupr_Ar_4/metaCupr1-mature-tRNAs.fa

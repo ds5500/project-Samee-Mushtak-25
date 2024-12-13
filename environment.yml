@@ -15,3 +15,6 @@ dependencies:
   - conda-forge::requests
   - infernal
   - bioconda::weblogo
+  - conda-forge::matplotlib
+  - conda-forge::networkx
+  - conda-forge::pandas
