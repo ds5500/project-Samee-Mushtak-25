@@ -4,9 +4,9 @@ title: V-Loop Analysis
 
 # V-Loop Analysis
 
-## Archaea
+The below graph shows the distribution of "anomalous" V loop secondary structures. The predominant secondary structure, -(((****)))**-, occurs in over 1000 sequences, so it is omitted from this graph.
 
-### tRNA-Leu
+## Archaeal tRNA-Leu
 
 <div class="grid grid-cols-1">
     <div class="card">
@@ -14,7 +14,7 @@ title: V-Loop Analysis
     </div>
 </div>
 
-### tRNA-Ser
+## Archaeal tRNA-Ser
 
 ```js
 const arch_leu_secondary_structure_stats = [

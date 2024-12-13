@@ -4,6 +4,8 @@ title: Alignment Viewer
 
 # Alignment Viewer
 
+Code for alignment animations provided by Professor Phil Bogden.
+
 ```js
 const species_selection = view(
     Inputs.select(
@@ -55,148 +57,9 @@ const showSplitters = view(
 );
 ```
 
-```js
-function alignmentPlot(data, showSplitters, width={}) {
-    // Find maximum index in alignment
-    // Because Python code generates bases in a sequential order, we can break early
-    let max_idx = 0;
-    for (let i = 0; i < data.length; ++i) {
-        let d = data[i];
-        if (d.base_idx > max_idx) {
-            max_idx = d.base_idx;
-        }
-        else {
-            break;
-        }
-    }
-    // List of integers from 1 to max_idx to use as tick labels
-    let int_ticks = [];
-    for (let i = 5; i < max_idx - 1; i += 5) {
-        int_ticks.push(i);
-    }
-    int_ticks.push(max_idx);
-
-    let marks = [
-        Plot.cell(data, {
-            x: "base_idx",
-            y: "seq_label",
-            sort: {
-                y: "data",
-                reduce: ([d]) => d.seq_idx
-            },
-            fill: "base_color"
-        }),
-        Plot.text(data, {
-            x: "base_idx",
-            y: "seq_label",
-            sort: {
-                y: "data",
-                reduce: ([d]) => d.seq_idx
-            },
-            text: "base_label",
-            fill: "black",
-            title: (d) => `${d.seq_label}: Base #${d.base_num}=${d.base_label}`
-        })
-    ];
-    if (showSplitters) {
-        marks.push(
-            Plot.ruleX(splits, {
-                stroke: "red"
-            })
-        );
-    }
-
-    return Plot.plot({
-        padding: 0,
-        marginLeft: 100,
-        width: 2000,
-        height: 1500,
-        grid: true,
-        x: {
-            axis: "top",
-            label: "",
-            ticks: int_ticks
-        },
-        y: {label: ""},
-        color: {
-            domain: [0, 1, 2, 3, 4],
-            range: ["#177E89", "#DB3A34", "#FFC857", "#BBDBB4", "#FF00FF"]
-        },
-        marks: marks
-    })
-}
-```
-
-```js
-function unalignedPlot(data, width={}) {
-    // Consensus is not meaningful for unaligned sequences
-    data = data.filter((d) => d.seq_label !== 'Consensus');
-    // Find maximum length of sequence
-    let max_num = 0;
-    for (let i = 0; i < data.length; ++i) {
-        let d = data[i];
-        if (d.base_num > max_num) {
-            max_num = d.base_num;
-        }
-        // Cannot break early anymore because diff sequences have diff lengths
-    }
-    // List of integers from 1 to max_idx to use as tick labels
-    let int_ticks = [];
-    for (let i = 5; i < max_num - 1; i += 5) {
-        int_ticks.push(i);
-    }
-    int_ticks.push(max_num);
-
-    return Plot.plot({
-        padding: 0,
-        marginLeft: 100,
-        width: 2000,
-        height: 1500,
-        grid: true,
-        x: {
-            axis: "top",
-            label: "",
-            ticks: int_ticks
-        },
-        y: {label: ""},
-        color: {
-            domain: [0, 1, 2, 3, 4],
-            range: ["#177E89", "#DB3A34", "#FFC857", "#BBDBB4", "#FF00FF"]
-        },
-        marks: [
-            Plot.cell(data, {
-                x: "base_num",
-                y: "seq_label",
-                sort: {
-                    y: "data",
-                    reduce: ([d]) => d.seq_idx
-                },
-                fill: "base_color"
-            }),
-            Plot.text(data, {
-                x: "base_num",
-                y: "seq_label",
-                sort: {
-                    y: "data",
-                    reduce: ([d]) => d.seq_idx
-                },
-                text: "base_label",
-                fill: "black",
-                title: (d) => `${d.seq_label}: Base #${d.base_num}=${d.base_label}`
-            }),
-        ]
-    })
-}
-```
-
-```js
-const aln_filt = aln.filter((e) => e.seq_label === 'Consensus')
-```
 
 <div class="grid grid-cols-1">
-    <div class="card">
-        ${resize((width) => isAligned ? alignmentPlot(aln, showSplitters, {width}) : unalignedPlot(aln, {width}))}
-    </div>
+    ${combinedPlot}
 </div>
 
 ```js
@@ -206,13 +69,21 @@ const combinedPlot = Plot.plot({
     width: 2000,
     height: 1500,
     grid: true,
-    x: {axis: "top", label: "", ticks: calculate_ticks(aln, 5)},
+    x: {label: "", ticks: calculate_ticks(aln, 5)},
     y: {label: ""},
     color: {
         domain: [0, 1, 2, 3, 4],
         range: ["#177E89", "#DB3A34", "#FFC857", "#BBDBB4", "#FF00FF"]
     },
     marks: [
+        Plot.axisX(calculate_ticks(aln, 5), {
+            anchor: "top",
+            fontSize: 24
+        }),
+        Plot.axisY({
+            anchor: "left",
+            fontSize: 24
+        }),
         Plot.cell(aln, {
             x: "base_idx", 
             y: "seq_label",
@@ -232,6 +103,8 @@ const combinedPlot = Plot.plot({
             },
             text: "base_label",
             fill: "black",
+            monospace: true,
+            fontSize: 24,
             title: (d) => `${d.seq_label}: Base #${d.base_num}=${d.base_label}`,
             render: render_text
         }),
@@ -243,12 +116,6 @@ const combinedPlot = Plot.plot({
     ]
 });
 ```
-
-<div class="grid grid-cols-1">
-    <div class="card">
-        ${combinedPlot}
-    </div>
-</div>
 
 ```js
 function calculate_ticks(data, delta) {

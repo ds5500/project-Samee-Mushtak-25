@@ -1,0 +1,1082 @@
+label,species,anticodon,seq,length,stem_start_idx,stem_length,n_unpaired_bases,recog_seq,secondary_structure
+Aciduliprofundum_boonei_T469_tRNA-Leu-CAA-1-1,Aciduliprofundum boonei T469,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_boonei_T469_tRNA-Leu-CAG-1-1,Aciduliprofundum boonei T469,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_boonei_T469_tRNA-Leu-GAG-1-1,Aciduliprofundum boonei T469,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_boonei_T469_tRNA-Leu-TAA-1-1,Aciduliprofundum boonei T469,UAA,UGGCGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_boonei_T469_tRNA-Leu-TAG-1-1,Aciduliprofundum boonei T469,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Acidianus_hospitalis_W1_tRNA-Leu-CAA-1-1,Acidianus hospitalis W1,CAA,UGGCGAAGGCCAUC,14,1,3,2,AG,-(((****)))**-
+Acidianus_hospitalis_W1_tRNA-Leu-CAG-1-1,Acidianus hospitalis W1,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Acidianus_hospitalis_W1_tRNA-Leu-GAG-1-1,Acidianus hospitalis W1,GAG,UGGCGUAGGCCCUC,14,1,3,2,AG,-(((****)))**-
+Acidianus_hospitalis_W1_tRNA-Leu-TAA-1-1,Acidianus hospitalis W1,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Acidianus_hospitalis_W1_tRNA-Leu-TAG-1-1,Acidianus hospitalis W1,UAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Acidilobus_saccharovorans_345-15_tRNA-Leu-CAA-1-1,Acidilobus saccharovorans 345-15,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Acidilobus_saccharovorans_345-15_tRNA-Leu-CAG-1-1,Acidilobus saccharovorans 345-15,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Acidilobus_saccharovorans_345-15_tRNA-Leu-GAG-1-1,Acidilobus saccharovorans 345-15,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Acidilobus_saccharovorans_345-15_tRNA-Leu-TAA-1-1,Acidilobus saccharovorans 345-15,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Acidilobus_saccharovorans_345-15_tRNA-Leu-TAG-1-1,Acidilobus saccharovorans 345-15,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_sp_MAR08-339_tRNA-Leu-CAA-1-1,Aciduliprofundum sp MAR08-339,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_sp_MAR08-339_tRNA-Leu-CAG-1-1,Aciduliprofundum sp MAR08-339,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_sp_MAR08-339_tRNA-Leu-GAG-1-1,Aciduliprofundum sp MAR08-339,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_sp_MAR08-339_tRNA-Leu-TAA-1-1,Aciduliprofundum sp MAR08-339,UAA,UGGCGCAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Aciduliprofundum_sp_MAR08-339_tRNA-Leu-TAG-1-1,Aciduliprofundum sp MAR08-339,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_pernix_K1_tRNA-Leu-CAA-1-1,Aeropyrum pernix K1,CAA,UGGCGUAGGCCGGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_pernix_K1_tRNA-Leu-CAG-1-1,Aeropyrum pernix K1,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_pernix_K1_tRNA-Leu-GAG-1-1,Aeropyrum pernix K1,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_pernix_K1_tRNA-Leu-TAA-1-1,Aeropyrum pernix K1,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_pernix_K1_tRNA-Leu-TAG-1-1,Aeropyrum pernix K1,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_camini_SY1_JCM_12091_tRNA-Leu-CAA-1-1,Aeropyrum camini SY1 JCM 12091,CAA,UGGCGUAGGCCGGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_camini_SY1_JCM_12091_tRNA-Leu-CAG-1-1,Aeropyrum camini SY1 JCM 12091,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_camini_SY1_JCM_12091_tRNA-Leu-GAG-1-1,Aeropyrum camini SY1 JCM 12091,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_camini_SY1_JCM_12091_tRNA-Leu-TAA-1-1,Aeropyrum camini SY1 JCM 12091,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Aeropyrum_camini_SY1_JCM_12091_tRNA-Leu-TAG-1-1,Aeropyrum camini SY1 JCM 12091,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_4304_tRNA-Leu-CAA-1-1,Archaeoglobus fulgidus DSM 4304,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_4304_tRNA-Leu-CAG-1-1,Archaeoglobus fulgidus DSM 4304,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_4304_tRNA-Leu-GAG-1-1,Archaeoglobus fulgidus DSM 4304,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_4304_tRNA-Leu-TAA-1-1,Archaeoglobus fulgidus DSM 4304,UAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_4304_tRNA-Leu-TAG-1-1,Archaeoglobus fulgidus DSM 4304,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_8774_tRNA-Leu-CAA-1-1,Archaeoglobus fulgidus DSM 8774,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_8774_tRNA-Leu-CAG-1-1,Archaeoglobus fulgidus DSM 8774,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_8774_tRNA-Leu-GAG-1-1,Archaeoglobus fulgidus DSM 8774,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_8774_tRNA-Leu-TAA-1-1,Archaeoglobus fulgidus DSM 8774,UAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_fulgidus_DSM_8774_tRNA-Leu-TAG-1-1,Archaeoglobus fulgidus DSM 8774,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_profundus_DSM_5631_tRNA-Leu-CAA-1-1,Archaeoglobus profundus DSM 5631,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_profundus_DSM_5631_tRNA-Leu-CAG-1-1,Archaeoglobus profundus DSM 5631,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_profundus_DSM_5631_tRNA-Leu-GAG-1-1,Archaeoglobus profundus DSM 5631,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_profundus_DSM_5631_tRNA-Leu-TAA-1-1,Archaeoglobus profundus DSM 5631,UAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_profundus_DSM_5631_tRNA-Leu-TAG-1-1,Archaeoglobus profundus DSM 5631,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Leu-CAA-1-1,Archaeoglobus sulfaticallidus PM70-1,CAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Leu-CAG-1-1,Archaeoglobus sulfaticallidus PM70-1,CAG,UCCCGGAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Leu-GAG-1-1,Archaeoglobus sulfaticallidus PM70-1,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Leu-TAA-1-1,Archaeoglobus sulfaticallidus PM70-1,UAA,UCCCGCAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Leu-TAG-1-1,Archaeoglobus sulfaticallidus PM70-1,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_veneficus_SNP6_tRNA-Leu-CAA-1-1,Archaeoglobus veneficus SNP6,CAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_veneficus_SNP6_tRNA-Leu-CAG-1-1,Archaeoglobus veneficus SNP6,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_veneficus_SNP6_tRNA-Leu-GAG-1-1,Archaeoglobus veneficus SNP6,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_veneficus_SNP6_tRNA-Leu-TAA-1-1,Archaeoglobus veneficus SNP6,UAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Archaeoglobus_veneficus_SNP6_tRNA-Leu-TAG-1-1,Archaeoglobus veneficus SNP6,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Caldisphaera_lagunensis_DSM_15908_tRNA-Leu-CAA-1-1,Caldisphaera lagunensis DSM 15908,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldisphaera_lagunensis_DSM_15908_tRNA-Leu-CAG-1-1,Caldisphaera lagunensis DSM 15908,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldisphaera_lagunensis_DSM_15908_tRNA-Leu-GAG-1-1,Caldisphaera lagunensis DSM 15908,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldisphaera_lagunensis_DSM_15908_tRNA-Leu-TAA-1-1,Caldisphaera lagunensis DSM 15908,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldisphaera_lagunensis_DSM_15908_tRNA-Leu-TAG-1-1,Caldisphaera lagunensis DSM 15908,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldivirga_maquilingensis_IC-167_tRNA-Leu-CAA-1-1,Caldivirga maquilingensis IC-167,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldivirga_maquilingensis_IC-167_tRNA-Leu-CAG-1-1,Caldivirga maquilingensis IC-167,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldivirga_maquilingensis_IC-167_tRNA-Leu-GAG-1-1,Caldivirga maquilingensis IC-167,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldivirga_maquilingensis_IC-167_tRNA-Leu-TAA-1-1,Caldivirga maquilingensis IC-167,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Caldivirga_maquilingensis_IC-167_tRNA-Leu-TAG-1-1,Caldivirga maquilingensis IC-167,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Caldiarchaeum_subterraneum_tRNA-Leu-CAA-1-1,Candidatus Caldiarchaeum subterraneum,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Caldiarchaeum_subterraneum_tRNA-Leu-CAG-1-1,Candidatus Caldiarchaeum subterraneum,CAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Caldiarchaeum_subterraneum_tRNA-Leu-GAG-1-1,Candidatus Caldiarchaeum subterraneum,GAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Caldiarchaeum_subterraneum_tRNA-Leu-TAA-1-1,Candidatus Caldiarchaeum subterraneum,UAA,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Caldiarchaeum_subterraneum_tRNA-Leu-TAG-1-1,Candidatus Caldiarchaeum subterraneum,UAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Methanomethylophilus_alvus_Mx1201_tRNA-Leu-CAA-1-1,Candidatus Methanomethylophilus alvus Mx1201,CAA,UCCCUAGCGGUUC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanomethylophilus_alvus_Mx1201_tRNA-Leu-GAG-1-1,Candidatus Methanomethylophilus alvus Mx1201,GAG,UCCCUAGCGGUCC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanomethylophilus_alvus_Mx1201_tRNA-Leu-TAA-1-1,Candidatus Methanomethylophilus alvus Mx1201,UAA,UCCCUAGCGGUUC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanomethylophilus_alvus_Mx1201_tRNA-Leu-TAG-1-1,Candidatus Methanomethylophilus alvus Mx1201,UAG,UUCUUAGUGAUUC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Leu-CAA-1-1,Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1,CAA,UCCGUAGAGGUUC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Leu-CAG-1-1,Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1,CAG,UCCUUAGUGGUUC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Leu-GAG-1-1,Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1,GAG,UCCUUAGUGGUCC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Leu-TAA-1-1,Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1,UAA,UCCUUAGCGGUUC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Leu-TAG-1-1,Candidatus Methanomassiliicoccus intestinalis Issoire-Mx1,UAG,UCCUUAGUGGUCC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanoplasma_termitum_MpT1_tRNA-Leu-CAA-1-1,Candidatus Methanoplasma termitum MpT1,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Methanoplasma_termitum_MpT1_tRNA-Leu-CAG-1-1,Candidatus Methanoplasma termitum MpT1,CAG,UCCUUAGUGGUCC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanoplasma_termitum_MpT1_tRNA-Leu-GAG-1-1,Candidatus Methanoplasma termitum MpT1,GAG,UCCUUAGUGGUCC,13,1,2,2,AG,-((*****))**-
+Candidatus_Methanoplasma_termitum_MpT1_tRNA-Leu-TAA-1-1,Candidatus Methanoplasma termitum MpT1,UAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Methanoplasma_termitum_MpT1_tRNA-Leu-TAG-1-1,Candidatus Methanoplasma termitum MpT1,UAG,UUCUUAGUGAUAC,13,1,2,2,AG,-((*****))**-
+Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Leu-CAA-1-1,Candidatus Nitrososphaera evergladensis SR1,CAA,UCCCUCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Leu-CAG-1-1,Candidatus Nitrososphaera evergladensis SR1,CAG,UUCCUUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Leu-GAG-1-1,Candidatus Nitrososphaera evergladensis SR1,GAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Leu-TAA-1-1,Candidatus Nitrososphaera evergladensis SR1,UAA,UCCCUCAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Leu-TAG-1-1,Candidatus Nitrososphaera evergladensis SR1,UAG,UUCCUUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Leu-CAA-1-1,Candidatus Nitrososphaera gargensis Ga92,CAA,UCCCUUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Leu-CAG-1-1,Candidatus Nitrososphaera gargensis Ga92,CAG,UUCCUUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Leu-GAG-1-1,Candidatus Nitrososphaera gargensis Ga92,GAG,UCCCUUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Leu-TAA-1-1,Candidatus Nitrososphaera gargensis Ga92,UAA,UCCCUUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Leu-TAG-1-1,Candidatus Nitrososphaera gargensis Ga92,UAG,UUCCUUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Leu-CAA-1-1,Candidatus Nitrosopumilus koreensis AR1,CAA,UCUUUUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Leu-CAG-1-1,Candidatus Nitrosopumilus koreensis AR1,CAG,UCUUCUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Leu-GAG-1-1,Candidatus Nitrosopumilus koreensis AR1,GAG,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Leu-TAA-1-1,Candidatus Nitrosopumilus koreensis AR1,UAA,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Leu-TAG-1-1,Candidatus Nitrosopumilus koreensis AR1,UAG,UCUCUUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_AR2_tRNA-Leu-CAA-1-1,Candidatus Nitrosopumilus sp AR2,CAA,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_AR2_tRNA-Leu-CAG-1-1,Candidatus Nitrosopumilus sp AR2,CAG,UCUUCUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_AR2_tRNA-Leu-GAG-1-1,Candidatus Nitrosopumilus sp AR2,GAG,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_AR2_tRNA-Leu-TAA-1-1,Candidatus Nitrosopumilus sp AR2,UAA,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_AR2_tRNA-Leu-TAG-1-1,Candidatus Nitrosopumilus sp AR2,UAG,UAUCUUAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_D3C_tRNA-Leu-CAA-1-1,Candidatus Nitrosopumilus sp D3C,CAA,UCUUUUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_D3C_tRNA-Leu-CAG-1-1,Candidatus Nitrosopumilus sp D3C,CAG,UCUUUUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_D3C_tRNA-Leu-GAG-1-1,Candidatus Nitrosopumilus sp D3C,GAG,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_D3C_tRNA-Leu-TAA-1-1,Candidatus Nitrosopumilus sp D3C,UAA,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_D3C_tRNA-Leu-TAG-1-1,Candidatus Nitrosopumilus sp D3C,UAG,UCUCUUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_NF5_tRNA-Leu-CAA-1-1,Candidatus Nitrosopumilus sp NF5,CAA,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_NF5_tRNA-Leu-CAG-1-1,Candidatus Nitrosopumilus sp NF5,CAG,UCUUCUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_NF5_tRNA-Leu-GAG-1-1,Candidatus Nitrosopumilus sp NF5,GAG,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_NF5_tRNA-Leu-TAA-1-1,Candidatus Nitrosopumilus sp NF5,UAA,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Nitrosopumilus_sp_NF5_tRNA-Leu-TAG-1-1,Candidatus Nitrosopumilus sp NF5,UAG,UCUCUUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Cenarchaeum_symbiosum_A_tRNA-Leu-CAA-1-1,Cenarchaeum symbiosum A,CAA,UCCCCCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Cenarchaeum_symbiosum_A_tRNA-Leu-CAG-1-1,Cenarchaeum symbiosum A,CAG,UCUCUCAGGAGUAC,14,1,3,2,AG,-(((****)))**-
+Cenarchaeum_symbiosum_A_tRNA-Leu-GAG-1-1,Cenarchaeum symbiosum A,GAG,UCUCUUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Cenarchaeum_symbiosum_A_tRNA-Leu-TAA-1-1,Cenarchaeum symbiosum A,UAA,UCUCCUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Cenarchaeum_symbiosum_A_tRNA-Leu-TAG-1-1,Cenarchaeum symbiosum A,UAG,UCUUCUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_fermentans_DSM_16532_tRNA-Leu-CAA-1-1,Desulfurococcus fermentans DSM 16532,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_fermentans_DSM_16532_tRNA-Leu-CAG-1-1,Desulfurococcus fermentans DSM 16532,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_fermentans_DSM_16532_tRNA-Leu-GAG-1-1,Desulfurococcus fermentans DSM 16532,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_fermentans_DSM_16532_tRNA-Leu-TAA-1-1,Desulfurococcus fermentans DSM 16532,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_fermentans_DSM_16532_tRNA-Leu-TAG-1-1,Desulfurococcus fermentans DSM 16532,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_kamchatkensis_1221n_tRNA-Leu-CAA-1-1,Desulfurococcus kamchatkensis 1221n,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_kamchatkensis_1221n_tRNA-Leu-CAG-1-1,Desulfurococcus kamchatkensis 1221n,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_kamchatkensis_1221n_tRNA-Leu-GAG-1-1,Desulfurococcus kamchatkensis 1221n,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_kamchatkensis_1221n_tRNA-Leu-TAA-1-1,Desulfurococcus kamchatkensis 1221n,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_kamchatkensis_1221n_tRNA-Leu-TAG-1-1,Desulfurococcus kamchatkensis 1221n,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_mucosus_DSM_2162_tRNA-Leu-CAA-1-1,Desulfurococcus mucosus DSM 2162,CAA,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_mucosus_DSM_2162_tRNA-Leu-CAG-1-1,Desulfurococcus mucosus DSM 2162,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_mucosus_DSM_2162_tRNA-Leu-GAG-1-1,Desulfurococcus mucosus DSM 2162,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_mucosus_DSM_2162_tRNA-Leu-TAA-1-1,Desulfurococcus mucosus DSM 2162,UAA,UGGCACAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Desulfurococcus_mucosus_DSM_2162_tRNA-Leu-TAG-1-1,Desulfurococcus mucosus DSM 2162,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ferroplasma_acidarmanus_fer1_tRNA-Leu-CAA-1-1,Ferroplasma acidarmanus fer1,CAA,UCCCAAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Ferroplasma_acidarmanus_fer1_tRNA-Leu-CAG-1-1,Ferroplasma acidarmanus fer1,CAG,UUCCGCAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Ferroplasma_acidarmanus_fer1_tRNA-Leu-TAA-1-1,Ferroplasma acidarmanus fer1,UAA,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Ferroplasma_acidarmanus_fer1_tRNA-Leu-TAG-1-1,Ferroplasma acidarmanus fer1,UAG,UUCCGUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Ferroglobus_placidus_DSM_10642_tRNA-Leu-CAA-1-1,Ferroglobus placidus DSM 10642,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Ferroglobus_placidus_DSM_10642_tRNA-Leu-CAG-1-1,Ferroglobus placidus DSM 10642,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Ferroglobus_placidus_DSM_10642_tRNA-Leu-GAG-1-1,Ferroglobus placidus DSM 10642,GAG,UCCCGUAGGGGUAC,14,1,3,2,AG,-(((****)))**-
+Ferroglobus_placidus_DSM_10642_tRNA-Leu-GAG-2-1,Ferroglobus placidus DSM 10642,GAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Ferroglobus_placidus_DSM_10642_tRNA-Leu-TAA-1-1,Ferroglobus placidus DSM 10642,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Ferroglobus_placidus_DSM_10642_tRNA-Leu-TAG-1-1,Ferroglobus placidus DSM 10642,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Fervidicoccus_fontis_Kam940_tRNA-Leu-CAA-1-1,Fervidicoccus fontis Kam940,CAA,UGGCGCAGGCCAGC,14,1,3,2,AG,-(((****)))**-
+Fervidicoccus_fontis_Kam940_tRNA-Leu-CAG-1-1,Fervidicoccus fontis Kam940,CAG,UGGAGAAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Fervidicoccus_fontis_Kam940_tRNA-Leu-GAG-1-1,Fervidicoccus fontis Kam940,GAG,UGGAGAAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Fervidicoccus_fontis_Kam940_tRNA-Leu-TAA-1-1,Fervidicoccus fontis Kam940,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Fervidicoccus_fontis_Kam940_tRNA-Leu-TAG-1-1,Fervidicoccus fontis Kam940,UAG,UGGAGAAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Geoglobus_acetivorans_SBH6_tRNA-Leu-CAA-1-1,Geoglobus acetivorans SBH6,CAA,UCCCGGAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Geoglobus_acetivorans_SBH6_tRNA-Leu-CAG-1-1,Geoglobus acetivorans SBH6,CAG,UCCCGGAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Geoglobus_acetivorans_SBH6_tRNA-Leu-GAG-1-1,Geoglobus acetivorans SBH6,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Geoglobus_acetivorans_SBH6_tRNA-Leu-TAA-1-1,Geoglobus acetivorans SBH6,UAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Geoglobus_acetivorans_SBH6_tRNA-Leu-TAG-1-1,Geoglobus acetivorans SBH6,UAG,UGGCGCAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_marismortui_ATCC_43049_tRNA-Leu-CAA-1-1,Haloarcula marismortui ATCC 43049,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_marismortui_ATCC_43049_tRNA-Leu-CAG-1-1,Haloarcula marismortui ATCC 43049,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_marismortui_ATCC_43049_tRNA-Leu-GAG-1-1,Haloarcula marismortui ATCC 43049,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_marismortui_ATCC_43049_tRNA-Leu-TAA-1-1,Haloarcula marismortui ATCC 43049,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_marismortui_ATCC_43049_tRNA-Leu-TAG-1-1,Haloarcula marismortui ATCC 43049,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halalkalicoccus_jeotgali_B3_tRNA-Leu-CAA-1-1,Halalkalicoccus jeotgali B3,CAA,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Halalkalicoccus_jeotgali_B3_tRNA-Leu-CAG-1-1,Halalkalicoccus jeotgali B3,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Halalkalicoccus_jeotgali_B3_tRNA-Leu-GAG-1-1,Halalkalicoccus jeotgali B3,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halalkalicoccus_jeotgali_B3_tRNA-Leu-TAA-1-1,Halalkalicoccus jeotgali B3,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Halalkalicoccus_jeotgali_B3_tRNA-Leu-TAG-1-1,Halalkalicoccus jeotgali B3,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Leu-CAA-1-1,Halogeometricum borinquense DSM 11551 PR 3,CAA,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Leu-CAG-1-1,Halogeometricum borinquense DSM 11551 PR 3,CAG,UCCCAUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Leu-GAG-1-1,Halogeometricum borinquense DSM 11551 PR 3,GAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Leu-TAA-1-1,Halogeometricum borinquense DSM 11551 PR 3,UAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Leu-TAG-1-1,Halogeometricum borinquense DSM 11551 PR 3,UAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_NRC-1_tRNA-Leu-CAA-1-1,Halobacterium sp NRC-1,CAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_NRC-1_tRNA-Leu-CAG-1-1,Halobacterium sp NRC-1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_NRC-1_tRNA-Leu-GAG-1-1,Halobacterium sp NRC-1,GAG,UCCUGUAGAGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_NRC-1_tRNA-Leu-TAA-1-1,Halobacterium sp NRC-1,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_NRC-1_tRNA-Leu-TAG-1-1,Halobacterium sp NRC-1,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Leu-CAA-1-1,Haloarcula hispanica ATCC 33960 CGMCC 12049,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Leu-CAG-1-1,Haloarcula hispanica ATCC 33960 CGMCC 12049,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Leu-GAG-1-1,Haloarcula hispanica ATCC 33960 CGMCC 12049,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Leu-TAA-1-1,Haloarcula hispanica ATCC 33960 CGMCC 12049,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Leu-TAG-1-1,Haloarcula hispanica ATCC 33960 CGMCC 12049,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_N601_tRNA-Leu-CAA-1-1,Haloarcula hispanica N601,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_N601_tRNA-Leu-CAG-1-1,Haloarcula hispanica N601,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_N601_tRNA-Leu-GAG-1-1,Haloarcula hispanica N601,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_N601_tRNA-Leu-TAA-1-1,Haloarcula hispanica N601,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_hispanica_N601_tRNA-Leu-TAG-1-1,Haloarcula hispanica N601,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorubrum_lacusprofundi_ATCC_49239_tRNA-Leu-CAA-1-1,Halorubrum lacusprofundi ATCC 49239,CAA,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorubrum_lacusprofundi_ATCC_49239_tRNA-Leu-CAG-1-1,Halorubrum lacusprofundi ATCC 49239,CAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorubrum_lacusprofundi_ATCC_49239_tRNA-Leu-GAG-1-1,Halorubrum lacusprofundi ATCC 49239,GAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorubrum_lacusprofundi_ATCC_49239_tRNA-Leu-TAA-1-1,Halorubrum lacusprofundi ATCC 49239,UAA,UCCUGUAGAGGUUC,14,1,3,2,AG,-(((****)))**-
+Halorubrum_lacusprofundi_ATCC_49239_tRNA-Leu-TAG-1-1,Halorubrum lacusprofundi ATCC 49239,UAG,UGGUGUAGACCUCC,14,1,3,2,AG,-(((****)))**-
+Halostagnicola_larsenii_XH-48_tRNA-Leu-CAA-1-1,Halostagnicola larsenii XH-48,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Halostagnicola_larsenii_XH-48_tRNA-Leu-CAG-1-1,Halostagnicola larsenii XH-48,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Halostagnicola_larsenii_XH-48_tRNA-Leu-GAG-1-1,Halostagnicola larsenii XH-48,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halostagnicola_larsenii_XH-48_tRNA-Leu-TAA-1-1,Halostagnicola larsenii XH-48,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halostagnicola_larsenii_XH-48_tRNA-Leu-TAG-1-1,Halostagnicola larsenii XH-48,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_tRNA-Leu-CAA-1-1,Haloferax mediterranei ATCC 33500,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_tRNA-Leu-CAG-1-1,Haloferax mediterranei ATCC 33500,CAG,UCUCAUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_tRNA-Leu-TAA-1-1,Haloferax mediterranei ATCC 33500,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_tRNA-Leu-TAG-1-1,Haloferax mediterranei ATCC 33500,UAG,UGGUGUAGACCUUC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Leu-CAA-1-1,Haloferax mediterranei ATCC 33500 CGMCC 12087,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Leu-CAG-1-1,Haloferax mediterranei ATCC 33500 CGMCC 12087,CAG,UCUCAUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Leu-GAG-1-1,Haloferax mediterranei ATCC 33500 CGMCC 12087,GAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Leu-TAA-1-1,Haloferax mediterranei ATCC 33500 CGMCC 12087,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Leu-TAG-1-1,Haloferax mediterranei ATCC 33500 CGMCC 12087,UAG,UGGUGUAGACCUUC,14,1,3,2,AG,-(((****)))**-
+Halomicrobium_mukohataei_DSM_12286_tRNA-Leu-CAA-1-1,Halomicrobium mukohataei DSM 12286,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halomicrobium_mukohataei_DSM_12286_tRNA-Leu-CAG-1-1,Halomicrobium mukohataei DSM 12286,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halomicrobium_mukohataei_DSM_12286_tRNA-Leu-GAG-1-1,Halomicrobium mukohataei DSM 12286,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halomicrobium_mukohataei_DSM_12286_tRNA-Leu-TAA-1-1,Halomicrobium mukohataei DSM 12286,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halomicrobium_mukohataei_DSM_12286_tRNA-Leu-TAG-1-1,Halomicrobium mukohataei DSM 12286,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halovivax_ruber_XH-70_tRNA-Leu-CAA-1-1,Halovivax ruber XH-70,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Halovivax_ruber_XH-70_tRNA-Leu-CAG-1-1,Halovivax ruber XH-70,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Halovivax_ruber_XH-70_tRNA-Leu-GAG-1-1,Halovivax ruber XH-70,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halovivax_ruber_XH-70_tRNA-Leu-TAA-1-1,Halovivax ruber XH-70,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halovivax_ruber_XH-70_tRNA-Leu-TAG-1-1,Halovivax ruber XH-70,UAG,UGGUGUAGACCUCC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_salinarum_R1_DSM_671_tRNA-Leu-CAA-1-1,Halobacterium salinarum R1 DSM 671,CAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_salinarum_R1_DSM_671_tRNA-Leu-CAG-1-1,Halobacterium salinarum R1 DSM 671,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_salinarum_R1_DSM_671_tRNA-Leu-GAG-1-1,Halobacterium salinarum R1 DSM 671,GAG,UCCUGUAGAGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_salinarum_R1_DSM_671_tRNA-Leu-TAA-1-1,Halobacterium salinarum R1 DSM 671,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_salinarum_R1_DSM_671_tRNA-Leu-TAG-1-1,Halobacterium salinarum R1 DSM 671,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_sp_CBA1115_tRNA-Leu-CAA-1-1,Haloarcula sp CBA1115,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_sp_CBA1115_tRNA-Leu-CAG-1-1,Haloarcula sp CBA1115,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_sp_CBA1115_tRNA-Leu-GAG-1-1,Haloarcula sp CBA1115,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_sp_CBA1115_tRNA-Leu-TAA-1-1,Haloarcula sp CBA1115,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloarcula_sp_CBA1115_tRNA-Leu-TAG-1-1,Haloarcula sp CBA1115,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_DL1_tRNA-Leu-CAA-1-1,Halobacterium sp DL1,CAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_DL1_tRNA-Leu-CAG-1-1,Halobacterium sp DL1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_DL1_tRNA-Leu-GAG-1-1,Halobacterium sp DL1,GAG,UCCUGUAGAGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_DL1_tRNA-Leu-TAA-1-1,Halobacterium sp DL1,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Halobacterium_sp_DL1_tRNA-Leu-TAG-1-1,Halobacterium sp DL1,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_tiamatea_SARL4B_tRNA-Leu-CAA-1-1,Halorhabdus tiamatea SARL4B,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_tiamatea_SARL4B_tRNA-Leu-CAG-1-1,Halorhabdus tiamatea SARL4B,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_tiamatea_SARL4B_tRNA-Leu-GAG-1-1,Halorhabdus tiamatea SARL4B,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_tiamatea_SARL4B_tRNA-Leu-TAA-1-1,Halorhabdus tiamatea SARL4B,UAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_tiamatea_SARL4B_tRNA-Leu-TAG-1-1,Halorhabdus tiamatea SARL4B,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloterrigena_turkmenica_DSM_5511_tRNA-Leu-CAA-1-1,Haloterrigena turkmenica DSM 5511,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Haloterrigena_turkmenica_DSM_5511_tRNA-Leu-CAG-1-1,Haloterrigena turkmenica DSM 5511,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Haloterrigena_turkmenica_DSM_5511_tRNA-Leu-GAG-1-1,Haloterrigena turkmenica DSM 5511,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloterrigena_turkmenica_DSM_5511_tRNA-Leu-TAA-1-1,Haloterrigena turkmenica DSM 5511,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloterrigena_turkmenica_DSM_5511_tRNA-Leu-TAG-1-1,Haloterrigena turkmenica DSM 5511,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_utahensis_DSM_12940_tRNA-Leu-CAA-1-1,Halorhabdus utahensis DSM 12940,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_utahensis_DSM_12940_tRNA-Leu-CAG-1-1,Halorhabdus utahensis DSM 12940,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_utahensis_DSM_12940_tRNA-Leu-GAG-1-1,Halorhabdus utahensis DSM 12940,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_utahensis_DSM_12940_tRNA-Leu-TAA-1-1,Halorhabdus utahensis DSM 12940,UAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halorhabdus_utahensis_DSM_12940_tRNA-Leu-TAG-1-1,Halorhabdus utahensis DSM 12940,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_volcanii_DS2_tRNA-Leu-CAA-1-1,Haloferax volcanii DS2,CAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_volcanii_DS2_tRNA-Leu-CAG-1-1,Haloferax volcanii DS2,CAG,UCUCAUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_volcanii_DS2_tRNA-Leu-GAG-1-1,Haloferax volcanii DS2,GAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloferax_volcanii_DS2_tRNA-Leu-TAA-1-1,Haloferax volcanii DS2,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Haloferax_volcanii_DS2_tRNA-Leu-TAG-1-1,Haloferax volcanii DS2,UAG,UGGUGUAGACCUUC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Leu-CAA-1-1,Haloquadratum walsbyi DSM 16790 HBSQ001,CAA,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Leu-CAG-1-1,Haloquadratum walsbyi DSM 16790 HBSQ001,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Leu-GAG-1-1,Haloquadratum walsbyi DSM 16790 HBSQ001,GAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Leu-TAA-1-1,Haloquadratum walsbyi DSM 16790 HBSQ001,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Leu-TAG-1-1,Haloquadratum walsbyi DSM 16790 HBSQ001,UAG,UCCUAUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_C23_tRNA-Leu-CAA-1-1,Haloquadratum walsbyi C23,CAA,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_C23_tRNA-Leu-CAG-1-1,Haloquadratum walsbyi C23,CAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_C23_tRNA-Leu-GAG-1-1,Haloquadratum walsbyi C23,GAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_C23_tRNA-Leu-TAA-1-1,Haloquadratum walsbyi C23,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Haloquadratum_walsbyi_C23_tRNA-Leu-TAG-1-1,Haloquadratum walsbyi C23,UAG,UCCUAUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Halopiger_xanaduensis_SH-6_tRNA-Leu-CAA-1-1,Halopiger xanaduensis SH-6,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Halopiger_xanaduensis_SH-6_tRNA-Leu-CAG-1-1,Halopiger xanaduensis SH-6,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Halopiger_xanaduensis_SH-6_tRNA-Leu-GAG-1-1,Halopiger xanaduensis SH-6,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halopiger_xanaduensis_SH-6_tRNA-Leu-TAA-1-1,Halopiger xanaduensis SH-6,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Halopiger_xanaduensis_SH-6_tRNA-Leu-TAG-1-1,Halopiger xanaduensis SH-6,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Hyperthermus_butylicus_DSM_5456_tRNA-Leu-CAA-1-1,Hyperthermus butylicus DSM 5456,CAA,UGGCGUAGGCCGGC,14,1,3,2,AG,-(((****)))**-
+Hyperthermus_butylicus_DSM_5456_tRNA-Leu-CAG-1-1,Hyperthermus butylicus DSM 5456,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Hyperthermus_butylicus_DSM_5456_tRNA-Leu-GAG-1-1,Hyperthermus butylicus DSM 5456,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Hyperthermus_butylicus_DSM_5456_tRNA-Leu-TAA-1-1,Hyperthermus butylicus DSM 5456,UAA,UGGCGUAGGCCGGC,14,1,3,2,AG,-(((****)))**-
+Hyperthermus_butylicus_DSM_5456_tRNA-Leu-TAG-1-1,Hyperthermus butylicus DSM 5456,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignisphaera_aggregans_DSM_17230_tRNA-Leu-CAA-1-1,Ignisphaera aggregans DSM 17230,CAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignisphaera_aggregans_DSM_17230_tRNA-Leu-CAG-1-1,Ignisphaera aggregans DSM 17230,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignisphaera_aggregans_DSM_17230_tRNA-Leu-GAG-1-1,Ignisphaera aggregans DSM 17230,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignisphaera_aggregans_DSM_17230_tRNA-Leu-TAA-1-1,Ignisphaera aggregans DSM 17230,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignisphaera_aggregans_DSM_17230_tRNA-Leu-TAG-1-1,Ignisphaera aggregans DSM 17230,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignicoccus_hospitalis_KIN4I_tRNA-Leu-CAA-1-1,Ignicoccus hospitalis KIN4I,CAA,UGGCGUAGGCCGGC,14,1,3,2,AG,-(((****)))**-
+Ignicoccus_hospitalis_KIN4I_tRNA-Leu-CAG-1-1,Ignicoccus hospitalis KIN4I,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignicoccus_hospitalis_KIN4I_tRNA-Leu-GAG-1-1,Ignicoccus hospitalis KIN4I,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignicoccus_hospitalis_KIN4I_tRNA-Leu-TAA-1-1,Ignicoccus hospitalis KIN4I,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Ignicoccus_hospitalis_KIN4I_tRNA-Leu-TAG-1-1,Ignicoccus hospitalis KIN4I,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Leu-CAA-1-1,Candidatus Korarchaeum cryptofilum OPF8,CAA,UGGGCGUCAGGCCCUC,16,1,4,1,AG,-((((*****))))*-
+Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Leu-CAG-1-1,Candidatus Korarchaeum cryptofilum OPF8,CAG,UGGGCGUCAGGCCCGC,16,1,4,1,AG,-((((*****))))*-
+Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Leu-GAG-1-1,Candidatus Korarchaeum cryptofilum OPF8,GAG,UGGGCGUCAGGCCCGC,16,1,4,1,AG,-((((*****))))*-
+Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Leu-TAA-1-1,Candidatus Korarchaeum cryptofilum OPF8,UAA,UCCCUUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Leu-TAG-1-1,Candidatus Korarchaeum cryptofilum OPF8,UAG,UGAGCAUCAGGCUCGC,16,1,4,1,AG,-((((*****))))*-
+Methanoculleus_marisnigri_JR1_tRNA-Leu-CAA-1-1,Methanoculleus marisnigri JR1,CAA,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_marisnigri_JR1_tRNA-Leu-CAG-1-1,Methanoculleus marisnigri JR1,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_marisnigri_JR1_tRNA-Leu-GAG-1-1,Methanoculleus marisnigri JR1,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_marisnigri_JR1_tRNA-Leu-GAG-1-2,Methanoculleus marisnigri JR1,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_marisnigri_JR1_tRNA-Leu-TAA-1-1,Methanoculleus marisnigri JR1,UAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_marisnigri_JR1_tRNA-Leu-TAG-1-1,Methanoculleus marisnigri JR1,UAG,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_acetivorans_C2A_tRNA-Leu-CAA-1-1,Methanosarcina acetivorans C2A,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_acetivorans_C2A_tRNA-Leu-CAG-1-1,Methanosarcina acetivorans C2A,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_acetivorans_C2A_tRNA-Leu-GAG-1-1,Methanosarcina acetivorans C2A,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_acetivorans_C2A_tRNA-Leu-GAG-2-1,Methanosarcina acetivorans C2A,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_acetivorans_C2A_tRNA-Leu-TAA-1-1,Methanosarcina acetivorans C2A,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_acetivorans_C2A_tRNA-Leu-TAG-1-1,Methanosarcina acetivorans C2A,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_S2_tRNA-Leu-GAG-1-1,Methanococcus maripaludis S2,GAG,UCUCAUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_S2_tRNA-Leu-TAA-1-1,Methanococcus maripaludis S2,UAA,UCCGGUAGCGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_S2_tRNA-Leu-TAG-1-1,Methanococcus maripaludis S2,UAG,UCCAGUAGUGGUUC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_cuprina_Ar-4_tRNA-Leu-CAA-1-1,Metallosphaera cuprina Ar-4,CAA,UGGCGAAGGCCAUC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_cuprina_Ar-4_tRNA-Leu-CAG-1-1,Metallosphaera cuprina Ar-4,CAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_cuprina_Ar-4_tRNA-Leu-GAG-1-1,Metallosphaera cuprina Ar-4,GAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_cuprina_Ar-4_tRNA-Leu-TAA-1-1,Metallosphaera cuprina Ar-4,UAA,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_cuprina_Ar-4_tRNA-Leu-TAG-1-1,Metallosphaera cuprina Ar-4,UAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_DSM_5348_tRNA-Leu-CAA-1-1,Metallosphaera sedula DSM 5348,CAA,UGGCGCAGGCCAUC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_DSM_5348_tRNA-Leu-CAG-1-1,Metallosphaera sedula DSM 5348,CAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_DSM_5348_tRNA-Leu-GAG-1-1,Metallosphaera sedula DSM 5348,GAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_DSM_5348_tRNA-Leu-TAA-1-1,Metallosphaera sedula DSM 5348,UAA,UGGAGCAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_DSM_5348_tRNA-Leu-TAG-1-1,Metallosphaera sedula DSM 5348,UAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_CuR1_tRNA-Leu-CAA-1-1,Metallosphaera sedula CuR1,CAA,UGGCGCAGGCCAUC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_CuR1_tRNA-Leu-CAG-1-1,Metallosphaera sedula CuR1,CAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_CuR1_tRNA-Leu-GAG-1-1,Metallosphaera sedula CuR1,GAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_CuR1_tRNA-Leu-TAA-1-1,Metallosphaera sedula CuR1,UAA,UGGAGCAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Metallosphaera_sedula_CuR1_tRNA-Leu-TAG-1-1,Metallosphaera sedula CuR1,UAG,UGGAGUAGUCCUGC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_aeolicus_Nankai-3_tRNA-Leu-GAG-1-1,Methanococcus aeolicus Nankai-3,GAG,UCUCAUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_aeolicus_Nankai-3_tRNA-Leu-TAA-1-1,Methanococcus aeolicus Nankai-3,UAA,UCUCAUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_aeolicus_Nankai-3_tRNA-Leu-TAG-1-1,Methanococcus aeolicus Nankai-3,UAG,UCCUAUAGUGGUUC,14,1,2,2,AG,-((******))**-
+Methanocella_arvoryzae_MRE50_tRNA-Leu-CAA-1-1,Methanocella arvoryzae MRE50,CAA,UCCUGCAGAGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_arvoryzae_MRE50_tRNA-Leu-CAG-1-1,Methanocella arvoryzae MRE50,CAG,UCUCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_arvoryzae_MRE50_tRNA-Leu-GAG-1-1,Methanocella arvoryzae MRE50,GAG,UUCCGAAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_arvoryzae_MRE50_tRNA-Leu-TAA-1-1,Methanocella arvoryzae MRE50,UAA,UCGCGAAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_arvoryzae_MRE50_tRNA-Leu-TAG-1-1,Methanocella arvoryzae MRE50,UAG,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Fusaro_tRNA-Leu-CAA-1-1,Methanosarcina barkeri str Fusaro,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Fusaro_tRNA-Leu-CAG-1-1,Methanosarcina barkeri str Fusaro,CAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Fusaro_tRNA-Leu-GAG-1-1,Methanosarcina barkeri str Fusaro,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Fusaro_tRNA-Leu-GAG-1-2,Methanosarcina barkeri str Fusaro,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Fusaro_tRNA-Leu-TAA-1-1,Methanosarcina barkeri str Fusaro,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Fusaro_tRNA-Leu-TAA-2-1,Methanosarcina barkeri str Fusaro,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Fusaro_tRNA-Leu-TAA-3-1,Methanosarcina barkeri str Fusaro,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Fusaro_tRNA-Leu-TAG-1-1,Methanosarcina barkeri str Fusaro,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_227_tRNA-Leu-CAA-1-1,Methanosarcina barkeri 227,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_227_tRNA-Leu-CAG-1-1,Methanosarcina barkeri 227,CAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_227_tRNA-Leu-GAG-1-1,Methanosarcina barkeri 227,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_227_tRNA-Leu-GAG-1-2,Methanosarcina barkeri 227,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_227_tRNA-Leu-TAA-1-1,Methanosarcina barkeri 227,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_227_tRNA-Leu-TAA-2-1,Methanosarcina barkeri 227,UAA,UUACGAAGGUAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_227_tRNA-Leu-TAG-1-1,Methanosarcina barkeri 227,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_3_tRNA-Leu-CAA-1-1,Methanosarcina barkeri 3,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_3_tRNA-Leu-CAG-1-1,Methanosarcina barkeri 3,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_3_tRNA-Leu-GAG-1-1,Methanosarcina barkeri 3,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_3_tRNA-Leu-GAG-1-2,Methanosarcina barkeri 3,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_3_tRNA-Leu-TAA-1-1,Methanosarcina barkeri 3,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_3_tRNA-Leu-TAG-1-1,Methanosarcina barkeri 3,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_MS_tRNA-Leu-CAA-1-1,Methanosarcina barkeri MS,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_MS_tRNA-Leu-CAG-1-1,Methanosarcina barkeri MS,CAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_MS_tRNA-Leu-GAG-1-1,Methanosarcina barkeri MS,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_MS_tRNA-Leu-GAG-1-2,Methanosarcina barkeri MS,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_MS_tRNA-Leu-TAA-1-1,Methanosarcina barkeri MS,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_MS_tRNA-Leu-TAA-2-1,Methanosarcina barkeri MS,UAA,UUACGAAGGUAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_MS_tRNA-Leu-TAG-1-1,Methanosarcina barkeri MS,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Wiesmoor_tRNA-Leu-CAA-1-1,Methanosarcina barkeri str Wiesmoor,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Wiesmoor_tRNA-Leu-CAG-1-1,Methanosarcina barkeri str Wiesmoor,CAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Wiesmoor_tRNA-Leu-GAG-1-1,Methanosarcina barkeri str Wiesmoor,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Wiesmoor_tRNA-Leu-GAG-1-2,Methanosarcina barkeri str Wiesmoor,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Wiesmoor_tRNA-Leu-TAA-1-1,Methanosarcina barkeri str Wiesmoor,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Wiesmoor_tRNA-Leu-TAA-2-1,Methanosarcina barkeri str Wiesmoor,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Wiesmoor_tRNA-Leu-TAA-3-1,Methanosarcina barkeri str Wiesmoor,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_barkeri_str_Wiesmoor_tRNA-Leu-TAG-1-1,Methanosarcina barkeri str Wiesmoor,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanoregula_boonei_6A8_tRNA-Leu-CAG-1-1,Methanoregula boonei 6A8,CAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoregula_boonei_6A8_tRNA-Leu-GAG-1-1,Methanoregula boonei 6A8,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoregula_boonei_6A8_tRNA-Leu-TAA-1-1,Methanoregula boonei 6A8,UAA,UUCCGCAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Methanoregula_boonei_6A8_tRNA-Leu-TAG-1-1,Methanoregula boonei 6A8,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_bourgensis_MS2_MS2T_tRNA-Leu-CAA-1-1,Methanoculleus bourgensis MS2 MS2T,CAA,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_bourgensis_MS2_MS2T_tRNA-Leu-CAG-1-1,Methanoculleus bourgensis MS2 MS2T,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_bourgensis_MS2_MS2T_tRNA-Leu-GAG-1-1,Methanoculleus bourgensis MS2 MS2T,GAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_bourgensis_MS2_MS2T_tRNA-Leu-GAG-1-2,Methanoculleus bourgensis MS2 MS2T,GAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_bourgensis_MS2_MS2T_tRNA-Leu-TAA-1-1,Methanoculleus bourgensis MS2 MS2T,UAA,UCCCGCAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Methanoculleus_bourgensis_MS2_MS2T_tRNA-Leu-TAG-1-1,Methanoculleus bourgensis MS2 MS2T,UAG,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_burtonii_DSM_6242_tRNA-Leu-CAA-1-1,Methanococcoides burtonii DSM 6242,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_burtonii_DSM_6242_tRNA-Leu-CAG-1-1,Methanococcoides burtonii DSM 6242,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_burtonii_DSM_6242_tRNA-Leu-GAG-1-1,Methanococcoides burtonii DSM 6242,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_burtonii_DSM_6242_tRNA-Leu-GAG-2-1,Methanococcoides burtonii DSM 6242,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_burtonii_DSM_6242_tRNA-Leu-TAA-1-1,Methanococcoides burtonii DSM 6242,UAA,UAACGAAGGUUUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_burtonii_DSM_6242_tRNA-Leu-TAG-1-1,Methanococcoides burtonii DSM 6242,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_concilii_GP6_tRNA-Leu-CAA-1-1,Methanosaeta concilii GP6,CAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_concilii_GP6_tRNA-Leu-CAG-1-1,Methanosaeta concilii GP6,CAG,UCACGAAGGUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_concilii_GP6_tRNA-Leu-GAG-1-1,Methanosaeta concilii GP6,GAG,UCGCGCAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_concilii_GP6_tRNA-Leu-TAA-1-1,Methanosaeta concilii GP6,UAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_concilii_GP6_tRNA-Leu-TAG-1-1,Methanosaeta concilii GP6,UAG,UCACGAAGGUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_conradii_HZ254_tRNA-Leu-CAA-1-1,Methanocella conradii HZ254,CAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_conradii_HZ254_tRNA-Leu-CAG-1-1,Methanocella conradii HZ254,CAG,UCACGUAGGUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_conradii_HZ254_tRNA-Leu-GAG-1-1,Methanocella conradii HZ254,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_conradii_HZ254_tRNA-Leu-TAA-1-1,Methanocella conradii HZ254,UAA,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_conradii_HZ254_tRNA-Leu-TAG-1-1,Methanocella conradii HZ254,UAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanohalobium_evestigatum_Z-7303_tRNA-Leu-CAA-1-1,Methanohalobium evestigatum Z-7303,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanohalobium_evestigatum_Z-7303_tRNA-Leu-CAG-1-1,Methanohalobium evestigatum Z-7303,CAG,UCUCGAAGGAGUAC,14,1,3,2,AG,-(((****)))**-
+Methanohalobium_evestigatum_Z-7303_tRNA-Leu-GAG-1-1,Methanohalobium evestigatum Z-7303,GAG,UUCCGUAGGGAUAC,14,1,3,2,AG,-(((****)))**-
+Methanohalobium_evestigatum_Z-7303_tRNA-Leu-TAA-1-1,Methanohalobium evestigatum Z-7303,UAA,UACCGAAGGGUUGC,14,1,3,2,AG,-(((****)))**-
+Methanohalobium_evestigatum_Z-7303_tRNA-Leu-TAG-1-1,Methanohalobium evestigatum Z-7303,UAG,UCUCGAAGGAGUAC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_fervens_AG86_tRNA-Leu-GAG-1-1,Methanocaldococcus fervens AG86,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_fervens_AG86_tRNA-Leu-TAA-1-1,Methanocaldococcus fervens AG86,UAA,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_fervens_AG86_tRNA-Leu-TAG-1-1,Methanocaldococcus fervens AG86,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermus_fervidus_DSM_2088_tRNA-Leu-GAG-1-1,Methanothermus fervidus DSM 2088,GAG,UGGGUUAGUCCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanothermus_fervidus_DSM_2088_tRNA-Leu-TAA-1-1,Methanothermus fervidus DSM 2088,UAA,UGGCGUUAGGCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanothermus_fervidus_DSM_2088_tRNA-Leu-TAG-1-1,Methanothermus fervidus DSM 2088,UAG,UGGCGUUAGGCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanobacterium_formicicum_tRNA-Leu-CAA-1-1,Methanobacterium formicicum,CAA,UGGCGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_formicicum_tRNA-Leu-CAG-1-1,Methanobacterium formicicum,CAG,UGGUGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_formicicum_tRNA-Leu-GAG-1-1,Methanobacterium formicicum,GAG,UGGGUGAGUCCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanobacterium_formicicum_tRNA-Leu-TAA-1-1,Methanobacterium formicicum,UAA,UGGUGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_formicicum_tRNA-Leu-TAG-1-1,Methanobacterium formicicum,UAG,UGGCGCAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_formicicum_BRM9_tRNA-Leu-CAA-1-1,Methanobacterium formicicum BRM9,CAA,UGGCGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_formicicum_BRM9_tRNA-Leu-CAG-1-1,Methanobacterium formicicum BRM9,CAG,UGGUGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_formicicum_BRM9_tRNA-Leu-GAG-1-1,Methanobacterium formicicum BRM9,GAG,UGGGUGAGUCCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanobacterium_formicicum_BRM9_tRNA-Leu-TAA-1-1,Methanobacterium formicicum BRM9,UAA,UGGUGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_formicicum_BRM9_tRNA-Leu-TAG-1-1,Methanobacterium formicicum BRM9,UAG,UGGCGCAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanoregula_formicica_SMSP_tRNA-Leu-CAG-1-1,Methanoregula formicica SMSP,CAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoregula_formicica_SMSP_tRNA-Leu-GAG-1-1,Methanoregula formicica SMSP,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanoregula_formicica_SMSP_tRNA-Leu-TAA-1-1,Methanoregula formicica SMSP,UAA,UCCUUAGUGGUUC,13,1,2,2,AG,-((*****))**-
+Methanoregula_formicica_SMSP_tRNA-Leu-TAG-1-1,Methanoregula formicica SMSP,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_harundinacea_6Ac_tRNA-Leu-CAA-1-1,Methanosaeta harundinacea 6Ac,CAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_harundinacea_6Ac_tRNA-Leu-CAG-1-1,Methanosaeta harundinacea 6Ac,CAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_harundinacea_6Ac_tRNA-Leu-GAG-1-1,Methanosaeta harundinacea 6Ac,GAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_harundinacea_6Ac_tRNA-Leu-TAA-1-1,Methanosaeta harundinacea 6Ac,UAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_harundinacea_6Ac_tRNA-Leu-TAG-1-1,Methanosaeta harundinacea 6Ac,UAG,UCCUGCAGAGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanomethylovorans_hollandica_DSM_15978_tRNA-Leu-CAA-1-1,Methanomethylovorans hollandica DSM 15978,CAA,UCGCGCAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanomethylovorans_hollandica_DSM_15978_tRNA-Leu-CAG-1-1,Methanomethylovorans hollandica DSM 15978,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanomethylovorans_hollandica_DSM_15978_tRNA-Leu-GAG-1-1,Methanomethylovorans hollandica DSM 15978,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanomethylovorans_hollandica_DSM_15978_tRNA-Leu-TAA-1-1,Methanomethylovorans hollandica DSM 15978,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanomethylovorans_hollandica_DSM_15978_tRNA-Leu-TAG-1-1,Methanomethylovorans hollandica DSM 15978,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Leu-CAA-1-1,Methanosarcina horonobensis HB-1 JCM 15518,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Leu-CAG-1-1,Methanosarcina horonobensis HB-1 JCM 15518,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Leu-GAG-1-1,Methanosarcina horonobensis HB-1 JCM 15518,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Leu-GAG-2-1,Methanosarcina horonobensis HB-1 JCM 15518,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Leu-TAA-1-1,Methanosarcina horonobensis HB-1 JCM 15518,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Leu-TAG-1-1,Methanosarcina horonobensis HB-1 JCM 15518,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanospirillum_hungatei_JF-1_tRNA-Leu-CAA-1-1,Methanospirillum hungatei JF-1,CAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanospirillum_hungatei_JF-1_tRNA-Leu-CAG-1-1,Methanospirillum hungatei JF-1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanospirillum_hungatei_JF-1_tRNA-Leu-GAG-1-1,Methanospirillum hungatei JF-1,GAG,UCGCGAAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanospirillum_hungatei_JF-1_tRNA-Leu-TAA-1-1,Methanospirillum hungatei JF-1,UAA,UUUCGAAGGAAUCC,14,1,3,2,AG,-(((****)))**-
+Methanospirillum_hungatei_JF-1_tRNA-Leu-TAG-1-1,Methanospirillum hungatei JF-1,UAG,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Methanotorris_igneus_Kol_5_tRNA-Leu-GAG-1-1,Methanotorris igneus Kol 5,GAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanotorris_igneus_Kol_5_tRNA-Leu-TAA-1-1,Methanotorris igneus Kol 5,UAA,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanotorris_igneus_Kol_5_tRNA-Leu-TAG-1-1,Methanotorris igneus Kol 5,UAG,UCCGGUAGCGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_infernus_ME_tRNA-Leu-GAG-1-1,Methanocaldococcus infernus ME,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_infernus_ME_tRNA-Leu-TAA-1-1,Methanocaldococcus infernus ME,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_infernus_ME_tRNA-Leu-TAG-1-1,Methanocaldococcus infernus ME,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_jannaschii_DSM_2661_tRNA-Leu-GAG-1-1,Methanocaldococcus jannaschii DSM 2661,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_jannaschii_DSM_2661_tRNA-Leu-TAA-1-1,Methanocaldococcus jannaschii DSM 2661,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_jannaschii_DSM_2661_tRNA-Leu-TAG-1-1,Methanocaldococcus jannaschii DSM 2661,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanopyrus_kandleri_AV19_tRNA-Leu-GAG-1-1,Methanopyrus kandleri AV19,GAG,UGGCCGUAGGGCCGUC,16,1,4,2,AG,-((((****))))**-
+Methanopyrus_kandleri_AV19_tRNA-Leu-TAA-1-1,Methanopyrus kandleri AV19,UAA,UGGCCGUAGGGCCGUC,16,1,4,2,AG,-((((****))))**-
+Methanopyrus_kandleri_AV19_tRNA-Leu-TAG-1-1,Methanopyrus kandleri AV19,UAG,UGGCCGUAGGGCCGUC,16,1,4,2,AG,-((((****))))**-
+Methanocorpusculum_labreanum_Z_tRNA-Leu-CAG-1-1,Methanocorpusculum labreanum Z,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocorpusculum_labreanum_Z_tRNA-Leu-GAG-1-1,Methanocorpusculum labreanum Z,GAG,UCUAGUAGUAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocorpusculum_labreanum_Z_tRNA-Leu-TAA-1-1,Methanocorpusculum labreanum Z,UAA,UCUUCAGUAGUUC,13,1,2,2,AG,-((*****))**-
+Methanocorpusculum_labreanum_Z_tRNA-Leu-TAG-1-1,Methanocorpusculum labreanum Z,UAG,UCUCUAGGAGUUC,13,1,3,2,AG,-(((***)))**-
+Methanobacterium_lacus_AL-21_tRNA-Leu-CAA-1-1,Methanobacterium lacus AL-21,CAA,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_lacus_AL-21_tRNA-Leu-GAG-1-1,Methanobacterium lacus AL-21,GAG,UGGGGUAGCCCUUC,14,1,4,1,AG,-((((***))))*-
+Methanobacterium_lacus_AL-21_tRNA-Leu-TAA-1-1,Methanobacterium lacus AL-21,UAA,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_lacus_AL-21_tRNA-Leu-TAG-1-1,Methanobacterium lacus AL-21,UAG,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_lacustris_Z-7289_tRNA-Leu-CAA-1-1,Methanosarcina lacustris Z-7289,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_lacustris_Z-7289_tRNA-Leu-CAG-1-1,Methanosarcina lacustris Z-7289,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_lacustris_Z-7289_tRNA-Leu-CAG-2-1,Methanosarcina lacustris Z-7289,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_lacustris_Z-7289_tRNA-Leu-GAG-1-1,Methanosarcina lacustris Z-7289,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_lacustris_Z-7289_tRNA-Leu-GAG-2-1,Methanosarcina lacustris Z-7289,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_lacustris_Z-7289_tRNA-Leu-TAA-1-1,Methanosarcina lacustris Z-7289,UAA,CUUCGAAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_lacustris_Z-7289_tRNA-Leu-TAG-1-1,Methanosarcina lacustris Z-7289,UAG,UUUCGCAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanohalophilus_mahii_DSM_5219_tRNA-Leu-CAA-1-1,Methanohalophilus mahii DSM 5219,CAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanohalophilus_mahii_DSM_5219_tRNA-Leu-CAG-1-1,Methanohalophilus mahii DSM 5219,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanohalophilus_mahii_DSM_5219_tRNA-Leu-GAG-1-1,Methanohalophilus mahii DSM 5219,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanohalophilus_mahii_DSM_5219_tRNA-Leu-TAA-1-1,Methanohalophilus mahii DSM 5219,UAA,UUUCGAAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanohalophilus_mahii_DSM_5219_tRNA-Leu-TAG-1-1,Methanohalophilus mahii DSM 5219,UAG,UCUUGUAGAAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermobacter_marburgensis_str_Marburg_tRNA-Leu-GAG-1-1,Methanothermobacter marburgensis str Marburg,GAG,UGGGGGAGUCCCUUC,15,1,4,2,AG,-((((***))))**-
+Methanothermobacter_marburgensis_str_Marburg_tRNA-Leu-TAA-1-1,Methanothermobacter marburgensis str Marburg,UAA,UGGCGCAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermobacter_marburgensis_str_Marburg_tRNA-Leu-TAG-1-1,Methanothermobacter marburgensis str Marburg,UAG,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C5_tRNA-Leu-GAG-1-1,Methanococcus maripaludis C5,GAG,UCUCAUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C5_tRNA-Leu-TAA-1-1,Methanococcus maripaludis C5,UAA,UCCGGUAGCGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C5_tRNA-Leu-TAG-1-1,Methanococcus maripaludis C5,UAG,UCCAGUAGUGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C6_tRNA-Leu-GAG-1-1,Methanococcus maripaludis C6,GAG,UCUCAUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C6_tRNA-Leu-TAA-1-1,Methanococcus maripaludis C6,UAA,UCCGGUAGCGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C6_tRNA-Leu-TAG-1-1,Methanococcus maripaludis C6,UAG,UCCAGUAGUGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C7_tRNA-Leu-GAG-1-1,Methanococcus maripaludis C7,GAG,UCUCAUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C7_tRNA-Leu-TAA-1-1,Methanococcus maripaludis C7,UAA,UCCGGUAGCGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_C7_tRNA-Leu-TAG-1-1,Methanococcus maripaludis C7,UAG,UCCAGUAGUGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_X1_tRNA-Leu-GAG-1-1,Methanococcus maripaludis X1,GAG,UCUCAUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_X1_tRNA-Leu-TAA-1-1,Methanococcus maripaludis X1,UAA,UCCGGUAGCGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_maripaludis_X1_tRNA-Leu-TAG-1-1,Methanococcus maripaludis X1,UAG,UCCAGUAGUGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Go1_tRNA-Leu-CAA-1-1,Methanosarcina mazei Go1,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Go1_tRNA-Leu-CAG-1-1,Methanosarcina mazei Go1,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Go1_tRNA-Leu-GAG-1-1,Methanosarcina mazei Go1,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Go1_tRNA-Leu-GAG-2-1,Methanosarcina mazei Go1,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Go1_tRNA-Leu-TAA-1-1,Methanosarcina mazei Go1,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Go1_tRNA-Leu-TAG-1-1,Methanosarcina mazei Go1,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_C16_tRNA-Leu-CAA-1-1,Methanosarcina mazei C16,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_C16_tRNA-Leu-CAG-1-1,Methanosarcina mazei C16,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_C16_tRNA-Leu-GAG-1-1,Methanosarcina mazei C16,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_C16_tRNA-Leu-GAG-2-1,Methanosarcina mazei C16,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_C16_tRNA-Leu-TAA-1-1,Methanosarcina mazei C16,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_C16_tRNA-Leu-TAG-1-1,Methanosarcina mazei C16,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_LYC_tRNA-Leu-CAA-1-1,Methanosarcina mazei LYC,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_LYC_tRNA-Leu-CAG-1-1,Methanosarcina mazei LYC,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_LYC_tRNA-Leu-GAG-1-1,Methanosarcina mazei LYC,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_LYC_tRNA-Leu-GAG-2-1,Methanosarcina mazei LYC,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_LYC_tRNA-Leu-TAA-1-1,Methanosarcina mazei LYC,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_LYC_tRNA-Leu-TAG-1-1,Methanosarcina mazei LYC,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_SarPi_tRNA-Leu-CAA-1-1,Methanosarcina mazei SarPi,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_SarPi_tRNA-Leu-CAG-1-1,Methanosarcina mazei SarPi,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_SarPi_tRNA-Leu-GAG-1-1,Methanosarcina mazei SarPi,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_SarPi_tRNA-Leu-GAG-2-1,Methanosarcina mazei SarPi,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_SarPi_tRNA-Leu-TAA-1-1,Methanosarcina mazei SarPi,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_SarPi_tRNA-Leu-TAG-1-1,Methanosarcina mazei SarPi,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_S-6_tRNA-Leu-CAA-1-1,Methanosarcina mazei S-6,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_S-6_tRNA-Leu-CAG-1-1,Methanosarcina mazei S-6,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_S-6_tRNA-Leu-GAG-1-1,Methanosarcina mazei S-6,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_S-6_tRNA-Leu-GAG-2-1,Methanosarcina mazei S-6,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_S-6_tRNA-Leu-TAA-1-1,Methanosarcina mazei S-6,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_S-6_tRNA-Leu-TAG-1-1,Methanosarcina mazei S-6,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Tuc01_tRNA-Leu-CAA-1-1,Methanosarcina mazei Tuc01,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Tuc01_tRNA-Leu-TAA-1-1,Methanosarcina mazei Tuc01,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_Tuc01_tRNA-Leu-TAG-1-1,Methanosarcina mazei Tuc01,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_WWM610_tRNA-Leu-CAA-1-1,Methanosarcina mazei WWM610,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_WWM610_tRNA-Leu-CAG-1-1,Methanosarcina mazei WWM610,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_WWM610_tRNA-Leu-GAG-1-1,Methanosarcina mazei WWM610,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_WWM610_tRNA-Leu-GAG-2-1,Methanosarcina mazei WWM610,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_WWM610_tRNA-Leu-TAA-1-1,Methanosarcina mazei WWM610,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_mazei_WWM610_tRNA-Leu-TAG-1-1,Methanosarcina mazei WWM610,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_methylutens_MM1_tRNA-Leu-CAA-1-1,Methanococcoides methylutens MM1,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_methylutens_MM1_tRNA-Leu-CAG-1-1,Methanococcoides methylutens MM1,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_methylutens_MM1_tRNA-Leu-GAG-1-1,Methanococcoides methylutens MM1,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_methylutens_MM1_tRNA-Leu-GAG-1-2,Methanococcoides methylutens MM1,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_methylutens_MM1_tRNA-Leu-TAA-1-1,Methanococcoides methylutens MM1,UAA,UAACGAAGGUUUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcoides_methylutens_MM1_tRNA-Leu-TAG-1-1,Methanococcoides methylutens MM1,UAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermococcus_okinawensis_IH1_tRNA-Leu-GAG-1-1,Methanothermococcus okinawensis IH1,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermococcus_okinawensis_IH1_tRNA-Leu-TAA-1-1,Methanothermococcus okinawensis IH1,UAA,UCCCAUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermococcus_okinawensis_IH1_tRNA-Leu-TAG-1-1,Methanothermococcus okinawensis IH1,UAG,UCCAGUAGUGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_paludicola_SANAE_tRNA-Leu-CAA-1-1,Methanocella paludicola SANAE,CAA,UCCUGUAGAGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_paludicola_SANAE_tRNA-Leu-CAG-1-1,Methanocella paludicola SANAE,CAG,UCGUGUAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_paludicola_SANAE_tRNA-Leu-GAG-1-1,Methanocella paludicola SANAE,GAG,UUCCGUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_paludicola_SANAE_tRNA-Leu-TAA-1-1,Methanocella paludicola SANAE,UAA,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocella_paludicola_SANAE_tRNA-Leu-TAG-1-1,Methanocella paludicola SANAE,UAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosphaerula_palustris_E1-9c_tRNA-Leu-CAA-1-1,Methanosphaerula palustris E1-9c,CAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosphaerula_palustris_E1-9c_tRNA-Leu-CAG-1-1,Methanosphaerula palustris E1-9c,CAG,UCACGCAGGUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosphaerula_palustris_E1-9c_tRNA-Leu-GAG-1-1,Methanosphaerula palustris E1-9c,GAG,UCACGCAGGUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosphaerula_palustris_E1-9c_tRNA-Leu-TAA-1-1,Methanosphaerula palustris E1-9c,UAA,CCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosphaerula_palustris_E1-9c_tRNA-Leu-TAG-1-1,Methanosphaerula palustris E1-9c,UAG,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolacinia_petrolearia_DSM_11571_tRNA-Leu-CAA-1-1,Methanolacinia petrolearia DSM 11571,CAA,UCCUUAGUGGUUC,13,1,2,2,AG,-((*****))**-
+Methanolacinia_petrolearia_DSM_11571_tRNA-Leu-CAG-1-1,Methanolacinia petrolearia DSM 11571,CAG,UCAUGUAGAUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolacinia_petrolearia_DSM_11571_tRNA-Leu-GAG-1-1,Methanolacinia petrolearia DSM 11571,GAG,UCACGUAGGUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolacinia_petrolearia_DSM_11571_tRNA-Leu-TAA-1-1,Methanolacinia petrolearia DSM 11571,UAA,UCUCGCAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Methanolacinia_petrolearia_DSM_11571_tRNA-Leu-TAG-1-1,Methanolacinia petrolearia DSM 11571,UAG,UCUGUUAGCAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolobus_psychrophilus_R15_tRNA-Leu-CAA-1-1,Methanolobus psychrophilus R15,CAA,UCGCGAAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolobus_psychrophilus_R15_tRNA-Leu-CAG-1-1,Methanolobus psychrophilus R15,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolobus_psychrophilus_R15_tRNA-Leu-GAG-1-1,Methanolobus psychrophilus R15,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolobus_psychrophilus_R15_tRNA-Leu-GAG-2-1,Methanolobus psychrophilus R15,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolobus_psychrophilus_R15_tRNA-Leu-TAA-1-1,Methanolobus psychrophilus R15,UAA,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolobus_psychrophilus_R15_tRNA-Leu-TAG-1-1,Methanolobus psychrophilus R15,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanobrevibacter_ruminantium_M1_tRNA-Leu-CAA-1-1,Methanobrevibacter ruminantium M1,CAA,UGAUUAGUUCUUC,13,1,2,2,AG,-((*****))**-
+Methanobrevibacter_ruminantium_M1_tRNA-Leu-GAG-1-1,Methanobrevibacter ruminantium M1,GAG,UGGGUUAGUCCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanobrevibacter_ruminantium_M1_tRNA-Leu-TAA-1-1,Methanobrevibacter ruminantium M1,UAA,UGGUGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobrevibacter_ruminantium_M1_tRNA-Leu-TAA-2-1,Methanobrevibacter ruminantium M1,UAA,GGAGUUAGUCUCCUC,15,1,3,2,AG,-(((*****)))**-
+Methanobrevibacter_ruminantium_M1_tRNA-Leu-TAG-1-1,Methanobrevibacter ruminantium M1,UAG,UGAUGCAGAUCUAC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_paludis_SWAN1_tRNA-Leu-CAA-1-1,Methanobacterium paludis SWAN1,CAA,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_paludis_SWAN1_tRNA-Leu-CAG-1-1,Methanobacterium paludis SWAN1,CAG,UGGUGUAGGCUUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_paludis_SWAN1_tRNA-Leu-GAG-1-1,Methanobacterium paludis SWAN1,GAG,UGGGGUAGUCCCUUC,15,1,4,2,AG,-((((***))))**-
+Methanobacterium_paludis_SWAN1_tRNA-Leu-TAA-1-1,Methanobacterium paludis SWAN1,UAA,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_paludis_SWAN1_tRNA-Leu-TAG-1-1,Methanobacterium paludis SWAN1,UAG,UGGCAUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_C2J_tRNA-Leu-CAA-1-1,Methanosarcina siciliae C2J,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_C2J_tRNA-Leu-CAG-1-1,Methanosarcina siciliae C2J,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_C2J_tRNA-Leu-GAG-1-1,Methanosarcina siciliae C2J,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_C2J_tRNA-Leu-GAG-2-1,Methanosarcina siciliae C2J,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_C2J_tRNA-Leu-TAA-1-1,Methanosarcina siciliae C2J,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_C2J_tRNA-Leu-TAG-1-1,Methanosarcina siciliae C2J,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_HI350_tRNA-Leu-CAA-1-1,Methanosarcina siciliae HI350,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_HI350_tRNA-Leu-CAG-1-1,Methanosarcina siciliae HI350,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_HI350_tRNA-Leu-GAG-1-1,Methanosarcina siciliae HI350,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_HI350_tRNA-Leu-GAG-2-1,Methanosarcina siciliae HI350,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_HI350_tRNA-Leu-TAA-1-1,Methanosarcina siciliae HI350,UAA,UUACGAAGGUAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_HI350_tRNA-Leu-TAG-1-1,Methanosarcina siciliae HI350,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_T4M_tRNA-Leu-CAA-1-1,Methanosarcina siciliae T4M,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_T4M_tRNA-Leu-CAG-1-1,Methanosarcina siciliae T4M,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_T4M_tRNA-Leu-GAG-1-1,Methanosarcina siciliae T4M,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_T4M_tRNA-Leu-GAG-2-1,Methanosarcina siciliae T4M,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_T4M_tRNA-Leu-TAA-1-1,Methanosarcina siciliae T4M,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_siciliae_T4M_tRNA-Leu-TAG-1-1,Methanosarcina siciliae T4M,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanobrevibacter_smithii_ATCC_35061_PS_DSMZ_861_tRNA-Leu-GAG-1-1,Methanobrevibacter smithii ATCC 35061 PS DSMZ 861,GAG,UGGGUUAGUCCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanobrevibacter_smithii_ATCC_35061_PS_DSMZ_861_tRNA-Leu-TAA-1-1,Methanobrevibacter smithii ATCC 35061 PS DSMZ 861,UAA,UGGUAUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobrevibacter_smithii_ATCC_35061_PS_DSMZ_861_tRNA-Leu-TAG-1-1,Methanobrevibacter smithii ATCC 35061 PS DSMZ 861,UAG,UGACGCAGGUCUAC,14,1,3,2,AG,-(((****)))**-
+Methanobrevibacter_sp_AbM4_tRNA-Leu-GAG-1-1,Methanobrevibacter sp AbM4,GAG,UGGGUUAGUCCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanobrevibacter_sp_AbM4_tRNA-Leu-TAA-1-1,Methanobrevibacter sp AbM4,UAA,UGGUGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobrevibacter_sp_AbM4_tRNA-Leu-TAG-1-1,Methanobrevibacter sp AbM4,UAG,UGACGCAGGUCUAC,14,1,3,2,AG,-(((****)))**-
+Methanothermobacter_sp_CaT2_tRNA-Leu-GAG-1-1,Methanothermobacter sp CaT2,GAG,UGGGGGAGUCCCUUC,15,1,4,2,AG,-((((***))))**-
+Methanothermobacter_sp_CaT2_tRNA-Leu-TAA-1-1,Methanothermobacter sp CaT2,UAA,UGGCGCAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermobacter_sp_CaT2_tRNA-Leu-TAG-1-1,Methanothermobacter sp CaT2,UAG,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_sp_FS406-22_tRNA-Leu-GAG-1-1,Methanocaldococcus sp FS406-22,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_sp_FS406-22_tRNA-Leu-TAA-1-1,Methanocaldococcus sp FS406-22,UAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_sp_FS406-22_tRNA-Leu-TAG-1-1,Methanocaldococcus sp FS406-22,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_sp_JH146_tRNA-Leu-GAG-1-1,Methanocaldococcus sp JH146,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_sp_JH146_tRNA-Leu-TAA-1-1,Methanocaldococcus sp JH146,UAA,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_sp_JH146_tRNA-Leu-TAG-1-1,Methanocaldococcus sp JH146,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_Kolksee_tRNA-Leu-CAA-1-1,Methanosarcina sp Kolksee,CAA,UCGCGCAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_Kolksee_tRNA-Leu-CAG-1-1,Methanosarcina sp Kolksee,CAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_Kolksee_tRNA-Leu-CAG-2-1,Methanosarcina sp Kolksee,CAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_Kolksee_tRNA-Leu-GAG-1-1,Methanosarcina sp Kolksee,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_Kolksee_tRNA-Leu-GAG-2-1,Methanosarcina sp Kolksee,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_Kolksee_tRNA-Leu-TAA-1-1,Methanosarcina sp Kolksee,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_Kolksee_tRNA-Leu-TAG-1-1,Methanosarcina sp Kolksee,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_sp_MB1_tRNA-Leu-CAA-1-1,Methanobacterium sp MB1,CAA,UGGCGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_sp_MB1_tRNA-Leu-CAG-1-1,Methanobacterium sp MB1,CAG,UGGUGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_sp_MB1_tRNA-Leu-GAG-1-1,Methanobacterium sp MB1,GAG,UGGGUGAGUCCCUUC,15,1,3,2,AG,-(((*****)))**-
+Methanobacterium_sp_MB1_tRNA-Leu-TAA-1-1,Methanobacterium sp MB1,UAA,UGGUGUAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanobacterium_sp_MB1_tRNA-Leu-TAG-1-1,Methanobacterium sp MB1,UAG,UGGCGCAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanogenium_sp_MK-MG_tRNA-Leu-CAA-1-1,Methanogenium sp MK-MG,CAA,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanogenium_sp_MK-MG_tRNA-Leu-CAG-1-1,Methanogenium sp MK-MG,CAG,UCCUGUAGAGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanogenium_sp_MK-MG_tRNA-Leu-GAG-1-1,Methanogenium sp MK-MG,GAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Methanogenium_sp_MK-MG_tRNA-Leu-TAA-1-1,Methanogenium sp MK-MG,UAA,UUACGCAGGUAUUC,14,1,3,2,AG,-(((****)))**-
+Methanogenium_sp_MK-MG_tRNA-Leu-TAG-1-1,Methanogenium sp MK-MG,UAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_MTP4_tRNA-Leu-CAA-1-1,Methanosarcina sp MTP4,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_MTP4_tRNA-Leu-CAG-1-1,Methanosarcina sp MTP4,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_MTP4_tRNA-Leu-GAG-1-1,Methanosarcina sp MTP4,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_MTP4_tRNA-Leu-GAG-1-2,Methanosarcina sp MTP4,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_MTP4_tRNA-Leu-TAA-1-1,Methanosarcina sp MTP4,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_MTP4_tRNA-Leu-TAG-1-1,Methanosarcina sp MTP4,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WH1_tRNA-Leu-CAA-1-1,Methanosarcina sp WH1,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WH1_tRNA-Leu-CAG-1-1,Methanosarcina sp WH1,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WH1_tRNA-Leu-GAG-1-1,Methanosarcina sp WH1,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WH1_tRNA-Leu-GAG-2-1,Methanosarcina sp WH1,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WH1_tRNA-Leu-TAA-1-1,Methanosarcina sp WH1,UAA,UAUUGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WH1_tRNA-Leu-TAG-1-1,Methanosarcina sp WH1,UAG,UUUCGCAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WWM596_tRNA-Leu-CAA-1-1,Methanosarcina sp WWM596,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WWM596_tRNA-Leu-CAG-1-1,Methanosarcina sp WWM596,CAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WWM596_tRNA-Leu-GAG-1-1,Methanosarcina sp WWM596,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WWM596_tRNA-Leu-GAG-2-1,Methanosarcina sp WWM596,GAG,UCUUGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WWM596_tRNA-Leu-TAA-1-1,Methanosarcina sp WWM596,UAA,UAUUGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_sp_WWM596_tRNA-Leu-TAG-1-1,Methanosarcina sp WWM596,UAG,UUUCGCAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosphaera_stadtmanae_DSM_3091_tRNA-Leu-GAG-1-1,Methanosphaera stadtmanae DSM 3091,GAG,UGAGGUAGUCUCUUC,15,1,4,2,AG,-((((***))))**-
+Methanosphaera_stadtmanae_DSM_3091_tRNA-Leu-TAA-1-1,Methanosphaera stadtmanae DSM 3091,UAA,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanosphaera_stadtmanae_DSM_3091_tRNA-Leu-TAA-1-2,Methanosphaera stadtmanae DSM 3091,UAA,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanosphaera_stadtmanae_DSM_3091_tRNA-Leu-TAG-1-1,Methanosphaera stadtmanae DSM 3091,UAG,UGGCGUAGGCCUCC,14,1,3,2,AG,-(((****)))**-
+Methanolinea_tarda_NOBI-1_tRNA-Leu-CAA-1-1,Methanolinea tarda NOBI-1,CAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolinea_tarda_NOBI-1_tRNA-Leu-CAG-1-1,Methanolinea tarda NOBI-1,CAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolinea_tarda_NOBI-1_tRNA-Leu-GAG-1-1,Methanolinea tarda NOBI-1,GAG,UCUCGAAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolinea_tarda_NOBI-1_tRNA-Leu-TAA-1-1,Methanolinea tarda NOBI-1,UAA,UCACGGAGGUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanolinea_tarda_NOBI-1_tRNA-Leu-TAG-1-1,Methanolinea tarda NOBI-1,UAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermobacter_thermautotrophicus_str_Delta_H_tRNA-Leu-GAG-1-1,Methanothermobacter thermautotrophicus str Delta H,GAG,UGGGGGAGUCCCUUC,15,1,4,2,AG,-((((***))))**-
+Methanothermobacter_thermautotrophicus_str_Delta_H_tRNA-Leu-TAA-1-1,Methanothermobacter thermautotrophicus str Delta H,UAA,UGGCGCAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Methanothermobacter_thermautotrophicus_str_Delta_H_tRNA-Leu-TAG-1-1,Methanothermobacter thermautotrophicus str Delta H,UAG,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_thermophila_PT_tRNA-Leu-CAA-1-1,Methanosaeta thermophila PT,CAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_thermophila_PT_tRNA-Leu-CAG-1-1,Methanosaeta thermophila PT,CAG,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_thermophila_PT_tRNA-Leu-GAG-1-1,Methanosaeta thermophila PT,GAG,UCACGUAGGUGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_thermophila_PT_tRNA-Leu-TAA-1-1,Methanosaeta thermophila PT,UAA,UCUCGCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosaeta_thermophila_PT_tRNA-Leu-TAG-1-1,Methanosaeta thermophila PT,UAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_CHTI-55_tRNA-Leu-CAA-1-1,Methanosarcina thermophila CHTI-55,CAA,UCGCGCAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_CHTI-55_tRNA-Leu-CAG-1-1,Methanosarcina thermophila CHTI-55,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_CHTI-55_tRNA-Leu-GAG-1-1,Methanosarcina thermophila CHTI-55,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_CHTI-55_tRNA-Leu-GAG-1-2,Methanosarcina thermophila CHTI-55,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_CHTI-55_tRNA-Leu-TAA-1-1,Methanosarcina thermophila CHTI-55,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_CHTI-55_tRNA-Leu-TAG-1-1,Methanosarcina thermophila CHTI-55,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_TM-1_tRNA-Leu-CAA-1-1,Methanosarcina thermophila TM-1,CAA,UCGCGCAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_TM-1_tRNA-Leu-CAG-1-1,Methanosarcina thermophila TM-1,CAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_TM-1_tRNA-Leu-GAG-1-1,Methanosarcina thermophila TM-1,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_TM-1_tRNA-Leu-GAG-1-2,Methanosarcina thermophila TM-1,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_TM-1_tRNA-Leu-TAA-1-1,Methanosarcina thermophila TM-1,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_thermophila_TM-1_tRNA-Leu-TAG-1-1,Methanosarcina thermophila TM-1,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_vacuolata_Z-761_tRNA-Leu-CAA-1-1,Methanosarcina vacuolata Z-761,CAA,UCGUGCAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_vacuolata_Z-761_tRNA-Leu-CAG-1-1,Methanosarcina vacuolata Z-761,CAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_vacuolata_Z-761_tRNA-Leu-GAG-1-1,Methanosarcina vacuolata Z-761,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_vacuolata_Z-761_tRNA-Leu-GAG-1-2,Methanosarcina vacuolata Z-761,GAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_vacuolata_Z-761_tRNA-Leu-TAA-1-1,Methanosarcina vacuolata Z-761,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosarcina_vacuolata_Z-761_tRNA-Leu-TAG-1-1,Methanosarcina vacuolata Z-761,UAG,UUUCGUAGGAAUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_vannielii_SB_tRNA-Leu-GAG-1-1,Methanococcus vannielii SB,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_vannielii_SB_tRNA-Leu-TAA-1-1,Methanococcus vannielii SB,UAA,UCCGGUAGCGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_vannielii_SB_tRNA-Leu-TAG-1-1,Methanococcus vannielii SB,UAG,UCCAGUAGUGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_voltae_A3_tRNA-Leu-GAG-1-1,Methanococcus voltae A3,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_voltae_A3_tRNA-Leu-TAA-1-1,Methanococcus voltae A3,UAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanococcus_voltae_A3_tRNA-Leu-TAG-1-1,Methanococcus voltae A3,UAG,UCCAGUAGUGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_vulcanius_M7_tRNA-Leu-GAG-1-1,Methanocaldococcus vulcanius M7,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_vulcanius_M7_tRNA-Leu-TAA-1-1,Methanocaldococcus vulcanius M7,UAA,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanocaldococcus_vulcanius_M7_tRNA-Leu-TAG-1-1,Methanocaldococcus vulcanius M7,UAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosalsum_zhilinae_DSM_4017_tRNA-Leu-CAA-1-1,Methanosalsum zhilinae DSM 4017,CAA,UCGCGCAGGCGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosalsum_zhilinae_DSM_4017_tRNA-Leu-CAG-1-1,Methanosalsum zhilinae DSM 4017,CAG,UCUUGUAGAAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosalsum_zhilinae_DSM_4017_tRNA-Leu-GAG-1-1,Methanosalsum zhilinae DSM 4017,GAG,UCUUGUAGAAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosalsum_zhilinae_DSM_4017_tRNA-Leu-GAG-2-1,Methanosalsum zhilinae DSM 4017,GAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Methanosalsum_zhilinae_DSM_4017_tRNA-Leu-TAA-1-1,Methanosalsum zhilinae DSM 4017,UAA,UAUCGAAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Methanosalsum_zhilinae_DSM_4017_tRNA-Leu-TAG-1-1,Methanosalsum zhilinae DSM 4017,UAG,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Nanoarchaeum_equitans_Kin4-M_tRNA-Leu-CAA-1-1,Nanoarchaeum equitans Kin4-M,CAA,UGGGUUAGUCCCGUC,15,1,3,2,AG,-(((*****)))**-
+Nanoarchaeum_equitans_Kin4-M_tRNA-Leu-GAG-1-1,Nanoarchaeum equitans Kin4-M,GAG,UGGGGUAGUCCCUGC,15,1,4,2,AG,-((((***))))**-
+Nanoarchaeum_equitans_Kin4-M_tRNA-Leu-TAA-1-1,Nanoarchaeum equitans Kin4-M,UAA,UGGGGUAGUCCCUGC,15,1,4,2,AG,-((((***))))**-
+Nanoarchaeum_equitans_Kin4-M_tRNA-Leu-TAG-1-1,Nanoarchaeum equitans Kin4-M,UAG,UGGGUUAGUCCCGUC,15,1,3,2,AG,-(((*****)))**-
+Natronobacterium_gregoryi_SP2_tRNA-Leu-CAA-1-1,Natronobacterium gregoryi SP2,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Natronobacterium_gregoryi_SP2_tRNA-Leu-CAG-1-1,Natronobacterium gregoryi SP2,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Natronobacterium_gregoryi_SP2_tRNA-Leu-GAG-1-1,Natronobacterium gregoryi SP2,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronobacterium_gregoryi_SP2_tRNA-Leu-TAA-1-1,Natronobacterium gregoryi SP2,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronobacterium_gregoryi_SP2_tRNA-Leu-TAG-1-1,Natronobacterium gregoryi SP2,UAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Natrialba_magadii_ATCC_43099_tRNA-Leu-CAA-1-1,Natrialba magadii ATCC 43099,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Natrialba_magadii_ATCC_43099_tRNA-Leu-CAG-1-1,Natrialba magadii ATCC 43099,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Natrialba_magadii_ATCC_43099_tRNA-Leu-GAG-1-1,Natrialba magadii ATCC 43099,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natrialba_magadii_ATCC_43099_tRNA-Leu-TAA-1-1,Natrialba magadii ATCC 43099,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natrialba_magadii_ATCC_43099_tRNA-Leu-TAG-1-1,Natrialba magadii ATCC 43099,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_moolapensis_8811_tRNA-Leu-CAA-1-1,Natronomonas moolapensis 8811,CAA,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_moolapensis_8811_tRNA-Leu-CAG-1-1,Natronomonas moolapensis 8811,CAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_moolapensis_8811_tRNA-Leu-GAG-1-1,Natronomonas moolapensis 8811,GAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_moolapensis_8811_tRNA-Leu-TAA-1-1,Natronomonas moolapensis 8811,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_moolapensis_8811_tRNA-Leu-TAG-1-1,Natronomonas moolapensis 8811,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronococcus_occultus_SP4_tRNA-Leu-CAA-1-1,Natronococcus occultus SP4,CAA,UCGUGUAGACGUUC,14,1,3,2,AG,-(((****)))**-
+Natronococcus_occultus_SP4_tRNA-Leu-CAG-1-1,Natronococcus occultus SP4,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Natronococcus_occultus_SP4_tRNA-Leu-GAG-1-1,Natronococcus occultus SP4,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronococcus_occultus_SP4_tRNA-Leu-TAA-1-1,Natronococcus occultus SP4,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronococcus_occultus_SP4_tRNA-Leu-TAG-1-1,Natronococcus occultus SP4,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natrinema_pellirubrum_DSM_15624_tRNA-Leu-CAA-1-1,Natrinema pellirubrum DSM 15624,CAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Natrinema_pellirubrum_DSM_15624_tRNA-Leu-CAG-1-1,Natrinema pellirubrum DSM 15624,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Natrinema_pellirubrum_DSM_15624_tRNA-Leu-GAG-1-1,Natrinema pellirubrum DSM 15624,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natrinema_pellirubrum_DSM_15624_tRNA-Leu-TAA-1-1,Natrinema pellirubrum DSM 15624,UAA,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Natrinema_pellirubrum_DSM_15624_tRNA-Leu-TAG-1-1,Natrinema pellirubrum DSM 15624,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Leu-CAA-1-1,Natronomonas pharaonis DSM 2160 Gabara,CAA,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Leu-CAG-1-1,Natronomonas pharaonis DSM 2160 Gabara,CAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Leu-GAG-1-1,Natronomonas pharaonis DSM 2160 Gabara,GAG,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Leu-TAA-1-1,Natronomonas pharaonis DSM 2160 Gabara,UAA,UCCUGUAGAGGUCC,14,1,3,2,AG,-(((****)))**-
+Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Leu-TAG-1-1,Natronomonas pharaonis DSM 2160 Gabara,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natrinema_sp_J7-2_tRNA-Leu-CAA-1-1,Natrinema sp J7-2,CAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Natrinema_sp_J7-2_tRNA-Leu-CAG-1-1,Natrinema sp J7-2,CAG,UCUCGUAGGAGUCC,14,1,3,2,AG,-(((****)))**-
+Natrinema_sp_J7-2_tRNA-Leu-GAG-1-1,Natrinema sp J7-2,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natrinema_sp_J7-2_tRNA-Leu-TAA-1-1,Natrinema sp J7-2,UAA,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Natrinema_sp_J7-2_tRNA-Leu-TAG-1-1,Natrinema sp J7-2,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Nitrosopumilus_maritimus_SCM1_tRNA-Leu-CAA-1-1,Nitrosopumilus maritimus SCM1,CAA,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Nitrosopumilus_maritimus_SCM1_tRNA-Leu-CAG-1-1,Nitrosopumilus maritimus SCM1,CAG,UCUUCUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Nitrosopumilus_maritimus_SCM1_tRNA-Leu-GAG-1-1,Nitrosopumilus maritimus SCM1,GAG,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Nitrosopumilus_maritimus_SCM1_tRNA-Leu-TAA-1-1,Nitrosopumilus maritimus SCM1,UAA,UCUCUCAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Nitrosopumilus_maritimus_SCM1_tRNA-Leu-TAG-1-1,Nitrosopumilus maritimus SCM1,UAG,UCUCUUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Nitrososphaera_viennensis_EN76_tRNA-Leu-CAA-1-1,Nitrososphaera viennensis EN76,CAA,UCCCUCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Nitrososphaera_viennensis_EN76_tRNA-Leu-CAG-1-1,Nitrososphaera viennensis EN76,CAG,UUCCUUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Nitrososphaera_viennensis_EN76_tRNA-Leu-GAG-1-1,Nitrososphaera viennensis EN76,GAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Nitrososphaera_viennensis_EN76_tRNA-Leu-TAA-1-1,Nitrososphaera viennensis EN76,UAA,UCCCUCAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Nitrososphaera_viennensis_EN76_tRNA-Leu-TAG-1-1,Nitrososphaera viennensis EN76,UAG,UUCCUUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Palaeococcus_pacificus_DY20341_tRNA-Leu-CAA-1-1,Palaeococcus pacificus DY20341,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Palaeococcus_pacificus_DY20341_tRNA-Leu-CAG-1-1,Palaeococcus pacificus DY20341,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Palaeococcus_pacificus_DY20341_tRNA-Leu-GAG-1-1,Palaeococcus pacificus DY20341,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Palaeococcus_pacificus_DY20341_tRNA-Leu-TAA-1-1,Palaeococcus pacificus DY20341,UAA,UGCCGAAGGGCUAC,14,1,3,2,AG,-(((****)))**-
+Palaeococcus_pacificus_DY20341_tRNA-Leu-TAG-1-1,Palaeococcus pacificus DY20341,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Picrophilus_torridus_DSM_9790_tRNA-Leu-CAA-1-1,Picrophilus torridus DSM 9790,CAA,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Picrophilus_torridus_DSM_9790_tRNA-Leu-CAG-1-1,Picrophilus torridus DSM 9790,CAG,UUCCGCAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Picrophilus_torridus_DSM_9790_tRNA-Leu-GAG-1-1,Picrophilus torridus DSM 9790,GAG,UUCCGUAGGGAUCC,14,1,3,2,AG,-(((****)))**-
+Picrophilus_torridus_DSM_9790_tRNA-Leu-TAA-1-1,Picrophilus torridus DSM 9790,UAA,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Picrophilus_torridus_DSM_9790_tRNA-Leu-TAG-1-1,Picrophilus torridus DSM 9790,UAG,UUCCGCAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Prometheoarchaeum_syntrophicum_MK-D1_tRNA-Leu-CAA-1-1,Candidatus Prometheoarchaeum syntrophicum MK-D1,CAA,UUCCACAGGGAUAC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Prometheoarchaeum_syntrophicum_MK-D1_tRNA-Leu-GAG-1-1,Candidatus Prometheoarchaeum syntrophicum MK-D1,GAG,UUCUUAGUGAAAC,13,1,2,2,AG,-((*****))**-
+Candidatus_Prometheoarchaeum_syntrophicum_MK-D1_tRNA-Leu-TAA-1-1,Candidatus Prometheoarchaeum syntrophicum MK-D1,UAA,UUCCAUAGGGAUAC,14,1,3,2,AG,-(((****)))**-
+Candidatus_Prometheoarchaeum_syntrophicum_MK-D1_tRNA-Leu-TAG-1-1,Candidatus Prometheoarchaeum syntrophicum MK-D1,UAG,UGCGUAGAGCCGC,13,1,2,2,AG,-((*****))**-
+Pyrococcus_abyssi_GE5_tRNA-Leu-CAA-1-1,Pyrococcus abyssi GE5,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_abyssi_GE5_tRNA-Leu-CAG-1-1,Pyrococcus abyssi GE5,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_abyssi_GE5_tRNA-Leu-GAG-1-1,Pyrococcus abyssi GE5,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_abyssi_GE5_tRNA-Leu-TAA-1-1,Pyrococcus abyssi GE5,UAA,UGCCGUAGGCUGC,13,1,2,2,AG,-((*****))**-
+Pyrococcus_abyssi_GE5_tRNA-Leu-TAG-1-1,Pyrococcus abyssi GE5,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_aerophilum_str_IM2_tRNA-Leu-CAA-1-1,Pyrobaculum aerophilum str IM2,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_aerophilum_str_IM2_tRNA-Leu-CAG-1-1,Pyrobaculum aerophilum str IM2,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_aerophilum_str_IM2_tRNA-Leu-GAG-1-1,Pyrobaculum aerophilum str IM2,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_aerophilum_str_IM2_tRNA-Leu-TAA-1-1,Pyrobaculum aerophilum str IM2,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_aerophilum_str_IM2_tRNA-Leu-TAG-1-1,Pyrobaculum aerophilum str IM2,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-CAA-1-1,Pyrococcus furiosus DSM 3638,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-CAG-1-1,Pyrococcus furiosus DSM 3638,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-GAG-1-1,Pyrococcus furiosus DSM 3638,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-TAA-1-1,Pyrococcus furiosus DSM 3638,UAA,UGCCGUAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_DSM_3638_tRNA-Leu-TAG-1-1,Pyrococcus furiosus DSM 3638,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_horikoshii_OT3_tRNA-Leu-CAA-1-1,Pyrococcus horikoshii OT3,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_horikoshii_OT3_tRNA-Leu-CAG-1-1,Pyrococcus horikoshii OT3,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_horikoshii_OT3_tRNA-Leu-GAG-1-1,Pyrococcus horikoshii OT3,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_horikoshii_OT3_tRNA-Leu-TAA-1-1,Pyrococcus horikoshii OT3,UAA,UGCCGUAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_horikoshii_OT3_tRNA-Leu-TAG-1-1,Pyrococcus horikoshii OT3,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_sp_1860_tRNA-Leu-CAA-1-1,Pyrobaculum sp 1860,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_sp_1860_tRNA-Leu-CAG-1-1,Pyrobaculum sp 1860,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_sp_1860_tRNA-Leu-GAG-1-1,Pyrobaculum sp 1860,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_sp_1860_tRNA-Leu-TAA-1-1,Pyrobaculum sp 1860,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_sp_1860_tRNA-Leu-TAG-1-1,Pyrobaculum sp 1860,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_arsenaticum_DSM_13514_tRNA-Leu-CAA-1-1,Pyrobaculum arsenaticum DSM 13514,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_arsenaticum_DSM_13514_tRNA-Leu-CAG-1-1,Pyrobaculum arsenaticum DSM 13514,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_arsenaticum_DSM_13514_tRNA-Leu-GAG-1-1,Pyrobaculum arsenaticum DSM 13514,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_arsenaticum_DSM_13514_tRNA-Leu-TAA-1-1,Pyrobaculum arsenaticum DSM 13514,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_arsenaticum_DSM_13514_tRNA-Leu-TAG-1-1,Pyrobaculum arsenaticum DSM 13514,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_calidifontis_JCM_11548_tRNA-Leu-CAA-1-1,Pyrobaculum calidifontis JCM 11548,CAA,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_calidifontis_JCM_11548_tRNA-Leu-CAG-1-1,Pyrobaculum calidifontis JCM 11548,CAG,UGGCGCAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_calidifontis_JCM_11548_tRNA-Leu-GAG-1-1,Pyrobaculum calidifontis JCM 11548,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_calidifontis_JCM_11548_tRNA-Leu-TAA-1-1,Pyrobaculum calidifontis JCM 11548,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_calidifontis_JCM_11548_tRNA-Leu-TAG-1-1,Pyrobaculum calidifontis JCM 11548,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrolobus_fumarii_1A_tRNA-Leu-CAA-1-1,Pyrolobus fumarii 1A,CAA,UGGCGUAGGCCGGC,14,1,3,2,AG,-(((****)))**-
+Pyrolobus_fumarii_1A_tRNA-Leu-CAG-1-1,Pyrolobus fumarii 1A,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrolobus_fumarii_1A_tRNA-Leu-GAG-1-1,Pyrolobus fumarii 1A,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrolobus_fumarii_1A_tRNA-Leu-TAA-1-1,Pyrolobus fumarii 1A,UAA,UGGCGUAGGCCGGC,14,1,3,2,AG,-(((****)))**-
+Pyrolobus_fumarii_1A_tRNA-Leu-TAG-1-1,Pyrolobus fumarii 1A,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_COM1_tRNA-Leu-CAA-1-1,Pyrococcus furiosus COM1,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_COM1_tRNA-Leu-CAG-1-1,Pyrococcus furiosus COM1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_COM1_tRNA-Leu-GAG-1-1,Pyrococcus furiosus COM1,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_COM1_tRNA-Leu-TAA-1-1,Pyrococcus furiosus COM1,UAA,UGCCGUAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_furiosus_COM1_tRNA-Leu-TAG-1-1,Pyrococcus furiosus COM1,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_islandicum_DSM_4184_tRNA-Leu-CAA-1-1,Pyrobaculum islandicum DSM 4184,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_islandicum_DSM_4184_tRNA-Leu-CAG-1-1,Pyrobaculum islandicum DSM 4184,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_islandicum_DSM_4184_tRNA-Leu-GAG-1-1,Pyrobaculum islandicum DSM 4184,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_islandicum_DSM_4184_tRNA-Leu-TAA-1-1,Pyrobaculum islandicum DSM 4184,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_islandicum_DSM_4184_tRNA-Leu-TAG-1-1,Pyrobaculum islandicum DSM 4184,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_NA2_tRNA-Leu-CAA-1-1,Pyrococcus sp NA2,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_NA2_tRNA-Leu-CAG-1-1,Pyrococcus sp NA2,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_NA2_tRNA-Leu-GAG-1-1,Pyrococcus sp NA2,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_NA2_tRNA-Leu-TAA-1-1,Pyrococcus sp NA2,UAA,UGCCGUAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_NA2_tRNA-Leu-TAG-1-1,Pyrococcus sp NA2,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_oguniense_TE7_tRNA-Leu-CAA-1-1,Pyrobaculum oguniense TE7,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_oguniense_TE7_tRNA-Leu-CAG-1-1,Pyrobaculum oguniense TE7,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_oguniense_TE7_tRNA-Leu-GAG-1-1,Pyrobaculum oguniense TE7,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_oguniense_TE7_tRNA-Leu-TAA-1-1,Pyrobaculum oguniense TE7,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrobaculum_oguniense_TE7_tRNA-Leu-TAG-1-1,Pyrobaculum oguniense TE7,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_ST04_tRNA-Leu-CAA-1-1,Pyrococcus sp ST04,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_ST04_tRNA-Leu-CAG-1-1,Pyrococcus sp ST04,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_ST04_tRNA-Leu-GAG-1-1,Pyrococcus sp ST04,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_ST04_tRNA-Leu-TAA-1-1,Pyrococcus sp ST04,UAA,UGCCGUAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_sp_ST04_tRNA-Leu-TAG-1-1,Pyrococcus sp ST04,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_yayanosii_CH1_tRNA-Leu-CAA-1-1,Pyrococcus yayanosii CH1,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_yayanosii_CH1_tRNA-Leu-CAG-1-1,Pyrococcus yayanosii CH1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_yayanosii_CH1_tRNA-Leu-GAG-1-1,Pyrococcus yayanosii CH1,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_yayanosii_CH1_tRNA-Leu-TAA-1-1,Pyrococcus yayanosii CH1,UAA,UGCCGUAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Pyrococcus_yayanosii_CH1_tRNA-Leu-TAG-1-1,Pyrococcus yayanosii CH1,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Saccharolobus_shibatae_B12_tRNA-Leu-CAA-1-1,Saccharolobus shibatae B12,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Saccharolobus_shibatae_B12_tRNA-Leu-CAG-1-1,Saccharolobus shibatae B12,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Saccharolobus_shibatae_B12_tRNA-Leu-GAG-1-1,Saccharolobus shibatae B12,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Saccharolobus_shibatae_B12_tRNA-Leu-TAA-1-1,Saccharolobus shibatae B12,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Saccharolobus_shibatae_B12_tRNA-Leu-TAG-1-1,Saccharolobus shibatae B12,UAG,UGGCGAAGGCCUCC,14,1,3,2,AG,-(((****)))**-
+Salinarchaeum_sp_Harcht-Bsk1_tRNA-Leu-CAA-1-1,Salinarchaeum sp Harcht-Bsk1,CAA,UCCCGAAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Salinarchaeum_sp_Harcht-Bsk1_tRNA-Leu-CAG-1-1,Salinarchaeum sp Harcht-Bsk1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Salinarchaeum_sp_Harcht-Bsk1_tRNA-Leu-GAG-1-1,Salinarchaeum sp Harcht-Bsk1,GAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Salinarchaeum_sp_Harcht-Bsk1_tRNA-Leu-TAA-1-1,Salinarchaeum sp Harcht-Bsk1,UAA,UCUCGUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Salinarchaeum_sp_Harcht-Bsk1_tRNA-Leu-TAG-1-1,Salinarchaeum sp Harcht-Bsk1,UAG,UCCCGUAGGGGUCC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_hellenicus_DSM_12710_tRNA-Leu-CAA-1-1,Staphylothermus hellenicus DSM 12710,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_hellenicus_DSM_12710_tRNA-Leu-CAG-1-1,Staphylothermus hellenicus DSM 12710,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_hellenicus_DSM_12710_tRNA-Leu-GAG-1-1,Staphylothermus hellenicus DSM 12710,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_hellenicus_DSM_12710_tRNA-Leu-TAA-1-1,Staphylothermus hellenicus DSM 12710,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_hellenicus_DSM_12710_tRNA-Leu-TAG-1-1,Staphylothermus hellenicus DSM 12710,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_marinus_F1_tRNA-Leu-CAA-1-1,Staphylothermus marinus F1,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_marinus_F1_tRNA-Leu-CAG-1-1,Staphylothermus marinus F1,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_marinus_F1_tRNA-Leu-GAG-1-1,Staphylothermus marinus F1,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_marinus_F1_tRNA-Leu-TAA-1-1,Staphylothermus marinus F1,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Staphylothermus_marinus_F1_tRNA-Leu-TAG-1-1,Staphylothermus marinus F1,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_P2_tRNA-Leu-CAA-1-1,Sulfolobus solfataricus P2,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_P2_tRNA-Leu-CAG-1-1,Sulfolobus solfataricus P2,CAG,UGGUGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_P2_tRNA-Leu-GAG-1-1,Sulfolobus solfataricus P2,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_P2_tRNA-Leu-TAA-1-1,Sulfolobus solfataricus P2,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_P2_tRNA-Leu-TAG-1-1,Sulfolobus solfataricus P2,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_DSM_639_tRNA-Leu-CAA-1-1,Sulfolobus acidocaldarius DSM 639,CAA,UGGCGAAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_DSM_639_tRNA-Leu-CAG-1-1,Sulfolobus acidocaldarius DSM 639,CAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_DSM_639_tRNA-Leu-GAG-1-1,Sulfolobus acidocaldarius DSM 639,GAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_DSM_639_tRNA-Leu-TAA-1-1,Sulfolobus acidocaldarius DSM 639,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_DSM_639_tRNA-Leu-TAG-1-1,Sulfolobus acidocaldarius DSM 639,UAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_N8_tRNA-Leu-CAA-1-1,Sulfolobus acidocaldarius N8,CAA,UGGCGAAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_N8_tRNA-Leu-CAG-1-1,Sulfolobus acidocaldarius N8,CAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_N8_tRNA-Leu-GAG-1-1,Sulfolobus acidocaldarius N8,GAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_N8_tRNA-Leu-TAA-1-1,Sulfolobus acidocaldarius N8,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_N8_tRNA-Leu-TAG-1-1,Sulfolobus acidocaldarius N8,UAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_Ron12I_tRNA-Leu-CAA-1-1,Sulfolobus acidocaldarius Ron12I,CAA,UGGCGAAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_Ron12I_tRNA-Leu-CAG-1-1,Sulfolobus acidocaldarius Ron12I,CAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_Ron12I_tRNA-Leu-GAG-1-1,Sulfolobus acidocaldarius Ron12I,GAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_Ron12I_tRNA-Leu-TAA-1-1,Sulfolobus acidocaldarius Ron12I,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_Ron12I_tRNA-Leu-TAG-1-1,Sulfolobus acidocaldarius Ron12I,UAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_SUSAZ_tRNA-Leu-CAA-1-1,Sulfolobus acidocaldarius SUSAZ,CAA,UGGCGAAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_SUSAZ_tRNA-Leu-CAG-1-1,Sulfolobus acidocaldarius SUSAZ,CAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_SUSAZ_tRNA-Leu-GAG-1-1,Sulfolobus acidocaldarius SUSAZ,GAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_SUSAZ_tRNA-Leu-TAA-1-1,Sulfolobus acidocaldarius SUSAZ,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_acidocaldarius_SUSAZ_tRNA-Leu-TAG-1-1,Sulfolobus acidocaldarius SUSAZ,UAG,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_HVE104_tRNA-Leu-CAA-1-1,Sulfolobus islandicus HVE104,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_HVE104_tRNA-Leu-CAG-1-1,Sulfolobus islandicus HVE104,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_HVE104_tRNA-Leu-GAG-1-1,Sulfolobus islandicus HVE104,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_HVE104_tRNA-Leu-TAA-1-1,Sulfolobus islandicus HVE104,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_HVE104_tRNA-Leu-TAG-1-1,Sulfolobus islandicus HVE104,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LAL141_tRNA-Leu-CAA-1-1,Sulfolobus islandicus LAL141,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LAL141_tRNA-Leu-CAG-1-1,Sulfolobus islandicus LAL141,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LAL141_tRNA-Leu-GAG-1-1,Sulfolobus islandicus LAL141,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LAL141_tRNA-Leu-TAA-1-1,Sulfolobus islandicus LAL141,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LAL141_tRNA-Leu-TAG-1-1,Sulfolobus islandicus LAL141,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LD85_tRNA-Leu-CAA-1-1,Sulfolobus islandicus LD85,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LD85_tRNA-Leu-CAG-1-1,Sulfolobus islandicus LD85,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LD85_tRNA-Leu-GAG-1-1,Sulfolobus islandicus LD85,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LD85_tRNA-Leu-TAA-1-1,Sulfolobus islandicus LD85,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LD85_tRNA-Leu-TAG-1-1,Sulfolobus islandicus LD85,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LS215_tRNA-Leu-CAA-1-1,Sulfolobus islandicus LS215,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LS215_tRNA-Leu-CAG-1-1,Sulfolobus islandicus LS215,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LS215_tRNA-Leu-GAG-1-1,Sulfolobus islandicus LS215,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LS215_tRNA-Leu-TAA-1-1,Sulfolobus islandicus LS215,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_LS215_tRNA-Leu-TAG-1-1,Sulfolobus islandicus LS215,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1425_tRNA-Leu-CAA-1-1,Sulfolobus islandicus M1425,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1425_tRNA-Leu-CAG-1-1,Sulfolobus islandicus M1425,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1425_tRNA-Leu-GAG-1-1,Sulfolobus islandicus M1425,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1425_tRNA-Leu-TAA-1-1,Sulfolobus islandicus M1425,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1425_tRNA-Leu-TAG-1-1,Sulfolobus islandicus M1425,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M162_tRNA-Leu-CAA-1-1,Sulfolobus islandicus M162,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M162_tRNA-Leu-CAG-1-1,Sulfolobus islandicus M162,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M162_tRNA-Leu-GAG-1-1,Sulfolobus islandicus M162,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M162_tRNA-Leu-TAA-1-1,Sulfolobus islandicus M162,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M162_tRNA-Leu-TAG-1-1,Sulfolobus islandicus M162,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1623_tRNA-Leu-CAA-1-1,Sulfolobus islandicus M1623,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1623_tRNA-Leu-CAG-1-1,Sulfolobus islandicus M1623,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1623_tRNA-Leu-GAG-1-1,Sulfolobus islandicus M1623,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1623_tRNA-Leu-TAA-1-1,Sulfolobus islandicus M1623,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1623_tRNA-Leu-TAG-1-1,Sulfolobus islandicus M1623,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1627_tRNA-Leu-CAA-1-1,Sulfolobus islandicus M1627,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1627_tRNA-Leu-CAG-1-1,Sulfolobus islandicus M1627,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1627_tRNA-Leu-GAG-1-1,Sulfolobus islandicus M1627,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1627_tRNA-Leu-TAA-1-1,Sulfolobus islandicus M1627,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1627_tRNA-Leu-TAG-1-1,Sulfolobus islandicus M1627,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M164_tRNA-Leu-CAA-1-1,Sulfolobus islandicus M164,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M164_tRNA-Leu-CAG-1-1,Sulfolobus islandicus M164,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M164_tRNA-Leu-GAG-1-1,Sulfolobus islandicus M164,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M164_tRNA-Leu-TAA-1-1,Sulfolobus islandicus M164,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M164_tRNA-Leu-TAG-1-1,Sulfolobus islandicus M164,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1640_tRNA-Leu-CAA-1-1,Sulfolobus islandicus M1640,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1640_tRNA-Leu-CAG-1-1,Sulfolobus islandicus M1640,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1640_tRNA-Leu-GAG-1-1,Sulfolobus islandicus M1640,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1640_tRNA-Leu-TAA-1-1,Sulfolobus islandicus M1640,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1640_tRNA-Leu-TAG-1-1,Sulfolobus islandicus M1640,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1643_tRNA-Leu-CAA-1-1,Sulfolobus islandicus M1643,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1643_tRNA-Leu-CAG-1-1,Sulfolobus islandicus M1643,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1643_tRNA-Leu-GAG-1-1,Sulfolobus islandicus M1643,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1643_tRNA-Leu-TAA-1-1,Sulfolobus islandicus M1643,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1643_tRNA-Leu-TAG-1-1,Sulfolobus islandicus M1643,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1647_tRNA-Leu-CAA-1-1,Sulfolobus islandicus M1647,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1647_tRNA-Leu-CAG-1-1,Sulfolobus islandicus M1647,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1647_tRNA-Leu-GAG-1-1,Sulfolobus islandicus M1647,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1647_tRNA-Leu-TAA-1-1,Sulfolobus islandicus M1647,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_M1647_tRNA-Leu-TAG-1-1,Sulfolobus islandicus M1647,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_REY15A_tRNA-Leu-CAA-1-1,Sulfolobus islandicus REY15A,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_REY15A_tRNA-Leu-CAG-1-1,Sulfolobus islandicus REY15A,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_REY15A_tRNA-Leu-GAG-1-1,Sulfolobus islandicus REY15A,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_REY15A_tRNA-Leu-TAA-1-1,Sulfolobus islandicus REY15A,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_REY15A_tRNA-Leu-TAG-1-1,Sulfolobus islandicus REY15A,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YG5714_tRNA-Leu-CAA-1-1,Sulfolobus islandicus YG5714,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YG5714_tRNA-Leu-CAG-1-1,Sulfolobus islandicus YG5714,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YG5714_tRNA-Leu-GAG-1-1,Sulfolobus islandicus YG5714,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YG5714_tRNA-Leu-TAA-1-1,Sulfolobus islandicus YG5714,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YG5714_tRNA-Leu-TAG-1-1,Sulfolobus islandicus YG5714,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YN1551_tRNA-Leu-CAA-1-1,Sulfolobus islandicus YN1551,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YN1551_tRNA-Leu-CAG-1-1,Sulfolobus islandicus YN1551,CAG,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YN1551_tRNA-Leu-GAG-1-1,Sulfolobus islandicus YN1551,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YN1551_tRNA-Leu-TAA-1-1,Sulfolobus islandicus YN1551,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_islandicus_YN1551_tRNA-Leu-TAG-1-1,Sulfolobus islandicus YN1551,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_tRNA-Leu-CAA-1-1,Sulfolobus solfataricus 982,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_tRNA-Leu-CAG-1-1,Sulfolobus solfataricus 982,CAG,UGGUGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_tRNA-Leu-GAG-1-1,Sulfolobus solfataricus 982,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_tRNA-Leu-TAA-1-1,Sulfolobus solfataricus 982,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_tRNA-Leu-TAG-1-1,Sulfolobus solfataricus 982,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_SULC_tRNA-Leu-CAA-1-1,Sulfolobus solfataricus 982 SULC,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_SULC_tRNA-Leu-CAG-1-1,Sulfolobus solfataricus 982 SULC,CAG,UGGUGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_SULC_tRNA-Leu-GAG-1-1,Sulfolobus solfataricus 982 SULC,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_SULC_tRNA-Leu-TAA-1-1,Sulfolobus solfataricus 982 SULC,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_982_SULC_tRNA-Leu-TAG-1-1,Sulfolobus solfataricus 982 SULC,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULA_tRNA-Leu-CAA-1-1,Sulfolobus solfataricus SULA,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULA_tRNA-Leu-CAG-1-1,Sulfolobus solfataricus SULA,CAG,UGGUGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULA_tRNA-Leu-GAG-1-1,Sulfolobus solfataricus SULA,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULA_tRNA-Leu-TAA-1-1,Sulfolobus solfataricus SULA,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULA_tRNA-Leu-TAG-1-1,Sulfolobus solfataricus SULA,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULB_tRNA-Leu-CAA-1-1,Sulfolobus solfataricus SULB,CAA,UGGCGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULB_tRNA-Leu-CAG-1-1,Sulfolobus solfataricus SULB,CAG,UGGUGAAGGCCUUC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULB_tRNA-Leu-GAG-1-1,Sulfolobus solfataricus SULB,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULB_tRNA-Leu-TAA-1-1,Sulfolobus solfataricus SULB,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_solfataricus_SULB_tRNA-Leu-TAG-1-1,Sulfolobus solfataricus SULB,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_tokodaii_str_7_tRNA-Leu-CAA-1-1,Sulfolobus tokodaii str 7,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_tokodaii_str_7_tRNA-Leu-CAG-1-1,Sulfolobus tokodaii str 7,CAG,UGGCAUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_tokodaii_str_7_tRNA-Leu-GAG-1-1,Sulfolobus tokodaii str 7,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_tokodaii_str_7_tRNA-Leu-TAA-1-1,Sulfolobus tokodaii str 7,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Sulfolobus_tokodaii_str_7_tRNA-Leu-TAG-1-1,Sulfolobus tokodaii str 7,UAG,UGGCAUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thaumarchaeota_archaeon_SAT1_tRNA-Leu-CAA-1-1,Thaumarchaeota archaeon SAT1,CAA,UCCUUUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thaumarchaeota_archaeon_SAT1_tRNA-Leu-CAG-1-1,Thaumarchaeota archaeon SAT1,CAG,UCUUCUAGGAGUUC,14,1,3,2,AG,-(((****)))**-
+Thaumarchaeota_archaeon_SAT1_tRNA-Leu-GAG-1-1,Thaumarchaeota archaeon SAT1,GAG,UAUCUUAGGAUUUC,14,1,3,2,AG,-(((****)))**-
+Thaumarchaeota_archaeon_SAT1_tRNA-Leu-TAA-1-1,Thaumarchaeota archaeon SAT1,UAA,UCUCUUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thaumarchaeota_archaeon_SAT1_tRNA-Leu-TAG-1-1,Thaumarchaeota archaeon SAT1,UAG,UCUCUUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_acidophilum_DSM_1728_tRNA-Leu-CAA-1-1,Thermoplasma acidophilum DSM 1728,CAA,CUCCGUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_acidophilum_DSM_1728_tRNA-Leu-CAG-1-1,Thermoplasma acidophilum DSM 1728,CAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_acidophilum_DSM_1728_tRNA-Leu-GAG-1-1,Thermoplasma acidophilum DSM 1728,GAG,UUCCGUAGGGAUGC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_acidophilum_DSM_1728_tRNA-Leu-TAA-1-1,Thermoplasma acidophilum DSM 1728,UAA,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_acidophilum_DSM_1728_tRNA-Leu-TAG-1-1,Thermoplasma acidophilum DSM 1728,UAG,UCCCGAAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermosphaera_aggregans_DSM_11486_tRNA-Leu-CAA-1-1,Thermosphaera aggregans DSM 11486,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermosphaera_aggregans_DSM_11486_tRNA-Leu-CAG-1-1,Thermosphaera aggregans DSM 11486,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermosphaera_aggregans_DSM_11486_tRNA-Leu-GAG-1-1,Thermosphaera aggregans DSM 11486,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermosphaera_aggregans_DSM_11486_tRNA-Leu-TAA-1-1,Thermosphaera aggregans DSM 11486,UAA,UGGCAUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermosphaera_aggregans_DSM_11486_tRNA-Leu-TAG-1-1,Thermosphaera aggregans DSM 11486,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoplasmatales_archaeon_BRNA1_tRNA-Leu-CAA-1-1,Thermoplasmatales archaeon BRNA1,CAA,UCCCUAGCGGUUC,13,1,2,2,AG,-((*****))**-
+Thermoplasmatales_archaeon_BRNA1_tRNA-Leu-CAG-1-1,Thermoplasmatales archaeon BRNA1,CAG,UCCUUAGCGGUCC,13,1,2,2,AG,-((*****))**-
+Thermoplasmatales_archaeon_BRNA1_tRNA-Leu-GAG-1-1,Thermoplasmatales archaeon BRNA1,GAG,UCCAUAGCGGUCC,13,1,2,2,AG,-((*****))**-
+Thermoplasmatales_archaeon_BRNA1_tRNA-Leu-TAA-1-1,Thermoplasmatales archaeon BRNA1,UAA,UCCCUAGCGGUUC,13,1,2,2,AG,-((*****))**-
+Thermoplasmatales_archaeon_BRNA1_tRNA-Leu-TAG-1-1,Thermoplasmatales archaeon BRNA1,UAG,UCCUCAGUGGUCC,13,1,2,2,AG,-((*****))**-
+Thermococcus_barophilus_MP_tRNA-Leu-CAA-1-1,Thermococcus barophilus MP,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_barophilus_MP_tRNA-Leu-CAG-1-1,Thermococcus barophilus MP,CAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_barophilus_MP_tRNA-Leu-GAG-1-1,Thermococcus barophilus MP,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_barophilus_MP_tRNA-Leu-TAA-1-1,Thermococcus barophilus MP,UAA,UGCCGGAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_barophilus_MP_tRNA-Leu-TAG-1-1,Thermococcus barophilus MP,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermofilum_carboxyditrophus_1505_tRNA-Leu-CAA-1-1,Thermofilum carboxyditrophus 1505,CAA,UGGCGUUGGCCUGC,14,1,3,2,UG,-(((****)))**-
+Thermofilum_carboxyditrophus_1505_tRNA-Leu-CAG-1-1,Thermofilum carboxyditrophus 1505,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermofilum_carboxyditrophus_1505_tRNA-Leu-GAG-1-1,Thermofilum carboxyditrophus 1505,GAG,UGGCGUUGGCCUGC,14,1,3,2,UG,-(((****)))**-
+Thermofilum_carboxyditrophus_1505_tRNA-Leu-TAA-1-1,Thermofilum carboxyditrophus 1505,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermofilum_carboxyditrophus_1505_tRNA-Leu-TAG-1-1,Thermofilum carboxyditrophus 1505,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermogladius_cellulolyticus_1633_tRNA-Leu-CAA-1-1,Thermogladius cellulolyticus 1633,CAA,UGGUGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermogladius_cellulolyticus_1633_tRNA-Leu-CAG-1-1,Thermogladius cellulolyticus 1633,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermogladius_cellulolyticus_1633_tRNA-Leu-GAG-1-1,Thermogladius cellulolyticus 1633,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermogladius_cellulolyticus_1633_tRNA-Leu-TAA-1-1,Thermogladius cellulolyticus 1633,UAA,UGGUGUAGACCUGC,14,1,3,2,AG,-(((****)))**-
+Thermogladius_cellulolyticus_1633_tRNA-Leu-TAG-1-1,Thermogladius cellulolyticus 1633,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_eurythermalis_A501_tRNA-Leu-CAA-1-1,Thermococcus eurythermalis A501,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_eurythermalis_A501_tRNA-Leu-CAG-1-1,Thermococcus eurythermalis A501,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_eurythermalis_A501_tRNA-Leu-GAG-1-1,Thermococcus eurythermalis A501,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_eurythermalis_A501_tRNA-Leu-TAA-1-1,Thermococcus eurythermalis A501,UAA,UGCCGUAGGGCUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_eurythermalis_A501_tRNA-Leu-TAG-1-1,Thermococcus eurythermalis A501,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Leu-CAA-1-1,Thermococcus gammatolerans EJ3 DSM 15229,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Leu-CAG-1-1,Thermococcus gammatolerans EJ3 DSM 15229,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Leu-GAG-1-1,Thermococcus gammatolerans EJ3 DSM 15229,GAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Leu-TAA-1-1,Thermococcus gammatolerans EJ3 DSM 15229,UAA,UGCCGUAGGGCUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Leu-TAG-1-1,Thermococcus gammatolerans EJ3 DSM 15229,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_kodakarensis_KOD1_tRNA-Leu-CAA-1-1,Thermococcus kodakarensis KOD1,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_kodakarensis_KOD1_tRNA-Leu-CAG-1-1,Thermococcus kodakarensis KOD1,CAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_kodakarensis_KOD1_tRNA-Leu-GAG-1-1,Thermococcus kodakarensis KOD1,GAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_kodakarensis_KOD1_tRNA-Leu-TAA-1-1,Thermococcus kodakarensis KOD1,UAA,UGCCGUAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_kodakarensis_KOD1_tRNA-Leu-TAG-1-1,Thermococcus kodakarensis KOD1,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_litoralis_DSM_5473_tRNA-Leu-CAA-1-1,Thermococcus litoralis DSM 5473,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_litoralis_DSM_5473_tRNA-Leu-GAG-1-1,Thermococcus litoralis DSM 5473,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_litoralis_DSM_5473_tRNA-Leu-NAG-1-1,Thermococcus litoralis DSM 5473,NAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_litoralis_DSM_5473_tRNA-Leu-TAA-1-1,Thermococcus litoralis DSM 5473,UAA,UGCCGUAGGGCUAC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_litoralis_DSM_5473_tRNA-Leu-TAG-1-1,Thermococcus litoralis DSM 5473,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_nautili_30-1_tRNA-Leu-CAA-1-1,Thermococcus nautili 30-1,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_nautili_30-1_tRNA-Leu-CAG-1-1,Thermococcus nautili 30-1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_nautili_30-1_tRNA-Leu-GAG-1-1,Thermococcus nautili 30-1,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_nautili_30-1_tRNA-Leu-TAA-1-1,Thermococcus nautili 30-1,UAA,UGCCGCAGGGCUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_nautili_30-1_tRNA-Leu-TAG-1-1,Thermococcus nautili 30-1,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_neutrophilus_V24Sta_tRNA-Leu-CAA-1-1,Thermoproteus neutrophilus V24Sta,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_neutrophilus_V24Sta_tRNA-Leu-CAG-1-1,Thermoproteus neutrophilus V24Sta,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_neutrophilus_V24Sta_tRNA-Leu-GAG-1-1,Thermoproteus neutrophilus V24Sta,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_neutrophilus_V24Sta_tRNA-Leu-TAA-1-1,Thermoproteus neutrophilus V24Sta,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_neutrophilus_V24Sta_tRNA-Leu-TAG-1-1,Thermoproteus neutrophilus V24Sta,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_onnurineus_NA1_tRNA-Leu-CAA-1-1,Thermococcus onnurineus NA1,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_onnurineus_NA1_tRNA-Leu-CAG-1-1,Thermococcus onnurineus NA1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_onnurineus_NA1_tRNA-Leu-GAG-1-1,Thermococcus onnurineus NA1,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_onnurineus_NA1_tRNA-Leu-TAA-1-1,Thermococcus onnurineus NA1,UAA,UGCCGUAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_onnurineus_NA1_tRNA-Leu-TAG-1-1,Thermococcus onnurineus NA1,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermofilum_pendens_Hrk_5_tRNA-Leu-CAA-1-1,Thermofilum pendens Hrk 5,CAA,UGGCGUUGGCCUGC,14,1,3,2,UG,-(((****)))**-
+Thermofilum_pendens_Hrk_5_tRNA-Leu-CAG-1-1,Thermofilum pendens Hrk 5,CAG,UGGCGUUGGCCUGC,14,1,3,2,UG,-(((****)))**-
+Thermofilum_pendens_Hrk_5_tRNA-Leu-GAG-1-1,Thermofilum pendens Hrk 5,GAG,UGGCGUUGGCCUGC,14,1,3,2,UG,-(((****)))**-
+Thermofilum_pendens_Hrk_5_tRNA-Leu-TAA-1-1,Thermofilum pendens Hrk 5,UAA,UGGCGUUGGCCUGC,14,1,3,2,UG,-(((****)))**-
+Thermofilum_pendens_Hrk_5_tRNA-Leu-TAG-1-1,Thermofilum pendens Hrk 5,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sibiricus_MM_739_tRNA-Leu-CAA-1-1,Thermococcus sibiricus MM 739,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sibiricus_MM_739_tRNA-Leu-CAG-1-1,Thermococcus sibiricus MM 739,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sibiricus_MM_739_tRNA-Leu-GAG-1-1,Thermococcus sibiricus MM 739,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sibiricus_MM_739_tRNA-Leu-TAA-1-1,Thermococcus sibiricus MM 739,UAA,UGCCGUAGGGCUAC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sibiricus_MM_739_tRNA-Leu-TAG-1-1,Thermococcus sibiricus MM 739,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermofilum_sp_1910b_tRNA-Leu-CAA-1-1,Thermofilum sp 1910b,CAA,UGGCGUUGGCCUGC,14,1,3,2,UG,-(((****)))**-
+Thermofilum_sp_1910b_tRNA-Leu-CAG-1-1,Thermofilum sp 1910b,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermofilum_sp_1910b_tRNA-Leu-GAG-1-1,Thermofilum sp 1910b,GAG,UGGCGUUGGCCUGC,14,1,3,2,UG,-(((****)))**-
+Thermofilum_sp_1910b_tRNA-Leu-TAA-1-1,Thermofilum sp 1910b,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermofilum_sp_1910b_tRNA-Leu-TAG-1-1,Thermofilum sp 1910b,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_4557_tRNA-Leu-CAA-1-1,Thermococcus sp 4557,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_4557_tRNA-Leu-CAG-1-1,Thermococcus sp 4557,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_4557_tRNA-Leu-GAG-1-1,Thermococcus sp 4557,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_4557_tRNA-Leu-TAA-1-1,Thermococcus sp 4557,UAA,UGCCGAAGGGCUAC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_4557_tRNA-Leu-TAG-1-1,Thermococcus sp 4557,UAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_AM4_tRNA-Leu-CAA-1-1,Thermococcus sp AM4,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_AM4_tRNA-Leu-CAG-1-1,Thermococcus sp AM4,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_AM4_tRNA-Leu-GAG-1-1,Thermococcus sp AM4,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_AM4_tRNA-Leu-TAA-1-1,Thermococcus sp AM4,UAA,UGCCGCAGGGCUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_AM4_tRNA-Leu-TAG-1-1,Thermococcus sp AM4,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_CL1_tRNA-Leu-CAA-1-1,Thermococcus sp CL1,CAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_CL1_tRNA-Leu-CAG-1-1,Thermococcus sp CL1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_CL1_tRNA-Leu-GAG-1-1,Thermococcus sp CL1,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_CL1_tRNA-Leu-TAA-1-1,Thermococcus sp CL1,UAA,UGCCGCAGGGCUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_CL1_tRNA-Leu-TAG-1-1,Thermococcus sp CL1,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_ES1_tRNA-Leu-CAA-1-1,Thermococcus sp ES1,CAA,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_ES1_tRNA-Leu-CAG-1-1,Thermococcus sp ES1,CAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_ES1_tRNA-Leu-GAG-1-1,Thermococcus sp ES1,GAG,UCCCGUAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_ES1_tRNA-Leu-TAA-1-1,Thermococcus sp ES1,UAA,UGCCGGAGGGCUGC,14,1,3,2,AG,-(((****)))**-
+Thermococcus_sp_ES1_tRNA-Leu-TAG-1-1,Thermococcus sp ES1,UAG,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_tenax_Kra_1_tRNA-Leu-CAA-1-1,Thermoproteus tenax Kra 1,CAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_tenax_Kra_1_tRNA-Leu-CAG-1-1,Thermoproteus tenax Kra 1,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_tenax_Kra_1_tRNA-Leu-GAG-1-1,Thermoproteus tenax Kra 1,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_tenax_Kra_1_tRNA-Leu-TAA-1-1,Thermoproteus tenax Kra 1,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_tenax_Kra_1_tRNA-Leu-TAG-1-1,Thermoproteus tenax Kra 1,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_uzoniensis_768-20_tRNA-Leu-CAA-1-1,Thermoproteus uzoniensis 768-20,CAA,UGGCGUAGGCCUAC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_uzoniensis_768-20_tRNA-Leu-CAG-1-1,Thermoproteus uzoniensis 768-20,CAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_uzoniensis_768-20_tRNA-Leu-GAG-1-1,Thermoproteus uzoniensis 768-20,GAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_uzoniensis_768-20_tRNA-Leu-TAA-1-1,Thermoproteus uzoniensis 768-20,UAA,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoproteus_uzoniensis_768-20_tRNA-Leu-TAG-1-1,Thermoproteus uzoniensis 768-20,UAG,UGGCGUAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_volcanium_GSS1_tRNA-Leu-CAA-1-1,Thermoplasma volcanium GSS1,CAA,UUCCGUAGGGAUUC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_volcanium_GSS1_tRNA-Leu-CAG-1-1,Thermoplasma volcanium GSS1,CAG,UCCCGCAGGGUUC,13,1,2,2,AG,-((*****))**-
+Thermoplasma_volcanium_GSS1_tRNA-Leu-GAG-1-1,Thermoplasma volcanium GSS1,GAG,UUCCGUAGGGAUGC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_volcanium_GSS1_tRNA-Leu-TAA-1-1,Thermoplasma volcanium GSS1,UAA,UCCCGCAGGGGUUC,14,1,3,2,AG,-(((****)))**-
+Thermoplasma_volcanium_GSS1_tRNA-Leu-TAG-1-1,Thermoplasma volcanium GSS1,UAG,UCCCGCAGGGUUUC,14,1,2,3,AG,-((*****))***-
+Vulcanisaeta_distributa_DSM_14429_tRNA-Leu-CAA-1-1,Vulcanisaeta distributa DSM 14429,CAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_distributa_DSM_14429_tRNA-Leu-CAG-1-1,Vulcanisaeta distributa DSM 14429,CAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_distributa_DSM_14429_tRNA-Leu-GAG-1-1,Vulcanisaeta distributa DSM 14429,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_distributa_DSM_14429_tRNA-Leu-TAA-1-1,Vulcanisaeta distributa DSM 14429,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_distributa_DSM_14429_tRNA-Leu-TAG-1-1,Vulcanisaeta distributa DSM 14429,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_moutnovskia_768-28_tRNA-Leu-CAA-1-1,Vulcanisaeta moutnovskia 768-28,CAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_moutnovskia_768-28_tRNA-Leu-CAG-1-1,Vulcanisaeta moutnovskia 768-28,CAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_moutnovskia_768-28_tRNA-Leu-GAG-1-1,Vulcanisaeta moutnovskia 768-28,GAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_moutnovskia_768-28_tRNA-Leu-TAA-1-1,Vulcanisaeta moutnovskia 768-28,UAA,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-
+Vulcanisaeta_moutnovskia_768-28_tRNA-Leu-TAG-1-1,Vulcanisaeta moutnovskia 768-28,UAG,UGGCGAAGGCCUGC,14,1,3,2,AG,-(((****)))**-

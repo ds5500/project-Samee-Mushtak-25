@@ -34,12 +34,6 @@ const sop_score_data = [
 ]
 ```
 
-<!--
-```tex
-\int_0^1 e^x d{x}
-```
--->
-
 ```js
 function plot_sop_scores(data, width={}) {
     return Plot.plot({
@@ -142,7 +136,9 @@ const dists = [
 ```js
 const region_selection = view(
     Inputs.select(
-        ["Full Sequence", "D Loop", "Ac Loop", "V Loop", "T Loop"], {
+        region_jsons, {
+            value: region_jsons.find( (t) => t.region === "Full Sequence" ),
+            format: (t) => t.region,
             label: "Region"
         }
     )
@@ -162,23 +158,37 @@ const dist_selection = view(
 ```
 
 ```js
+const region_dist_data = region_selection.data;
+```
+
+```js
 function plot_dists(data, width={}) {
     return Plot.plot({
         padding: 0,
         grid: true,
         aspectRatio: 1,
-        marginLeft: 100,
+        marginLeft: 120,
+        marginTop: 90,
         x: {
             domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
-            axis: "top",
-            label: "Algorithm 1"
         },
         y: {
             domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
-            label: "Algorithm 2"
         },
         color: {type: "linear", scheme: "GnBu"},
         marks: [
+            Plot.axisX({
+                anchor: "top",
+                fontSize: 14,
+                label: "Algorithm 1",
+                tickRotate: -30
+            }),
+            Plot.axisY({
+                anchor: "left",
+                fontSize: 14,
+                label: "Algorithm 2",
+                tickRotate: -30
+            }),
             Plot.cell(data, {
                 x : "col_label",
                 y : "row_label",
@@ -189,7 +199,8 @@ function plot_dists(data, width={}) {
                 x : "col_label",
                 y : "row_label",
                 text : dist_selection.dist,
-                fill: "black"
+                fill: "black",
+                fontSize: 24
             })
         ]
     })
@@ -197,9 +208,7 @@ function plot_dists(data, width={}) {
 ```
 
 <div class="grid grid-cols-1">
-    <div class="card">
-        ${resize((width) => plot_dists(v_loop_metal_scores_data, {width}))}
-    </div>
+    ${resize((width) => plot_dists(region_dist_data, {width}))}
 </div>
 
 ## Multiple Overlap Scoring
@@ -313,4 +322,21 @@ function plot_mos_scores(data, width={}) {
 const full_seq_metal_scores_data = FileAttachment("data/quality-reports/full_seq_metal_scores.json").json()
 const ac_loop_metal_scores_data = FileAttachment("data/quality-reports/ac_loop_metal_scores.json").json()
 const v_loop_metal_scores_data = FileAttachment("data/quality-reports/v_loop_metal_scores.json").json()
+```
+
+```js
+const region_jsons = [
+    {
+        "region" : "Full Sequence",
+        "data" : FileAttachment("data/quality-reports/full_seq_metal_scores.json").json()
+    },
+    {
+        "region" : "Ac Loop",
+        "data" : FileAttachment("data/quality-reports/ac_loop_metal_scores.json").json()
+    },
+    {
+        "region" : " V Loop",
+        "data" : FileAttachment("data/quality-reports/v_loop_metal_scores.json").json()
+    }
+];
 ```
