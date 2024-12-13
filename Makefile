@@ -27,7 +27,12 @@ eda_mafft:
 	ete3 view -t eda/mafft-data/pyrococcus-furiosus.tre -i eda/mafft-data/pyrococcus-furiosus-guidetree.png
 
 bulk_process:
-	./process_trnas.sh
+	./src/shell_scripts/process_trnas.sh
+
+trna_leu_analysis:
+	python tRNALeu-analysis/scraper.py
+	./tRNALeu-analysis/extract_type_ii.sh F
+	python tRNALeu-analysis/archLeu-v-loop-stats.py
 
 eda/reference/metaCupr1-mature-tRNAs.fa:
 	mkdir -p eda/reference
@@ -45,4 +50,9 @@ clean_eda:
 
 clean_bulk:
 	rm -r bulk_output/*/
+
+clean_leu:
+	rm tRNALeu-analysis/fasta_urls_all_archaea.txt
+	rm tRNALeu-analysis/Leu*
+	rm tRNALeu-analysis/source_fastas_all_archaea/*
 
