@@ -2,9 +2,15 @@
 
 * [Proposal](proposal.md)
 * [Plan](plan.md)
-* [Overview of Results and Progress thus far](docs/overview.md)
+* [Overview of Results from Phase 1](docs/overview.md)
 * [Latest Release](https://github.com/ds5500/project-Samee-Mushtak-25/releases/tag/v0.1)
   * Download bulk_output.zip from the above link to see the output of the current tRNA processing pipeline if unable to run the script.  
+
+## Public-facing site
+
+[https://samee-mushtak.observablehq.cloud/trna-alignment/](https://samee-mushtak.observablehq.cloud/trna-alignment/)
+
+We are using the above site in place of the docs folder of our repository.
 
 ## Conda Setup
 
@@ -96,6 +102,18 @@ make clean_bulk
 ![Flowchart of process_trnas.sh logic](figs/DS5500-process_trnas-flow.jpg)
 
 _Flowchart made with Miro_
+
+## MetAl Scoring
+
+To create alignment quality reports using MetAl metrics:
+
+```
+make metal_reports
+```
+
+To run this command, you must download and build Benjamin Blackburne's MetAl program from source: [https://github.com/benb/MetAl](https://github.com/benb/MetAl)
+
+TODO: Detailed instructions on building from source
 
 ## V Loop Analysis
 
