@@ -260,3 +260,5 @@ const jsons = [
     }
 ];
 ```
+
+Multiple sequence alignments (MSAs) are an important tool in bioinformatic analysis as they are a means of identifying homologous regions of a set of sequences. Additionally, MSAs can provide insight into potential evolutionary pathways that could result in observed genetic diversity. There are many algorithms for computing MSAs of sequences. However, algorithms which perform well on proteins and DNA tend to perform poorly on tRNAs because of the challenges posed by the secondary structure of tRNA. TRNAs feature internal folding between distant bases, whereas the structure of proteins and DNA is predominantly influenced by local interactions. For this reason, we observe that most algorithms have difficulty aligning tRNAs perfectly, and the performance is particularly poor in the V loop region. This can be seen visually above, and can also be numerically verified (see next section).

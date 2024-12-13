@@ -4,6 +4,100 @@ title: Quality Reports
 
 # Quality Reports
 
+## MetAl Scoring
+
+Scores calculated using Benjamin Blackburne's MetAl command line utility compiled from [source](https://github.com/benb/MetAl). See original paper: [https://doi.org/10.1093/bioinformatics/btr701](https://doi.org/10.1093/bioinformatics/btr701)
+
+
+```js
+const dists = [
+    {"dist" : "d_ssp", "dist_literal" : "Symmetrized Sum of Pairs Distance"},
+    {"dist" : "d_pos", "dist_literal" : "Positional Encoding Distance"},
+    {"dist" : "d_simple", "dist_literal" : "Homology Distance"}
+];
+```
+
+```js
+const region_selection = view(
+    Inputs.select(
+        region_jsons, {
+            value: region_jsons.find( (t) => t.region === "Full Sequence" ),
+            format: (t) => t.region,
+            label: "Region"
+        }
+    )
+);
+```
+
+```js
+const dist_selection = view(
+    Inputs.select(
+        dists, {
+            value: dists.find( (t) => t.dist === "d_ssp" ),
+            format: (t) => t.dist_literal,
+            label: "Species"
+        }
+    )
+);
+```
+
+```js
+const region_dist_data = region_selection.data;
+```
+
+```js
+function plot_dists(data, width={}) {
+    return Plot.plot({
+        padding: 0,
+        grid: true,
+        aspectRatio: 1,
+        marginLeft: 120,
+        marginTop: 90,
+        x: {
+            domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
+        },
+        y: {
+            domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
+        },
+        color: {type: "linear", scheme: "GnBu"},
+        marks: [
+            Plot.axisX({
+                anchor: "top",
+                fontSize: 14,
+                label: "Algorithm 1",
+                tickRotate: -30
+            }),
+            Plot.axisY({
+                anchor: "left",
+                fontSize: 14,
+                label: "Algorithm 2",
+                tickRotate: -30
+            }),
+            Plot.cell(data, {
+                x : "col_label",
+                y : "row_label",
+                fill : dist_selection.dist + "_inv",
+                inset: 0.5
+            }),
+            Plot.text(data, {
+                x : "col_label",
+                y : "row_label",
+                text : dist_selection.dist,
+                fill: "black",
+                fontSize: 24
+            })
+        ]
+    })
+}
+```
+
+<div class="grid grid-cols-1">
+    ${resize((width) => plot_dists(region_dist_data, {width}))}
+</div>
+
+In the above heatmaps, a lower numerical score corresponds to a higher similarity between two alignments. The first row/column correspond to a manual alignment taken to be the gold-standard, and the other rows/columns correspond to algorithmic alignments.
+
+From the above, we can see that the middling performance observed in the full sequence is primarily the result of poor performance in the V loop region. The V loop region of tRNAs is currently not well understood, so it will be the focus of our analysis henceforth.
 
 ## Sum-of-Pairs Scoring
 
@@ -118,97 +212,6 @@ function plot_sop_costs(data, width={}) {
     <div class="card">
         ${resize((width) => plot_sop_costs(sop_cost_data, {width}))}
     </div>
-</div>
-
-## MetAl Scoring
-
-Scores calculated using Benjamin Blackburne's MetAl command line utility compiled from [source](https://github.com/benb/MetAl). See original paper: [https://doi.org/10.1093/bioinformatics/btr701](https://doi.org/10.1093/bioinformatics/btr701)
-
-
-```js
-const dists = [
-    {"dist" : "d_ssp", "dist_literal" : "Symmetrized Sum of Pairs Distance"},
-    {"dist" : "d_pos", "dist_literal" : "Positional Encoding Distance"},
-    {"dist" : "d_simple", "dist_literal" : "Homology Distance"}
-];
-```
-
-```js
-const region_selection = view(
-    Inputs.select(
-        region_jsons, {
-            value: region_jsons.find( (t) => t.region === "Full Sequence" ),
-            format: (t) => t.region,
-            label: "Region"
-        }
-    )
-);
-```
-
-```js
-const dist_selection = view(
-    Inputs.select(
-        dists, {
-            value: dists.find( (t) => t.dist === "d_ssp" ),
-            format: (t) => t.dist_literal,
-            label: "Species"
-        }
-    )
-);
-```
-
-```js
-const region_dist_data = region_selection.data;
-```
-
-```js
-function plot_dists(data, width={}) {
-    return Plot.plot({
-        padding: 0,
-        grid: true,
-        aspectRatio: 1,
-        marginLeft: 120,
-        marginTop: 90,
-        x: {
-            domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
-        },
-        y: {
-            domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
-        },
-        color: {type: "linear", scheme: "GnBu"},
-        marks: [
-            Plot.axisX({
-                anchor: "top",
-                fontSize: 14,
-                label: "Algorithm 1",
-                tickRotate: -30
-            }),
-            Plot.axisY({
-                anchor: "left",
-                fontSize: 14,
-                label: "Algorithm 2",
-                tickRotate: -30
-            }),
-            Plot.cell(data, {
-                x : "col_label",
-                y : "row_label",
-                fill : dist_selection.dist + "_inv",
-                inset: 0.5
-            }),
-            Plot.text(data, {
-                x : "col_label",
-                y : "row_label",
-                text : dist_selection.dist,
-                fill: "black",
-                fontSize: 24
-            })
-        ]
-    })
-}
-```
-
-<div class="grid grid-cols-1">
-    ${resize((width) => plot_dists(region_dist_data, {width}))}
 </div>
 
 ## Multiple Overlap Scoring
