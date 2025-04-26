@@ -1,0 +1,3286 @@
+>Aciduliprofundum_boonei_T469_tRNA-Ser-CGA-1-1 [100]
+UGGGCUCUGCCCUC  -5.80   1.00
+.((((...))))..  -5.80
+>Aciduliprofundum_boonei_T469_tRNA-Ser-GCT-1-1 [100]
+UGGGCUAUUGCCCGC  -8.00   1.00
+.((((....))))..  -8.00
+(((((....))))).  -7.90
+>Aciduliprofundum_boonei_T469_tRNA-Ser-GGA-1-1 [100]
+UACUCCGUUAAGGGGUGC  -6.70   1.00
+((((((.....)))))).  -6.70
+.(((((.....)))))..  -6.00
+>Aciduliprofundum_boonei_T469_tRNA-Ser-TGA-1-1 [100]
+UUCCCUGUAUUGGGAGC  -6.30   1.00
+(((((......))))).  -6.30
+.((((......))))..  -6.20
+>Acidianus_hospitalis_W1_tRNA-Ser-CGA-1-1 [100]
+UGUCCGAAAGGACAC  -6.70   1.00
+(((((....))))).  -6.70
+.((((....))))..  -6.10
+>Acidianus_hospitalis_W1_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Acidianus_hospitalis_W1_tRNA-Ser-GGA-1-1 [100]
+UGGGGGAAACCCUGC  -5.90   1.00
+.((((....))))..  -5.90
+(((((....))))).  -5.30
+>Acidianus_hospitalis_W1_tRNA-Ser-TGA-1-1 [100]
+UAGGGGAAACCCUGC  -6.60   1.00
+(((((....))))).  -6.60
+.((((....))))..  -5.90
+>Acidilobus_saccharovorans_345-15_tRNA-Ser-CGA-1-1 [100]
+UACCCGCAAGGGUGC  -6.50   1.00
+(((((....))))).  -6.50
+.((((....))))..  -5.80
+>Acidilobus_saccharovorans_345-15_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Acidilobus_saccharovorans_345-15_tRNA-Ser-GGA-1-1 [100]
+UGCUCCGCAAGGGGCGC  -8.50   1.00
+.(((((....)))))..  -8.50
+((((((....)))))).  -8.40
+>Acidilobus_saccharovorans_345-15_tRNA-Ser-TGA-1-1 [100]
+UGCUCCACAAGGGGCGC  -7.70   1.00
+.(((((....)))))..  -7.70
+((((((....)))))).  -7.60
+>Aciduliprofundum_sp_MAR08-339_tRNA-Ser-CGA-1-1 [100]
+UGGCCACAAGGCCUC  -7.10   1.00
+.((((....))))..  -7.10
+>Aciduliprofundum_sp_MAR08-339_tRNA-Ser-GCT-1-1 [100]
+UGGGCUGUUGCCCGC  -8.00   1.00
+.((((....))))..  -8.00
+(((((....))))).  -7.90
+>Aciduliprofundum_sp_MAR08-339_tRNA-Ser-GGA-1-1 [100]
+UACUCCGUUAAGGGGUGC  -6.70   1.00
+((((((.....)))))).  -6.70
+.(((((.....)))))..  -6.00
+>Aciduliprofundum_sp_MAR08-339_tRNA-Ser-TGA-1-1 [100]
+UCCCCUUUCUUGGGGGC  -8.10   1.00
+(((((......))))).  -8.10
+.((((......))))..  -8.10
+.(((((.....))))).  -7.70
+>Aeropyrum_pernix_K1_tRNA-Ser-CGA-1-1 [100]
+UGCCCCGCGAGGGGCGC -11.50   1.00
+.(((((....))))).. -11.50
+((((((....)))))). -11.40
+>Aeropyrum_pernix_K1_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAGACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Aeropyrum_pernix_K1_tRNA-Ser-GGA-1-1 [100]
+UGCCCCGCGAGGGGCGC -11.50   1.00
+.(((((....))))).. -11.50
+((((((....)))))). -11.40
+>Aeropyrum_pernix_K1_tRNA-Ser-TGA-1-1 [100]
+UGCCCCGCGAGGGGCGC -11.50   1.00
+.(((((....))))).. -11.50
+((((((....)))))). -11.40
+>Aeropyrum_camini_SY1_JCM_12091_tRNA-Ser-CGA-1-1 [100]
+UGCCCCAGGAGGGGCGC -10.70   1.00
+.(((((....))))).. -10.70
+((((((....)))))). -10.60
+>Aeropyrum_camini_SY1_JCM_12091_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAGACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Aeropyrum_camini_SY1_JCM_12091_tRNA-Ser-GGA-1-1 [100]
+UGCCCCGCGAGGGGCGC -11.50   1.00
+.(((((....))))).. -11.50
+((((((....)))))). -11.40
+>Aeropyrum_camini_SY1_JCM_12091_tRNA-Ser-TGA-1-1 [100]
+UGCCCCGCGAGGGGCGC -11.50   1.00
+.(((((....))))).. -11.50
+((((((....)))))). -11.40
+>Archaeoglobus_fulgidus_DSM_4304_tRNA-Ser-CGA-1-1 [100]
+UGCCCGAAAGGGCGC  -8.20   1.00
+.((((....))))..  -8.20
+(((((....))))).  -8.10
+>Archaeoglobus_fulgidus_DSM_4304_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUUGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Archaeoglobus_fulgidus_DSM_4304_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUCGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Archaeoglobus_fulgidus_DSM_4304_tRNA-Ser-TGA-1-1 [100]
+UGCCCGUAAGGGCUC  -7.90   1.00
+.((((....))))..  -7.90
+>Archaeoglobus_fulgidus_DSM_8774_tRNA-Ser-CGA-1-1 [100]
+UGCCCGAAAGGGCGC  -8.20   1.00
+.((((....))))..  -8.20
+(((((....))))).  -8.10
+>Archaeoglobus_fulgidus_DSM_8774_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUUGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Archaeoglobus_fulgidus_DSM_8774_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUCGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Archaeoglobus_fulgidus_DSM_8774_tRNA-Ser-TGA-1-1 [100]
+UGCCCGUAAGGGCUC  -7.90   1.00
+.((((....))))..  -7.90
+>Archaeoglobus_profundus_DSM_5631_tRNA-Ser-CGA-1-1 [100]
+UGCCCGAAAGGGUUC  -5.80   1.00
+.((((....))))..  -5.80
+>Archaeoglobus_profundus_DSM_5631_tRNA-Ser-GCT-1-1 [100]
+UCCCCUCUGGGGUC  -5.20   1.00
+.((((...))))..  -5.20
+>Archaeoglobus_profundus_DSM_5631_tRNA-Ser-GGA-1-1 [100]
+UGCCCUUCGGGGCUC  -7.50   1.00
+.((((....))))..  -7.50
+>Archaeoglobus_profundus_DSM_5631_tRNA-Ser-TGA-1-1 [100]
+UGCCCUUCGGGGCUC  -7.50   1.00
+.((((....))))..  -7.50
+>Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Ser-CGA-1-1 [100]
+UGCCCGAAAGGGCAC  -8.80   1.00
+(((((....))))).  -8.80
+.((((....))))..  -8.20
+>Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Ser-GCT-1-1 [100]
+UGGGCUCUGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Ser-GGA-1-1 [100]
+UGUCCCUUUGGGACGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Archaeoglobus_sulfaticallidus_PM70-1_tRNA-Ser-TGA-1-1 [100]
+UGUCCCUUUGGGACGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Archaeoglobus_veneficus_SNP6_tRNA-Ser-CGA-1-1 [100]
+UGCCCGCAAGGGCGC  -8.20   1.00
+.((((....))))..  -8.20
+(((((....))))).  -8.10
+>Archaeoglobus_veneficus_SNP6_tRNA-Ser-GCT-1-1 [100]
+UGGGCUUCGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Archaeoglobus_veneficus_SNP6_tRNA-Ser-GGA-1-1 [100]
+UGGGCUCUGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Archaeoglobus_veneficus_SNP6_tRNA-Ser-TGA-1-1 [100]
+UGCCCGCAAGGGCUC  -7.90   1.00
+.((((....))))..  -7.90
+>Caldisphaera_lagunensis_DSM_15908_tRNA-Ser-CGA-1-1 [100]
+UGUCCAAUAAGGACGC  -5.20   1.00
+.((((.....))))..  -5.20
+(((((.....))))).  -5.10
+>Caldisphaera_lagunensis_DSM_15908_tRNA-Ser-GCT-1-1 [100]
+UGGGGUUAAUCCCCGC  -7.30   1.00
+.((((.....))))..  -7.30
+(((((.....))))).  -7.20
+>Caldisphaera_lagunensis_DSM_15908_tRNA-Ser-GGA-1-1 [100]
+UGUCCCGAAAGGGACAC -10.00   1.00
+((((((....)))))). -10.00
+.(((((....)))))..  -9.40
+>Caldisphaera_lagunensis_DSM_15908_tRNA-Ser-TGA-1-1 [100]
+UGUCCCAUGCGGGACGC  -8.60   1.00
+.(((((....)))))..  -8.60
+((((((....)))))).  -8.50
+>Caldivirga_maquilingensis_IC-167_tRNA-Ser-CGA-1-1 [100]
+UCCCCGCAAAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Caldivirga_maquilingensis_IC-167_tRNA-Ser-GCT-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Caldivirga_maquilingensis_IC-167_tRNA-Ser-GGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Caldivirga_maquilingensis_IC-167_tRNA-Ser-TGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Candidatus_Caldiarchaeum_subterraneum_tRNA-Ser-CGA-1-1 [100]
+UGGCCUUUCCGGGCCGC  -8.10   1.00
+.(((((....)))))..  -8.10
+((((((....)))))).  -8.00
+.((((......))))..  -7.10
+>Candidatus_Caldiarchaeum_subterraneum_tRNA-Ser-GCT-1-1 [100]
+UGGCCUUUGGCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Candidatus_Caldiarchaeum_subterraneum_tRNA-Ser-GGA-1-1 [100]
+UGGCCCUAACCGGGCCGC -10.50   1.00
+.(((((.....))))).. -10.50
+((((((.....)))))). -10.40
+>Candidatus_Caldiarchaeum_subterraneum_tRNA-Ser-TGA-1-1 [100]
+UGGCCACACAGGCCUC  -7.00   1.00
+.((((.....))))..  -7.00
+>Candidatus_Methanomethylophilus_alvus_Mx1201_tRNA-Ser-CGA-1-1 [100]
+UGGUCCUUGACCUC  -3.70   1.00
+.((((...))))..  -3.70
+>Candidatus_Methanomethylophilus_alvus_Mx1201_tRNA-Ser-GCT-1-1 [100]
+UGUCCGUAGGACCC  -3.30   1.00
+.((((...))))..  -3.30
+>Candidatus_Methanomethylophilus_alvus_Mx1201_tRNA-Ser-GGA-1-1 [100]
+UGGGAGUAUUCCCUC  -5.10   1.00
+.((((....))))..  -5.10
+>Candidatus_Methanomethylophilus_alvus_Mx1201_tRNA-Ser-TGA-1-1 [100]
+UGGGAUCAUCCCUC  -4.30   1.00
+.((((...))))..  -4.30
+.(((.....)))..  -3.60
+>Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Ser-CGA-1-1 [100]
+UGGCGACUCGCCAC  -5.80   1.00
+(((((...))))).  -5.80
+.((((...))))..  -5.20
+>Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Ser-GCT-1-1 [100]
+UGUCCGCAAGGACUC  -5.80   1.00
+.((((....))))..  -5.80
+>Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Ser-GGA-1-1 [100]
+UGUCCGCAAGGACUC  -5.80   1.00
+.((((....))))..  -5.80
+>Candidatus_Methanomassiliicoccus_intestinalis_Issoire-Mx1_tRNA-Ser-TGA-1-1 [100]
+UGGUGUCUCACCAC  -4.30   1.00
+(((((...))))).  -4.30
+.((((...))))..  -3.70
+>Candidatus_Methanoplasma_termitum_MpT1_tRNA-Ser-CGA-1-1 [100]
+UGGCGUUCCGCCUC  -4.90   1.00
+.((((...))))..  -4.90
+>Candidatus_Methanoplasma_termitum_MpT1_tRNA-Ser-GCT-1-1 [100]
+UGUCCCUAGUGACUC  -1.20   1.00
+.(((......)))..  -1.20
+>Candidatus_Methanoplasma_termitum_MpT1_tRNA-Ser-GGA-1-1 [100]
+UGGGAACUUCCCUC  -4.30   1.00
+.((((...))))..  -4.30
+.(((.....)))..  -3.60
+>Candidatus_Methanoplasma_termitum_MpT1_tRNA-Ser-TGA-1-1 [100]
+UGGUGUCUCACCCC  -3.00   1.00
+.((((...))))..  -3.00
+>Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Ser-CGA-1-1 [100]
+UGUCCUUCGGGACUC  -5.40   1.00
+.((((....))))..  -5.40
+>Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Ser-GCT-1-1 [100]
+UGUCCGCAAGGACCC  -5.40   1.00
+.((((....))))..  -5.40
+>Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Ser-GGA-1-1 [100]
+UGACCCGUAAGGGUCCC  -8.70   1.00
+.(((((....)))))..  -8.70
+>Candidatus_Nitrososphaera_evergladensis_SR1_tRNA-Ser-TGA-1-1 [100]
+UUCGCCUUCGGGCGAUC  -8.10   1.00
+.(((((....)))))..  -8.10
+>Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Ser-CGA-1-1 [100]
+UGUCCUUCGGGACUC  -5.40   1.00
+.((((....))))..  -5.40
+>Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Ser-GCT-1-1 [100]
+UGUCCGAAAGGACAC  -6.70   1.00
+(((((....))))).  -6.70
+.((((....))))..  -6.10
+>Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Ser-GGA-1-1 [100]
+UGACCCGUGAGGGUCCC  -8.70   1.00
+.(((((....)))))..  -8.70
+>Candidatus_Nitrososphaera_gargensis_Ga92_tRNA-Ser-TGA-1-1 [100]
+UUCGCCCUCGGGCGAUC  -9.30   1.00
+.(((((....)))))..  -9.30
+>Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Ser-CGA-1-1 [100]
+UACGCGCAAGCGUGC  -5.70   1.00
+(((((....))))).  -5.70
+.((((....))))..  -5.00
+>Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Ser-GCT-1-1 [100]
+UGUCCGCAAGGACAC  -6.70   1.00
+(((((....))))).  -6.70
+.((((....))))..  -6.10
+>Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Ser-GGA-1-1 [100]
+UUCUCGCAAGGGAAC  -3.60   1.00
+(((((....))))).  -3.60
+.((((....))))..  -3.20
+>Candidatus_Nitrosopumilus_koreensis_AR1_tRNA-Ser-TGA-1-1 [100]
+UGUGCGCAAGCAUAC  -4.60   1.00
+(((((....))))).  -4.60
+.((((....))))..  -3.90
+>Candidatus_Nitrosopumilus_sp_AR2_tRNA-Ser-CGA-1-1 [100]
+UACGCGCAAGCGUGC  -5.70   1.00
+(((((....))))).  -5.70
+.((((....))))..  -5.00
+>Candidatus_Nitrosopumilus_sp_AR2_tRNA-Ser-GCT-1-1 [100]
+UGUCCGCAAGGACAC  -6.70   1.00
+(((((....))))).  -6.70
+.((((....))))..  -6.10
+>Candidatus_Nitrosopumilus_sp_AR2_tRNA-Ser-GGA-1-1 [100]
+UUCUCGCAAGGGAAC  -3.60   1.00
+(((((....))))).  -3.60
+.((((....))))..  -3.20
+>Candidatus_Nitrosopumilus_sp_AR2_tRNA-Ser-TGA-1-1 [100]
+UGUGCGCAAGCAUAC  -4.60   1.00
+(((((....))))).  -4.60
+.((((....))))..  -3.90
+>Candidatus_Nitrosopumilus_sp_D3C_tRNA-Ser-CGA-1-1 [100]
+UACGUGCAAGCGUGC  -3.40   1.00
+(((((....))))).  -3.40
+.((((....))))..  -2.70
+>Candidatus_Nitrosopumilus_sp_D3C_tRNA-Ser-GCT-1-1 [100]
+UGUCCGCAAGGACAC  -6.70   1.00
+(((((....))))).  -6.70
+.((((....))))..  -6.10
+>Candidatus_Nitrosopumilus_sp_D3C_tRNA-Ser-GGA-1-1 [100]
+UUCUCGCAAGGGAAC  -3.60   1.00
+(((((....))))).  -3.60
+.((((....))))..  -3.20
+>Candidatus_Nitrosopumilus_sp_D3C_tRNA-Ser-TGA-1-1 [100]
+UGUGCGCAAGCAUAC  -4.60   1.00
+(((((....))))).  -4.60
+.((((....))))..  -3.90
+>Candidatus_Nitrosopumilus_sp_NF5_tRNA-Ser-CGA-1-1 [100]
+UACGUGAAAGCGUGC  -3.40   1.00
+(((((....))))).  -3.40
+.((((....))))..  -2.70
+>Candidatus_Nitrosopumilus_sp_NF5_tRNA-Ser-GCT-1-1 [100]
+UGUUCGCAAGAACUC  -3.40   1.00
+.((((....))))..  -3.40
+>Candidatus_Nitrosopumilus_sp_NF5_tRNA-Ser-GGA-1-1 [100]
+UUCUCGCAAGGGAAC  -3.60   1.00
+(((((....))))).  -3.60
+.((((....))))..  -3.20
+>Candidatus_Nitrosopumilus_sp_NF5_tRNA-Ser-TGA-1-1 [100]
+UGUGCGCAAGCAUAC  -4.60   1.00
+(((((....))))).  -4.60
+.((((....))))..  -3.90
+>Cenarchaeum_symbiosum_A_tRNA-Ser-CGA-1-1 [100]
+UGCGCGCAAGCGCUC  -7.10   1.00
+.((((....))))..  -7.10
+>Cenarchaeum_symbiosum_A_tRNA-Ser-GCT-1-1 [100]
+UGUUCGCAAGAACAC  -4.30   1.00
+(((((....))))).  -4.30
+.((((....))))..  -3.70
+>Cenarchaeum_symbiosum_A_tRNA-Ser-GGA-1-1 [100]
+UUCUCGCAAGGGAUC  -3.00   1.00
+.((((....))))..  -3.00
+>Cenarchaeum_symbiosum_A_tRNA-Ser-TGA-1-1 [100]
+UGCGAGCAAUCGCAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Desulfurococcus_fermentans_DSM_16532_tRNA-Ser-CGA-1-1 [100]
+UGCCCCUUCACGGGGCGC -10.50   1.00
+.(((((.....))))).. -10.50
+((((((.....)))))). -10.40
+>Desulfurococcus_fermentans_DSM_16532_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Desulfurococcus_fermentans_DSM_16532_tRNA-Ser-GGA-1-1 [100]
+UGCCCCGAAAGGGGCGC -11.50   1.00
+.(((((....))))).. -11.50
+((((((....)))))). -11.40
+>Desulfurococcus_fermentans_DSM_16532_tRNA-Ser-TGA-1-1 [100]
+UGGGCUCACGCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Desulfurococcus_kamchatkensis_1221n_tRNA-Ser-CGA-1-1 [100]
+UGCCCCUUCACGGGGCGC -10.50   1.00
+.(((((.....))))).. -10.50
+((((((.....)))))). -10.40
+>Desulfurococcus_kamchatkensis_1221n_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Desulfurococcus_kamchatkensis_1221n_tRNA-Ser-GGA-1-1 [100]
+UGCCCCGAAAGGGGCGC -11.50   1.00
+.(((((....))))).. -11.50
+((((((....)))))). -11.40
+>Desulfurococcus_kamchatkensis_1221n_tRNA-Ser-TGA-1-1 [100]
+UGGGCUCGCGCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Desulfurococcus_mucosus_DSM_2162_tRNA-Ser-CGA-1-1 [100]
+UGCCCCCUCCAGGGGCAC -10.70   1.00
+((((((.....)))))). -10.70
+.(((((.....))))).. -10.10
+>Desulfurococcus_mucosus_DSM_2162_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Desulfurococcus_mucosus_DSM_2162_tRNA-Ser-GGA-1-1 [100]
+UGCCCCGAAAGGGGCAC -12.10   1.00
+((((((....)))))). -12.10
+.(((((....))))).. -11.50
+>Desulfurococcus_mucosus_DSM_2162_tRNA-Ser-TGA-1-1 [100]
+UGGGCUCACGCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Ferroplasma_acidarmanus_fer1_tRNA-Ser-CGA-1-1 [100]
+UGCUAGAAAUAGCUC  -3.60   1.00
+.((((....))))..  -3.60
+>Ferroplasma_acidarmanus_fer1_tRNA-Ser-GCT-1-1 [100]
+UUCUCGAAAUGAGAGC  -3.30   1.00
+(((((.....))))).  -3.30
+.((((.....))))..  -3.20
+((((((...)))))).  -3.00
+.(((((...)))))..  -2.90
+>Ferroplasma_acidarmanus_fer1_tRNA-Ser-GGA-1-1 [100]
+UGCACGUAAGUGCCC  -5.20   1.00
+.((((....))))..  -5.20
+>Ferroplasma_acidarmanus_fer1_tRNA-Ser-TGA-1-1 [100]
+UUCCCUUGUGGAUC  -1.30   1.00
+...((....))...  -1.30
+.(((.....)))..  -1.10
+>Ferroglobus_placidus_DSM_10642_tRNA-Ser-CGA-1-1 [100]
+UGCCCGCAAGGGCGC  -8.20   1.00
+.((((....))))..  -8.20
+(((((....))))).  -8.10
+>Ferroglobus_placidus_DSM_10642_tRNA-Ser-GCT-1-1 [100]
+UGGGCUCUGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Ferroglobus_placidus_DSM_10642_tRNA-Ser-GGA-1-1 [100]
+UGCCCGUCAAGGGCUC  -7.80   1.00
+.((((.....))))..  -7.80
+>Ferroglobus_placidus_DSM_10642_tRNA-Ser-TGA-1-1 [100]
+UGCCCGCAAGGGCUC  -7.90   1.00
+.((((....))))..  -7.90
+>Fervidicoccus_fontis_Kam940_tRNA-Ser-CGA-1-1 [100]
+UGCUCCUUGCGGGGCGC  -7.60   1.00
+.(((((....)))))..  -7.60
+((((((....)))))).  -7.50
+>Fervidicoccus_fontis_Kam940_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Fervidicoccus_fontis_Kam940_tRNA-Ser-GGA-1-1 [100]
+UUCCCCAUACGGGGAGC  -8.80   1.00
+((((((....)))))).  -8.80
+.(((((....)))))..  -8.70
+>Fervidicoccus_fontis_Kam940_tRNA-Ser-TGA-1-1 [100]
+UUCCCCAUACGGGGAGC  -8.80   1.00
+((((((....)))))).  -8.80
+.(((((....)))))..  -8.70
+>Geoglobus_acetivorans_SBH6_tRNA-Ser-CGA-1-1 [100]
+UGCCCGAUGAGGGCAC  -8.70   1.00
+(((((.....))))).  -8.70
+.((((.....))))..  -8.10
+>Geoglobus_acetivorans_SBH6_tRNA-Ser-GCT-1-1 [100]
+UGGGCUCUGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Geoglobus_acetivorans_SBH6_tRNA-Ser-GGA-1-1 [100]
+UGGGCUAUGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Geoglobus_acetivorans_SBH6_tRNA-Ser-TGA-1-1 [100]
+UGCCCGCUUCGGGCUC  -8.20   1.00
+.(((((...)))))..  -8.20
+>Haloarcula_marismortui_ATCC_43049_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Haloarcula_marismortui_ATCC_43049_tRNA-Ser-GCT-1-1 [100]
+UGGCGUACAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Haloarcula_marismortui_ATCC_43049_tRNA-Ser-GGA-1-1 [100]
+UUCCCAUUUGGGAUU  -5.20   1.00
+.((((....))))..  -5.20
+>Haloarcula_marismortui_ATCC_43049_tRNA-Ser-TGA-1-1 [100]
+UAUCCUCACGGAUUC  -2.60   1.00
+.((((....))))..  -2.60
+..(((....)))...  -1.60
+>Halalkalicoccus_jeotgali_B3_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Halalkalicoccus_jeotgali_B3_tRNA-Ser-GCT-1-1 [100]
+UGGCGUUCAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Halalkalicoccus_jeotgali_B3_tRNA-Ser-GGA-1-1 [100]
+UUCCCGUAUGGGAUU  -5.20   1.00
+.((((....))))..  -5.20
+>Halalkalicoccus_jeotgali_B3_tRNA-Ser-TGA-1-1 [100]
+UGUCCGAGAGGACUC  -5.80   1.00
+.((((....))))..  -5.80
+>Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Ser-CGA-1-1 [100]
+UGUCCAUUCGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Ser-GCT-1-1 [100]
+UGGCACCACGCCUC  -3.70   1.00
+.(((.....)))..  -3.70
+>Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUGGGAUC  -3.90   1.00
+.((((...))))..  -3.90
+>Halogeometricum_borinquense_DSM_11551_PR_3_tRNA-Ser-TGA-1-1 [100]
+UGGCCUUUGGCCUC  -5.80   1.00
+.((((...))))..  -5.80
+>Halobacterium_sp_NRC-1_tRNA-Ser-CGA-1-1 [100]
+UGUCCACACGGACUC  -5.00   1.00
+.((((....))))..  -5.00
+>Halobacterium_sp_NRC-1_tRNA-Ser-GCT-1-1 [100]
+UGGCGUAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Halobacterium_sp_NRC-1_tRNA-Ser-GGA-1-1 [100]
+UCCCCUUACGGGGUU  -6.40   1.00
+.((((....))))..  -6.40
+>Halobacterium_sp_NRC-1_tRNA-Ser-TGA-1-1 [100]
+UGGCGUCACGCCUC  -4.90   1.00
+.((((...))))..  -4.90
+>Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Ser-GCT-1-1 [100]
+UGGCGUACAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Haloarcula_hispanica_ATCC_33960_CGMCC_12049_tRNA-Ser-TGA-1-1 [100]
+UAUCCUCACGGAUUC  -2.60   1.00
+.((((....))))..  -2.60
+..(((....)))...  -1.60
+>Haloarcula_hispanica_N601_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Haloarcula_hispanica_N601_tRNA-Ser-GCT-1-1 [100]
+UGGCGUACAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Haloarcula_hispanica_N601_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Haloarcula_hispanica_N601_tRNA-Ser-TGA-1-1 [100]
+UAUCCUCACGGAUUC  -2.60   1.00
+.((((....))))..  -2.60
+..(((....)))...  -1.60
+>Halorubrum_lacusprofundi_ATCC_49239_tRNA-Ser-CGA-1-1 [100]
+UGUCCAUUCGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Halorubrum_lacusprofundi_ATCC_49239_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCACUGCCUC  -4.00   1.00
+.((((....))))..  -4.00
+.(((......)))..  -4.00
+>Halorubrum_lacusprofundi_ATCC_49239_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUCUGGGAUC  -5.80   1.00
+.((((....))))..  -5.80
+>Halorubrum_lacusprofundi_ATCC_49239_tRNA-Ser-TGA-1-1 [100]
+UAGCCUCACGGCUUC  -4.60   1.00
+.((((....))))..  -4.60
+>Halostagnicola_larsenii_XH-48_tRNA-Ser-CGA-1-1 [100]
+UGUCCCCACGGACAC  -5.50   1.00
+(((((....))))).  -5.50
+.((((....))))..  -4.90
+>Halostagnicola_larsenii_XH-48_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Halostagnicola_larsenii_XH-48_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUGGGAUU  -3.90   1.00
+.((((...))))..  -3.90
+>Halostagnicola_larsenii_XH-48_tRNA-Ser-TGA-1-1 [100]
+UGGCGUCAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Haloferax_mediterranei_ATCC_33500_tRNA-Ser-CGA-1-1 [100]
+UGUCCAUUCGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Haloferax_mediterranei_ATCC_33500_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCCC  -4.10   1.00
+.(((.....)))..  -4.10
+>Haloferax_mediterranei_ATCC_33500_tRNA-Ser-GGA-1-1 [100]
+UUCCCUCUGGGAUC  -3.90   1.00
+.((((...))))..  -3.90
+>Haloferax_mediterranei_ATCC_33500_tRNA-Ser-GGA-2-1 [100]
+UGGCCGAGAGGCCUC  -7.90   1.00
+.((((....))))..  -7.90
+>Haloferax_mediterranei_ATCC_33500_tRNA-Ser-TGA-1-1 [100]
+UUUCCUCACGGAAUC  -2.70   1.00
+.((((....))))..  -2.70
+..(((....)))...  -2.00
+>Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Ser-CGA-1-1 [100]
+UGUCCAUUCGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCCC  -4.10   1.00
+.(((.....)))..  -4.10
+>Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Ser-GGA-1-1 [100]
+UUCCCUCUGGGAUC  -3.90   1.00
+.((((...))))..  -3.90
+>Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Ser-GGA-2-1 [100]
+UGGCCGAGAGGCCUC  -7.90   1.00
+.((((....))))..  -7.90
+>Haloferax_mediterranei_ATCC_33500_CGMCC_12087_tRNA-Ser-TGA-1-1 [100]
+UUUCCUCACGGAAUC  -2.70   1.00
+.((((....))))..  -2.70
+..(((....)))...  -2.00
+>Halomicrobium_mukohataei_DSM_12286_tRNA-Ser-CGA-1-1 [100]
+UGUCCGUUCAGGACAC  -6.60   1.00
+(((((.....))))).  -6.60
+.((((.....))))..  -6.00
+>Halomicrobium_mukohataei_DSM_12286_tRNA-Ser-GCT-1-1 [100]
+UGGCGUACAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Halomicrobium_mukohataei_DSM_12286_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Halomicrobium_mukohataei_DSM_12286_tRNA-Ser-TGA-1-1 [100]
+UGGCGCAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Halovivax_ruber_XH-70_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACAC  -5.80   1.00
+(((((....))))).  -5.80
+.((((....))))..  -5.20
+>Halovivax_ruber_XH-70_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Halovivax_ruber_XH-70_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Halovivax_ruber_XH-70_tRNA-Ser-TGA-1-1 [100]
+UGGCGUCAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Halobacterium_salinarum_R1_DSM_671_tRNA-Ser-CGA-1-1 [100]
+UGUCCACACGGACUC  -5.00   1.00
+.((((....))))..  -5.00
+>Halobacterium_salinarum_R1_DSM_671_tRNA-Ser-GCT-1-1 [100]
+UGGCGUAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Halobacterium_salinarum_R1_DSM_671_tRNA-Ser-GGA-1-1 [100]
+UCCCCUUACGGGGUU  -6.40   1.00
+.((((....))))..  -6.40
+>Halobacterium_salinarum_R1_DSM_671_tRNA-Ser-TGA-1-1 [100]
+UGGCGUCACGCCUC  -4.90   1.00
+.((((...))))..  -4.90
+>Haloarcula_sp_CBA1115_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Haloarcula_sp_CBA1115_tRNA-Ser-GCT-1-1 [100]
+UGGCGUACAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Haloarcula_sp_CBA1115_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Haloarcula_sp_CBA1115_tRNA-Ser-TGA-1-1 [100]
+UAUCCUCACGGAUUC  -2.60   1.00
+.((((....))))..  -2.60
+..(((....)))...  -1.60
+>Halobacterium_sp_DL1_tRNA-Ser-CGA-1-1 [100]
+UGUCCACACGGACUC  -5.00   1.00
+.((((....))))..  -5.00
+>Halobacterium_sp_DL1_tRNA-Ser-GCT-1-1 [100]
+UGGCGUAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Halobacterium_sp_DL1_tRNA-Ser-GGA-1-1 [100]
+UCCCCUUACGGGGUU  -6.40   1.00
+.((((....))))..  -6.40
+>Halobacterium_sp_DL1_tRNA-Ser-TGA-1-1 [100]
+UGGCGUCAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Halorhabdus_tiamatea_SARL4B_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Halorhabdus_tiamatea_SARL4B_tRNA-Ser-GCT-1-1 [100]
+UGGCGUAAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Halorhabdus_tiamatea_SARL4B_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Halorhabdus_tiamatea_SARL4B_tRNA-Ser-TGA-1-1 [100]
+UGGCGCAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Haloterrigena_turkmenica_DSM_5511_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Haloterrigena_turkmenica_DSM_5511_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Haloterrigena_turkmenica_DSM_5511_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUGGGAUU  -3.90   1.00
+.((((...))))..  -3.90
+>Haloterrigena_turkmenica_DSM_5511_tRNA-Ser-TGA-1-1 [100]
+UGGCUUCUAGCCUC  -4.10   1.00
+.((((...))))..  -4.10
+.(((.....)))..  -3.20
+>Halorhabdus_utahensis_DSM_12940_tRNA-Ser-CGA-1-1 [100]
+UCUCCUCACGGACUC  -1.70   1.00
+..(((....)))...  -1.70
+>Halorhabdus_utahensis_DSM_12940_tRNA-Ser-GCT-1-1 [100]
+UGGCGUAAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Halorhabdus_utahensis_DSM_12940_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Halorhabdus_utahensis_DSM_12940_tRNA-Ser-TGA-1-1 [100]
+UGGCGCAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Haloferax_volcanii_DS2_tRNA-Ser-CGA-1-1 [100]
+UGUCCAUUCGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Haloferax_volcanii_DS2_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCCC  -4.10   1.00
+.(((.....)))..  -4.10
+>Haloferax_volcanii_DS2_tRNA-Ser-GGA-1-1 [100]
+UUCCCUCUGGGAUC  -3.90   1.00
+.((((...))))..  -3.90
+>Haloferax_volcanii_DS2_tRNA-Ser-TGA-1-1 [100]
+UUUCCUCACGGAAUC  -2.70   1.00
+.((((....))))..  -2.70
+..(((....)))...  -2.00
+>Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Ser-CGA-1-1 [100]
+UGUCCGCUCGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Ser-GCT-1-1 [100]
+UGGCGUAAUGCCUC  -3.70   1.00
+.(((.....)))..  -3.70
+.((((...))))..  -3.40
+>Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Ser-GGA-1-1 [100]
+UUCCCUCUGGGAUC  -3.90   1.00
+.((((...))))..  -3.90
+>Haloquadratum_walsbyi_DSM_16790_HBSQ001_tRNA-Ser-TGA-1-1 [100]
+UGGCCAUAUGGCCUC  -7.10   1.00
+.((((....))))..  -7.10
+>Haloquadratum_walsbyi_C23_tRNA-Ser-CGA-1-1 [100]
+UGUCCGUUCGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Haloquadratum_walsbyi_C23_tRNA-Ser-GCT-1-1 [100]
+UGGCGUAAUGCCUC  -3.70   1.00
+.(((.....)))..  -3.70
+.((((...))))..  -3.40
+>Haloquadratum_walsbyi_C23_tRNA-Ser-GGA-1-1 [100]
+UUCCCUCUGGGAUC  -3.90   1.00
+.((((...))))..  -3.90
+>Haloquadratum_walsbyi_C23_tRNA-Ser-TGA-1-1 [100]
+UGGCCAUAUGGCCUC  -7.10   1.00
+.((((....))))..  -7.10
+>Halopiger_xanaduensis_SH-6_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Halopiger_xanaduensis_SH-6_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Halopiger_xanaduensis_SH-6_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Halopiger_xanaduensis_SH-6_tRNA-Ser-TGA-1-1 [100]
+UGGCUGUAUAGCCUC  -4.70   1.00
+.((((....))))..  -4.70
+>Hyperthermus_butylicus_DSM_5456_tRNA-Ser-CGA-1-1 [100]
+UGCCCCGUAAGGGGCGC -11.50   1.00
+.(((((....))))).. -11.50
+((((((....)))))). -11.40
+>Hyperthermus_butylicus_DSM_5456_tRNA-Ser-GCT-1-1 [100]
+UGGGGGUCCACCCCGC  -8.20   1.00
+.((((.....))))..  -8.20
+(((((.....))))).  -8.10
+>Hyperthermus_butylicus_DSM_5456_tRNA-Ser-GGA-1-1 [100]
+UGGCCGACAAGGCCGC  -8.10   1.00
+.((((.....))))..  -8.10
+(((((.....))))).  -8.00
+>Hyperthermus_butylicus_DSM_5456_tRNA-Ser-TGA-1-1 [100]
+UGGCCGACAAGGCCGC  -8.10   1.00
+.((((.....))))..  -8.10
+(((((.....))))).  -8.00
+>Ignisphaera_aggregans_DSM_17230_tRNA-Ser-CGA-1-1 [100]
+UGGCGGUUAUACCGCCGC -10.20   1.00
+.((((((...)))))).. -10.20
+(((((((...))))))). -10.10
+.(((((.....)))))..  -9.30
+((((((.....)))))).  -9.20
+>Ignisphaera_aggregans_DSM_17230_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAACACCCCGC  -8.20   1.00
+.((((.....))))..  -8.20
+(((((.....))))).  -8.10
+>Ignisphaera_aggregans_DSM_17230_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUAAUCCCCAC  -7.80   1.00
+(((((.....))))).  -7.80
+((((((...)))))).  -7.60
+..((((....))))..  -7.30
+.((((.....))))..  -7.20
+.(((((...)))))..  -7.00
+>Ignisphaera_aggregans_DSM_17230_tRNA-Ser-TGA-1-1 [100]
+UGGGGGUAAUCCCCAC  -7.80   1.00
+(((((.....))))).  -7.80
+((((((...)))))).  -7.60
+..((((....))))..  -7.30
+.((((.....))))..  -7.20
+.(((((...)))))..  -7.00
+>Ignicoccus_hospitalis_KIN4I_tRNA-Ser-CGA-1-1 [100]
+UGCCCCAAUCAGGGGCGC -10.60   1.00
+.(((((.....))))).. -10.60
+((((((.....)))))). -10.50
+>Ignicoccus_hospitalis_KIN4I_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Ignicoccus_hospitalis_KIN4I_tRNA-Ser-GGA-1-1 [100]
+UCCCCCUGAUGGGGGGC -11.20   1.00
+((((((....)))))). -11.20
+.(((((....))))).. -11.20
+>Ignicoccus_hospitalis_KIN4I_tRNA-Ser-TGA-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Ser-CGA-1-1 [100]
+UGGCCUCCGGGCCUC  -8.50   1.00
+.((((....))))..  -8.50
+>Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Ser-GCT-1-1 [100]
+UGGCCCACUGGGCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Ser-GGA-1-1 [100]
+UGGCCCACUGGGCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Candidatus_Korarchaeum_cryptofilum_OPF8_tRNA-Ser-TGA-1-1 [100]
+UGGCCCUCCGGGCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanoculleus_marisnigri_JR1_tRNA-Ser-CGA-1-1 [100]
+UGGUGUUCGGCACCUC  -5.40   1.00
+.(((((...)))))..  -5.40
+>Methanoculleus_marisnigri_JR1_tRNA-Ser-GCT-1-1 [100]
+UGUCCCCCUGGGACUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanoculleus_marisnigri_JR1_tRNA-Ser-GGA-1-1 [100]
+UGGGGCGUUGAGCCCCUC -11.10   1.00
+.(((((.....))))).. -11.10
+>Methanoculleus_marisnigri_JR1_tRNA-Ser-TGA-1-1 [100]
+UGGUGCCUGGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanosarcina_acetivorans_C2A_tRNA-Ser-CGA-1-1 [100]
+UCCCUUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_acetivorans_C2A_tRNA-Ser-GCT-1-1 [100]
+UGAUGCCCUGCAUCGC  -5.10   1.00
+.(((((...)))))..  -5.10
+((((((...)))))).  -5.00
+>Methanosarcina_acetivorans_C2A_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_acetivorans_C2A_tRNA-Ser-TGA-1-1 [100]
+UAGCGCCACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanococcus_maripaludis_S2_tRNA-Ser-GCT-1-1 [100]
+UUACGCUCUGCGUAAC  -4.80   1.00
+((((((...)))))).  -4.80
+.(((((...)))))..  -4.40
+>Methanococcus_maripaludis_S2_tRNA-Ser-GGA-1-1 [100]
+UGAGGCUUUGCCUCCC  -6.60   1.00
+.(((((...)))))..  -6.60
+>Methanococcus_maripaludis_S2_tRNA-Ser-TGA-1-1 [100]
+UUCUCCACUGGGGAGC  -4.50   1.00
+((((((...)))))).  -4.50
+.(((((...)))))..  -4.40
+..((((.....)))).  -4.00
+>Metallosphaera_cuprina_Ar-4_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUAAGAGGUAC  -5.90   1.00
+((((((...)))))).  -5.90
+.(((((...)))))..  -5.20
+>Metallosphaera_cuprina_Ar-4_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Metallosphaera_cuprina_Ar-4_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUCAACCCUGC  -5.80   1.00
+.((((.....))))..  -5.80
+(((((.....))))).  -5.20
+.(((......)))...  -4.90
+>Metallosphaera_cuprina_Ar-4_tRNA-Ser-TGA-1-1 [100]
+UAGGGUCAUUCCCUGC  -5.60   1.00
+(((((.....))))).  -5.60
+.((((.....))))..  -4.90
+>Metallosphaera_sedula_DSM_5348_tRNA-Ser-CGA-1-1 [100]
+UGUCUCUCCGAGACAC  -5.80   1.00
+((((((...)))))).  -5.80
+.(((((...)))))..  -5.20
+>Metallosphaera_sedula_DSM_5348_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Metallosphaera_sedula_DSM_5348_tRNA-Ser-GGA-1-1 [100]
+UAGGGGCAACCCUAC  -6.90   1.00
+(((((....))))).  -6.90
+.((((....))))..  -5.90
+>Metallosphaera_sedula_DSM_5348_tRNA-Ser-TGA-1-1 [100]
+UAGGGAACUCCCUGC  -5.60   1.00
+(((((....))))).  -5.60
+.((((....))))..  -4.90
+>Metallosphaera_sedula_CuR1_tRNA-Ser-CGA-1-1 [100]
+UGUCUCUCCGAGACAC  -5.80   1.00
+((((((...)))))).  -5.80
+.(((((...)))))..  -5.20
+>Metallosphaera_sedula_CuR1_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Metallosphaera_sedula_CuR1_tRNA-Ser-GGA-1-1 [100]
+UAGGGGCAACCCUAC  -6.90   1.00
+(((((....))))).  -6.90
+.((((....))))..  -5.90
+>Metallosphaera_sedula_CuR1_tRNA-Ser-TGA-1-1 [100]
+UAGGGAACUCCCUGC  -5.60   1.00
+(((((....))))).  -5.60
+.((((....))))..  -4.90
+>Methanococcus_aeolicus_Nankai-3_tRNA-Ser-GCT-1-1 [100]
+UUGGGCUUUGCCCAAC  -7.60   1.00
+((((((...)))))).  -7.60
+.(((((...)))))..  -7.20
+>Methanococcus_aeolicus_Nankai-3_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCUCCGC  -6.40   1.00
+.(((((...)))))..  -6.40
+((((((...)))))).  -6.30
+>Methanococcus_aeolicus_Nankai-3_tRNA-Ser-TGA-1-1 [100]
+UGGAGCUUUGCUCCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanocella_arvoryzae_MRE50_tRNA-Ser-GCT-1-1 [100]
+UGCUCGAAAGAGCUC  -5.80   1.00
+.((((....))))..  -5.80
+>Methanocella_arvoryzae_MRE50_tRNA-Ser-GGA-1-1 [100]
+UGAGGUGCAAAUCUCUC  -4.50   1.00
+.(((((....)))))..  -4.50
+>Methanocella_arvoryzae_MRE50_tRNA-Ser-TGA-1-1 [100]
+UGAGGCGCAAGUCUCGC  -6.70   1.00
+.(((((....)))))..  -6.70
+((((((....)))))).  -6.60
+>Methanosarcina_barkeri_str_Fusaro_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_barkeri_str_Fusaro_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCUGCGUCCC  -4.00   1.00
+.(((((...)))))..  -4.00
+>Methanosarcina_barkeri_str_Fusaro_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_barkeri_str_Fusaro_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUUUGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_barkeri_227_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_barkeri_227_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCUGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_barkeri_227_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_barkeri_227_tRNA-Ser-TGA-1-1 [100]
+UAGCGCCUUGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_barkeri_3_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_barkeri_3_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCUGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_barkeri_3_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_barkeri_3_tRNA-Ser-TGA-1-1 [100]
+UAGCGCCUCGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_barkeri_MS_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_barkeri_MS_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUUUGCGUCCC  -4.00   1.00
+.(((((...)))))..  -4.00
+>Methanosarcina_barkeri_MS_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_barkeri_MS_tRNA-Ser-TGA-1-1 [100]
+UAGCGCCUUGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_barkeri_str_Wiesmoor_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_barkeri_str_Wiesmoor_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCUGCGUCCC  -4.00   1.00
+.(((((...)))))..  -4.00
+>Methanosarcina_barkeri_str_Wiesmoor_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_barkeri_str_Wiesmoor_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUUUGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanoregula_boonei_6A8_tRNA-Ser-CGA-1-1 [100]
+UGGCGCUUCGCGCCUC  -8.30   1.00
+.(((((...)))))..  -8.30
+>Methanoregula_boonei_6A8_tRNA-Ser-GCT-1-1 [100]
+UGUCCCAAAAGGACUC  -4.40   1.00
+.((((.....))))..  -4.40
+>Methanoregula_boonei_6A8_tRNA-Ser-GGA-1-1 [100]
+UGGUGCGAAAGUGCCUC  -5.90   1.00
+.(((((....)))))..  -5.90
+>Methanoregula_boonei_6A8_tRNA-Ser-TGA-1-1 [100]
+UGGUGCCCUGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanoculleus_bourgensis_MS2_MS2T_tRNA-Ser-CGA-1-1 [100]
+UGGUGCUCGGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanoculleus_bourgensis_MS2_MS2T_tRNA-Ser-GCT-1-1 [100]
+UGUCCCCCUGGGACUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanoculleus_bourgensis_MS2_MS2T_tRNA-Ser-GGA-1-1 [100]
+UGGGGCGUUGAGCCCCUC -11.10   1.00
+.(((((.....))))).. -11.10
+>Methanoculleus_bourgensis_MS2_MS2T_tRNA-Ser-TGA-1-1 [100]
+UGGUGCCUGGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanococcoides_burtonii_DSM_6242_tRNA-Ser-CGA-1-1 [100]
+UUCUCCUAACGGAGUGC  -4.30   1.00
+..((((....))))...  -4.30
+>Methanococcoides_burtonii_DSM_6242_tRNA-Ser-GCT-1-1 [100]
+UGGUGCCCGGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanococcoides_burtonii_DSM_6242_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUGACCCCUC  -6.50   1.00
+.((((.....))))..  -6.50
+>Methanococcoides_burtonii_DSM_6242_tRNA-Ser-TGA-1-1 [100]
+UAGUGCUAACGCGCUGC  -6.20   1.00
+((((((....)))))).  -6.20
+.(((((....)))))..  -5.50
+>Methanosaeta_concilii_GP6_tRNA-Ser-CGA-1-1 [100]
+UGUCCCUUCCAGGGACAC  -9.50   1.00
+(((((((...))))))).  -9.50
+.((((((...))))))..  -8.90
+((((((.....)))))).  -8.60
+>Methanosaeta_concilii_GP6_tRNA-Ser-GCT-1-1 [100]
+UUCCGCUCCGCGGAUC  -6.40   1.00
+.(((((...)))))..  -6.40
+>Methanosaeta_concilii_GP6_tRNA-Ser-GGA-1-1 [100]
+UGACUCGCAAGGGUCUC  -6.10   1.00
+.(((((....)))))..  -6.10
+>Methanosaeta_concilii_GP6_tRNA-Ser-TGA-1-1 [100]
+UGGUGCAUCGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanocella_conradii_HZ254_tRNA-Ser-GCT-1-1 [100]
+UGCCCGAAAGGGCUC  -7.90   1.00
+.((((....))))..  -7.90
+>Methanocella_conradii_HZ254_tRNA-Ser-GGA-1-1 [100]
+UGGGGGGAAACUCCCGC  -8.60   1.00
+.(((((....)))))..  -8.60
+((((((....)))))).  -8.50
+>Methanocella_conradii_HZ254_tRNA-Ser-TGA-1-1 [100]
+UCUCCCGAAAGGGGGAC  -9.30   1.00
+((((((....)))))).  -9.30
+.(((((....)))))..  -8.40
+>Methanohalobium_evestigatum_Z-7303_tRNA-Ser-CGA-1-1 [100]
+UGUCCCUUUUGGGACUC  -8.90   1.00
+.(((((....)))))..  -8.90
+>Methanohalobium_evestigatum_Z-7303_tRNA-Ser-GCT-1-1 [100]
+UGGCGCUCUGCGCCUC  -8.30   1.00
+.(((((...)))))..  -8.30
+>Methanohalobium_evestigatum_Z-7303_tRNA-Ser-GGA-1-1 [100]
+UGGGGCGUUAGCCCCUC -11.20   1.00
+.(((((....))))).. -11.20
+>Methanohalobium_evestigatum_Z-7303_tRNA-Ser-TGA-1-1 [100]
+UGGUGCUGACGCACCUC  -8.00   1.00
+.(((((....)))))..  -8.00
+>Methanocaldococcus_fervens_AG86_tRNA-Ser-GCT-1-1 [100]
+UUGGGCAACGCCCAGC  -5.90   1.00
+((((((...)))))).  -5.90
+.(((((...)))))..  -5.80
+>Methanocaldococcus_fervens_AG86_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_fervens_AG86_tRNA-Ser-TGA-1-1 [100]
+UGGGGCUAUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanothermus_fervidus_DSM_2088_tRNA-Ser-CGA-1-1 [100]
+UUGAGCAAUGCUCAUC  -4.90   1.00
+.(((((...)))))..  -4.90
+..((((...))))...  -4.00
+>Methanothermus_fervidus_DSM_2088_tRNA-Ser-GCT-1-1 [100]
+UGAUCCGUUAAGGAUCGC  -7.30   1.00
+.(((((.....)))))..  -7.30
+((((((.....)))))).  -7.20
+>Methanothermus_fervidus_DSM_2088_tRNA-Ser-GGA-1-1 [100]
+UGGGGCAUUACGCCCCUC -10.30   1.00
+.(((((.....))))).. -10.30
+>Methanothermus_fervidus_DSM_2088_tRNA-Ser-TGA-1-1 [100]
+UGGGGCAUACGCCCCUC -10.40   1.00
+.(((((....))))).. -10.40
+>Methanobacterium_formicicum_tRNA-Ser-CGA-1-1 [100]
+UGAGCAGUGCUCACC  -4.60   1.00
+(((((...)))))..  -4.60
+.((((...))))...  -4.00
+>Methanobacterium_formicicum_tRNA-Ser-GCT-1-1 [100]
+UGAUCCUUUGGAUCUC  -5.00   1.00
+.(((((...)))))..  -5.00
+>Methanobacterium_formicicum_tRNA-Ser-GGA-1-1 [100]
+UGGAGCUUUGCUCCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanobacterium_formicicum_tRNA-Ser-TGA-1-1 [100]
+UGGAGCAUGGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanobacterium_formicicum_BRM9_tRNA-Ser-CGA-1-1 [100]
+UGAGCAGUGCUCACC  -4.60   1.00
+(((((...)))))..  -4.60
+.((((...))))...  -4.00
+>Methanobacterium_formicicum_BRM9_tRNA-Ser-GCT-1-1 [100]
+UGAUCCUUUGGAUCUC  -5.00   1.00
+.(((((...)))))..  -5.00
+>Methanobacterium_formicicum_BRM9_tRNA-Ser-GGA-1-1 [100]
+UGGAGCUUUGCUCCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanobacterium_formicicum_BRM9_tRNA-Ser-TGA-1-1 [100]
+UGGAGCAUGGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanoregula_formicica_SMSP_tRNA-Ser-CGA-1-1 [100]
+UGGCGCUUCGCGCCUC  -8.30   1.00
+.(((((...)))))..  -8.30
+>Methanoregula_formicica_SMSP_tRNA-Ser-GCT-1-1 [100]
+UGUCCCGAAAGGACUC  -4.40   1.00
+.((((.....))))..  -4.40
+>Methanoregula_formicica_SMSP_tRNA-Ser-GGA-1-1 [100]
+UGGUGCGAAAGUGCCUC  -5.90   1.00
+.(((((....)))))..  -5.90
+>Methanoregula_formicica_SMSP_tRNA-Ser-TGA-1-1 [100]
+UGGUGCCCUGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanosaeta_harundinacea_6Ac_tRNA-Ser-CGA-1-1 [100]
+UGUCCCUUCUGGGACGC  -9.20   1.00
+.(((((....)))))..  -9.20
+((((((....)))))).  -9.10
+>Methanosaeta_harundinacea_6Ac_tRNA-Ser-GCT-1-1 [100]
+UGUCCCUUCGGGACUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanosaeta_harundinacea_6Ac_tRNA-Ser-GGA-1-1 [100]
+UGAUUCGCAAGGGUCGC  -4.00   1.00
+.(((((....)))))..  -4.00
+((((((....)))))).  -3.90
+>Methanosaeta_harundinacea_6Ac_tRNA-Ser-TGA-1-1 [100]
+UGGCGCUCACGCGCCUC  -9.50   1.00
+.(((((....)))))..  -9.50
+>Methanomethylovorans_hollandica_DSM_15978_tRNA-Ser-CGA-1-1 [100]
+UUCCCCUGACGGGGUGC  -6.40   1.00
+..((((....))))...  -6.40
+>Methanomethylovorans_hollandica_DSM_15978_tRNA-Ser-GCT-1-1 [100]
+UGGUGCUACGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanomethylovorans_hollandica_DSM_15978_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUCAGCCCCUC  -9.90   1.00
+.(((((....)))))..  -9.90
+>Methanomethylovorans_hollandica_DSM_15978_tRNA-Ser-TGA-1-1 [100]
+UAGUGCUCACGCGCUGC  -6.20   1.00
+((((((....)))))).  -6.20
+.(((((....)))))..  -5.50
+>Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Ser-CGA-1-1 [100]
+UUCUCCUUGGGGGAUC  -4.20   1.00
+.(((((...)))))..  -4.20
+>Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Ser-GCT-1-1 [100]
+UGAUGCCCUGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_horonobensis_HB-1_JCM_15518_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanospirillum_hungatei_JF-1_tRNA-Ser-CGA-1-1 [100]
+UGGUGGUAACACCUC  -5.70   1.00
+.((((....))))..  -5.70
+>Methanospirillum_hungatei_JF-1_tRNA-Ser-GCT-1-1 [100]
+UGUCCCUUGGGACUC  -4.50   1.00
+.((((....))))..  -4.50
+>Methanospirillum_hungatei_JF-1_tRNA-Ser-GGA-1-1 [100]
+UGGGAGCAAUCCCUC  -5.80   1.00
+.((((....))))..  -5.80
+>Methanospirillum_hungatei_JF-1_tRNA-Ser-TGA-1-1 [100]
+UGGUGGUAACACCUC  -5.70   1.00
+.((((....))))..  -5.70
+>Methanotorris_igneus_Kol_5_tRNA-Ser-GCT-1-1 [100]
+UUGGGCUCUGCCCAGC  -7.30   1.00
+((((((...)))))).  -7.30
+.(((((...)))))..  -7.20
+>Methanotorris_igneus_Kol_5_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUCUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanotorris_igneus_Kol_5_tRNA-Ser-TGA-1-1 [100]
+UGGGGCUCUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_infernus_ME_tRNA-Ser-GCT-1-1 [100]
+UUGGGCAUAGCCCUAC  -5.80   1.00
+..((((...))))...  -5.80
+>Methanocaldococcus_infernus_ME_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_infernus_ME_tRNA-Ser-TGA-1-1 [100]
+UGGGGCCUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_jannaschii_DSM_2661_tRNA-Ser-GCT-1-1 [100]
+UUGGGCAACGCCCAGC  -5.90   1.00
+((((((...)))))).  -5.90
+.(((((...)))))..  -5.80
+>Methanocaldococcus_jannaschii_DSM_2661_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_jannaschii_DSM_2661_tRNA-Ser-TGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanopyrus_kandleri_AV19_tRNA-Ser-GCT-1-1 [100]
+UGGCCCGUAUGGGCCGC -10.70   1.00
+.(((((....))))).. -10.70
+((((((....)))))). -10.60
+>Methanopyrus_kandleri_AV19_tRNA-Ser-GGA-1-1 [100]
+UGGCCCGUAUGGGCCGC -10.70   1.00
+.(((((....))))).. -10.70
+((((((....)))))). -10.60
+>Methanopyrus_kandleri_AV19_tRNA-Ser-TGA-1-1 [100]
+UGGCCCGUAUGGGCCGC -10.70   1.00
+.(((((....))))).. -10.70
+((((((....)))))). -10.60
+>Methanocorpusculum_labreanum_Z_tRNA-Ser-CGA-1-1 [100]
+UGGUGGCGACACCUC  -5.70   1.00
+.((((....))))..  -5.70
+>Methanocorpusculum_labreanum_Z_tRNA-Ser-GCT-1-1 [100]
+UGUCCCCCUGGGACUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanocorpusculum_labreanum_Z_tRNA-Ser-GGA-1-1 [100]
+UGAGGCGAAAGUCUCUC  -6.40   1.00
+.(((((....)))))..  -6.40
+>Methanocorpusculum_labreanum_Z_tRNA-Ser-TGA-1-1 [100]
+UGGUAGUAAUACCUC  -3.60   1.00
+.((((....))))..  -3.60
+>Methanobacterium_lacus_AL-21_tRNA-Ser-CGA-1-1 [100]
+UUGAACGUACGUUCGUC  -2.90   1.00
+.(((((....)))))..  -2.90
+..((((....))))...  -2.90
+>Methanobacterium_lacus_AL-21_tRNA-Ser-GCT-1-1 [100]
+UGAUCCCUUGGAUCAC  -5.90   1.00
+((((((...)))))).  -5.90
+.(((((...)))))..  -5.30
+>Methanobacterium_lacus_AL-21_tRNA-Ser-GGA-1-1 [100]
+UGGAGUUCGUCUCCGC  -5.20   1.00
+.((((.....))))..  -5.20
+(((((.....))))).  -5.10
+>Methanobacterium_lacus_AL-21_tRNA-Ser-TGA-1-1 [100]
+UGGAGUUUGACUCCAC  -6.20   1.00
+((((((...)))))).  -6.20
+.(((((...)))))..  -5.60
+(((((.....))))).  -5.30
+>Methanosarcina_lacustris_Z-7289_tRNA-Ser-CGA-1-1 [100]
+UCCCUUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_lacustris_Z-7289_tRNA-Ser-GCT-1-1 [100]
+UGAUGCCCCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_lacustris_Z-7289_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_lacustris_Z-7289_tRNA-Ser-TGA-1-1 [100]
+UAGUGCUCACGCGCUAC  -6.50   1.00
+((((((....)))))).  -6.50
+.(((((....)))))..  -5.50
+>Methanohalophilus_mahii_DSM_5219_tRNA-Ser-CGA-1-1 [100]
+UUCCCCUAACGGGGUGC  -6.40   1.00
+..((((....))))...  -6.40
+>Methanohalophilus_mahii_DSM_5219_tRNA-Ser-GCT-1-1 [100]
+UGGUGCUCGCCACCUC  -3.80   1.00
+.((((.....))))..  -3.80
+>Methanohalophilus_mahii_DSM_5219_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUGACCCCUC  -6.50   1.00
+.((((.....))))..  -6.50
+>Methanohalophilus_mahii_DSM_5219_tRNA-Ser-TGA-1-1 [100]
+UGGUGCUCUGCGCCCC  -6.00   1.00
+.(((((...)))))..  -6.00
+>Methanothermobacter_marburgensis_str_Marburg_tRNA-Ser-GCT-1-1 [100]
+UGAUCCUUUGGAUCUC  -5.00   1.00
+.(((((...)))))..  -5.00
+>Methanothermobacter_marburgensis_str_Marburg_tRNA-Ser-GGA-1-1 [100]
+UGGAGCUUUGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanothermobacter_marburgensis_str_Marburg_tRNA-Ser-GGA-2-1 [100]
+UGGAGCCAUGCUCCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanothermobacter_marburgensis_str_Marburg_tRNA-Ser-GGA-2-2 [100]
+UGGAGCCAUGCUCCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanothermobacter_marburgensis_str_Marburg_tRNA-Ser-TGA-1-1 [100]
+UGGAGAUUCUCUCCGC  -5.80   1.00
+.(((((...)))))..  -5.80
+((((((...)))))).  -5.70
+.((((.....))))..  -5.10
+(((((.....))))).  -5.00
+>Methanococcus_maripaludis_C5_tRNA-Ser-GCT-1-1 [100]
+UUACUCUCUGAGUAAC  -3.50   1.00
+((((((...)))))).  -3.50
+.(((((...)))))..  -3.10
+>Methanococcus_maripaludis_C5_tRNA-Ser-GGA-1-1 [100]
+UGAGGCUUUGCCUCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanococcus_maripaludis_C5_tRNA-Ser-TGA-1-1 [100]
+UUCUCCACUGGGGAGC  -4.50   1.00
+((((((...)))))).  -4.50
+.(((((...)))))..  -4.40
+..((((.....)))).  -4.00
+>Methanococcus_maripaludis_C6_tRNA-Ser-GCT-1-1 [100]
+UUACGCUCUGCGUAAC  -4.80   1.00
+((((((...)))))).  -4.80
+.(((((...)))))..  -4.40
+>Methanococcus_maripaludis_C6_tRNA-Ser-GGA-1-1 [100]
+UGAGGCUUUGCCUCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanococcus_maripaludis_C6_tRNA-Ser-TGA-1-1 [100]
+UUCUCCACUGGGGAGC  -4.50   1.00
+((((((...)))))).  -4.50
+.(((((...)))))..  -4.40
+..((((.....)))).  -4.00
+>Methanococcus_maripaludis_C7_tRNA-Ser-GCT-1-1 [100]
+UUACGCUCUGCGUAAC  -4.80   1.00
+((((((...)))))).  -4.80
+.(((((...)))))..  -4.40
+>Methanococcus_maripaludis_C7_tRNA-Ser-GGA-1-1 [100]
+UGAGGCUUUGCCUCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanococcus_maripaludis_C7_tRNA-Ser-TGA-1-1 [100]
+UUCUCCACUGGGGAGC  -4.50   1.00
+((((((...)))))).  -4.50
+.(((((...)))))..  -4.40
+..((((.....)))).  -4.00
+>Methanococcus_maripaludis_X1_tRNA-Ser-GCT-1-1 [100]
+UUACUCUCUGAGUAAC  -3.50   1.00
+((((((...)))))).  -3.50
+.(((((...)))))..  -3.10
+>Methanococcus_maripaludis_X1_tRNA-Ser-GGA-1-1 [100]
+UGAGGCUUUGCCUCCC  -6.60   1.00
+.(((((...)))))..  -6.60
+>Methanococcus_maripaludis_X1_tRNA-Ser-TGA-1-1 [100]
+UUCUCCACUGGGGAGC  -4.50   1.00
+((((((...)))))).  -4.50
+.(((((...)))))..  -4.40
+..((((.....)))).  -4.00
+>Methanosarcina_mazei_Go1_tRNA-Ser-CGA-1-1 [100]
+UCCCCUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_mazei_Go1_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_mazei_Go1_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_mazei_Go1_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_mazei_C16_tRNA-Ser-CGA-1-1 [100]
+UCCCCUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_mazei_C16_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_mazei_C16_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_mazei_C16_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_mazei_LYC_tRNA-Ser-CGA-1-1 [100]
+UCCCCUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_mazei_LYC_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_mazei_LYC_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_mazei_LYC_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_mazei_SarPi_tRNA-Ser-CGA-1-1 [100]
+UCCCCUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_mazei_SarPi_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_mazei_SarPi_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_mazei_SarPi_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_mazei_S-6_tRNA-Ser-CGA-1-1 [100]
+UCCCCUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_mazei_S-6_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_mazei_S-6_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_mazei_S-6_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_mazei_Tuc01_tRNA-Ser-CGA-1-1 [100]
+UCCCCUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_mazei_Tuc01_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_mazei_Tuc01_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_mazei_WWM610_tRNA-Ser-CGA-1-1 [100]
+UCCCCUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_mazei_WWM610_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUCCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_mazei_WWM610_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_mazei_WWM610_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanococcoides_methylutens_MM1_tRNA-Ser-CGA-1-1 [100]
+UUCUCCUAACGGAGUGC  -4.30   1.00
+..((((....))))...  -4.30
+>Methanococcoides_methylutens_MM1_tRNA-Ser-GCT-1-1 [100]
+UGGUGCUUUGCGCCUC  -6.40   1.00
+.(((((...)))))..  -6.40
+>Methanococcoides_methylutens_MM1_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUGUCCCCUC  -5.90   1.00
+.((((.....))))..  -5.90
+>Methanococcoides_methylutens_MM1_tRNA-Ser-TGA-1-1 [100]
+UAGUGCUAACGCGCUGC  -6.20   1.00
+((((((....)))))).  -6.20
+.(((((....)))))..  -5.50
+>Methanothermococcus_okinawensis_IH1_tRNA-Ser-GCT-1-1 [100]
+UUGGGCUUUGCCCAAC  -7.60   1.00
+((((((...)))))).  -7.60
+.(((((...)))))..  -7.20
+>Methanothermococcus_okinawensis_IH1_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanothermococcus_okinawensis_IH1_tRNA-Ser-TGA-1-1 [100]
+UGAGGCUUUGCCUCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanocella_paludicola_SANAE_tRNA-Ser-GCT-1-1 [100]
+UGCUCUUCGGAGCUC  -5.40   1.00
+.((((....))))..  -5.40
+>Methanocella_paludicola_SANAE_tRNA-Ser-GGA-1-1 [100]
+UGGGGGGAAACUCCCGC  -8.60   1.00
+.(((((....)))))..  -8.60
+((((((....)))))).  -8.50
+>Methanocella_paludicola_SANAE_tRNA-Ser-TGA-1-1 [100]
+UGAGGCUCACGCCUCGC  -8.50   1.00
+.(((((....)))))..  -8.50
+((((((....)))))).  -8.40
+>Methanosphaerula_palustris_E1-9c_tRNA-Ser-CGA-1-1 [100]
+UGGUGCUUGGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanosphaerula_palustris_E1-9c_tRNA-Ser-GCT-1-1 [100]
+UGUCCCCCUGGGACUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanosphaerula_palustris_E1-9c_tRNA-Ser-GGA-1-1 [100]
+UGGGGCGUUUGCCCCUC -10.40   1.00
+.(((((....))))).. -10.40
+>Methanosphaerula_palustris_E1-9c_tRNA-Ser-TGA-1-1 [100]
+UGGUGCUUGGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanolacinia_petrolearia_DSM_11571_tRNA-Ser-CGA-1-1 [100]
+UGGUGUCCGCACCUC  -4.30   1.00
+.((((....))))..  -4.30
+>Methanolacinia_petrolearia_DSM_11571_tRNA-Ser-GCT-1-1 [100]
+UGUCCUUCUCGGACUC  -4.80   1.00
+.((((.....))))..  -4.80
+>Methanolacinia_petrolearia_DSM_11571_tRNA-Ser-GGA-1-1 [100]
+UGGGGAAUCUUCCCCUC  -8.40   1.00
+.(((((....)))))..  -8.40
+>Methanolacinia_petrolearia_DSM_11571_tRNA-Ser-TGA-1-1 [100]
+UGGUGUCCGCACCUC  -4.30   1.00
+.((((....))))..  -4.30
+>Methanolobus_psychrophilus_R15_tRNA-Ser-CGA-1-1 [100]
+UUCUCUGAAAAGAGUGC  -3.20   1.00
+..((((....))))...  -3.20
+>Methanolobus_psychrophilus_R15_tRNA-Ser-GCT-1-1 [100]
+UGGUGCCCUGCACCGC  -7.10   1.00
+.(((((...)))))..  -7.10
+((((((...)))))).  -7.00
+>Methanolobus_psychrophilus_R15_tRNA-Ser-GGA-1-1 [100]
+UGGGGCAUCCGCCCCUC -10.40   1.00
+.(((((....))))).. -10.40
+>Methanolobus_psychrophilus_R15_tRNA-Ser-TGA-1-1 [100]
+UAGUGCUCACGCGCUGC  -6.20   1.00
+((((((....)))))).  -6.20
+.(((((....)))))..  -5.50
+>Methanobrevibacter_ruminantium_M1_tRNA-Ser-GCT-1-1 [100]
+UGAUCAAUAGAUCGC  -3.30   1.00
+.((((....))))..  -3.30
+(((((....))))).  -3.20
+>Methanobrevibacter_ruminantium_M1_tRNA-Ser-GCT-2-1 [100]
+UGCGAUAAAACGCUC  -2.70   1.00
+.(((......)))..  -2.70
+>Methanobrevibacter_ruminantium_M1_tRNA-Ser-GGA-1-1 [100]
+UGAGGGAAACCUCUC  -5.90   1.00
+.((((....))))..  -5.90
+>Methanobrevibacter_ruminantium_M1_tRNA-Ser-TGA-1-1 [100]
+UGGGUACCCCCCGC  -3.40   1.00
+.(((.....)))..  -3.40
+((((.....)))).  -3.30
+.(((....)))...  -2.80
+>Methanobacterium_paludis_SWAN1_tRNA-Ser-CGA-1-1 [100]
+UUGAGCAUUGCUCAUC  -4.90   1.00
+.(((((...)))))..  -4.90
+..((((...))))...  -4.00
+>Methanobacterium_paludis_SWAN1_tRNA-Ser-GCT-1-1 [100]
+UGAUCCUUUGGAUCAC  -5.90   1.00
+((((((...)))))).  -5.90
+.(((((...)))))..  -5.30
+>Methanobacterium_paludis_SWAN1_tRNA-Ser-GCT-2-1 [100]
+UGAUCGUUAGAUCUC  -3.80   1.00
+.((((....))))..  -3.80
+>Methanobacterium_paludis_SWAN1_tRNA-Ser-GGA-1-1 [100]
+UGGAGCUUUGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanobacterium_paludis_SWAN1_tRNA-Ser-TGA-1-1 [100]
+UGGAGCCUCGCUCCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Methanosarcina_siciliae_C2J_tRNA-Ser-CGA-1-1 [100]
+UCCCUUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_siciliae_C2J_tRNA-Ser-GCT-1-1 [100]
+UGAUGCCCUGCAUCGC  -5.10   1.00
+.(((((...)))))..  -5.10
+((((((...)))))).  -5.00
+>Methanosarcina_siciliae_C2J_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_siciliae_C2J_tRNA-Ser-TGA-1-1 [100]
+UAGCGCCACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_siciliae_HI350_tRNA-Ser-CGA-1-1 [100]
+UCCCUUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_siciliae_HI350_tRNA-Ser-GCT-1-1 [100]
+UGAUGCCCUGCAUCGC  -5.10   1.00
+.(((((...)))))..  -5.10
+((((((...)))))).  -5.00
+>Methanosarcina_siciliae_HI350_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_siciliae_HI350_tRNA-Ser-TGA-1-1 [100]
+UAGCGCCACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanosarcina_siciliae_T4M_tRNA-Ser-CGA-1-1 [100]
+UCCCUUUGGGAUC  -3.70   1.00
+((((...))))..  -3.70
+.(((...)))...  -2.70
+>Methanosarcina_siciliae_T4M_tRNA-Ser-GCT-1-1 [100]
+UGAUGCCCUGCAUCGC  -5.10   1.00
+.(((((...)))))..  -5.10
+((((((...)))))).  -5.00
+>Methanosarcina_siciliae_T4M_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_siciliae_T4M_tRNA-Ser-TGA-1-1 [100]
+UAGCGCCACGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanobrevibacter_smithii_ATCC_35061_PS_DSMZ_861_tRNA-Ser-GCT-1-1 [100]
+UGAUCUUAUGAUCAC  -4.50   1.00
+(((((....))))).  -4.50
+.((((....))))..  -3.90
+>Methanobrevibacter_smithii_ATCC_35061_PS_DSMZ_861_tRNA-Ser-GCT-2-1 [100]
+UGAUACACUAGUAUCGC  -4.40   1.00
+.(((((....)))))..  -4.40
+((((((....)))))).  -4.30
+>Methanobrevibacter_smithii_ATCC_35061_PS_DSMZ_861_tRNA-Ser-GGA-1-1 [100]
+UGGGAGCUUUUCCCUC  -5.00   1.00
+.((((.....))))..  -5.00
+.(((((...)))))..  -4.90
+>Methanobrevibacter_smithii_ATCC_35061_PS_DSMZ_861_tRNA-Ser-TGA-1-1 [100]
+UGGAGUUUCUCCGC  -3.90   1.00
+.((((...))))..  -3.90
+(((((...))))).  -3.80
+>Methanobrevibacter_smithii_ATCC_35061_PS_DSMZ_861_tRNA-Ser-TGA-1-2 [100]
+UGGAGUUUCUCCGC  -3.90   1.00
+.((((...))))..  -3.90
+(((((...))))).  -3.80
+>Methanobrevibacter_sp_AbM4_tRNA-Ser-GCT-1-1 [100]
+UUAUCCCUUGGAUAAC  -3.60   1.00
+((((((...)))))).  -3.60
+.(((((...)))))..  -3.20
+>Methanobrevibacter_sp_AbM4_tRNA-Ser-GGA-1-1 [100]
+UGGAGGUUCUCUCCGC  -5.10   1.00
+.((((.....))))..  -5.10
+(((((.....))))).  -5.00
+.(((((...)))))..  -4.90
+((((((...)))))).  -4.80
+>Methanobrevibacter_sp_AbM4_tRNA-Ser-TGA-1-1 [100]
+UGGAGCUUUCUCCGC  -4.20   1.00
+.((((....))))..  -4.20
+(((((....))))).  -4.10
+>Methanothermobacter_sp_CaT2_tRNA-Ser-GCT-1-1 [100]
+UGAUCCUUUGGAUCUC  -5.00   1.00
+.(((((...)))))..  -5.00
+>Methanothermobacter_sp_CaT2_tRNA-Ser-GGA-1-1 [100]
+UGGAGCUUUGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanothermobacter_sp_CaT2_tRNA-Ser-GGA-1-2 [100]
+UGGAGCUUUGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanothermobacter_sp_CaT2_tRNA-Ser-TGA-1-1 [100]
+UGGAGAUUCUCUCCGC  -5.80   1.00
+.(((((...)))))..  -5.80
+((((((...)))))).  -5.70
+.((((.....))))..  -5.10
+(((((.....))))).  -5.00
+>Methanocaldococcus_sp_FS406-22_tRNA-Ser-GCT-1-1 [100]
+UUGGGCAACGCCCAGC  -5.90   1.00
+((((((...)))))).  -5.90
+.(((((...)))))..  -5.80
+>Methanocaldococcus_sp_FS406-22_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_sp_FS406-22_tRNA-Ser-TGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_sp_JH146_tRNA-Ser-GCT-1-1 [100]
+UUGGGCAACGCCCAGC  -5.90   1.00
+((((((...)))))).  -5.90
+.(((((...)))))..  -5.80
+>Methanocaldococcus_sp_JH146_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_sp_JH146_tRNA-Ser-TGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanosarcina_sp_Kolksee_tRNA-Ser-CGA-1-1 [100]
+UUCCUCUUUGGGGGAGC  -6.20   1.00
+((((((....)))))).  -6.20
+.(((((....)))))..  -6.10
+>Methanosarcina_sp_Kolksee_tRNA-Ser-GCT-1-1 [100]
+UGAUGUUCUGCAUCCC  -3.00   1.00
+.(((((...)))))..  -3.00
+>Methanosarcina_sp_Kolksee_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_sp_Kolksee_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUUUGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanobacterium_sp_MB1_tRNA-Ser-CGA-1-1 [100]
+UGAGCAGCGCUCACC  -4.60   1.00
+(((((...)))))..  -4.60
+.((((...))))...  -4.00
+>Methanobacterium_sp_MB1_tRNA-Ser-GCT-1-1 [100]
+UGAUCCUUAGGAUCUC  -5.00   1.00
+.(((((...)))))..  -5.00
+>Methanobacterium_sp_MB1_tRNA-Ser-GGA-1-1 [100]
+UGGAGCUUUGCUCCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanobacterium_sp_MB1_tRNA-Ser-TGA-1-1 [100]
+UGGAGCAUGGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanogenium_sp_MK-MG_tRNA-Ser-CGA-1-1 [100]
+UGGUGUUCGCACCCC  -3.90   1.00
+.((((....))))..  -3.90
+>Methanogenium_sp_MK-MG_tRNA-Ser-GCT-1-1 [100]
+UGUCCCUUGGGACUC  -4.50   1.00
+.((((....))))..  -4.50
+>Methanogenium_sp_MK-MG_tRNA-Ser-GGA-1-1 [100]
+UGGGGUCUUGCCCCUC  -7.70   1.00
+.(((((...)))))..  -7.70
+>Methanogenium_sp_MK-MG_tRNA-Ser-TGA-1-1 [100]
+UGGUGUUUCACCUC  -3.40   1.00
+.((((...))))..  -3.40
+>Methanosarcina_sp_MTP4_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_sp_MTP4_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUUUGCAUCUC  -4.80   1.00
+.(((((...)))))..  -4.80
+>Methanosarcina_sp_MTP4_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_sp_MTP4_tRNA-Ser-TGA-1-1 [100]
+UAGUGCCUCGCACUGC  -5.40   1.00
+((((((...)))))).  -5.40
+.(((((...)))))..  -4.70
+>Methanosarcina_sp_WH1_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_sp_WH1_tRNA-Ser-GCT-1-1 [100]
+UGAUGCCUCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_sp_WH1_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_sp_WH1_tRNA-Ser-TGA-1-1 [100]
+UAGUGCUCACGCGCUAC  -6.50   1.00
+((((((....)))))).  -6.50
+.(((((....)))))..  -5.50
+>Methanosarcina_sp_WWM596_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_sp_WWM596_tRNA-Ser-GCT-1-1 [100]
+UGAUGCCUCGCAUCCC  -4.40   1.00
+.(((((...)))))..  -4.40
+>Methanosarcina_sp_WWM596_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_sp_WWM596_tRNA-Ser-TGA-1-1 [100]
+UAGUGCUCACGCGCUAC  -6.50   1.00
+((((((....)))))).  -6.50
+.(((((....)))))..  -5.50
+>Methanosphaera_stadtmanae_DSM_3091_tRNA-Ser-GCT-1-1 [100]
+UGGACAGAUGUCCAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Methanosphaera_stadtmanae_DSM_3091_tRNA-Ser-GGA-1-1 [100]
+UGGAGUGAUCUCCUC  -5.00   1.00
+.((((....))))..  -5.00
+>Methanosphaera_stadtmanae_DSM_3091_tRNA-Ser-TGA-1-1 [100]
+UGGAGUUAUCUCCUC  -5.00   1.00
+.((((....))))..  -5.00
+>Methanolinea_tarda_NOBI-1_tRNA-Ser-CGA-1-1 [100]
+UGGCGCUCUGCGCCUC  -8.30   1.00
+.(((((...)))))..  -8.30
+>Methanolinea_tarda_NOBI-1_tRNA-Ser-GCT-1-1 [100]
+UGUCCCCUUGGGACUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanolinea_tarda_NOBI-1_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUCGGCCCCUC -12.00   1.00
+.(((((....))))).. -12.00
+>Methanolinea_tarda_NOBI-1_tRNA-Ser-TGA-1-1 [100]
+UGGUGCCUGGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanothermobacter_thermautotrophicus_str_Delta_H_tRNA-Ser-GCT-1-1 [100]
+UGAUCCUUUGGAUCUC  -5.00   1.00
+.(((((...)))))..  -5.00
+>Methanothermobacter_thermautotrophicus_str_Delta_H_tRNA-Ser-GGA-1-1 [100]
+UGGAGCUUUGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanothermobacter_thermautotrophicus_str_Delta_H_tRNA-Ser-GGA-1-2 [100]
+UGGAGCUUUGCUCCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanothermobacter_thermautotrophicus_str_Delta_H_tRNA-Ser-TGA-1-1 [100]
+UGGAGAUUCUCUCCGC  -5.80   1.00
+.(((((...)))))..  -5.80
+((((((...)))))).  -5.70
+.((((.....))))..  -5.10
+(((((.....))))).  -5.00
+>Methanosaeta_thermophila_PT_tRNA-Ser-CGA-1-1 [100]
+UGUCCCUUCCAGGGACGC  -8.90   1.00
+.((((((...))))))..  -8.90
+(((((((...))))))).  -8.80
+.(((((.....)))))..  -8.00
+((((((.....)))))).  -7.90
+>Methanosaeta_thermophila_PT_tRNA-Ser-GCT-1-1 [100]
+UUCCCCUUCGGGGAUC  -7.20   1.00
+.(((((...)))))..  -7.20
+>Methanosaeta_thermophila_PT_tRNA-Ser-GGA-1-1 [100]
+UGACUCGAAAGAGUCUC  -7.00   1.00
+.(((((....)))))..  -7.00
+>Methanosaeta_thermophila_PT_tRNA-Ser-TGA-1-1 [100]
+UGGUGCAUCGCACCGC  -7.10   1.00
+.(((((...)))))..  -7.10
+((((((...)))))).  -7.00
+>Methanosarcina_thermophila_CHTI-55_tRNA-Ser-CGA-1-1 [100]
+UUCUCCCUCGGGAGAGC  -8.30   1.00
+((((((....)))))).  -8.30
+.(((((....)))))..  -8.20
+>Methanosarcina_thermophila_CHTI-55_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUUUGCAUCUC  -4.80   1.00
+.(((((...)))))..  -4.80
+>Methanosarcina_thermophila_CHTI-55_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_thermophila_CHTI-55_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUUCGCGCUGC  -6.90   1.00
+((((((...)))))).  -6.90
+.(((((...)))))..  -6.20
+>Methanosarcina_thermophila_TM-1_tRNA-Ser-CGA-1-1 [100]
+UUCUCCCUCGGGAGAGC  -8.30   1.00
+((((((....)))))).  -8.30
+.(((((....)))))..  -8.20
+>Methanosarcina_thermophila_TM-1_tRNA-Ser-GCT-1-1 [100]
+UGAUGCUUUGCAUCUC  -4.80   1.00
+.(((((...)))))..  -4.80
+>Methanosarcina_thermophila_TM-1_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_thermophila_TM-1_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUUCGCGCUGC  -6.90   1.00
+((((((...)))))).  -6.90
+.(((((...)))))..  -6.20
+>Methanosarcina_vacuolata_Z-761_tRNA-Ser-CGA-1-1 [100]
+UUCUUCUUUGGGAGAGC  -4.20   1.00
+((((((....)))))).  -4.20
+.(((((....)))))..  -4.10
+>Methanosarcina_vacuolata_Z-761_tRNA-Ser-GCT-1-1 [100]
+UGAUGUUCUGCAUCCC  -3.00   1.00
+.(((((...)))))..  -3.00
+>Methanosarcina_vacuolata_Z-761_tRNA-Ser-GGA-1-1 [100]
+UGGGGCCUAGCCCCUC  -9.10   1.00
+.(((((...)))))..  -9.10
+>Methanosarcina_vacuolata_Z-761_tRNA-Ser-TGA-1-1 [100]
+UAGCGCUUUGCGCUAC  -7.20   1.00
+((((((...)))))).  -7.20
+.(((((...)))))..  -6.20
+>Methanococcus_vannielii_SB_tRNA-Ser-GCT-1-1 [100]
+UUACGCUCUGCGUAAC  -4.80   1.00
+((((((...)))))).  -4.80
+.(((((...)))))..  -4.40
+>Methanococcus_vannielii_SB_tRNA-Ser-GGA-1-1 [100]
+UGAGGCUUUGCCUCGC  -7.30   1.00
+.(((((...)))))..  -7.30
+((((((...)))))).  -7.20
+>Methanococcus_vannielii_SB_tRNA-Ser-TGA-1-1 [100]
+UUCUCCACUGGGGAGC  -4.50   1.00
+((((((...)))))).  -4.50
+.(((((...)))))..  -4.40
+..((((.....)))).  -4.00
+>Methanococcus_voltae_A3_tRNA-Ser-GCT-1-1 [100]
+UUGAGCUCUGCUCAAC  -5.50   1.00
+((((((...)))))).  -5.50
+.(((((...)))))..  -5.10
+>Methanococcus_voltae_A3_tRNA-Ser-GGA-1-1 [100]
+UGAGGCUUUGCCUCUC  -7.00   1.00
+.(((((...)))))..  -7.00
+>Methanococcus_voltae_A3_tRNA-Ser-TGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_vulcanius_M7_tRNA-Ser-GCT-1-1 [100]
+UUGGGCAUAGCCCAAC  -7.60   1.00
+((((((...)))))).  -7.60
+.(((((...)))))..  -7.20
+>Methanocaldococcus_vulcanius_M7_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanocaldococcus_vulcanius_M7_tRNA-Ser-TGA-1-1 [100]
+UGGGGCUUUGCCCCGC  -9.40   1.00
+.(((((...)))))..  -9.40
+((((((...)))))).  -9.30
+>Methanosalsum_zhilinae_DSM_4017_tRNA-Ser-CGA-1-1 [100]
+UUCCCCUUCUGGGGUGC  -7.10   1.00
+..((((....))))...  -7.10
+>Methanosalsum_zhilinae_DSM_4017_tRNA-Ser-GCT-1-1 [100]
+UGGUGCUCUGCACCUC  -6.80   1.00
+.(((((...)))))..  -6.80
+>Methanosalsum_zhilinae_DSM_4017_tRNA-Ser-GGA-1-1 [100]
+UGGGGCUUCAGCCCCUC  -9.90   1.00
+.(((((....)))))..  -9.90
+>Methanosalsum_zhilinae_DSM_4017_tRNA-Ser-TGA-1-1 [100]
+UGGUGCAACGCACUAC  -4.00   1.00
+((((((...)))))).  -4.00
+.(((((...)))))..  -3.30
+>Nanoarchaeum_equitans_Kin4-M_tRNA-Ser-CGA-1-1 [100]
+UCCCCGCCAAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Nanoarchaeum_equitans_Kin4-M_tRNA-Ser-GCT-1-1 [100]
+UCCCCGUAUGGGGGC  -7.30   1.00
+(((((....))))).  -7.30
+.((((....))))..  -7.30
+.((((.....)))).  -7.10
+>Nanoarchaeum_equitans_Kin4-M_tRNA-Ser-GGA-1-1 [100]
+UCCCCGAUAAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Nanoarchaeum_equitans_Kin4-M_tRNA-Ser-TGA-1-1 [100]
+UCCCCGAUAAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Natronobacterium_gregoryi_SP2_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Natronobacterium_gregoryi_SP2_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Natronobacterium_gregoryi_SP2_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUGGGAUU  -3.90   1.00
+.((((...))))..  -3.90
+>Natronobacterium_gregoryi_SP2_tRNA-Ser-TGA-1-1 [100]
+UGGCUGUCAAGCCUC  -5.90   1.00
+.((((....))))..  -5.90
+>Natrialba_magadii_ATCC_43099_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Natrialba_magadii_ATCC_43099_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Natrialba_magadii_ATCC_43099_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUGGGAUU  -3.90   1.00
+.((((...))))..  -3.90
+>Natrialba_magadii_ATCC_43099_tRNA-Ser-TGA-1-1 [100]
+UGGCUGUCAAGCCUC  -5.90   1.00
+.((((....))))..  -5.90
+>Natronomonas_moolapensis_8811_tRNA-Ser-CGA-1-1 [100]
+UGUCCAUCAGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Natronomonas_moolapensis_8811_tRNA-Ser-GCT-1-1 [100]
+UGGCGCAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Natronomonas_moolapensis_8811_tRNA-Ser-GGA-1-1 [100]
+UUCCCUCAGGGAUC  -3.90   1.00
+.((((...))))..  -3.90
+>Natronomonas_moolapensis_8811_tRNA-Ser-TGA-1-1 [100]
+UGGCGCAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Natronococcus_occultus_SP4_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Natronococcus_occultus_SP4_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Natronococcus_occultus_SP4_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUGGGAUU  -3.90   1.00
+.((((...))))..  -3.90
+>Natronococcus_occultus_SP4_tRNA-Ser-TGA-1-1 [100]
+UGGCUGUCAAGCCUC  -5.90   1.00
+.((((....))))..  -5.90
+>Natrinema_pellirubrum_DSM_15624_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACAC  -5.80   1.00
+(((((....))))).  -5.80
+.((((....))))..  -5.20
+>Natrinema_pellirubrum_DSM_15624_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Natrinema_pellirubrum_DSM_15624_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUGGGAUU  -3.90   1.00
+.((((...))))..  -3.90
+>Natrinema_pellirubrum_DSM_15624_tRNA-Ser-TGA-1-1 [100]
+UGGCUGUCAAGCCUC  -5.90   1.00
+.((((....))))..  -5.90
+>Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Ser-CGA-1-1 [100]
+UGUCCGAGAGGACUC  -5.80   1.00
+.((((....))))..  -5.80
+>Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Ser-GCT-1-1 [100]
+UGGCGCAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUCCGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Natronomonas_pharaonis_DSM_2160_Gabara_tRNA-Ser-TGA-1-1 [100]
+UGGCGCAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Natrinema_sp_J7-2_tRNA-Ser-CGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Natrinema_sp_J7-2_tRNA-Ser-GCT-1-1 [100]
+UGGCGUCAAGCCUC  -4.50   1.00
+.(((.....)))..  -4.50
+>Natrinema_sp_J7-2_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUUGGGAUU  -3.90   1.00
+.((((...))))..  -3.90
+>Natrinema_sp_J7-2_tRNA-Ser-TGA-1-1 [100]
+UGGCUGUCAAGCCUC  -5.90   1.00
+.((((....))))..  -5.90
+>Nitrosopumilus_maritimus_SCM1_tRNA-Ser-CGA-1-1 [100]
+UACGCGCAAGCGUGC  -5.70   1.00
+(((((....))))).  -5.70
+.((((....))))..  -5.00
+>Nitrosopumilus_maritimus_SCM1_tRNA-Ser-GCT-1-1 [100]
+UGUCCGCAAGGACAC  -6.70   1.00
+(((((....))))).  -6.70
+.((((....))))..  -6.10
+>Nitrosopumilus_maritimus_SCM1_tRNA-Ser-GGA-1-1 [100]
+UUCUCGCAAGGGAAC  -3.60   1.00
+(((((....))))).  -3.60
+.((((....))))..  -3.20
+>Nitrosopumilus_maritimus_SCM1_tRNA-Ser-TGA-1-1 [100]
+UGUGCGCAAGCAUAC  -4.60   1.00
+(((((....))))).  -4.60
+.((((....))))..  -3.90
+>Nitrososphaera_viennensis_EN76_tRNA-Ser-CGA-1-1 [100]
+UGUCCUUCGGGACUC  -5.40   1.00
+.((((....))))..  -5.40
+>Nitrososphaera_viennensis_EN76_tRNA-Ser-GCT-1-1 [100]
+UGUCCGCAAGGACCC  -5.40   1.00
+.((((....))))..  -5.40
+>Nitrososphaera_viennensis_EN76_tRNA-Ser-GGA-1-1 [100]
+UGACCCGUAAGGGUCCC  -8.70   1.00
+.(((((....)))))..  -8.70
+>Nitrososphaera_viennensis_EN76_tRNA-Ser-TGA-1-1 [100]
+UUCGCCCUCGGGCGAUC  -9.30   1.00
+.(((((....)))))..  -9.30
+>Palaeococcus_pacificus_DY20341_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUCGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Palaeococcus_pacificus_DY20341_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCUC  -2.90   1.00
+.(((......)))..  -2.90
+.((((...))))...  -2.70
+.((((...).)))..  -2.00
+>Palaeococcus_pacificus_DY20341_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUCUAGCCCGC  -8.10   1.00
+.((((.....))))..  -8.10
+(((((.....))))).  -8.00
+>Palaeococcus_pacificus_DY20341_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Picrophilus_torridus_DSM_9790_tRNA-Ser-CGA-1-1 [100]
+UGCUCUCUGUAGCUC  -1.30   1.00
+.(((......)))..  -1.30
+>Picrophilus_torridus_DSM_9790_tRNA-Ser-GCT-1-1 [100]
+UUCUCGUAAUGAGAGC  -3.30   1.00
+(((((.....))))).  -3.30
+.((((.....))))..  -3.20
+((((((...)))))).  -3.00
+.(((((...)))))..  -2.90
+>Picrophilus_torridus_DSM_9790_tRNA-Ser-GGA-1-1 [100]
+UGCUGAAAUAGCUC  -1.80   1.00
+.((((...))))..  -1.80
+.(((.....)))..  -1.30
+>Picrophilus_torridus_DSM_9790_tRNA-Ser-TGA-1-1 [100]
+UUCCCAUAGUGGAUC  -1.40   1.00
+.(((......)))..  -1.40
+...(((...)))...  -1.00
+...((.....))...  -0.60
+>Candidatus_Prometheoarchaeum_syntrophicum_MK-D1_tRNA-Ser-CGA-1-1 [100]
+UGAGCAUUGCUCUC  -3.70   1.00
+.((((...))))..  -3.70
+>Candidatus_Prometheoarchaeum_syntrophicum_MK-D1_tRNA-Ser-GCT-1-1 [100]
+UGCACAUCUGUGCGC  -5.10   1.00
+.((((....))))..  -5.10
+(((((....))))).  -5.00
+>Pyrococcus_abyssi_GE5_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_abyssi_GE5_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCGC  -3.20   1.00
+.(((......)))..  -3.20
+((((......)))).  -3.10
+.((((...))))...  -2.70
+.((((...).)))..  -2.30
+(((((...).)))).  -2.20
+>Pyrococcus_abyssi_GE5_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_abyssi_GE5_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Pyrobaculum_aerophilum_str_IM2_tRNA-Ser-CGA-1-1 [100]
+UCCCCGUCCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_aerophilum_str_IM2_tRNA-Ser-GCT-1-1 [100]
+UCCCCAUACGGGGGC  -7.30   1.00
+(((((....))))).  -7.30
+.((((....))))..  -7.30
+>Pyrobaculum_aerophilum_str_IM2_tRNA-Ser-GGA-1-1 [100]
+UCCCCGUCUAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_aerophilum_str_IM2_tRNA-Ser-TGA-1-1 [100]
+UCCCCGUCCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrococcus_furiosus_DSM_3638_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUCGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Pyrococcus_furiosus_DSM_3638_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCGC  -3.20   1.00
+.(((......)))..  -3.20
+((((......)))).  -3.10
+.((((...))))...  -2.70
+.((((...).)))..  -2.30
+(((((...).)))).  -2.20
+>Pyrococcus_furiosus_DSM_3638_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_furiosus_DSM_3638_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Pyrococcus_horikoshii_OT3_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUGGUCCCAC  -3.80   1.00
+((((......)))).  -3.80
+.(((......)))..  -3.20
+(((((...).)))).  -2.90
+>Pyrococcus_horikoshii_OT3_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCGC  -3.20   1.00
+.(((......)))..  -3.20
+((((......)))).  -3.10
+.((((...))))...  -2.70
+.((((...).)))..  -2.30
+(((((...).)))).  -2.20
+>Pyrococcus_horikoshii_OT3_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUUGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_horikoshii_OT3_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Pyrobaculum_sp_1860_tRNA-Ser-CGA-1-1 [100]
+UCCCCGCACAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_sp_1860_tRNA-Ser-GCT-1-1 [100]
+UCCCCGUUCGGGGGC  -7.30   1.00
+(((((....))))).  -7.30
+.((((....))))..  -7.30
+.((((.....)))).  -7.10
+>Pyrobaculum_sp_1860_tRNA-Ser-GGA-1-1 [100]
+UCCCCGUCAAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_sp_1860_tRNA-Ser-TGA-1-1 [100]
+UCCCCGCGAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Pyrobaculum_arsenaticum_DSM_13514_tRNA-Ser-CGA-1-1 [100]
+UCCCCGUCCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_arsenaticum_DSM_13514_tRNA-Ser-GCT-1-1 [100]
+UCCCCGUUCGGGGGC  -7.30   1.00
+(((((....))))).  -7.30
+.((((....))))..  -7.30
+.((((.....)))).  -7.10
+>Pyrobaculum_arsenaticum_DSM_13514_tRNA-Ser-GGA-1-1 [100]
+UCCCCGUUCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_arsenaticum_DSM_13514_tRNA-Ser-TGA-1-1 [100]
+UCCCCGUUCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_calidifontis_JCM_11548_tRNA-Ser-CGA-1-1 [100]
+UCCCCGUUCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_calidifontis_JCM_11548_tRNA-Ser-GCT-1-1 [100]
+UCCCCAUACGGGGGC  -7.30   1.00
+(((((....))))).  -7.30
+.((((....))))..  -7.30
+>Pyrobaculum_calidifontis_JCM_11548_tRNA-Ser-GGA-1-1 [100]
+UCCCCGUUCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_calidifontis_JCM_11548_tRNA-Ser-TGA-1-1 [100]
+UCCCCGUUCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrolobus_fumarii_1A_tRNA-Ser-CGA-1-1 [100]
+UGCCCCGUGCAGGGGCGC -11.40   1.00
+.(((((.....))))).. -11.40
+((((((.....)))))). -11.30
+>Pyrolobus_fumarii_1A_tRNA-Ser-GCT-1-1 [100]
+UGGGGGCAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Pyrolobus_fumarii_1A_tRNA-Ser-GGA-1-1 [100]
+UGGGGGGCUACCCCCGC -11.60   1.00
+.(((((....))))).. -11.60
+((((((....)))))). -11.50
+>Pyrolobus_fumarii_1A_tRNA-Ser-TGA-1-1 [100]
+UGGGGGCUACCCCCGC  -9.30   1.00
+.(((((...)))))..  -9.30
+((((((...)))))).  -9.20
+>Pyrococcus_furiosus_COM1_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUCGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Pyrococcus_furiosus_COM1_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCGC  -3.20   1.00
+.(((......)))..  -3.20
+((((......)))).  -3.10
+.((((...))))...  -2.70
+.((((...).)))..  -2.30
+(((((...).)))).  -2.20
+>Pyrococcus_furiosus_COM1_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_furiosus_COM1_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Pyrobaculum_islandicum_DSM_4184_tRNA-Ser-CGA-1-1 [100]
+UCCCCGUCUAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_islandicum_DSM_4184_tRNA-Ser-GCT-1-1 [100]
+UCCCCGUUCGGGGGC  -7.30   1.00
+(((((....))))).  -7.30
+.((((....))))..  -7.30
+.((((.....)))).  -7.10
+>Pyrobaculum_islandicum_DSM_4184_tRNA-Ser-GGA-1-1 [100]
+UCCCCGUCUAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_islandicum_DSM_4184_tRNA-Ser-TGA-1-1 [100]
+UCCCCGUCUAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrococcus_sp_NA2_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUUGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_sp_NA2_tRNA-Ser-GCT-1-1 [100]
+UGGGCAUGGUCCCGC  -3.20   1.00
+.(((......)))..  -3.20
+((((......)))).  -3.10
+.((((...))))...  -2.70
+.((((...).)))..  -2.30
+(((((...).)))).  -2.20
+>Pyrococcus_sp_NA2_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUUGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_sp_NA2_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Pyrobaculum_oguniense_TE7_tRNA-Ser-CGA-1-1 [100]
+UCCCCGUACAGGGGUC  -7.20   1.00
+.((((.....))))..  -7.20
+>Pyrobaculum_oguniense_TE7_tRNA-Ser-GCT-1-1 [100]
+UCCCCGUUCGGGGGC  -7.30   1.00
+(((((....))))).  -7.30
+.((((....))))..  -7.30
+.((((.....)))).  -7.10
+>Pyrobaculum_oguniense_TE7_tRNA-Ser-GGA-1-1 [100]
+UCCCCGUUCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrobaculum_oguniense_TE7_tRNA-Ser-TGA-1-1 [100]
+UCCCCGUCCAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Pyrococcus_sp_ST04_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUUGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_sp_ST04_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCGC  -3.20   1.00
+.(((......)))..  -3.20
+((((......)))).  -3.10
+.((((...))))...  -2.70
+.((((...).)))..  -2.30
+(((((...).)))).  -2.20
+>Pyrococcus_sp_ST04_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUUGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_sp_ST04_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUGCCCGC  -6.10   1.00
+.((((...))))..  -6.10
+(((((...))))).  -6.00
+>Pyrococcus_yayanosii_CH1_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Pyrococcus_yayanosii_CH1_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUUGCCCUC  -5.80   1.00
+.((((...))))..  -5.80
+>Pyrococcus_yayanosii_CH1_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Pyrococcus_yayanosii_CH1_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Saccharolobus_shibatae_B12_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Saccharolobus_shibatae_B12_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Saccharolobus_shibatae_B12_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Saccharolobus_shibatae_B12_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Salinarchaeum_sp_Harcht-Bsk1_tRNA-Ser-CGA-1-1 [100]
+UGUCCGCAAGGACUC  -5.80   1.00
+.((((....))))..  -5.80
+>Salinarchaeum_sp_Harcht-Bsk1_tRNA-Ser-GCT-1-1 [100]
+UGGCGCAAGCCUC  -4.60   1.00
+.(((....)))..  -4.60
+>Salinarchaeum_sp_Harcht-Bsk1_tRNA-Ser-GGA-1-1 [100]
+UUCCCUUACGGGAUU  -5.10   1.00
+.((((....))))..  -5.10
+>Salinarchaeum_sp_Harcht-Bsk1_tRNA-Ser-TGA-1-1 [100]
+UGUCCUCACGGACUC  -4.90   1.00
+.((((....))))..  -4.90
+>Staphylothermus_hellenicus_DSM_12710_tRNA-Ser-CGA-1-1 [100]
+UGCCCCGCGGAGGGGCGC -11.40   1.00
+.(((((.....))))).. -11.40
+((((((.....)))))). -11.30
+>Staphylothermus_hellenicus_DSM_12710_tRNA-Ser-GCT-1-1 [100]
+UGGGGUGGUUCCCCGC  -7.30   1.00
+.((((.....))))..  -7.30
+(((((.....))))).  -7.20
+>Staphylothermus_hellenicus_DSM_12710_tRNA-Ser-GGA-1-1 [100]
+UGCCCCAUAUGGGGCGC -10.70   1.00
+.(((((....))))).. -10.70
+((((((....)))))). -10.60
+>Staphylothermus_hellenicus_DSM_12710_tRNA-Ser-TGA-1-1 [100]
+UGGGCCAUGGGGCCCGC -10.60   1.00
+.(((((....))))).. -10.60
+((((((....)))))). -10.50
+>Staphylothermus_marinus_F1_tRNA-Ser-CGA-1-1 [100]
+UGCCCCGCGGAGGGGCGC -11.40   1.00
+.(((((.....))))).. -11.40
+((((((.....)))))). -11.30
+>Staphylothermus_marinus_F1_tRNA-Ser-GCT-1-1 [100]
+UGGGGUGGUUCCCCGC  -7.30   1.00
+.((((.....))))..  -7.30
+(((((.....))))).  -7.20
+>Staphylothermus_marinus_F1_tRNA-Ser-GGA-1-1 [100]
+UGCCCCAUACGGGGCGC -10.70   1.00
+.(((((....))))).. -10.70
+((((((....)))))). -10.60
+>Staphylothermus_marinus_F1_tRNA-Ser-TGA-1-1 [100]
+UGGGCCAAGGGGCCCGC -10.60   1.00
+.(((((....))))).. -10.60
+((((((....)))))). -10.50
+>Sulfolobus_solfataricus_P2_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_solfataricus_P2_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUCCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_solfataricus_P2_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_solfataricus_P2_tRNA-Ser-TGA-1-1 [100]
+UAGGUGUCUAGCCUGC  -4.10   1.00
+(((((.....))))).  -4.10
+.((((.....))))..  -3.40
+>Sulfolobus_acidocaldarius_DSM_639_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCCGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_acidocaldarius_DSM_639_tRNA-Ser-GCT-1-1 [100]
+UGGGGUCCCACCCCGC  -7.70   1.00
+.(((((...)))))..  -7.70
+((((((...)))))).  -7.60
+.((((.....))))..  -6.80
+(((((.....))))).  -6.70
+>Sulfolobus_acidocaldarius_DSM_639_tRNA-Ser-GGA-1-1 [100]
+UGUGGAUCUUCCACGC  -5.60   1.00
+.(((((...)))))..  -5.60
+((((((...)))))).  -5.50
+.((((.....))))..  -4.90
+(((((.....))))).  -4.80
+>Sulfolobus_acidocaldarius_DSM_639_tRNA-Ser-TGA-1-1 [100]
+UAGGGUUAUCCCUGC  -5.70   1.00
+(((((....))))).  -5.70
+.((((....))))..  -5.00
+>Sulfolobus_acidocaldarius_N8_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCCGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_acidocaldarius_N8_tRNA-Ser-GCT-1-1 [100]
+UGGGGUCCCACCCCGC  -7.70   1.00
+.(((((...)))))..  -7.70
+((((((...)))))).  -7.60
+.((((.....))))..  -6.80
+(((((.....))))).  -6.70
+>Sulfolobus_acidocaldarius_N8_tRNA-Ser-GGA-1-1 [100]
+UGUGGAUCUUCCACGC  -5.60   1.00
+.(((((...)))))..  -5.60
+((((((...)))))).  -5.50
+.((((.....))))..  -4.90
+(((((.....))))).  -4.80
+>Sulfolobus_acidocaldarius_N8_tRNA-Ser-TGA-1-1 [100]
+UAGGGUUAUCCCUGC  -5.70   1.00
+(((((....))))).  -5.70
+.((((....))))..  -5.00
+>Sulfolobus_acidocaldarius_Ron12I_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCCGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_acidocaldarius_Ron12I_tRNA-Ser-GCT-1-1 [100]
+UGGGGUCCCACCCCGC  -7.70   1.00
+.(((((...)))))..  -7.70
+((((((...)))))).  -7.60
+.((((.....))))..  -6.80
+(((((.....))))).  -6.70
+>Sulfolobus_acidocaldarius_Ron12I_tRNA-Ser-GGA-1-1 [100]
+UGUGGAUCUUCCACGC  -5.60   1.00
+.(((((...)))))..  -5.60
+((((((...)))))).  -5.50
+.((((.....))))..  -4.90
+(((((.....))))).  -4.80
+>Sulfolobus_acidocaldarius_Ron12I_tRNA-Ser-TGA-1-1 [100]
+UAGGGUUAUCCCUGC  -5.70   1.00
+(((((....))))).  -5.70
+.((((....))))..  -5.00
+>Sulfolobus_acidocaldarius_SUSAZ_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCCGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_acidocaldarius_SUSAZ_tRNA-Ser-GCT-1-1 [100]
+UGGGGUCCCACCCCGC  -7.70   1.00
+.(((((...)))))..  -7.70
+((((((...)))))).  -7.60
+.((((.....))))..  -6.80
+(((((.....))))).  -6.70
+>Sulfolobus_acidocaldarius_SUSAZ_tRNA-Ser-GGA-1-1 [100]
+UGUGGGUCUUCCACGC  -4.90   1.00
+.((((.....))))..  -4.90
+(((((.....))))).  -4.80
+.(((((...)))))..  -4.70
+((((((...)))))).  -4.60
+>Sulfolobus_acidocaldarius_SUSAZ_tRNA-Ser-TGA-1-1 [100]
+UAGGGUUAUCCCUGC  -5.70   1.00
+(((((....))))).  -5.70
+.((((....))))..  -5.00
+>Sulfolobus_islandicus_HVE104_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_HVE104_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_HVE104_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_HVE104_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_LAL141_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_LAL141_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_LAL141_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_LAL141_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_LD85_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_LD85_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_LD85_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_LD85_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_LS215_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_LS215_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_LS215_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_LS215_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_M1425_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_M1425_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_M1425_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_M1425_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_M162_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_M162_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_M162_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_M162_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_M1623_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_M1623_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_M1623_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_M1623_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_M1627_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_M1627_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_M1627_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_M1627_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_M164_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_M164_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_M164_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_M164_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_M1640_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_M1640_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_M1640_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_M1640_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_M1643_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_M1643_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_M1643_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_M1643_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_M1647_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_M1647_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_M1647_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_M1647_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_REY15A_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_REY15A_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_REY15A_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_REY15A_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_YG5714_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_YG5714_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_YG5714_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_YG5714_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_islandicus_YN1551_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_islandicus_YN1551_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUUCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_islandicus_YN1551_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_islandicus_YN1551_tRNA-Ser-TGA-1-1 [100]
+UAGGCGUAAAGCCUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Sulfolobus_solfataricus_982_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_solfataricus_982_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUCCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_solfataricus_982_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_solfataricus_982_tRNA-Ser-TGA-1-1 [100]
+UAGGUGUCUAGCCUGC  -4.10   1.00
+(((((.....))))).  -4.10
+.((((.....))))..  -3.40
+>Sulfolobus_solfataricus_982_SULC_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_solfataricus_982_SULC_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUCCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_solfataricus_982_SULC_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_solfataricus_982_SULC_tRNA-Ser-TGA-1-1 [100]
+UAGGUGUCUAGCCUGC  -4.10   1.00
+(((((.....))))).  -4.10
+.((((.....))))..  -3.40
+>Sulfolobus_solfataricus_SULA_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_solfataricus_SULA_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUCCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_solfataricus_SULA_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_solfataricus_SULA_tRNA-Ser-TGA-1-1 [100]
+UAGGUGUCUAGCCUGC  -4.10   1.00
+(((((.....))))).  -4.10
+.((((.....))))..  -3.40
+>Sulfolobus_solfataricus_SULB_tRNA-Ser-CGA-1-1 [100]
+UGCCUCUCUGAGGCAC  -7.90   1.00
+((((((...)))))).  -7.90
+.(((((...)))))..  -7.30
+>Sulfolobus_solfataricus_SULB_tRNA-Ser-GCT-1-1 [100]
+UGGGGAUCCUCCCCAC  -8.50   1.00
+((((((...)))))).  -8.50
+.(((((...)))))..  -7.90
+(((((.....))))).  -7.80
+>Sulfolobus_solfataricus_SULB_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_solfataricus_SULB_tRNA-Ser-TGA-1-1 [100]
+UAGGUGUCUAGCCUGC  -4.10   1.00
+(((((.....))))).  -4.10
+.((((.....))))..  -3.40
+>Sulfolobus_tokodaii_str_7_tRNA-Ser-CGA-1-1 [100]
+UGCCCCUAUGGGGCAC -10.00   1.00
+((((((...)))))). -10.00
+.(((((...)))))..  -9.40
+>Sulfolobus_tokodaii_str_7_tRNA-Ser-GCT-1-1 [100]
+UGGGGUCCGUCCCCGC  -7.30   1.00
+.((((.....))))..  -7.30
+(((((.....))))).  -7.20
+>Sulfolobus_tokodaii_str_7_tRNA-Ser-GGA-1-1 [100]
+UGGGGGUUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Sulfolobus_tokodaii_str_7_tRNA-Ser-TGA-1-1 [100]
+UGGGGAUCUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Thaumarchaeota_archaeon_SAT1_tRNA-Ser-CGA-1-1 [100]
+UGUGCAUUCGCACUC  -4.80   1.00
+.((((....))))..  -4.80
+>Thaumarchaeota_archaeon_SAT1_tRNA-Ser-GCT-1-1 [100]
+UGUCCGCAAGGACCC  -5.40   1.00
+.((((....))))..  -5.40
+>Thaumarchaeota_archaeon_SAT1_tRNA-Ser-GGA-1-1 [100]
+UACUCGCAAGGGUUC  -2.50   1.00
+.((((....))))..  -2.50
+>Thaumarchaeota_archaeon_SAT1_tRNA-Ser-TGA-1-1 [100]
+UGUGCGCAAGCAUCC  -3.60   1.00
+.((((....))))..  -3.60
+>Thermoplasma_acidophilum_DSM_1728_tRNA-Ser-CGA-1-1 [100]
+UGCUCUCGUAGCUC  -1.00   1.00
+.(((.....)))..  -1.00
+..............   0.00
+>Thermoplasma_acidophilum_DSM_1728_tRNA-Ser-GCT-1-1 [100]
+UUCUCUUAUGAGAGC  -4.00   1.00
+(((((....))))).  -4.00
+.((((....))))..  -3.90
+>Thermoplasma_acidophilum_DSM_1728_tRNA-Ser-GGA-1-1 [100]
+UGCUCGUAUAGAGCUC  -5.70   1.00
+.((((.....))))..  -5.70
+>Thermoplasma_acidophilum_DSM_1728_tRNA-Ser-TGA-1-1 [100]
+UUCCCUUGUGGAUC  -1.30   1.00
+...((....))...  -1.30
+.(((.....)))..  -1.10
+>Thermosphaera_aggregans_DSM_11486_tRNA-Ser-CGA-1-1 [100]
+UGCCCCCUCUGGGGCAC -10.60   1.00
+((((((....)))))). -10.60
+.(((((....))))).. -10.00
+>Thermosphaera_aggregans_DSM_11486_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAUUCCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Thermosphaera_aggregans_DSM_11486_tRNA-Ser-GGA-1-1 [100]
+UGCCCCUUCCGGGGCGC -10.60   1.00
+.(((((....))))).. -10.60
+((((((....)))))). -10.50
+>Thermosphaera_aggregans_DSM_11486_tRNA-Ser-TGA-1-1 [100]
+UGGGCACAAGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermoplasmatales_archaeon_BRNA1_tRNA-Ser-CGA-1-1 [100]
+UGGUCCUUGACCUC  -3.70   1.00
+.((((...))))..  -3.70
+>Thermoplasmatales_archaeon_BRNA1_tRNA-Ser-GCT-1-1 [100]
+UGCUCUAUGAGCUC  -3.70   1.00
+.((((...))))..  -3.70
+>Thermoplasmatales_archaeon_BRNA1_tRNA-Ser-GGA-1-1 [100]
+UGGGAGUAUUCCCUC  -5.10   1.00
+.((((....))))..  -5.10
+>Thermoplasmatales_archaeon_BRNA1_tRNA-Ser-TGA-1-1 [100]
+CGGCGAUUCGCCUC  -5.10   1.00
+.((((...))))..  -5.10
+>Thermococcus_barophilus_MP_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_barophilus_MP_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCUC  -2.90   1.00
+.(((......)))..  -2.90
+.((((...))))...  -2.70
+.((((...).)))..  -2.00
+>Thermococcus_barophilus_MP_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUAAGCCCUC  -7.80   1.00
+.((((.....))))..  -7.80
+>Thermococcus_barophilus_MP_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermofilum_carboxyditrophus_1505_tRNA-Ser-CGA-1-1 [100]
+UACCCCAAAAGGGUGC  -5.10   1.00
+(((((.....))))).  -5.10
+.((((.....))))..  -4.40
+>Thermofilum_carboxyditrophus_1505_tRNA-Ser-GCT-1-1 [100]
+UGGCGAUUUCGCCUC  -6.20   1.00
+.((((....))))..  -6.20
+>Thermofilum_carboxyditrophus_1505_tRNA-Ser-GGA-1-1 [100]
+UACCCCAAAAGGGUGC  -5.10   1.00
+(((((.....))))).  -5.10
+.((((.....))))..  -4.40
+>Thermofilum_carboxyditrophus_1505_tRNA-Ser-TGA-1-1 [100]
+UACCCCAAAAGGGUGC  -5.10   1.00
+(((((.....))))).  -5.10
+.((((.....))))..  -4.40
+>Thermogladius_cellulolyticus_1633_tRNA-Ser-CGA-1-1 [100]
+UGCCCCAUACGGGGCAC -11.30   1.00
+((((((....)))))). -11.30
+.(((((....))))).. -10.70
+>Thermogladius_cellulolyticus_1633_tRNA-Ser-GCT-1-1 [100]
+UGGGGGAAACCCCGC  -8.30   1.00
+.((((....))))..  -8.30
+(((((....))))).  -8.20
+>Thermogladius_cellulolyticus_1633_tRNA-Ser-GGA-1-1 [100]
+UGCCCCAUACGGGGUGC  -8.60   1.00
+.(((((....)))))..  -8.60
+((((((....)))))).  -8.00
+>Thermogladius_cellulolyticus_1633_tRNA-Ser-TGA-1-1 [100]
+UGGGCUUACGCCCGC  -7.30   1.00
+.((((....))))..  -7.30
+(((((....))))).  -7.20
+>Thermococcus_eurythermalis_A501_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUCCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Thermococcus_eurythermalis_A501_tRNA-Ser-GCT-1-1 [100]
+UGGGCGGUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_eurythermalis_A501_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_eurythermalis_A501_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUCCGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Ser-GCT-1-1 [100]
+UGGGCGGUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUAGCCCGC  -8.20   1.00
+.((((....))))..  -8.20
+(((((....))))).  -8.10
+>Thermococcus_gammatolerans_EJ3_DSM_15229_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_kodakarensis_KOD1_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUCCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Thermococcus_kodakarensis_KOD1_tRNA-Ser-GCT-1-1 [100]
+UGGGCGGUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_kodakarensis_KOD1_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_kodakarensis_KOD1_tRNA-Ser-TGA-1-1 [100]
+UGGCCGUAUGGCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Thermococcus_litoralis_DSM_5473_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_litoralis_DSM_5473_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCUC  -2.90   1.00
+.(((......)))..  -2.90
+.((((...))))...  -2.70
+.((((...).)))..  -2.00
+>Thermococcus_litoralis_DSM_5473_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUAAGCCCGC  -8.10   1.00
+.((((.....))))..  -8.10
+(((((.....))))).  -8.00
+>Thermococcus_litoralis_DSM_5473_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_nautili_30-1_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUCCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Thermococcus_nautili_30-1_tRNA-Ser-GCT-1-1 [100]
+UGGGCGGUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_nautili_30-1_tRNA-Ser-GGA-1-1 [100]
+UGGGCGCAUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_nautili_30-1_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermoproteus_neutrophilus_V24Sta_tRNA-Ser-CGA-1-1 [100]
+UCCCCGUCAAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Thermoproteus_neutrophilus_V24Sta_tRNA-Ser-GCT-1-1 [100]
+UCCCCGUUCGGGGGC  -7.30   1.00
+(((((....))))).  -7.30
+.((((....))))..  -7.30
+.((((.....)))).  -7.10
+>Thermoproteus_neutrophilus_V24Sta_tRNA-Ser-GGA-1-1 [100]
+UCCCCGUCUAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Thermoproteus_neutrophilus_V24Sta_tRNA-Ser-TGA-1-1 [100]
+UCCCCGUCAAGGGGGC  -8.00   1.00
+(((((.....))))).  -8.00
+.((((.....))))..  -8.00
+.((((......)))).  -7.40
+>Thermococcus_onnurineus_NA1_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUCAAGCCCAC  -8.70   1.00
+(((((.....))))).  -8.70
+.((((.....))))..  -8.10
+>Thermococcus_onnurineus_NA1_tRNA-Ser-GCT-1-1 [100]
+UGGGCGCUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_onnurineus_NA1_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUCAGCCCGC  -8.20   1.00
+.((((....))))..  -8.20
+(((((....))))).  -8.10
+>Thermococcus_onnurineus_NA1_tRNA-Ser-TGA-1-1 [100]
+UGUCCGUAUGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Thermofilum_pendens_Hrk_5_tRNA-Ser-CGA-1-1 [100]
+UGCCCGUUAAGGGUGC  -6.00   1.00
+.((((.....))))..  -6.00
+(((((.....))))).  -5.40
+>Thermofilum_pendens_Hrk_5_tRNA-Ser-GCT-1-1 [100]
+UACCCGUUGAGGGUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Thermofilum_pendens_Hrk_5_tRNA-Ser-GGA-1-1 [100]
+UACCCGUUAAGGGUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Thermofilum_pendens_Hrk_5_tRNA-Ser-TGA-1-1 [100]
+UACCCGUUAAGGGUGC  -6.40   1.00
+(((((.....))))).  -6.40
+.((((.....))))..  -5.70
+>Thermococcus_sibiricus_MM_739_tRNA-Ser-CGA-1-1 [100]
+UGGGCUUUGUCCCGC  -3.20   1.00
+.(((......)))..  -3.20
+((((......)))).  -3.10
+.((((...))))...  -2.70
+.((((...).)))..  -2.30
+(((((...).)))).  -2.20
+>Thermococcus_sibiricus_MM_739_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCUC  -2.90   1.00
+.(((......)))..  -2.90
+.((((...))))...  -2.70
+.((((...).)))..  -2.00
+>Thermococcus_sibiricus_MM_739_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUAAGCCCGC  -8.10   1.00
+.((((.....))))..  -8.10
+(((((.....))))).  -8.00
+>Thermococcus_sibiricus_MM_739_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermofilum_sp_1910b_tRNA-Ser-CGA-1-1 [100]
+UACCCCAAAAGGGUGC  -5.10   1.00
+(((((.....))))).  -5.10
+.((((.....))))..  -4.40
+>Thermofilum_sp_1910b_tRNA-Ser-GCT-1-1 [100]
+UGGCGAUUUCGCCUC  -6.20   1.00
+.((((....))))..  -6.20
+>Thermofilum_sp_1910b_tRNA-Ser-GGA-1-1 [100]
+UACCCCAAAAGGGUGC  -5.10   1.00
+(((((.....))))).  -5.10
+.((((.....))))..  -4.40
+>Thermofilum_sp_1910b_tRNA-Ser-TGA-1-1 [100]
+UACCCCAAAAGGGUGC  -5.10   1.00
+(((((.....))))).  -5.10
+.((((.....))))..  -4.40
+>Thermococcus_sp_4557_tRNA-Ser-CGA-1-1 [100]
+UGGGCUCUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_sp_4557_tRNA-Ser-GCT-1-1 [100]
+UGGCCGUUGGCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_sp_4557_tRNA-Ser-GGA-1-1 [100]
+UGGGCUCUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_sp_4557_tRNA-Ser-TGA-1-1 [100]
+UGUCCGCUUGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Thermococcus_sp_AM4_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUCCGCCCAC  -8.00   1.00
+(((((....))))).  -8.00
+.((((....))))..  -7.40
+>Thermococcus_sp_AM4_tRNA-Ser-GCT-1-1 [100]
+UGGGCGGUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_sp_AM4_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUAGCCCGC  -8.20   1.00
+.((((....))))..  -8.20
+(((((....))))).  -8.10
+>Thermococcus_sp_AM4_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_sp_CL1_tRNA-Ser-CGA-1-1 [100]
+UGCGCUCUGCGCAC  -5.90   1.00
+(((((...))))).  -5.90
+.((((...))))..  -5.30
+>Thermococcus_sp_CL1_tRNA-Ser-GCT-1-1 [100]
+UGGGCGCUGCCCAC  -6.70   1.00
+(((((...))))).  -6.70
+.((((...))))..  -6.10
+>Thermococcus_sp_CL1_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUAGCCCGC  -8.20   1.00
+.((((....))))..  -8.20
+(((((....))))).  -8.10
+>Thermococcus_sp_CL1_tRNA-Ser-TGA-1-1 [100]
+UGUCCGUAUGGACAC  -5.90   1.00
+(((((....))))).  -5.90
+.((((....))))..  -5.30
+>Thermococcus_sp_ES1_tRNA-Ser-CGA-1-1 [100]
+UGGGCGUUCGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermococcus_sp_ES1_tRNA-Ser-GCT-1-1 [100]
+UGGGCGUGGUCCCUC  -2.90   1.00
+.(((......)))..  -2.90
+.((((...))))...  -2.70
+.((((...).)))..  -2.00
+>Thermococcus_sp_ES1_tRNA-Ser-GGA-1-1 [100]
+UGGGCGUUAAGCCCUC  -7.80   1.00
+.((((.....))))..  -7.80
+>Thermococcus_sp_ES1_tRNA-Ser-TGA-1-1 [100]
+UGGGCGUUUGCCCGC  -7.40   1.00
+.((((....))))..  -7.40
+(((((....))))).  -7.30
+>Thermoproteus_tenax_Kra_1_tRNA-Ser-CGA-1-1 [100]
+UCCCCGCGAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Thermoproteus_tenax_Kra_1_tRNA-Ser-GCT-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Thermoproteus_tenax_Kra_1_tRNA-Ser-GGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Thermoproteus_tenax_Kra_1_tRNA-Ser-TGA-1-1 [100]
+UCCCCGCGAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Thermoproteus_uzoniensis_768-20_tRNA-Ser-CGA-1-1 [100]
+UCCCCGCGAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Thermoproteus_uzoniensis_768-20_tRNA-Ser-GCT-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Thermoproteus_uzoniensis_768-20_tRNA-Ser-GGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Thermoproteus_uzoniensis_768-20_tRNA-Ser-TGA-1-1 [100]
+UCCCCGCGAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Thermoplasma_volcanium_GSS1_tRNA-Ser-CGA-1-1 [100]
+UGCUCUCGUAGCUC  -1.00   1.00
+.(((.....)))..  -1.00
+..............   0.00
+>Thermoplasma_volcanium_GSS1_tRNA-Ser-GCT-1-1 [100]
+UUCUCGUAUGAGAGC  -3.40   1.00
+(((((....))))).  -3.40
+.((((....))))..  -3.30
+>Thermoplasma_volcanium_GSS1_tRNA-Ser-GGA-1-1 [100]
+UGCUCAUUAGAGCUC  -5.00   1.00
+.((((....))))..  -5.00
+>Thermoplasma_volcanium_GSS1_tRNA-Ser-TGA-1-1 [100]
+UUCCCUUGUGGAUC  -1.30   1.00
+...((....))...  -1.30
+.(((.....)))..  -1.10
+>Vulcanisaeta_distributa_DSM_14429_tRNA-Ser-CGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Vulcanisaeta_distributa_DSM_14429_tRNA-Ser-GCT-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Vulcanisaeta_distributa_DSM_14429_tRNA-Ser-GGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Vulcanisaeta_distributa_DSM_14429_tRNA-Ser-TGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Vulcanisaeta_moutnovskia_768-28_tRNA-Ser-CGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Vulcanisaeta_moutnovskia_768-28_tRNA-Ser-GCT-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Vulcanisaeta_moutnovskia_768-28_tRNA-Ser-GGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10
+>Vulcanisaeta_moutnovskia_768-28_tRNA-Ser-TGA-1-1 [100]
+UCCCCGCAAGGGGGC  -8.10   1.00
+(((((....))))).  -8.10
+.((((....))))..  -8.10
+.((((.....)))).  -7.10

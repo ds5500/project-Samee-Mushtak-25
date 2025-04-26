@@ -1,0 +1,28 @@
+Start with <AA>-extract.txt produced by extract_type_ii.sh (+manually found indices of V-loop region)
+Use vim macro to
+    Start each label with >
+    Delete comma and create new line between label and V-loop sequence
+    Delete all periods and hyphens used for alignment in sequence
+        Replace (?<=^[^>][AUCG]*)(\.|-)+ with empty string
+            Look behind to make sure that line doesn't start with >, which identifies a label
+            Match strings of periods and hyphens
+    Making fasta files with constraints:
+        Put cursor at start of line on V arm sequence
+        yyp (yank line and paste below)
+        R x.< (enter replace mode, replace first three chars with x (base is unpaired), . (no constraint), < (base is paired with a later base))
+        :s/[AUCG]\./g (replace all remaining bases in line with . (no constraint))
+        $ r x (go to end of sequence and replace last base with x (base is unpaired))
+        jj0 (go down to lines and go to start of line, getting ready to rerun the macro)
+
+# Zuker
+# Find all optimal substructures
+RNAfold --noPS <AA>-extract.fa > <AA>-extract.fold
+
+# Wuchty
+# Find all suboptimal structures within 1 kj/mol Gibbs Free Energy of optimal substructure
+# Sort
+# Save to file
+RNAsubopt -e 1 -s -i <AA>-extract.fa > <AA>-extract-subopt.fold
+
+# Find constrained substructures
+RNAfold --noPS --constraint=constraints.txt --batch < Leu-extract.fa > Leu-extract-constrained.fold

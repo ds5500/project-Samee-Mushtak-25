@@ -1,8 +1,7 @@
 name: trna
 channels:
-  - bioconda
-  - conda-forge
   - defaults
+  - conda-forge
 dependencies:
   - python=3.12
   - bioconda::bowtie2
@@ -18,3 +17,4 @@ dependencies:
   - conda-forge::matplotlib
   - conda-forge::networkx
   - conda-forge::pandas
+  - bioconda::viennarna
