@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.12.0">
+<title>Alignment Viewer | tRNA Alignment</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.3268c726.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.3268c726.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="modulepreload" href="./_observablehq/client.5b056eee.js">
+<link rel="modulepreload" href="./_observablehq/runtime.f5f6c124.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.0f06e039.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/7055d4c5.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.c13d590c.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.16/e828d8c8.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/063eb405.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/c68fbd73.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e95f898e.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/d44feff9.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/5830b12a.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/84d7b8e9.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/2c0cdfa2.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/626bedc4.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/00c41b5d.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/b5f7cdc6.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/b22c5864.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/407f7a1f.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/6f15f633.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/ef1ec490.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e1ff060.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/5851d7ef.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/dcd02767.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/f1db2593.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/034b7bcb.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/4bb53638.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/bbafde58.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/aa5b35a8.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/32c7fec2.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/567840a0.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/cf9b720b.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/5dcd62f4.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/f8e03c56.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/5bc129e1.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/19c92b44.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/f31b5398.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/8debb4ba.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/4b0cc581.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/a62ae5ce.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/5eed35fd.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/e67acb27.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/1ee6c50d.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/8ac9039b.js">
+<link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.5b056eee.js";
+import {registerFile} from "./_observablehq/stdlib.0f06e039.js";
+
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.224507bd.json","lastModified":1730675322040,"size":446573});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.splits.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.splits.762d2964.json","lastModified":1730604734198,"size":47});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.69414fbb.json","lastModified":1730675399738,"size":446343});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.splits.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.splits.39696e48.json","lastModified":1730605034785,"size":47});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.7a66a478.json","lastModified":1730675359043,"size":447529});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.splits.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.splits.4d5c5b93.json","lastModified":1730604874689,"size":48});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.c2727df9.json","lastModified":1730675208655,"size":505361});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.splits.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.splits.5012addd.json","lastModified":1730603970301,"size":49});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.9c996861.json","lastModified":1730675284420,"size":502484});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.splits.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.splits.b009872f.json","lastModified":1730604406097,"size":47});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-mafft.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-mafft.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-mafft.fac8c752.json","lastModified":1730675247660,"size":503276});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-mafft.splits.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-mafft.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-mafft.splits.0bb00574.json","lastModified":1730604264953,"size":48});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.432f3658.json","lastModified":1731682568194,"size":440823});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.splits.8490a42d.json","lastModified":1730599740384,"size":47});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.0d02ea1e.json","lastModified":1731378212618,"size":442274});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.splits.4f53cda1.json","lastModified":1731378239015,"size":2});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.f1d0ec8d.json","lastModified":1731377430649,"size":460131});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.splits.bd3ce887.json","lastModified":1732497558992,"size":35});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.1a736fef.json","lastModified":1730675156751,"size":441709});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.splits.c4976871.json","lastModified":1730599998891,"size":47});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.23b41aec.json","lastModified":1730675124507,"size":440591});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.splits.b1cc6956.json","lastModified":1730600107517,"size":47});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-manual.3dd812b8.json","lastModified":1730674986206,"size":440711});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-manual.splits.a2652316.json","lastModified":1730600195066,"size":47});
+
+define({id: "a732d859", inputs: ["view","Inputs","jsons"], outputs: ["species_selection"], body: (view,Inputs,jsons) => {
+const species_selection = view(
+    Inputs.select(
+        jsons, {
+            value: jsons.find( (t) => t.species === "Pyrococcus furiosus" ),
+            format: (t) => t.species,
+            label: "Species"
+        }
+    )
+);
+return {species_selection};
+}});
+
+define({id: "4fbd2ca3", inputs: ["species_selection"], outputs: ["sel_species"], body: (species_selection) => {
+const sel_species = species_selection.species;
+return {sel_species};
+}});
+
+define({id: "3a44c61a", inputs: ["view","Inputs","jsons","sel_species"], outputs: ["alignment_selection"], body: (view,Inputs,jsons,sel_species) => {
+const alignment_selection = view(
+    Inputs.select(
+        jsons.find( (t) => t.species === sel_species ).files, {
+            format: (d) => d.alignment.name,
+            label: "Alignment File"
+        }
+    )
+);
+return {alignment_selection};
+}});
+
+define({id: "224cb10d", inputs: ["alignment_selection"], outputs: ["aln","splits"], body: (alignment_selection) => {
+const aln = alignment_selection.alignment.json();
+const splits = alignment_selection.splits.json();
+return {aln,splits};
+}});
+
+define({id: "341507de", inputs: ["view","Inputs"], outputs: ["isAligned"], body: (view,Inputs) => {
+const isAligned = view(
+    Inputs.toggle({
+        label: "Align",
+        value: true
+    })
+);
+return {isAligned};
+}});
+
+define({id: "e9246e68", inputs: ["view","Inputs","isAligned"], outputs: ["showSplitters"], body: (view,Inputs,isAligned) => {
+const showSplitters = view(
+    Inputs.toggle({
+        label: "Show splitters",
+        value: false,
+        disabled: !isAligned
+    })
+);
+return {showSplitters};
+}});
+
+define({id: "abe50736", mode: "inline", inputs: ["combinedPlot","display"], body: async (combinedPlot,display) => {
+display(await(
+combinedPlot
+))
+}});
+
+define({id: "0279e697", inputs: ["Plot","calculate_ticks","aln","render_cell","render_text","splits","render_rule"], outputs: ["combinedPlot"], body: (Plot,calculate_ticks,aln,render_cell,render_text,splits,render_rule) => {
+const combinedPlot = Plot.plot({
+    padding: 0,
+    marginLeft: 100,
+    width: 2000,
+    height: 1500,
+    grid: true,
+    x: {label: "", ticks: calculate_ticks(aln, 5)},
+    y: {label: ""},
+    color: {
+        domain: [0, 1, 2, 3, 4],
+        range: ["#177E89", "#DB3A34", "#FFC857", "#BBDBB4", "#FF00FF"]
+    },
+    marks: [
+        Plot.axisX(calculate_ticks(aln, 5), {
+            anchor: "top",
+            fontSize: 24
+        }),
+        Plot.axisY({
+            anchor: "left",
+            fontSize: 24
+        }),
+        Plot.cell(aln, {
+            x: "base_idx", 
+            y: "seq_label",
+            sort: {
+                y: "data",
+                reduce: ([d]) => d.seq_idx
+            },
+            fill: "base_color",
+            render: render_cell
+        }),
+        Plot.text(aln, {
+            x: "base_idx",
+            y: "seq_label",
+            sort: {
+                y: "data",
+                reduce: ([d]) => d.seq_idx
+            },
+            text: "base_label",
+            fill: "black",
+            monospace: true,
+            fontSize: 24,
+            title: (d) => `${d.seq_label}: Base #${d.base_num}=${d.base_label}`,
+            render: render_text
+        }),
+        Plot.ruleX(splits.map((d) => d-0.5), {
+            stroke: "blue",
+            strokeWidth: 0,
+            render: render_rule
+        })
+    ]
+});
+return {combinedPlot};
+}});
+
+define({id: "e95c135f", inputs: ["d3"], outputs: ["calculate_ticks"], body: (d3) => {
+function calculate_ticks(data, delta) {
+    const max_idx = d3.max(data.map((d) => d.base_idx));
+    let ticks = [];
+    for (let i = delta; i < max_idx - 1; i += delta) {
+        ticks.push(i);
+    }
+    ticks.push(max_idx);
+    return ticks;
+}
+return {calculate_ticks};
+}});
+
+define({id: "6f118be0", inputs: ["d3","aln"], outputs: ["render_cell"], body: (d3,aln) => {
+const render_cell = (index, scales, values, dimensions, context, next) => {
+    const {x} = scales;
+    const g = next(index, scales, values, dimensions, context);
+    const svg = context.ownerSVGElement;
+
+    svg.update_cell = (isAligned) => {
+      d3.select(g)
+          .selectAll("rect")
+        .transition().duration(1000)
+          .attr("x", i => x(aln[i][isAligned ? 'base_idx' : 'base_num']))
+    };
+
+    return g;
+};
+return {render_cell};
+}});
+
+define({id: "5801709a", inputs: ["d3","aln"], outputs: ["render_text"], body: (d3,aln) => {
+const render_text = (index, scales, values, dimensions, context, next) => {
+    const {x,y} = scales;
+    const g = next(index, scales, values, dimensions, context);
+    const svg = context.ownerSVGElement;
+
+    svg.update_text = (isAligned) => {
+      d3.select(g)
+          .selectAll("text")
+        .transition().duration(1000)
+            // .attr("x", i => `${x(aln[i][isAligned ? 'base_idx' : 'base_num'])}`)
+            // .attr("y", i => `${y(aln[i]['seq_label'])}`)
+            .attr("transform", i => 
+                `translate(${x(aln[i][isAligned ? 'base_idx' : 'base_num'])}, ${y(aln[i]['seq_label'])})`
+            )
+    };
+    // Need to filter out consensus markers in unaligned view
+
+    return g;
+};
+return {render_text};
+}});
+
+define({id: "faf6b8bd", inputs: ["d3"], outputs: ["render_rule"], body: (d3) => {
+const render_rule = (index, scales, values, dimensions, context, next) => {
+    const {x} = scales;
+    const g = next(index, scales, values, dimensions, context);
+    const svg = context.ownerSVGElement;
+    const half_width = (x(2) - x(1)) / 2;
+
+    svg.toggle_rule = (showSplitters) => {
+        d3.select(g)
+        .selectAll("line")
+        .attr("stroke-width", showSplitters ? 3 : 0)
+        .attr("transform", `translate(${half_width},0)`);
+    };
+
+    return g;
+};
+return {render_rule};
+}});
+
+define({id: "8d5f4fd4", inputs: ["combinedPlot","isAligned","showSplitters"], body: (combinedPlot,isAligned,showSplitters) => {
+combinedPlot.update_cell(isAligned);
+combinedPlot.update_text(isAligned);
+combinedPlot.toggle_rule(showSplitters);
+}});
+
+define({id: "a18ee2c8", inputs: ["FileAttachment"], outputs: ["jsons"], body: (FileAttachment) => {
+const jsons = [
+    {
+        "species" : "Pyrococcus furiosus",
+        "files" : [
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.splits.json")
+            }
+        ]
+    },
+    {
+        "species" : "Haloferax volcanii",
+        "files" : [
+            {
+                "alignment" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.json"),
+                "splits" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-mafft.json"),
+                "splits" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-mafft.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.json"),
+                "splits" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.splits.json")
+            }
+        ]
+    },
+    {
+        "species" : "Chlorobium chlorochromatii",
+        "files" : [
+            {
+                "alignment" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.json"),
+                "splits" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.json"),
+                "splits" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.json"),
+                "splits" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.splits.json")
+            }
+
+        ]
+    }
+];
+return {jsons};
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">tRNA Alignment</a></li>
+  </ol>
+  <section class="observablehq-section-active">
+    <summary>Examples</summary>
+    <ol>
+    <li class="observablehq-link observablehq-link-active"><a href="./alignment-viewer">Alignment Viewer</a></li>
+    <li class="observablehq-link"><a href="./quality-reports">Quality Reports</a></li>
+    <li class="observablehq-link"><a href="./v-loop-predictions">V-Loop Predictions</a></li>
+    <li class="observablehq-link"><a href="./v-loop-analysis">V-Loop Analysis</a></li>
+    <li class="observablehq-link"><a href="./sequence-logos">Sequence Logos</a></li>
+    <li class="observablehq-link"><a href="./sequence-homology-graph">Sequence Homology Graph</a></li>
+    </ol>
+  </section>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<h1 id="alignment-viewer" tabindex="-1"><a class="observablehq-header-anchor" href="#alignment-viewer">Alignment Viewer</a></h1>
+<p>Code for alignment animations provided by Professor Phil Bogden.</p>
+<div class="observablehq observablehq--block"><!--:a732d859:--></div>
+<div class="observablehq observablehq--block"><!--:4fbd2ca3:--></div>
+<div class="observablehq observablehq--block"><!--:3a44c61a:--></div>
+<div class="observablehq observablehq--block"><!--:224cb10d:--></div>
+<div class="observablehq observablehq--block"><!--:341507de:--></div>
+<div class="observablehq observablehq--block"><!--:e9246e68:--></div>
+<div class="grid grid-cols-1">
+    <observablehq-loading></observablehq-loading><!--:abe50736:-->
+</div>
+<div class="observablehq observablehq--block"><!--:0279e697:--></div>
+<div class="observablehq observablehq--block"><!--:e95c135f:--></div>
+<div class="observablehq observablehq--block"><!--:6f118be0:--></div>
+<div class="observablehq observablehq--block"><!--:5801709a:--></div>
+<div class="observablehq observablehq--block"><!--:faf6b8bd:--></div>
+<div class="observablehq observablehq--block"><!--:8d5f4fd4:--></div>
+<div class="observablehq observablehq--block"><!--:a18ee2c8:--></div>
+<p>Multiple sequence alignments (MSAs) are an important tool in bioinformatic analysis as they are a means of identifying homologous regions of a set of sequences. Additionally, MSAs can provide insight into potential evolutionary pathways that could result in observed genetic diversity. There are many algorithms for computing MSAs of sequences. However, algorithms which perform well on proteins and DNA tend to perform poorly on tRNAs because of the challenges posed by the secondary structure of tRNA. TRNAs feature internal folding between distant bases, whereas the structure of proteins and DNA is predominantly influenced by local interactions. For this reason, we observe that most algorithms have difficulty aligning tRNAs perfectly, and the performance is particularly poor in the V loop region. This can be seen visually above, and can also be numerically verified (see next section).</p>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./"><span>tRNA Alignment</span></a><a rel="next" href="./quality-reports"><span>Quality Reports</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-12-12T23:34:55">Dec 12, 2024</a>.</div>
+</footer>
+</div>

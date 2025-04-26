@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.12.0">
+<title>Quality Reports | tRNA Alignment</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.3268c726.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.3268c726.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="modulepreload" href="./_observablehq/client.5b056eee.js">
+<link rel="modulepreload" href="./_observablehq/runtime.f5f6c124.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.0f06e039.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.c13d590c.js">
+<link rel="modulepreload" href="./_npm/@observablehq/plot@0.6.16/e828d8c8.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/063eb405.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/c68fbd73.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/7055d4c5.js">
+<link rel="modulepreload" href="./_npm/interval-tree-1d@1.0.4/a62ae5ce.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e95f898e.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/d44feff9.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/5830b12a.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/84d7b8e9.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/2c0cdfa2.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/626bedc4.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/00c41b5d.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/b5f7cdc6.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/b22c5864.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/407f7a1f.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/6f15f633.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/ef1ec490.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e1ff060.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/5851d7ef.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/dcd02767.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/f1db2593.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/034b7bcb.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/4bb53638.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/bbafde58.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/aa5b35a8.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/32c7fec2.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/567840a0.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/cf9b720b.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/5dcd62f4.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/f8e03c56.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/5bc129e1.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/19c92b44.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/f31b5398.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/8debb4ba.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/4b0cc581.js">
+<link rel="modulepreload" href="./_npm/binary-search-bounds@2.0.5/1ee6c50d.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/5eed35fd.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/e67acb27.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/8ac9039b.js">
+<link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.5b056eee.js";
+import {registerFile} from "./_observablehq/stdlib.0f06e039.js";
+
+registerFile("./data/quality-reports/ac_loop_metal_scores.json", {"name":"./data/quality-reports/ac_loop_metal_scores.json","mimeType":"application/json","path":"./_file/data/quality-reports/ac_loop_metal_scores.0406735c.json","lastModified":1732493697531,"size":4611});
+registerFile("./data/quality-reports/full_seq_metal_scores.json", {"name":"./data/quality-reports/full_seq_metal_scores.json","mimeType":"application/json","path":"./_file/data/quality-reports/full_seq_metal_scores.21ba7506.json","lastModified":1732489714157,"size":5739});
+registerFile("./data/quality-reports/v_loop_metal_scores.json", {"name":"./data/quality-reports/v_loop_metal_scores.json","mimeType":"application/json","path":"./_file/data/quality-reports/v_loop_metal_scores.24c26faf.json","lastModified":1732501185206,"size":5715});
+
+define({id: "1a65c61c", outputs: ["dists"], body: () => {
+const dists = [
+    {"dist" : "d_ssp", "dist_literal" : "Symmetrized Sum of Pairs Distance"},
+    {"dist" : "d_pos", "dist_literal" : "Positional Encoding Distance"},
+    {"dist" : "d_simple", "dist_literal" : "Homology Distance"}
+];
+return {dists};
+}});
+
+define({id: "b2397c7e", inputs: ["view","Inputs","region_jsons"], outputs: ["region_selection"], body: (view,Inputs,region_jsons) => {
+const region_selection = view(
+    Inputs.select(
+        region_jsons, {
+            value: region_jsons.find( (t) => t.region === "Full Sequence" ),
+            format: (t) => t.region,
+            label: "Region"
+        }
+    )
+);
+return {region_selection};
+}});
+
+define({id: "cbd170b8", inputs: ["view","Inputs","dists"], outputs: ["dist_selection"], body: (view,Inputs,dists) => {
+const dist_selection = view(
+    Inputs.select(
+        dists, {
+            value: dists.find( (t) => t.dist === "d_ssp" ),
+            format: (t) => t.dist_literal,
+            label: "Species"
+        }
+    )
+);
+return {dist_selection};
+}});
+
+define({id: "f7e46402", inputs: ["region_selection"], outputs: ["region_dist_data"], body: (region_selection) => {
+const region_dist_data = region_selection.data;
+return {region_dist_data};
+}});
+
+define({id: "1cbaa9cc", inputs: ["Plot","dist_selection"], outputs: ["plot_dists"], body: (Plot,dist_selection) => {
+function plot_dists(data, width={}) {
+    return Plot.plot({
+        padding: 0,
+        grid: true,
+        aspectRatio: 1,
+        marginLeft: 120,
+        marginTop: 90,
+        x: {
+            domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
+        },
+        y: {
+            domain: ["Manual", "Clustal Omega", "MAFFT", "MAFFT-Kimura", "Infernal"],
+        },
+        color: {type: "linear", scheme: "GnBu"},
+        marks: [
+            Plot.axisX({
+                anchor: "top",
+                fontSize: 14,
+                label: "Algorithm 1",
+                tickRotate: -30
+            }),
+            Plot.axisY({
+                anchor: "left",
+                fontSize: 14,
+                label: "Algorithm 2",
+                tickRotate: -30
+            }),
+            Plot.cell(data, {
+                x : "col_label",
+                y : "row_label",
+                fill : dist_selection.dist + "_inv",
+                inset: 0.5
+            }),
+            Plot.text(data, {
+                x : "col_label",
+                y : "row_label",
+                text : dist_selection.dist,
+                fill: "black",
+                fontSize: 24
+            })
+        ]
+    })
+}
+return {plot_dists};
+}});
+
+define({id: "1a98aa49", mode: "inline", inputs: ["resize","plot_dists","region_dist_data","display"], body: async (resize,plot_dists,region_dist_data,display) => {
+display(await(
+resize((width) => plot_dists(region_dist_data, {width}))
+))
+}});
+
+define({id: "279fccee", outputs: ["sop_score_data"], body: () => {
+const sop_score_data = [
+    {
+        "algo": "Manual",
+        "score": 18764,
+        "order": 0
+    },
+    {
+        "algo": "Clustal Omega",
+        "score": 18827,
+        "order": 1
+    },
+    {
+        "algo": "MAFFT L-INS-i",
+        "score": 15212,
+        "order": 2
+    },
+    {
+        "algo": "MAFFT L-INS-i w/ Kimura",
+        "score": 18581,
+        "order": 3
+    }
+]
+return {sop_score_data};
+}});
+
+define({id: "2b27c762", inputs: ["Plot"], outputs: ["plot_sop_scores"], body: (Plot) => {
+function plot_sop_scores(data, width={}) {
+    return Plot.plot({
+        padding: 0,
+        marginLeft: 150,
+        x: {label: "Score"},
+        y: {label: "Algorithm"},
+        marks: [
+            Plot.barX(data, {
+                x: "score",
+                y: "algo",
+                sort: {
+                    y: "data",
+                    reduce: ([d]) => d.order
+                },
+                inset: 1
+            })
+        ]
+    })
+}
+return {plot_sop_scores};
+}});
+
+define({id: "c412f7a7", outputs: ["sop_cost_data"], body: () => {
+const sop_cost_data = [
+    {
+        "algo": "Manual",
+        "cost": 30490,
+        "order": 0
+    },
+    {
+        "algo": "Clustal Omega",
+        "cost": 30477,
+        "order": 1
+    },
+    {
+        "algo": "MAFFT L-INS-i",
+        "cost": 32505,
+        "order": 2
+    },
+    {
+        "algo": "MAFFT L-INS-i w/ Kimura",
+        "cost": 30621,
+        "order": 3
+    }
+]
+return {sop_cost_data};
+}});
+
+define({id: "ee59ac2a", inputs: ["Plot"], outputs: ["plot_sop_costs"], body: (Plot) => {
+function plot_sop_costs(data, width={}) {
+    return Plot.plot({
+        padding: 0,
+        marginLeft: 150,
+        x: {label: "Cost"},
+        y: {label: "Algorithm"},
+        marks: [
+            Plot.barX(data, {
+                x: "cost",
+                y: "algo",
+                sort: {
+                    y: "data",
+                    reduce: ([d]) => d.order
+                },
+                inset: 1
+            })
+        ]
+    })
+}
+return {plot_sop_costs};
+}});
+
+define({id: "38eeb2ef", mode: "inline", inputs: ["resize","plot_sop_scores","sop_score_data","display"], body: async (resize,plot_sop_scores,sop_score_data,display) => {
+display(await(
+resize((width) => plot_sop_scores(sop_score_data, {width}))
+))
+}});
+
+define({id: "55d16f51", mode: "inline", inputs: ["resize","plot_sop_costs","sop_cost_data","display"], body: async (resize,plot_sop_costs,sop_cost_data,display) => {
+display(await(
+resize((width) => plot_sop_costs(sop_cost_data, {width}))
+))
+}});
+
+define({id: "07d90b1f", outputs: ["pyr_fur_mos_score_data","halo_volc_mos_score_data","chlo_chlo_mos_score_data"], body: () => {
+const pyr_fur_mos_score_data = [
+    {
+        "algo": "Manual",
+        "score": 0.901200508293205,
+        "order": 0
+    },
+    {
+        "algo": "Clustal Omega",
+        "score": 0.9100704846183093,
+        "order": 1
+    },
+    {
+        "algo": "MAFFT L-INS-i",
+        "score": 0.7983138457447251,
+        "order": 2
+    },
+    {
+        "algo": "MAFFT L-INS-i w/ Kimura",
+        "score": 0.9107400122771632,
+        "order": 3
+    }
+];
+const halo_volc_mos_score_data = [
+    {
+        "algo": "Clustal Omega",
+        "score": 0.8289635838530937,
+        "order": 1
+    },
+    {
+        "algo": "MAFFT L-INS-i",
+        "score": 0.8895253607184923,
+        "order": 2
+    },
+    {
+        "algo": "MAFFT L-INS-i w/ Kimura",
+        "score": 0.8885055777149332,
+        "order": 3
+    }
+];
+const chlo_chlo_mos_score_data = [
+    {
+        "algo": "Clustal Omega",
+        "score": 0.9372615619385168,
+        "order": 1
+    },
+    {
+        "algo": "MAFFT L-INS-i",
+        "score": 0.957567688062561,
+        "order": 2
+    },
+    {
+        "algo": "MAFFT L-INS-i w/ Kimura",
+        "score": 0.9570462449308672,
+        "order": 3
+    }
+];
+return {pyr_fur_mos_score_data,halo_volc_mos_score_data,chlo_chlo_mos_score_data};
+}});
+
+define({id: "ddb24f87", inputs: ["Plot"], outputs: ["plot_mos_scores"], body: (Plot) => {
+function plot_mos_scores(data, width={}) {
+    return Plot.plot({
+        padding: 0,
+        marginLeft: 150,
+        x: {label: "Score", domain: [0,1]},
+        y: {label: "Algorithm"},
+        marks: [
+            Plot.barX(data, {
+                x: "score",
+                y: "algo",
+                sort: {
+                    y: "data",
+                    reduce: ([d]) => d.order
+                },
+                inset: 1
+            }),
+            Plot.ruleX([0.8], {
+                stroke: "red"
+            })
+        ]
+    })
+}
+return {plot_mos_scores};
+}});
+
+define({id: "682fd49d", mode: "inline", inputs: ["resize","plot_mos_scores","pyr_fur_mos_score_data","display"], body: async (resize,plot_mos_scores,pyr_fur_mos_score_data,display) => {
+display(await(
+resize((width) => plot_mos_scores(pyr_fur_mos_score_data, {width}))
+))
+}});
+
+define({id: "408d7dca", mode: "inline", inputs: ["resize","plot_mos_scores","halo_volc_mos_score_data","display"], body: async (resize,plot_mos_scores,halo_volc_mos_score_data,display) => {
+display(await(
+resize((width) => plot_mos_scores(halo_volc_mos_score_data, {width}))
+))
+}});
+
+define({id: "e84d135b", mode: "inline", inputs: ["resize","plot_mos_scores","chlo_chlo_mos_score_data","display"], body: async (resize,plot_mos_scores,chlo_chlo_mos_score_data,display) => {
+display(await(
+resize((width) => plot_mos_scores(chlo_chlo_mos_score_data, {width}))
+))
+}});
+
+define({id: "20c561a0", inputs: ["FileAttachment"], outputs: ["full_seq_metal_scores_data","ac_loop_metal_scores_data","v_loop_metal_scores_data"], body: (FileAttachment) => {
+const full_seq_metal_scores_data = FileAttachment("./data/quality-reports/full_seq_metal_scores.json").json()
+const ac_loop_metal_scores_data = FileAttachment("./data/quality-reports/ac_loop_metal_scores.json").json()
+const v_loop_metal_scores_data = FileAttachment("./data/quality-reports/v_loop_metal_scores.json").json()
+return {full_seq_metal_scores_data,ac_loop_metal_scores_data,v_loop_metal_scores_data};
+}});
+
+define({id: "08983fc1", inputs: ["FileAttachment"], outputs: ["region_jsons"], body: (FileAttachment) => {
+const region_jsons = [
+    {
+        "region" : "Full Sequence",
+        "data" : FileAttachment("./data/quality-reports/full_seq_metal_scores.json").json()
+    },
+    {
+        "region" : "Ac Loop",
+        "data" : FileAttachment("./data/quality-reports/ac_loop_metal_scores.json").json()
+    },
+    {
+        "region" : " V Loop",
+        "data" : FileAttachment("./data/quality-reports/v_loop_metal_scores.json").json()
+    }
+];
+return {region_jsons};
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">tRNA Alignment</a></li>
+  </ol>
+  <section class="observablehq-section-active">
+    <summary>Examples</summary>
+    <ol>
+    <li class="observablehq-link"><a href="./alignment-viewer">Alignment Viewer</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./quality-reports">Quality Reports</a></li>
+    <li class="observablehq-link"><a href="./v-loop-predictions">V-Loop Predictions</a></li>
+    <li class="observablehq-link"><a href="./v-loop-analysis">V-Loop Analysis</a></li>
+    <li class="observablehq-link"><a href="./sequence-logos">Sequence Logos</a></li>
+    <li class="observablehq-link"><a href="./sequence-homology-graph">Sequence Homology Graph</a></li>
+    </ol>
+  </section>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+<div>Contents</div>
+<ol>
+<li class="observablehq-secondary-link"><a href="#sum-of-pairs-scoring">Sum-of-Pairs Scoring</a></li>
+<li class="observablehq-secondary-link"><a href="#multiple-overlap-scoring">Multiple Overlap Scoring</a></li>
+</ol>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<h1 id="quality-reports" tabindex="-1"><a class="observablehq-header-anchor" href="#quality-reports">Quality Reports</a></h1>
+<h2 id="met-al-scoring" tabindex="-1"><a class="observablehq-header-anchor" href="#met-al-scoring">MetAl Scoring</a></h2>
+<p>Scores calculated using Benjamin Blackburne's MetAl command line utility compiled from <a href="https://github.com/benb/MetAl" target="_blank" rel="noopener noreferrer">source</a>. See original paper: <a href="https://doi.org/10.1093/bioinformatics/btr701" target="_blank" rel="noopener noreferrer">https://doi.org/10.1093/bioinformatics/btr701</a></p>
+<div class="observablehq observablehq--block"><!--:1a65c61c:--></div>
+<div class="observablehq observablehq--block"><!--:b2397c7e:--></div>
+<div class="observablehq observablehq--block"><!--:cbd170b8:--></div>
+<div class="observablehq observablehq--block"><!--:f7e46402:--></div>
+<div class="observablehq observablehq--block"><!--:1cbaa9cc:--></div>
+<div class="grid grid-cols-1">
+    <observablehq-loading></observablehq-loading><!--:1a98aa49:-->
+</div>
+<p>In the above heatmaps, a lower numerical score corresponds to a higher similarity between two alignments. The first row/column correspond to a manual alignment taken to be the gold-standard, and the other rows/columns correspond to algorithmic alignments.</p>
+<p>From the above, we can see that the middling performance observed in the full sequence is primarily the result of poor performance in the V loop region. The V loop region of tRNAs is currently not well understood, so it will be the focus of our analysis henceforth.</p>
+<h2 id="sum-of-pairs-scoring" tabindex="-1"><a class="observablehq-header-anchor" href="#sum-of-pairs-scoring">Sum-of-Pairs Scoring</a></h2>
+<h3 id="pyrococcus-furiosus" tabindex="-1"><a class="observablehq-header-anchor" href="#pyrococcus-furiosus"><em>Pyrococcus furiosus</em></a></h3>
+<div class="observablehq observablehq--block"><!--:279fccee:--></div>
+<div class="observablehq observablehq--block"><!--:2b27c762:--></div>
+<!--
+<div class="grid grid-cols-1">
+    <div class="card">
+        ${resize((width) => plot_sop_scores(sop_score_data, {width}))}
+    </div>
+</div>
+-->
+<div class="observablehq observablehq--block"><!--:c412f7a7:--></div>
+<div class="observablehq observablehq--block"><!--:ee59ac2a:--></div>
+<div class="grid grid-cols-2">
+    <div class="card">
+        <observablehq-loading></observablehq-loading><!--:38eeb2ef:-->
+    </div>
+    <div class="card">
+        <observablehq-loading></observablehq-loading><!--:55d16f51:-->
+    </div>
+</div>
+<h2 id="multiple-overlap-scoring" tabindex="-1"><a class="observablehq-header-anchor" href="#multiple-overlap-scoring">Multiple Overlap Scoring</a></h2>
+<div class="observablehq observablehq--block"><!--:07d90b1f:--></div>
+<div class="observablehq observablehq--block"><!--:ddb24f87:--></div>
+<h3 id="pyrococcus-furiosus-1" tabindex="-1"><a class="observablehq-header-anchor" href="#pyrococcus-furiosus-1"><em>Pyrococcus furiosus</em></a></h3>
+<div class="grid grid-cols-1">
+    <div class="card">
+        <observablehq-loading></observablehq-loading><!--:682fd49d:-->
+    </div>
+</div>
+<h3 id="haloferax-volcanii" tabindex="-1"><a class="observablehq-header-anchor" href="#haloferax-volcanii"><em>Haloferax volcanii</em></a></h3>
+<div class="grid grid-cols-1">
+    <div class="card">
+        <observablehq-loading></observablehq-loading><!--:408d7dca:-->
+    </div>
+</div>
+<h3 id="chlorobium-chlorochromatii" tabindex="-1"><a class="observablehq-header-anchor" href="#chlorobium-chlorochromatii"><em>Chlorobium chlorochromatii</em></a></h3>
+<div class="grid grid-cols-1">
+    <div class="card">
+        <observablehq-loading></observablehq-loading><!--:e84d135b:-->
+    </div>
+</div>
+<div class="observablehq observablehq--block"><!--:20c561a0:--></div>
+<div class="observablehq observablehq--block"><!--:08983fc1:--></div>
+</main>
+<footer id="observablehq-footer">
+<nav><a rel="prev" href="./alignment-viewer"><span>Alignment Viewer</span></a><a rel="next" href="./v-loop-predictions"><span>V-Loop Predictions</span></a></nav>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-12-12T23:34:55">Dec 12, 2024</a>.</div>
+</footer>
+</div>

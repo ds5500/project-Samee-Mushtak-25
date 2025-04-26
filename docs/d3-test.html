@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="generator" content="Observable Framework v1.12.0">
+<title>D3 TEST | tRNA Alignment</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.3268c726.css">
+<link rel="preload" as="style" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.3268c726.css">
+<link rel="stylesheet" type="text/css" href="./_observablehq/stdlib/inputs.ea9fd553.css">
+<link rel="modulepreload" href="./_observablehq/client.5b056eee.js">
+<link rel="modulepreload" href="./_observablehq/runtime.f5f6c124.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.0f06e039.js">
+<link rel="modulepreload" href="./_npm/d3@7.9.0/7055d4c5.js">
+<link rel="modulepreload" href="./_npm/htl@0.3.1/063eb405.js">
+<link rel="modulepreload" href="./_observablehq/stdlib/inputs.c13d590c.js">
+<link rel="modulepreload" href="./_npm/isoformat@0.2.1/c68fbd73.js">
+<link rel="modulepreload" href="./_npm/d3-array@3.2.4/e95f898e.js">
+<link rel="modulepreload" href="./_npm/d3-axis@3.0.0/d44feff9.js">
+<link rel="modulepreload" href="./_npm/d3-brush@3.0.0/5830b12a.js">
+<link rel="modulepreload" href="./_npm/d3-chord@3.0.1/84d7b8e9.js">
+<link rel="modulepreload" href="./_npm/d3-color@3.1.0/2c0cdfa2.js">
+<link rel="modulepreload" href="./_npm/d3-contour@4.0.2/626bedc4.js">
+<link rel="modulepreload" href="./_npm/d3-delaunay@6.0.4/00c41b5d.js">
+<link rel="modulepreload" href="./_npm/d3-dispatch@3.0.1/b5f7cdc6.js">
+<link rel="modulepreload" href="./_npm/d3-drag@3.0.0/b22c5864.js">
+<link rel="modulepreload" href="./_npm/d3-dsv@3.0.1/407f7a1f.js">
+<link rel="modulepreload" href="./_npm/d3-ease@3.0.1/6f15f633.js">
+<link rel="modulepreload" href="./_npm/d3-fetch@3.0.1/ef1ec490.js">
+<link rel="modulepreload" href="./_npm/d3-force@3.0.0/5e1ff060.js">
+<link rel="modulepreload" href="./_npm/d3-format@3.1.0/5851d7ef.js">
+<link rel="modulepreload" href="./_npm/d3-geo@3.1.1/dcd02767.js">
+<link rel="modulepreload" href="./_npm/d3-hierarchy@3.1.2/f1db2593.js">
+<link rel="modulepreload" href="./_npm/d3-interpolate@3.0.1/034b7bcb.js">
+<link rel="modulepreload" href="./_npm/d3-path@3.1.0/4bb53638.js">
+<link rel="modulepreload" href="./_npm/d3-polygon@3.0.1/bbafde58.js">
+<link rel="modulepreload" href="./_npm/d3-quadtree@3.0.1/aa5b35a8.js">
+<link rel="modulepreload" href="./_npm/d3-random@3.0.1/32c7fec2.js">
+<link rel="modulepreload" href="./_npm/d3-scale@4.0.2/567840a0.js">
+<link rel="modulepreload" href="./_npm/d3-scale-chromatic@3.1.0/cf9b720b.js">
+<link rel="modulepreload" href="./_npm/d3-selection@3.0.0/5dcd62f4.js">
+<link rel="modulepreload" href="./_npm/d3-shape@3.2.0/f8e03c56.js">
+<link rel="modulepreload" href="./_npm/d3-time@3.1.0/5bc129e1.js">
+<link rel="modulepreload" href="./_npm/d3-time-format@4.1.0/19c92b44.js">
+<link rel="modulepreload" href="./_npm/d3-timer@3.0.1/f31b5398.js">
+<link rel="modulepreload" href="./_npm/d3-transition@3.0.1/8debb4ba.js">
+<link rel="modulepreload" href="./_npm/d3-zoom@3.0.0/4b0cc581.js">
+<link rel="modulepreload" href="./_npm/internmap@2.0.3/5eed35fd.js">
+<link rel="modulepreload" href="./_npm/delaunator@5.0.1/e67acb27.js">
+<link rel="modulepreload" href="./_npm/robust-predicates@3.0.2/8ac9039b.js">
+<link rel="icon" href="./_file/observable.1af93621.png" type="image/png" sizes="32x32">
+<script type="module">
+
+import {define} from "./_observablehq/client.5b056eee.js";
+import {registerFile} from "./_observablehq/stdlib.0f06e039.js";
+
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.224507bd.json","lastModified":1730675322040,"size":446573});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.splits.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.splits.762d2964.json","lastModified":1730604734198,"size":47});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.69414fbb.json","lastModified":1730675399738,"size":446343});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.splits.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.splits.39696e48.json","lastModified":1730605034785,"size":47});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.7a66a478.json","lastModified":1730675359043,"size":447529});
+registerFile("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.splits.json", {"name":"./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.splits.4d5c5b93.json","lastModified":1730604874689,"size":48});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.c2727df9.json","lastModified":1730675208655,"size":505361});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.splits.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.splits.5012addd.json","lastModified":1730603970301,"size":49});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.9c996861.json","lastModified":1730675284420,"size":502484});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.splits.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.splits.b009872f.json","lastModified":1730604406097,"size":47});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-mafft.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-mafft.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-mafft.fac8c752.json","lastModified":1730675247660,"size":503276});
+registerFile("./data/alignments/Haloferax-volcanii/haloVolc1-mafft.splits.json", {"name":"./data/alignments/Haloferax-volcanii/haloVolc1-mafft.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Haloferax-volcanii/haloVolc1-mafft.splits.0bb00574.json","lastModified":1730604264953,"size":48});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.432f3658.json","lastModified":1731682568194,"size":440823});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.splits.8490a42d.json","lastModified":1730599740384,"size":47});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.0d02ea1e.json","lastModified":1731378212618,"size":442274});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.splits.4f53cda1.json","lastModified":1731378239015,"size":2});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.f1d0ec8d.json","lastModified":1731377430649,"size":460131});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.splits.bd3ce887.json","lastModified":1732497558992,"size":35});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.1a736fef.json","lastModified":1730675156751,"size":441709});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.splits.c4976871.json","lastModified":1730599998891,"size":47});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.23b41aec.json","lastModified":1730675124507,"size":440591});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.splits.b1cc6956.json","lastModified":1730600107517,"size":47});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-manual.3dd812b8.json","lastModified":1730674986206,"size":440711});
+registerFile("./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.splits.json", {"name":"./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.splits.json","mimeType":"application/json","path":"./_file/data/alignments/Pyrococcus-furiosus/pyrFur2-manual.splits.a2652316.json","lastModified":1730600195066,"size":47});
+
+define({id: "4a3a5614", inputs: ["aln","cell_transformer_aligned","htl","d3","calculate_ticks","cell_transformer_unaligned"], outputs: ["onclick_test"], body: (aln,cell_transformer_aligned,htl,d3,calculate_ticks,cell_transformer_unaligned) => {
+function onclick_test() {
+  let aln_cell = aln.map(cell_transformer_aligned);
+
+  const width = 1050;
+  const height = 800;
+  const margin = { top: 20, bottom: 20, left: 100, right: 20 };
+
+  const container = htl.html`<div id="container">
+    <fieldset>
+      <div class="input-container">
+        <input type="checkbox" id="align-checkbox" name="align" checked/>
+        <label for="align-checkbox">Align</label>
+      </div>
+    </fieldset>
+    <div id="svg-container">
+    </div>
+  </div>`;
+
+  const align_checkbox = d3
+    .select(container)
+    .select("input#align-checkbox");
+
+  const x_domain = Array.from(new Set(aln.map((d) => d.base_idx))).sort(d3.ascending);
+  const y_domain = Array.from(new Set(aln.map((d) => d.seq_label)));
+  
+  const x = d3
+    .scaleBand()
+    .domain(x_domain)
+    .range([0, width]);
+
+  const y = d3
+    .scaleBand()
+    .domain(y_domain)
+    .range([0, height]);
+
+  const c = d3
+    .scaleOrdinal()
+    .domain([-1, 0, 1, 2, 3, 4])
+    .range(["none", "#177E89", "#DB3A34", "#FFC857", "#BBDBB4", "#FF00FF"]);
+
+  const svg = d3
+    .select(container)
+    .select("div#svg-container")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
+
+  const g = svg
+    .append("g")
+    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+  g.append("g")
+    .call(
+      d3.axisLeft(y)
+        .tickSizeOuter(0)
+    );
+  
+  g.append("g")
+    .call(
+      d3.axisTop(x)
+        .tickValues(calculate_ticks(aln, 5))
+        .tickSizeOuter(0)
+    );
+  
+  const g_cell = g
+    .append("g")
+    .attr("id", "g-alignment-cells")
+    .selectAll("rect")
+    .data(aln_cell)
+    .join("rect")
+    .classed("alignment-cell", true)
+    .attr("x", (d) => x(d.idx))
+    .attr("y", (d) => y(d.seq_label))
+    .attr("width", x.bandwidth())
+    .attr("height", y.bandwidth())
+    .attr("fill", (d) => c(d.base_color));
+
+  align_checkbox
+    .on("click", (_,__) => {
+      aln_cell = align_checkbox.property("checked")
+        ? aln.map(cell_transformer_aligned)
+        : aln.map(cell_transformer_unaligned);
+      g_cell
+        .selectAll("rect.alignment-cell")
+        .data(aln_cell)
+        .join("rect")
+        .attr("x", (d) => x(d.idx))
+        .attr("y", (d) => y(d.seq_label))
+        .attr("width", x.bandwidth())
+        .attr("height", y.bandwidth())
+        .attr("fill", (d) => c(d.base_color));
+    });
+
+  return container;
+}
+return {onclick_test};
+}});
+
+define({id: "4bcde723", mode: "inline", inputs: ["onclick_test","display"], body: async (onclick_test,display) => {
+display(await(
+onclick_test()
+))
+}});
+
+define({id: "9adf46df", inputs: ["htl","d3","aln","calculate_ticks","cell_transformer_aligned","splits"], outputs: ["d3_alignment_viewer"], body: (htl,d3,aln,calculate_ticks,cell_transformer_aligned,splits) => {
+function d3_alignment_viewer() {
+  const width = 1050;
+  const height = 800;
+  const margin = { top: 20, bottom: 20, left: 100, right: 20 };
+
+  const container = htl.html`<div id="container">
+    <fieldset>
+      <div class="input-container">
+        <input type="checkbox" id="align-checkbox" name="align" checked/>
+        <label for="align-checkbox">Align</label>
+      </div>
+      <div class="input-container">
+        <input type="checkbox" id="splitter-checkbox" name="splitter"/>
+        <label for="splitter-checkbox">Show splitters</label>
+      </div>
+    </fieldset>
+    <div id="svg-container">
+    </div>
+  </div>`;
+
+  const align_checkbox = d3
+    .select(container)
+    .select("input#align-checkbox");
+
+  const splitter_checkbox = d3
+    .select(container)
+    .select("input#splitter-checkbox");
+  
+  const x_domain = Array.from(new Set(aln.map((d) => d.base_idx))).sort(d3.ascending);
+  const y_domain = Array.from(new Set(aln.map((d) => d.seq_label)));
+  
+  const x = d3
+    .scaleBand()
+    .domain(x_domain)
+    .range([0, width]);
+
+  const y = d3
+    .scaleBand()
+    .domain(y_domain)
+    .range([0, height]);
+
+  const c = d3
+    .scaleOrdinal()
+    .domain([-1, 0, 1, 2, 3, 4])
+    .range(["none", "#177E89", "#DB3A34", "#FFC857", "#BBDBB4", "#FF00FF"]);
+
+  const svg = d3
+    .select(container)
+    .select("div#svg-container")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom);
+    // .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
+    // .attr("preserveAspectRatio", "xMinYMin meet");
+
+  const g = svg
+    .append("g")
+    .attr("transform", `translate(${margin.left}, ${margin.top})`);
+
+  g.append("g")
+    .call(
+      d3.axisLeft(y)
+        .tickSizeOuter(0)
+    );
+  
+  g.append("g")
+    .call(
+      d3.axisTop(x)
+        .tickValues(calculate_ticks(aln, 5))
+        .tickSizeOuter(0)
+    );
+  
+  const g_cell = g
+    .append("g")
+    .attr("id", "g-alignment-cells")
+    .selectAll("rect")
+    .data(aln.map(cell_transformer_aligned))
+    .join("rect")
+    .attr("x", (d) => x(d.idx))
+    .attr("y", (d) => y(d.seq_label))
+    .attr("width", x.bandwidth())
+    .attr("height", y.bandwidth())
+    .attr("fill", (d) => c(d.base_color));
+
+  const g_text = g
+    .append("g")
+    .attr("id", "g-alignment-text")
+    .selectAll("text")
+    .data(aln)
+    .join("text")
+    // 0.3 is a horizontal offset so text is not too close to left of box
+    .attr("x", (d) => x(d.base_idx) + 0.3)
+    // 2 is a vertical offset so text is not too close to bottom of box
+    .attr("y", (d) => y(d.seq_label) + y.bandwidth() - 2)
+    // How to make these offsets dynamic based on width and height?
+    .attr("fill", "black")
+    .attr("font-family", "monospace")
+    .text((d) => d.base_label);
+
+  const g_rule = g
+    .append("g")
+    .attr("id", "g-alignment-rules");
+
+  align_checkbox
+    .on("click", (_,__) => {
+      // Splitters should only be displayed if the sequences are aligned
+      splitter_checkbox.property("disabled", !align_checkbox.property("checked"));
+      /*
+      g_cell
+        .selectAll("rect")
+        .data(
+          align_checkbox.property("checked")
+            ? aln.map(cell_transformer_aligned)
+            : aln.map(cell_transformer_unaligned),
+          (d) => `${d.seq_label},${d.num}`)
+        .join("rect")
+        .attr("x", (d) => x(d.idx))
+        .attr("y", (d) => y(d.seq_label))
+        .attr("width", x.bandwidth())
+        .attr("height", y.bandwidth())
+        .attr("fill", (d) => c(d.base_color));
+      */
+    });
+  
+  splitter_checkbox
+    .on("click", (_,__) => {
+      g_rule
+        .selectAll("line")
+        .data(splitter_checkbox.property("checked") ? splits : [], (d) => d)
+        .join("line")
+        .attr("x1", d => x(d+1))
+        .attr("x2", d => x(d+1))
+        .attr("y1", y(y_domain[0]) - 0.4 * y.bandwidth())
+        .attr("y2", y(y_domain[y_domain.length-1]) + 0.4 * y.bandwidth())
+        .attr("stroke-width", 3)
+        .attr("stroke", "blue");
+    });
+
+  return container;
+}
+return {d3_alignment_viewer};
+}});
+
+define({id: "21f57d51", mode: "inline", inputs: ["d3_alignment_viewer","display"], body: async (d3_alignment_viewer,display) => {
+display(await(
+d3_alignment_viewer()
+))
+}});
+
+define({id: "2b9b5dbf", inputs: ["d3"], outputs: ["calculate_ticks"], body: (d3) => {
+function calculate_ticks(data, delta) {
+  const max_idx = d3.max(data.map((d) => d.base_idx));
+  let ticks = [];
+  for (let i = delta; i < max_idx - 1; i += delta) {
+    ticks.push(i);
+  }
+  ticks.push(max_idx);
+  return ticks;
+}
+return {calculate_ticks};
+}});
+
+define({id: "a18ee2c8", inputs: ["FileAttachment"], outputs: ["jsons"], body: (FileAttachment) => {
+const jsons = [
+    {
+        "species" : "Pyrococcus furiosus",
+        "files" : [
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-manual.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-clustal-omega.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-mafft-kimura.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.json"),
+                "splits" : FileAttachment("./data/alignments/Pyrococcus-furiosus/pyrFur2-infernal-immature.splits.json")
+            }
+        ]
+    },
+    {
+        "species" : "Haloferax volcanii",
+        "files" : [
+            {
+                "alignment" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.json"),
+                "splits" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-clustal-omega.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-mafft.json"),
+                "splits" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-mafft.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.json"),
+                "splits" : FileAttachment("./data/alignments/Haloferax-volcanii/haloVolc1-mafft-kimura.splits.json")
+            }
+        ]
+    },
+    {
+        "species" : "Chlorobium chlorochromatii",
+        "files" : [
+            {
+                "alignment" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.json"),
+                "splits" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-clustal-omega.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.json"),
+                "splits" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft.splits.json")
+            },
+            {
+                "alignment" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.json"),
+                "splits" : FileAttachment("./data/alignments/Chlorobium-chlorochromatii/chloChlo-CAD3-mafft-kimura.splits.json")
+            }
+
+        ]
+    }
+];
+return {jsons};
+}});
+
+define({id: "a732d859", inputs: ["view","Inputs","jsons"], outputs: ["species_selection"], body: (view,Inputs,jsons) => {
+const species_selection = view(
+    Inputs.select(
+        jsons, {
+            value: jsons.find( (t) => t.species === "Pyrococcus furiosus" ),
+            format: (t) => t.species,
+            label: "Species"
+        }
+    )
+);
+return {species_selection};
+}});
+
+define({id: "4fbd2ca3", inputs: ["species_selection"], outputs: ["sel_species"], body: (species_selection) => {
+const sel_species = species_selection.species;
+return {sel_species};
+}});
+
+define({id: "3a44c61a", inputs: ["view","Inputs","jsons","sel_species"], outputs: ["alignment_selection"], body: (view,Inputs,jsons,sel_species) => {
+const alignment_selection = view(
+    Inputs.select(
+        jsons.find( (t) => t.species === sel_species ).files, {
+            format: (d) => d.alignment.name,
+            label: "Alignment File"
+        }
+    )
+);
+return {alignment_selection};
+}});
+
+define({id: "b9897205", inputs: ["alignment_selection"], outputs: ["aln","splits_pre"], body: (alignment_selection) => {
+const aln = alignment_selection.alignment.json();
+const splits_pre = alignment_selection.splits.json();
+return {aln,splits_pre};
+}});
+
+define({id: "bfbebc35", inputs: ["splits_pre"], outputs: ["splits"], body: (splits_pre) => {
+let splits = [];
+for (let i = 0; i < splits_pre.length; ++i) {
+    splits.push(splits_pre[i]-0.5);
+}
+return {splits};
+}});
+
+define({id: "66884968", outputs: ["cell_transformer_aligned"], body: () => {
+function cell_transformer_aligned(d) {
+  return {
+    "seq_label" : d.seq_label,
+    "num" : d.base_num,
+    "idx" : d.base_idx,
+    "base_color" : d.base_color
+  }
+}
+return {cell_transformer_aligned};
+}});
+
+define({id: "de668e10", outputs: ["cell_transformer_unaligned"], body: () => {
+function cell_transformer_unaligned(d) {
+  return {
+    "seq_label" : d.seq_label,
+    "num" : d.base_num,
+    "idx" : d.base_num,
+    "base_color" : d.base_color
+  }
+}
+return {cell_transformer_unaligned};
+}});
+
+</script>
+<input id="observablehq-sidebar-toggle" type="checkbox" title="Toggle sidebar">
+<label id="observablehq-sidebar-backdrop" for="observablehq-sidebar-toggle"></label>
+<nav id="observablehq-sidebar">
+  <ol>
+    <label id="observablehq-sidebar-close" for="observablehq-sidebar-toggle"></label>
+    <li class="observablehq-link"><a href="./">tRNA Alignment</a></li>
+  </ol>
+  <section>
+    <summary>Examples</summary>
+    <ol>
+    <li class="observablehq-link"><a href="./alignment-viewer">Alignment Viewer</a></li>
+    <li class="observablehq-link"><a href="./quality-reports">Quality Reports</a></li>
+    <li class="observablehq-link"><a href="./v-loop-predictions">V-Loop Predictions</a></li>
+    <li class="observablehq-link"><a href="./v-loop-analysis">V-Loop Analysis</a></li>
+    <li class="observablehq-link"><a href="./sequence-logos">Sequence Logos</a></li>
+    <li class="observablehq-link"><a href="./sequence-homology-graph">Sequence Homology Graph</a></li>
+    </ol>
+  </section>
+</nav>
+<script>{Object.assign(document.createElement("a"),{href:""}).password&&location.replace(location.href);const e=document.querySelector("#observablehq-sidebar"),t=document.querySelector("#observablehq-sidebar-toggle"),r=sessionStorage.getItem("observablehq-sidebar");r?t.checked=r==="true":t.indeterminate=!0;for(const o of document.querySelectorAll("#observablehq-sidebar summary")){const s=o.parentElement;switch(sessionStorage.getItem(`observablehq-sidebar:${o.textContent}`)){case"true":s.open=!0;break;case"false":s.classList.contains("observablehq-section-active")||(s.open=!1);break}}addEventListener("beforeunload",()=>sessionStorage.setItem("observablehq-sidebar-scrolly",`${e.scrollTop}`));const a=sessionStorage.getItem("observablehq-sidebar-scrolly");a!=null&&(e.style.cssText="overflow: hidden;",e.scrollTop=+a,e.style.cssText="");}</script>
+<div id="observablehq-center">
+<aside id="observablehq-toc" data-selector="h1:not(:first-of-type)[id], h2:first-child[id], :not(h1) + h2[id]">
+<nav>
+</nav>
+</aside>
+<main id="observablehq-main" class="observablehq">
+<h1 id="alignment-viewer" tabindex="-1"><a class="observablehq-header-anchor" href="#alignment-viewer">Alignment Viewer</a></h1>
+<div class="observablehq observablehq--block"><!--:4a3a5614:--></div>
+<pre data-language="js"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">onclick_test</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">let</span> aln_cell = aln.<span class="hljs-title function_">map</span>(cell_transformer_aligned);
+
+  <span class="hljs-keyword">const</span> width = <span class="hljs-number">1050</span>;
+  <span class="hljs-keyword">const</span> height = <span class="hljs-number">800</span>;
+  <span class="hljs-keyword">const</span> margin = { <span class="hljs-attr">top</span>: <span class="hljs-number">20</span>, <span class="hljs-attr">bottom</span>: <span class="hljs-number">20</span>, <span class="hljs-attr">left</span>: <span class="hljs-number">100</span>, <span class="hljs-attr">right</span>: <span class="hljs-number">20</span> };
+
+  <span class="hljs-keyword">const</span> container = htl.html`<span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-container"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"align-checkbox"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"align"</span> <span class="hljs-attr">checked</span>/&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"align-checkbox"</span>&gt;</span>Align<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"svg-container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>`</span>;
+
+  <span class="hljs-keyword">const</span> align_checkbox = d3
+    .<span class="hljs-title function_">select</span>(container)
+    .<span class="hljs-title function_">select</span>(<span class="hljs-string">"input#align-checkbox"</span>);
+
+  <span class="hljs-keyword">const</span> x_domain = <span class="hljs-title class_">Array</span>.<span class="hljs-title function_">from</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>(aln.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> d.<span class="hljs-property">base_idx</span>))).<span class="hljs-title function_">sort</span>(d3.<span class="hljs-property">ascending</span>);
+  <span class="hljs-keyword">const</span> y_domain = <span class="hljs-title class_">Array</span>.<span class="hljs-title function_">from</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>(aln.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> d.<span class="hljs-property">seq_label</span>)));
+  
+  <span class="hljs-keyword">const</span> x = d3
+    .<span class="hljs-title function_">scaleBand</span>()
+    .<span class="hljs-title function_">domain</span>(x_domain)
+    .<span class="hljs-title function_">range</span>([<span class="hljs-number">0</span>, width]);
+
+  <span class="hljs-keyword">const</span> y = d3
+    .<span class="hljs-title function_">scaleBand</span>()
+    .<span class="hljs-title function_">domain</span>(y_domain)
+    .<span class="hljs-title function_">range</span>([<span class="hljs-number">0</span>, height]);
+
+  <span class="hljs-keyword">const</span> c = d3
+    .<span class="hljs-title function_">scaleOrdinal</span>()
+    .<span class="hljs-title function_">domain</span>([-<span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>])
+    .<span class="hljs-title function_">range</span>([<span class="hljs-string">"none"</span>, <span class="hljs-string">"#177E89"</span>, <span class="hljs-string">"#DB3A34"</span>, <span class="hljs-string">"#FFC857"</span>, <span class="hljs-string">"#BBDBB4"</span>, <span class="hljs-string">"#FF00FF"</span>]);
+
+  <span class="hljs-keyword">const</span> svg = d3
+    .<span class="hljs-title function_">select</span>(container)
+    .<span class="hljs-title function_">select</span>(<span class="hljs-string">"div#svg-container"</span>)
+    .<span class="hljs-title function_">append</span>(<span class="hljs-string">"svg"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"width"</span>, width + margin.<span class="hljs-property">left</span> + margin.<span class="hljs-property">right</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"height"</span>, height + margin.<span class="hljs-property">top</span> + margin.<span class="hljs-property">bottom</span>);
+
+  <span class="hljs-keyword">const</span> g = svg
+    .<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"transform"</span>, <span class="hljs-string">`translate(<span class="hljs-subst">${margin.left}</span>, <span class="hljs-subst">${margin.top}</span>)`</span>);
+
+  g.<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">call</span>(
+      d3.<span class="hljs-title function_">axisLeft</span>(y)
+        .<span class="hljs-title function_">tickSizeOuter</span>(<span class="hljs-number">0</span>)
+    );
+  
+  g.<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">call</span>(
+      d3.<span class="hljs-title function_">axisTop</span>(x)
+        .<span class="hljs-title function_">tickValues</span>(<span class="hljs-title function_">calculate_ticks</span>(aln, <span class="hljs-number">5</span>))
+        .<span class="hljs-title function_">tickSizeOuter</span>(<span class="hljs-number">0</span>)
+    );
+  
+  <span class="hljs-keyword">const</span> g_cell = g
+    .<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"id"</span>, <span class="hljs-string">"g-alignment-cells"</span>)
+    .<span class="hljs-title function_">selectAll</span>(<span class="hljs-string">"rect"</span>)
+    .<span class="hljs-title function_">data</span>(aln_cell)
+    .<span class="hljs-title function_">join</span>(<span class="hljs-string">"rect"</span>)
+    .<span class="hljs-title function_">classed</span>(<span class="hljs-string">"alignment-cell"</span>, <span class="hljs-literal">true</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"x"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">x</span>(d.<span class="hljs-property">idx</span>))
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"y"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">y</span>(d.<span class="hljs-property">seq_label</span>))
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"width"</span>, x.<span class="hljs-title function_">bandwidth</span>())
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"height"</span>, y.<span class="hljs-title function_">bandwidth</span>())
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"fill"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">c</span>(d.<span class="hljs-property">base_color</span>));
+
+  align_checkbox
+    .<span class="hljs-title function_">on</span>(<span class="hljs-string">"click"</span>, <span class="hljs-function">(<span class="hljs-params">_,__</span>) =&gt;</span> {
+      aln_cell = align_checkbox.<span class="hljs-title function_">property</span>(<span class="hljs-string">"checked"</span>)
+        ? aln.<span class="hljs-title function_">map</span>(cell_transformer_aligned)
+        : aln.<span class="hljs-title function_">map</span>(cell_transformer_unaligned);
+      g_cell
+        .<span class="hljs-title function_">selectAll</span>(<span class="hljs-string">"rect.alignment-cell"</span>)
+        .<span class="hljs-title function_">data</span>(aln_cell)
+        .<span class="hljs-title function_">join</span>(<span class="hljs-string">"rect"</span>)
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"x"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">x</span>(d.<span class="hljs-property">idx</span>))
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"y"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">y</span>(d.<span class="hljs-property">seq_label</span>))
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"width"</span>, x.<span class="hljs-title function_">bandwidth</span>())
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"height"</span>, y.<span class="hljs-title function_">bandwidth</span>())
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"fill"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">c</span>(d.<span class="hljs-property">base_color</span>));
+    });
+
+  <span class="hljs-keyword">return</span> container;
+}
+</code></pre>
+<div class="grid grid-cols-1">
+    <observablehq-loading></observablehq-loading><!--:4bcde723:-->
+</div>
+<div class="observablehq observablehq--block"><!--:9adf46df:--></div>
+<pre data-language="js"><code class="language-js"><span class="hljs-keyword">function</span> <span class="hljs-title function_">d3_alignment_viewer</span>(<span class="hljs-params"></span>) {
+  <span class="hljs-keyword">const</span> width = <span class="hljs-number">1050</span>;
+  <span class="hljs-keyword">const</span> height = <span class="hljs-number">800</span>;
+  <span class="hljs-keyword">const</span> margin = { <span class="hljs-attr">top</span>: <span class="hljs-number">20</span>, <span class="hljs-attr">bottom</span>: <span class="hljs-number">20</span>, <span class="hljs-attr">left</span>: <span class="hljs-number">100</span>, <span class="hljs-attr">right</span>: <span class="hljs-number">20</span> };
+
+  <span class="hljs-keyword">const</span> container = htl.html`<span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">fieldset</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-container"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"align-checkbox"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"align"</span> <span class="hljs-attr">checked</span>/&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"align-checkbox"</span>&gt;</span>Align<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"input-container"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"checkbox"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"splitter-checkbox"</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"splitter"</span>/&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">label</span> <span class="hljs-attr">for</span>=<span class="hljs-string">"splitter-checkbox"</span>&gt;</span>Show splitters<span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
+      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">fieldset</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"svg-container"</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>`</span>;
+
+  <span class="hljs-keyword">const</span> align_checkbox = d3
+    .<span class="hljs-title function_">select</span>(container)
+    .<span class="hljs-title function_">select</span>(<span class="hljs-string">"input#align-checkbox"</span>);
+
+  <span class="hljs-keyword">const</span> splitter_checkbox = d3
+    .<span class="hljs-title function_">select</span>(container)
+    .<span class="hljs-title function_">select</span>(<span class="hljs-string">"input#splitter-checkbox"</span>);
+  
+  <span class="hljs-keyword">const</span> x_domain = <span class="hljs-title class_">Array</span>.<span class="hljs-title function_">from</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>(aln.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> d.<span class="hljs-property">base_idx</span>))).<span class="hljs-title function_">sort</span>(d3.<span class="hljs-property">ascending</span>);
+  <span class="hljs-keyword">const</span> y_domain = <span class="hljs-title class_">Array</span>.<span class="hljs-title function_">from</span>(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Set</span>(aln.<span class="hljs-title function_">map</span>(<span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> d.<span class="hljs-property">seq_label</span>)));
+  
+  <span class="hljs-keyword">const</span> x = d3
+    .<span class="hljs-title function_">scaleBand</span>()
+    .<span class="hljs-title function_">domain</span>(x_domain)
+    .<span class="hljs-title function_">range</span>([<span class="hljs-number">0</span>, width]);
+
+  <span class="hljs-keyword">const</span> y = d3
+    .<span class="hljs-title function_">scaleBand</span>()
+    .<span class="hljs-title function_">domain</span>(y_domain)
+    .<span class="hljs-title function_">range</span>([<span class="hljs-number">0</span>, height]);
+
+  <span class="hljs-keyword">const</span> c = d3
+    .<span class="hljs-title function_">scaleOrdinal</span>()
+    .<span class="hljs-title function_">domain</span>([-<span class="hljs-number">1</span>, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>])
+    .<span class="hljs-title function_">range</span>([<span class="hljs-string">"none"</span>, <span class="hljs-string">"#177E89"</span>, <span class="hljs-string">"#DB3A34"</span>, <span class="hljs-string">"#FFC857"</span>, <span class="hljs-string">"#BBDBB4"</span>, <span class="hljs-string">"#FF00FF"</span>]);
+
+  <span class="hljs-keyword">const</span> svg = d3
+    .<span class="hljs-title function_">select</span>(container)
+    .<span class="hljs-title function_">select</span>(<span class="hljs-string">"div#svg-container"</span>)
+    .<span class="hljs-title function_">append</span>(<span class="hljs-string">"svg"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"width"</span>, width + margin.<span class="hljs-property">left</span> + margin.<span class="hljs-property">right</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"height"</span>, height + margin.<span class="hljs-property">top</span> + margin.<span class="hljs-property">bottom</span>);
+    <span class="hljs-comment">// .attr("viewBox", `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)</span>
+    <span class="hljs-comment">// .attr("preserveAspectRatio", "xMinYMin meet");</span>
+
+  <span class="hljs-keyword">const</span> g = svg
+    .<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"transform"</span>, <span class="hljs-string">`translate(<span class="hljs-subst">${margin.left}</span>, <span class="hljs-subst">${margin.top}</span>)`</span>);
+
+  g.<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">call</span>(
+      d3.<span class="hljs-title function_">axisLeft</span>(y)
+        .<span class="hljs-title function_">tickSizeOuter</span>(<span class="hljs-number">0</span>)
+    );
+  
+  g.<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">call</span>(
+      d3.<span class="hljs-title function_">axisTop</span>(x)
+        .<span class="hljs-title function_">tickValues</span>(<span class="hljs-title function_">calculate_ticks</span>(aln, <span class="hljs-number">5</span>))
+        .<span class="hljs-title function_">tickSizeOuter</span>(<span class="hljs-number">0</span>)
+    );
+  
+  <span class="hljs-keyword">const</span> g_cell = g
+    .<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"id"</span>, <span class="hljs-string">"g-alignment-cells"</span>)
+    .<span class="hljs-title function_">selectAll</span>(<span class="hljs-string">"rect"</span>)
+    .<span class="hljs-title function_">data</span>(aln.<span class="hljs-title function_">map</span>(cell_transformer_aligned))
+    .<span class="hljs-title function_">join</span>(<span class="hljs-string">"rect"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"x"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">x</span>(d.<span class="hljs-property">idx</span>))
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"y"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">y</span>(d.<span class="hljs-property">seq_label</span>))
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"width"</span>, x.<span class="hljs-title function_">bandwidth</span>())
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"height"</span>, y.<span class="hljs-title function_">bandwidth</span>())
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"fill"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">c</span>(d.<span class="hljs-property">base_color</span>));
+
+  <span class="hljs-keyword">const</span> g_text = g
+    .<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"id"</span>, <span class="hljs-string">"g-alignment-text"</span>)
+    .<span class="hljs-title function_">selectAll</span>(<span class="hljs-string">"text"</span>)
+    .<span class="hljs-title function_">data</span>(aln)
+    .<span class="hljs-title function_">join</span>(<span class="hljs-string">"text"</span>)
+    <span class="hljs-comment">// 0.3 is a horizontal offset so text is not too close to left of box</span>
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"x"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">x</span>(d.<span class="hljs-property">base_idx</span>) + <span class="hljs-number">0.3</span>)
+    <span class="hljs-comment">// 2 is a vertical offset so text is not too close to bottom of box</span>
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"y"</span>, <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> <span class="hljs-title function_">y</span>(d.<span class="hljs-property">seq_label</span>) + y.<span class="hljs-title function_">bandwidth</span>() - <span class="hljs-number">2</span>)
+    <span class="hljs-comment">// How to make these offsets dynamic based on width and height?</span>
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"fill"</span>, <span class="hljs-string">"black"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"font-family"</span>, <span class="hljs-string">"monospace"</span>)
+    .<span class="hljs-title function_">text</span>(<span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> d.<span class="hljs-property">base_label</span>);
+
+  <span class="hljs-keyword">const</span> g_rule = g
+    .<span class="hljs-title function_">append</span>(<span class="hljs-string">"g"</span>)
+    .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"id"</span>, <span class="hljs-string">"g-alignment-rules"</span>);
+
+  align_checkbox
+    .<span class="hljs-title function_">on</span>(<span class="hljs-string">"click"</span>, <span class="hljs-function">(<span class="hljs-params">_,__</span>) =&gt;</span> {
+      <span class="hljs-comment">// Splitters should only be displayed if the sequences are aligned</span>
+      splitter_checkbox.<span class="hljs-title function_">property</span>(<span class="hljs-string">"disabled"</span>, !align_checkbox.<span class="hljs-title function_">property</span>(<span class="hljs-string">"checked"</span>));
+      <span class="hljs-comment">/*
+      g_cell
+        .selectAll("rect")
+        .data(
+          align_checkbox.property("checked")
+            ? aln.map(cell_transformer_aligned)
+            : aln.map(cell_transformer_unaligned),
+          (d) =&gt; `${d.seq_label},${d.num}`)
+        .join("rect")
+        .attr("x", (d) =&gt; x(d.idx))
+        .attr("y", (d) =&gt; y(d.seq_label))
+        .attr("width", x.bandwidth())
+        .attr("height", y.bandwidth())
+        .attr("fill", (d) =&gt; c(d.base_color));
+      */</span>
+    });
+  
+  splitter_checkbox
+    .<span class="hljs-title function_">on</span>(<span class="hljs-string">"click"</span>, <span class="hljs-function">(<span class="hljs-params">_,__</span>) =&gt;</span> {
+      g_rule
+        .<span class="hljs-title function_">selectAll</span>(<span class="hljs-string">"line"</span>)
+        .<span class="hljs-title function_">data</span>(splitter_checkbox.<span class="hljs-title function_">property</span>(<span class="hljs-string">"checked"</span>) ? splits : [], <span class="hljs-function">(<span class="hljs-params">d</span>) =&gt;</span> d)
+        .<span class="hljs-title function_">join</span>(<span class="hljs-string">"line"</span>)
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"x1"</span>, <span class="hljs-function"><span class="hljs-params">d</span> =&gt;</span> <span class="hljs-title function_">x</span>(d+<span class="hljs-number">1</span>))
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"x2"</span>, <span class="hljs-function"><span class="hljs-params">d</span> =&gt;</span> <span class="hljs-title function_">x</span>(d+<span class="hljs-number">1</span>))
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"y1"</span>, <span class="hljs-title function_">y</span>(y_domain[<span class="hljs-number">0</span>]) - <span class="hljs-number">0.4</span> * y.<span class="hljs-title function_">bandwidth</span>())
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"y2"</span>, <span class="hljs-title function_">y</span>(y_domain[y_domain.<span class="hljs-property">length</span>-<span class="hljs-number">1</span>]) + <span class="hljs-number">0.4</span> * y.<span class="hljs-title function_">bandwidth</span>())
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"stroke-width"</span>, <span class="hljs-number">3</span>)
+        .<span class="hljs-title function_">attr</span>(<span class="hljs-string">"stroke"</span>, <span class="hljs-string">"blue"</span>);
+    });
+
+  <span class="hljs-keyword">return</span> container;
+}
+</code></pre>
+<div class="grid grid-cols-1">
+    <observablehq-loading></observablehq-loading><!--:21f57d51:-->
+</div>
+<div class="observablehq observablehq--block"><!--:2b9b5dbf:--></div>
+<div class="observablehq observablehq--block"><!--:a18ee2c8:--></div>
+<div class="observablehq observablehq--block"><!--:a732d859:--></div>
+<div class="observablehq observablehq--block"><!--:4fbd2ca3:--></div>
+<div class="observablehq observablehq--block"><!--:3a44c61a:--></div>
+<div class="observablehq observablehq--block"><!--:b9897205:--></div>
+<div class="observablehq observablehq--block"><!--:bfbebc35:--></div>
+<div class="observablehq observablehq--block"><!--:66884968:--></div>
+<div class="observablehq observablehq--block"><!--:de668e10:--></div>
+</main>
+<footer id="observablehq-footer">
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-12-12T23:34:55">Dec 12, 2024</a>.</div>
+</footer>
+</div>
