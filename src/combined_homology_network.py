@@ -158,12 +158,12 @@ def construct_edge_list(node_list, func_dict):
   return edge_list, edge_type
 
 # vloop_stats = pd.read_csv('tRNALeu-analysis/Leu-Vloop-stats.csv')
-vloop_stats = pd.read_csv('eda/ViennaRNA_testing/msa_to_ss/stats/Leu-vloop-stats.csv')
+vloop_stats = pd.read_csv('eda/ViennaRNA_testing/msa_to_ss/stats/combined-vloop-stats.csv')
 
-unique_seqs = vloop_stats[['length', 'seq', 'secondary_structure']].value_counts().sort_index()
+unique_seqs = vloop_stats[['length', 'seq', 'secondary_structure', 'isotype']].value_counts().sort_index()
 frequent_seqs = unique_seqs
 sequence_counts = list(frequent_seqs)
-node_list = [(row[1],row[2]) for row in frequent_seqs.index]
+node_list = [(row[1],row[2],row[3]) for row in frequent_seqs.index]
 
 point_mut_func_dict = {
   'penultimate_transition': penultimate_transition,
@@ -262,38 +262,46 @@ for edge in G.edges:
                 )
     else: 
         print(f'MISSED: {edge}')
-seed = 5
+seed = 1
+def node_color_by_isotype(isotype):
+    if isotype == 'Leu':
+        return 'r'
+    elif isotype == 'Ser':
+        return 'b'
+    else:
+        return 'k'
+
 nx.draw_networkx_nodes(G, pos=nx.spring_layout(G, seed=seed),
                        node_size=[3*sequence_counts[node_list.index(node)] for node in G.nodes],
                        # node_size=[400 if sequence_counts[node_list.index(node)] > 100 else 4 for node in G.nodes],
-                       node_color=[node_color_mapper(len(node[0])) for node in G.nodes],
+                       # node_color=[node_color_mapper(len(node[0])) for node in G.nodes],
+                       node_color=[node_color_by_isotype(node[2]) for node in G.nodes],
                        alpha=[0.4 if len(node[0]) == 14 else 0.8 for node in G.nodes])
 nx.draw_networkx_edges(G, pos=nx.spring_layout(G, seed=seed),
                        edge_color=[edge_color_mapper(t) for t in edge_types],
                        alpha=0.5,
                        width=2)
-plt.savefig('figs/sem2/arch-Ser/trunc_network.png')
+plt.savefig('figs/sem2/combined_network.png')
 
 sequence_to_anticodon_map = vloop_stats.groupby('seq')['anticodon'].agg(set)
 
 def node_to_dictionary(node, node_list, sequence_counts, sequence_to_anticodon_map):
   return {
-      'sequence': node[0],
+      'sequence': f'{node[0]}-{node[2]}',
       'secondary_structure': node[1],
       'length': len(node[0]),
       'count': sequence_counts[node_list.index(node)],
-      'anticodon_list': list(sequence_to_anticodon_map[node[0]])
+      'anticodon_list': list(sequence_to_anticodon_map[node[0]]),
+      'isotype': node[2]
   }
 
 def edge_to_dictionary(edge, edge_type):
   return {
-      'source': edge[0][0],
-      'target': edge[1][0],
+      'source': f'{edge[0][0]}-{edge[0][2]}',
+      'target': f'{edge[1][0]}-{edge[1][2]}',
       'type': edge_type
   }
 
-# node_json_list = [node_to_dictionary(node, node_list, sequence_counts, sequence_to_anticodon_map) for node in node_list]
-# edge_json_list = [edge_to_dictionary(edge, edge_type) for edge, edge_type in zip(paired_mut_edge_list, paired_mut_edge_types)]
 node_json_list = [node_to_dictionary(node, list(G.nodes), sequence_counts, sequence_to_anticodon_map) for node in list(G.nodes)]
 edge_json_list = [edge_to_dictionary(edge, edge_type) for edge, edge_type in zip(list(G.edges), edge_types)]
 graph_json = {
@@ -302,49 +310,3 @@ graph_json = {
 }
 json_string = json.dumps(graph_json)
 print(json_string)
-
-adhoc_edge_list = paired_mut_edge_list
-adhoc_edge_types = paired_mut_edge_types
-adhoc_edge_list
-adhoc_edge_list.append(
-    (('UCCUAUAGUGGUUC', '-((******))**-'), ('UCCAGUAGUGGUUC', '-(((****)))**-'))
-)
-adhoc_edge_list.append(
-    (('UGGGGUAGCCCUUC', '-((((***))))*-'), ('UGGUGUAGGCCUUC', '-(((****)))**-'))
-)
-adhoc_edge_list.append(
-    (('UACCGAAGGGUUGC', '-(((****)))**-'), ('UAUCGAAGGAUUUC', '-(((****)))**-'))
-)
-adhoc_edge_types.append('adhoc')
-adhoc_edge_types.append('adhoc')
-adhoc_edge_types.append('adhoc')
-
-G4 = nx.Graph()
-G4.add_nodes_from(node_list)
-G4.add_edges_from(adhoc_edge_list)
-
-plt.figure(figsize=(8,8))
-G = G4
-edge_types = adhoc_edge_types
-seed = 100
-nx.draw_networkx_nodes(G, pos=nx.spring_layout(G, seed=seed),
-                       node_size=[3*sequence_counts[node_list.index(node)] for node in G.nodes],
-                       # node_size=[400 if sequence_counts[node_list.index(node)] > 100 else 4 for node in G.nodes],
-                       node_color=[node_color_mapper(len(node[0])) for node in G.nodes],
-                       alpha=[0.4 if len(node[0]) == 14 else 0.8 for node in G.nodes])
-nx.draw_networkx_edges(G, pos=nx.spring_layout(G, seed=seed),
-                       edge_color=[edge_color_mapper(t) for t in edge_types],
-                       alpha=0.5,
-                       width=2)
-
-'''
-plt.savefig('figs/networks/adhoc_network.png')
-
-adhoc_edge_json_list = [edge_to_dictionary(edge, edge_type) for edge, edge_type in zip(adhoc_edge_list, adhoc_edge_types)]
-adhoc_graph_json = {
-    'nodes': node_json_list,
-    'edges': adhoc_edge_json_list
-}
-adhoc_json_string = json.dumps(adhoc_graph_json)
-print(adhoc_json_string)
-'''

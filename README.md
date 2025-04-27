@@ -41,6 +41,8 @@ conda install bioconda::fasttree
 conda install conda-forge::tectonic
 ```
 
+It may be recommended to have two separate conda environments: one conda environment for all bioconda dependenceies, and another conda environment for all other dependencies.
+
 ## Docker Setup
 
 In order to run process_trnas.sh (`make bulk_process`), the following Docker images will need to be installed.

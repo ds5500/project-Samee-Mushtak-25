@@ -16,7 +16,9 @@ export default {
         {name: "V-Loop Predictions", path: "/v-loop-predictions"},
         {name: "V-Loop Analysis", path: "/v-loop-analysis"},
         {name: "Sequence Logos", path: "/sequence-logos"},
-        {name: "Sequence Homology Graph", path: "/sequence-homology-graph"}
+        {name: "Sequence Homology Graph", path: "/sequence-homology-graph"},
+        {name: "Analysis of Serine V arms", path: "/serine-v-arms"},
+        {name: "Analysis of All Archaeal V arms", path: "/all-v-arms"}
       ]
     }
   ],

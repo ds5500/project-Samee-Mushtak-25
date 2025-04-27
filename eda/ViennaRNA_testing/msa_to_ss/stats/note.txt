@@ -1,0 +1,1 @@
+I am manually modifying L737 (Candidatus Prometheoarchaeum syntrophicum MK-D1 Leu-TAG-1-1) secondary structure because terminal base should not be in the stem
