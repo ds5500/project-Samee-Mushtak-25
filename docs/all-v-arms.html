@@ -2,7 +2,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="generator" content="Observable Framework v1.12.0">
-<title>Sequence Homology Network | tRNA Alignment</title>
+<title>Analysis of All V arms | tRNA Alignment</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&amp;display=swap" crossorigin>
 <link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.3268c726.css">
@@ -51,13 +51,13 @@
 import {define} from "./_observablehq/client.5b056eee.js";
 import {registerFile} from "./_observablehq/stdlib.0f06e039.js";
 
-registerFile("./data/networks/arch-Leu-sem2-graph.json", {"name":"./data/networks/arch-Leu-sem2-graph.json","mimeType":"application/json","path":"./_file/data/networks/arch-Leu-sem2-graph.43346623.json","lastModified":1745700689319,"size":44758});
+registerFile("./data/networks/combined-graph.json", {"name":"./data/networks/combined-graph.json","mimeType":"application/json","path":"./_file/data/networks/combined-graph.b04da2fb.json","lastModified":1745782744944,"size":98138});
 
-define({id: "2039f910", inputs: ["d3","graph_data","invalidation"], outputs: ["graph_svg"], body: (d3,graph_data,invalidation) => {
+define({id: "f8ea5ad1", inputs: ["d3","graph_data","invalidation"], outputs: ["graph_svg"], body: (d3,graph_data,invalidation) => {
 function graph_svg() {
   // Specify the dimensions of the chart.
-  const width = 1600;
-  const height = 1600;
+  const width = 2200;
+  const height = 2200;
 
   // Specify the color scale.
   const color = d3.scaleOrdinal(d3.schemeCategory10);
@@ -117,7 +117,19 @@ function graph_svg() {
     .data(nodes)
     .join("circle")
       .attr("r", d => 3 + Math.sqrt(d.count))
-      .attr("fill", d => node_color_map[d.length]);
+      // .attr("fill", d => node_color_map[d.length]);
+      .attr("fill", d => {
+        if (d.sequence.endsWith("Leu")) {
+            return "#FF0000";
+        }
+        else if (d.sequence.endsWith("Ser")) {
+            return "#0000FF"
+        }
+        else {
+            return "#000000"
+        }
+      });
+
 
   console.log(links);
 
@@ -183,9 +195,8 @@ graph_svg()
 ))
 }});
 
-define({id: "ae0bffc6", inputs: ["FileAttachment"], outputs: ["graph_data"], body: (FileAttachment) => {
-// const graph_data = FileAttachment("data/adhoc_graph.json").json()
-const graph_data = FileAttachment("./data/networks/arch-Leu-sem2-graph.json").json()
+define({id: "23a9d4da", inputs: ["FileAttachment"], outputs: ["graph_data"], body: (FileAttachment) => {
+const graph_data = FileAttachment("./data/networks/combined-graph.json").json()
 return {graph_data};
 }});
 
@@ -205,9 +216,9 @@ return {graph_data};
     <li class="observablehq-link"><a href="./v-loop-predictions">V-Loop Predictions</a></li>
     <li class="observablehq-link"><a href="./v-loop-analysis">V-Loop Analysis</a></li>
     <li class="observablehq-link"><a href="./sequence-logos">Sequence Logos</a></li>
-    <li class="observablehq-link observablehq-link-active"><a href="./sequence-homology-graph">Sequence Homology Graph</a></li>
+    <li class="observablehq-link"><a href="./sequence-homology-graph">Sequence Homology Graph</a></li>
     <li class="observablehq-link"><a href="./serine-v-arms">Analysis of Serine V arms</a></li>
-    <li class="observablehq-link"><a href="./all-v-arms">Analysis of All Archaeal V arms</a></li>
+    <li class="observablehq-link observablehq-link-active"><a href="./all-v-arms">Analysis of All Archaeal V arms</a></li>
     </ol>
   </section>
 </nav>
@@ -218,24 +229,17 @@ return {graph_data};
 </nav>
 </aside>
 <main id="observablehq-main" class="observablehq">
-<h1 id="sequence-homology-network" tabindex="-1"><a class="observablehq-header-anchor" href="#sequence-homology-network">Sequence Homology Network</a></h1>
-<div class="observablehq observablehq--block"><!--:2039f910:--></div>
+<h1 id="analysis-of-all-v-arms" tabindex="-1"><a class="observablehq-header-anchor" href="#analysis-of-all-v-arms">Analysis of All V Arms</a></h1>
+<div class="observablehq observablehq--block"><!--:f8ea5ad1:--></div>
 <div class="grid grid-cols-1">
     <observablehq-loading></observablehq-loading><!--:d16fcd87:-->
 </div>
-<p>Hover over a node or edge to see more details. The color of a node represents the length of the corresponding sequence, and the size of a node represents its prevalence among the archaeal sequences of GtRNAdb. The color of an edge corresponds to the class of genetic mutation that describes the relationship between two connected sequences.</p>
-<!--
-Pink edges represent "adhoc" mutations (non-standard terminology), which are three point mutations with no obvious biochemical interpretation.
--->
-<p>This is a network depicting genetic relationships between the 150 distinct tRNALeu V arm sequences which we extracted from GtRNAdb. 142 out of the 150 sequences are in the main connected component. Within this connected component, we can observe four clusters. In the center, there are two clusters consisting predominantly of 14 nucleotide sequences, which we call Cluster 14A and Cluster 14B. Cluster 14A can be identified by the representative sequence UCCCGUAGGGUUC, and Cluster 14B can be identified by the representative sequence UGGCGUAGGCCUGC. Cluster 14A appears to have a higher density of sequences related by penultimate transition mutations, while Cluster 14B has a higher density of sequences related by penultimate transversion mutations. These two clusters are connected by paired mutations in the V arm stem.</p>
-<p>On the periphery, there are two more clusters. The cluster of red nodes corresponds to 13 nucleotide sequences and the cluster of blue noeds corresponds to 15 nucleotide sequences. The 13 nucleotide cluster appears to be more closely related to Cluster 14A, while the 15 nucleotide cluster appears to be more closely related to Cluster 14B. All four 16 nucleotide sequences were not able to be clustered, as were three 13 nucleotide sequences and 1 15 nucleotide sequence.</p>
-<p>A future goal is to determine how the 8 unincorporated sequences are related to the main component. Figuring this out should give a complete picture of the evolutionary relationships between archaeal tRNALeu sequences. From this foundation, our next step would be to perform the same analysis for tRNASer sequences. If we are able to combine the networks for tRNALeu and tRNAser in a coherent manner, we would have the means to understand the history of V arms for the entire domain Archaea. From there, our analysis could expand to the bacterial, eukaryotic, and even mitochondrial V arm sequences.</p>
-<p>The main complication expected in expanding our analysis to other domains of species is the increased diversity of V arm sequences in species more evolutionarily derived from the latest universal common ancestor (LUCA). Even with archaeal tRNASer, our brute force secondary structure determination algorithm is not sufficient to capture the variety of structures that are observed in these species, and we expect these complications to be more prevalent for bacterial and eukaryotic sequences. This is why an important preliminary step before expanding our analysis will be to improve our secondary structure algorithm.</p>
-<p>Another challenge is the difficulty of incorporating sequences that are distantly related into the network. Using fundamental knowledge of genetics/biochemistry, we were able to connect 142 out of 150 of tRNALeu sequences, but the 8 remaining sequences are at least 4 point mutations from all other sequences in the network, so there is no single obvious genetic mutation that can explain their connection to the rest of the sequences. This will be more of a problem as we expand our analysis to other domains with more diverse sequences. This problem can be addressed by connecting to nodes which have the lowest Hamming distance between them, but this is not fully satisfactory from a biological perspective. Techniques from the field of BioNLP may be of relevance to this problem.</p>
-<div class="observablehq observablehq--block"><!--:ae0bffc6:--></div>
+<p>In the above network, red nodes correspond to tRNALeu V arm sequences and blue nodes correspond to tRNASer V arm sequences. Connected components containing fewer than four nodes have been removed for visual clarity. The main point to note is that there is only one edge in this network linking a sequence in the tRNALeu V arm set to a sequence in the tRNASer V arm set. The two sequences are UGGGCGUCAG<strong>G</strong>CCCGC (tRNALeu) and UGGGCGUCAGCCCGC (tRNASer), which are linked by an indel mutation. This means that if there are other relations between the tRNALeu and tRNASer sequences as we hypothesize, then these relations likely involve at least three nucleotides since our analysis checks for the most common one- and two-nucleotide transformations.</p>
+<p>Future analysis may require looking more broadly for changes in the structure of the V arms between different species rather than focusing on the specific nucleotide-level changes for each sequence. For example, one structural relation between two sequences that we do not consider in our analysis is a change in the V arm stem length. Most tRNALeu sequences have a stem length of 3, while most tRNASer sequences have a stem length of 4 or 5. By comparing sequences with similar structures aside from a difference in stem length, it may be possible to observe patterns in these sequences that are not apparent when considering only one or two nucleotides at a time.</p>
+<div class="observablehq observablehq--block"><!--:23a9d4da:--></div>
 </main>
 <footer id="observablehq-footer">
-<nav><a rel="prev" href="./sequence-logos"><span>Sequence Logos</span></a><a rel="next" href="./serine-v-arms"><span>Analysis of Serine V arms</span></a></nav>
+<nav><a rel="prev" href="./serine-v-arms"><span>Analysis of Serine V arms</span></a></nav>
 <div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2025-04-27T19:24:31">Apr 27, 2025</a>.</div>
 </footer>
 </div>

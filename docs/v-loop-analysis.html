@@ -60,8 +60,70 @@ resize((width) => plot_secondary_structure_stats(arch_leu_secondary_structure_st
 ))
 }});
 
-define({id: "c3a74213", outputs: ["arch_leu_secondary_structure_stats"], body: () => {
+define({id: "485f636e", mode: "inline", inputs: ["resize","plot_secondary_structure_stats","arch_ser_secondary_structure_stats","display"], body: async (resize,plot_secondary_structure_stats,arch_ser_secondary_structure_stats,display) => {
+display(await(
+resize((width) => plot_secondary_structure_stats(arch_ser_secondary_structure_stats, {width}))
+))
+}});
+
+define({id: "fdb08af4", outputs: ["arch_leu_secondary_structure_stats","arch_leu_secondary_structure_stats_old","arch_ser_secondary_structure_stats"], body: () => {
 const arch_leu_secondary_structure_stats = [
+    {
+        "length": 13,
+        "secondary_structure": "-(((***)))**-",
+        "count": 3,
+        "order": 1
+    },
+    {
+        "length": 13,
+        "secondary_structure": "-((*****))**-",
+        "count": 18,
+        "order": 2
+    },
+    {
+        "length": 13,
+        "secondary_structure": "-*((****))**-",
+        "count": 5,
+        "order": 3
+    },
+    {
+        "length": 14,
+        "secondary_structure": "-(((***)))***-",
+        "count": 2,
+        "order": 4
+    },
+    {
+        "length": 14,
+        "secondary_structure": "-((******))**-",
+        "count": 1,
+        "order": 5
+    },
+    {
+        "length": 15,
+        "secondary_structure": "-((((****))))*-",
+        "count": 6,
+        "order": 6
+    },
+    {
+        "length": 15,
+        "secondary_structure": "-(((*****)))**-",
+        "count": 13,
+        "order": 7
+    },
+    {
+        "length": 16,
+        "secondary_structure": "-((((****))))**-",
+        "count": 3,
+        "order": 8
+    },
+    {
+        "length": 16,
+        "secondary_structure": "-((((*****))))*-",
+        "count": 4,
+        "order": 9
+    },
+]
+const arch_leu_secondary_structure_stats_old = [
     {
         "length" : 14,
         "secondary_structure": "-((((***))))*-",
@@ -117,7 +179,112 @@ const arch_leu_secondary_structure_stats = [
         "order": 4
     }
 ]
-return {arch_leu_secondary_structure_stats};
+
+const arch_ser_secondary_structure_stats = [
+    {
+        "length": 13,
+        "secondary_structure": "-(((***)))**-",
+        "count": 12,
+        "order": 1
+    },
+    {
+        "length": 13,
+        "secondary_structure": "-(((****)))*-",
+        "count": 14,
+        "order": 2
+    },
+    {
+        "length": 14,
+        "secondary_structure": "-((((***))))*-",
+        "count": 59,
+        "order": 3
+    },
+    {
+        "length": 14,
+        "secondary_structure": "-(((*****)))*-",
+        "count": 29,
+        "order": 4
+    },
+    {
+        "length": 15,
+        "secondary_structure": "-((((***))))**-",
+        "count": 3,
+        "order": 5
+    },
+    {
+        "length": 15,
+        "secondary_structure": "-((((****))))*-",
+        "count": 280,
+        "order": 6
+    },
+    {
+        "length": 15,
+        "secondary_structure": "-(((******)))*-",
+        "count": 18,
+        "order": 7
+    },
+    {
+        "length": 15,
+        "secondary_structure": "-*(((****)))**-",
+        "count": 1,
+        "order": 8
+    },
+    {
+        "length": 16,
+        "secondary_structure": "-(((((***)))))*-",
+        "count": 244,
+        "order": 9
+    },
+    {
+        "length": 16,
+        "secondary_structure": "-((((*****))))*-",
+        "count": 90,
+        "order": 10
+    },
+    {
+        "length": 16,
+        "secondary_structure": "-*((((***))))**-",
+        "count": 1,
+        "order": 11
+    },
+    {
+        "length": 16,
+        "secondary_structure": "-*((((****))))*-",
+        "count": 2,
+        "order": 12
+    },
+    {
+        "length": 17,
+        "secondary_structure": "-(((((****)))))*-",
+        "count": 81,
+        "order": 13
+    },
+    {
+        "length": 17,
+        "secondary_structure": "-((((******))))*-",
+        "count": 2,
+        "order": 14
+    },
+    {
+        "length": 17,
+        "secondary_structure": "-*((((****))))**-",
+        "count": 7,
+        "order": 15
+    },
+    {
+        "length": 18,
+        "secondary_structure": "-((((((***))))))*-",
+        "count": 3,
+        "order": 16
+    },
+    {
+        "length": 18,
+        "secondary_structure": "-(((((*****)))))*-",
+        "count": 14,
+        "order": 17
+    }
+]
+return {arch_leu_secondary_structure_stats,arch_leu_secondary_structure_stats_old,arch_ser_secondary_structure_stats};
 }});
 
 define({id: "b1426650", inputs: ["Plot"], outputs: ["plot_secondary_structure_stats"], body: (Plot) => {
@@ -161,6 +328,8 @@ return {plot_secondary_structure_stats};
     <li class="observablehq-link observablehq-link-active"><a href="./v-loop-analysis">V-Loop Analysis</a></li>
     <li class="observablehq-link"><a href="./sequence-logos">Sequence Logos</a></li>
     <li class="observablehq-link"><a href="./sequence-homology-graph">Sequence Homology Graph</a></li>
+    <li class="observablehq-link"><a href="./serine-v-arms">Analysis of Serine V arms</a></li>
+    <li class="observablehq-link"><a href="./all-v-arms">Analysis of All Archaeal V arms</a></li>
     </ol>
   </section>
 </nav>
@@ -179,17 +348,30 @@ return {plot_secondary_structure_stats};
 <h1 id="v-loop-analysis" tabindex="-1"><a class="observablehq-header-anchor" href="#v-loop-analysis">V-Loop Analysis</a></h1>
 <p>The below graph shows the distribution of "anomalous" V loop secondary structures. The predominant secondary structure, -(((****)))**-, occurs in over 1000 sequences, so it is omitted from this graph.</p>
 <h2 id="archaeal-t-rna-leu" tabindex="-1"><a class="observablehq-header-anchor" href="#archaeal-t-rna-leu">Archaeal tRNA-Leu</a></h2>
+<!--
+<div class="grid grid-cols-1">
+    <div class="card">
+        ${resize((width) => plot_secondary_structure_stats(arch_leu_secondary_structure_stats_old, {width}))}
+    </div>
+</div>
+-->
 <div class="grid grid-cols-1">
     <div class="card">
         <observablehq-loading></observablehq-loading><!--:d19230e5:-->
     </div>
 </div>
 <h2 id="archaeal-t-rna-ser" tabindex="-1"><a class="observablehq-header-anchor" href="#archaeal-t-rna-ser">Archaeal tRNA-Ser</a></h2>
-<div class="observablehq observablehq--block"><!--:c3a74213:--></div>
+<p>The sequences of tRNA-Ser are more diverse, so there is no one "predominant" secondary structure among them. The below graph shows the secondary structures for all tRNA V arms in the dataset.</p>
+<div class="grid grid-cols-1">
+    <div class="card">
+        <observablehq-loading></observablehq-loading><!--:485f636e:-->
+    </div>
+</div>
+<div class="observablehq observablehq--block"><!--:fdb08af4:--></div>
 <div class="observablehq observablehq--block"><!--:b1426650:--></div>
 </main>
 <footer id="observablehq-footer">
 <nav><a rel="prev" href="./v-loop-predictions"><span>V-Loop Predictions</span></a><a rel="next" href="./sequence-logos"><span>Sequence Logos</span></a></nav>
-<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-12-12T23:34:55">Dec 12, 2024</a>.</div>
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2025-04-27T19:24:31">Apr 27, 2025</a>.</div>
 </footer>
 </div>

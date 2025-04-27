@@ -41,7 +41,7 @@ conda install bioconda::fasttree
 conda install conda-forge::tectonic
 ```
 
-It may be recommended to have two separate conda environments: one conda environment for all bioconda dependenceies, and another conda environment for all other dependencies.
+It may be recommended to have two separate conda environments: one conda environment for all bioconda dependencies, and another conda environment for all other dependencies.
 
 ## Docker Setup
 
