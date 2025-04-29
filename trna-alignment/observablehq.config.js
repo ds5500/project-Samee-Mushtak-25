@@ -10,7 +10,7 @@ export default {
     {
       name: "Examples",
       pages: [
-        {name: "Alignment Viewer", path: "/alignment-viewer"},
+        // {name: "Alignment Viewer", path: "/alignment-viewer"},
         {name: "Quality Reports", path: "/quality-reports"},
         // {name: "D3 TEST", path: "/d3-test"},
         {name: "V-Loop Predictions", path: "/v-loop-predictions"},
